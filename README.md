@@ -1,7 +1,5 @@
 # cvrf-review
 
-[![Build Status](https://github.com/jakewarren/cvrf-review/workflows/lint/badge.svg)](https://github.com/jakewarren/cvrf-review/actions)
-[![GitHub release](http://img.shields.io/github/release/jakewarren/cvrf-review.svg?style=flat-square)](https://github.com/jakewarren/cvrf-review/releases])
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/jakewarren/cvrf-review/blob/master/LICENSE)
 [![Go Report Card](https://goreportcard.com/badge/github.com/jakewarren/cvrf-review)](https://goreportcard.com/report/github.com/jakewarren/cvrf-review)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
@@ -45,6 +43,6 @@ Global Flags:
 #### Get critical Fortinet vulnerabilities:
 ![screenshot](docs/images/fortinet_critical.png)
 
-## Acknowledments
+## Acknowledgments
 Inspired by [MaineK00n/vuls-data-update](https://github.com/MaineK00n/vuls-data-update).
 
