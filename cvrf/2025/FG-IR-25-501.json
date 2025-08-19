@@ -1,0 +1,197 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiADC",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.0",
+                "@ProductID": "FortiADC-7.2.0"
+              }
+            },
+            {
+              "@Name": "7.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.1.1",
+                "@ProductID": "FortiADC-7.1.1"
+              }
+            },
+            {
+              "@Name": "7.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.1.0",
+                "@ProductID": "FortiADC-7.1.0"
+              }
+            },
+            {
+              "@Name": "6.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.6",
+                "@ProductID": "FortiADC-6.2.6"
+              }
+            },
+            {
+              "@Name": "6.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.5",
+                "@ProductID": "FortiADC-6.2.5"
+              }
+            },
+            {
+              "@Name": "6.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.4",
+                "@ProductID": "FortiADC-6.2.4"
+              }
+            },
+            {
+              "@Name": "6.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.3",
+                "@ProductID": "FortiADC-6.2.3"
+              }
+            },
+            {
+              "@Name": "6.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.2",
+                "@ProductID": "FortiADC-6.2.2"
+              }
+            },
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.1",
+                "@ProductID": "FortiADC-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.0",
+                "@ProductID": "FortiADC-6.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiADC-7.2.0",
+            "FortiADC-7.1.1",
+            "FortiADC-7.1.0",
+            "FortiADC-6.2.6",
+            "FortiADC-6.2.5",
+            "FortiADC-6.2.4",
+            "FortiADC-6.2.3",
+            "FortiADC-6.2.2",
+            "FortiADC-6.2.1",
+            "FortiADC-6.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "OS command injections via GET request parameter",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-501"
+        }
+      },
+      "Title": "OS command injections via GET request parameter",
+      "cvrf:CVE": "CVE-2025-49813"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank security researcher CataLpa from Dbappsecurity Co. Ltd for discovering and reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of special elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiADC may allow a remote and authenticated attacker with low privilege to execute unauthorized code via specifically crafted HTTP parameters.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiADC 8.0 all versions are not affectedFortiADC 7.6 all versions are not affectedFortiADC 7.4 all versions are not affectedFortiADC version 7.2.0FortiADC version 7.1.0 through 7.1.1FortiADC 7.0 all versions are not affectedFortiADC 6.2 all versionsFortiADC 6.1 all versions are not affected",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiADC version 7.2.1 or abovePlease upgrade to FortiADC version 7.1.2 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "OS command injections via GET request parameter",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-08-12T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-501"
+      },
+      "cvrf:InitialReleaseDate": "2025-08-12T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-08-12T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
