@@ -1,0 +1,33 @@
+name: update-cvrf
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
+        with:
+          egress-policy: audit
+      - name: Checkout
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
+      - name: Set up Python
+        uses: actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d # v5.1.0
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: pip install requests xmltodict
+      - name: Update CVRF data
+        run: python scripts/update_cvrf.py
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
+        with:
+           commit_message: "chore: update CVRF data"
+           file_pattern: "cvrf/**"
