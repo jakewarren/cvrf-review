@@ -1,0 +1,164 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.0",
+                "@ProductID": "FortiOS-5.6.0"
+              }
+            },
+            {
+              "@Name": "5.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.5",
+                "@ProductID": "FortiOS-5.4.5"
+              }
+            },
+            {
+              "@Name": "5.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.4",
+                "@ProductID": "FortiOS-5.4.4"
+              }
+            },
+            {
+              "@Name": "5.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.3",
+                "@ProductID": "FortiOS-5.4.3"
+              }
+            },
+            {
+              "@Name": "5.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.2",
+                "@ProductID": "FortiOS-5.4.2"
+              }
+            },
+            {
+              "@Name": "5.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.1",
+                "@ProductID": "FortiOS-5.4.1"
+              }
+            },
+            {
+              "@Name": "5.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.0",
+                "@ProductID": "FortiOS-5.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-5.6.0",
+            "FortiOS-5.4.5",
+            "FortiOS-5.4.4",
+            "FortiOS-5.4.3",
+            "FortiOS-5.4.2",
+            "FortiOS-5.4.1",
+            "FortiOS-5.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[CVE-2017-7733] GUI logindisclaimer redir parameter not XSS sanitized",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-113"
+        }
+      },
+      "Title": "[CVE-2017-7733] GUI logindisclaimer redir parameter not XSS sanitized",
+      "cvrf:CVE": "CVE-2017-7733"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Starhub Singapore and Andrew Ho, Maximus Consulting, and Donato Onofri of DXC Technology for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A reflected XSS vulnerability exists in FortiOS web GUI \"Login Disclaimer\" redir parameter. It is potentially exploitable by a remote unauthenticated attacker, via sending a maliciously crafted URL to a victim who has an open session on the web GUI. Visiting that malicious URL may cause the execution of arbitrary javascript code in the security context of the victim's browser.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "Branch 5.6: FortiOS 5.6.0Branch 5.4: FortiOS 5.4.0 to 5.4.5Other branches are not affected",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Branch 5.6: Upgrade to FortiOS 5.6.1 or above Branch 5.4: Upgrade to FortiOS 5.4.6 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[CVE-2017-7733] GUI logindisclaimer redir parameter not XSS sanitized",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-10-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-113"
+      },
+      "cvrf:InitialReleaseDate": "2017-10-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-10-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

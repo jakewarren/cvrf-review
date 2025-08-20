@@ -1,0 +1,1151 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiADC",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 7.1.0",
+                  "@ProductID": "FortiADC-7.1.0"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 7.0.3",
+                  "@ProductID": "FortiADC-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 7.0.2",
+                  "@ProductID": "FortiADC-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 7.0.1",
+                  "@ProductID": "FortiADC-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 7.0.0",
+                  "@ProductID": "FortiADC-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.2.4",
+                  "@ProductID": "FortiADC-6.2.4"
+                }
+              },
+              {
+                "@Name": "6.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.2.3",
+                  "@ProductID": "FortiADC-6.2.3"
+                }
+              },
+              {
+                "@Name": "6.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.2.2",
+                  "@ProductID": "FortiADC-6.2.2"
+                }
+              },
+              {
+                "@Name": "6.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.2.1",
+                  "@ProductID": "FortiADC-6.2.1"
+                }
+              },
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.2.0",
+                  "@ProductID": "FortiADC-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.1.6",
+                  "@ProductID": "FortiADC-6.1.6"
+                }
+              },
+              {
+                "@Name": "6.1.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.1.5",
+                  "@ProductID": "FortiADC-6.1.5"
+                }
+              },
+              {
+                "@Name": "6.1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.1.4",
+                  "@ProductID": "FortiADC-6.1.4"
+                }
+              },
+              {
+                "@Name": "6.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.1.3",
+                  "@ProductID": "FortiADC-6.1.3"
+                }
+              },
+              {
+                "@Name": "6.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.1.2",
+                  "@ProductID": "FortiADC-6.1.2"
+                }
+              },
+              {
+                "@Name": "6.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.1.1",
+                  "@ProductID": "FortiADC-6.1.1"
+                }
+              },
+              {
+                "@Name": "6.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.1.0",
+                  "@ProductID": "FortiADC-6.1.0"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.0.4",
+                  "@ProductID": "FortiADC-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.0.3",
+                  "@ProductID": "FortiADC-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.0.2",
+                  "@ProductID": "FortiADC-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.0.1",
+                  "@ProductID": "FortiADC-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 6.0.0",
+                  "@ProductID": "FortiADC-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.4.5",
+                  "@ProductID": "FortiADC-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.4.4",
+                  "@ProductID": "FortiADC-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.4.3",
+                  "@ProductID": "FortiADC-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.4.2",
+                  "@ProductID": "FortiADC-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.4.1",
+                  "@ProductID": "FortiADC-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.4.0",
+                  "@ProductID": "FortiADC-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.3.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.7",
+                  "@ProductID": "FortiADC-5.3.7"
+                }
+              },
+              {
+                "@Name": "5.3.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.6",
+                  "@ProductID": "FortiADC-5.3.6"
+                }
+              },
+              {
+                "@Name": "5.3.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.5",
+                  "@ProductID": "FortiADC-5.3.5"
+                }
+              },
+              {
+                "@Name": "5.3.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.4",
+                  "@ProductID": "FortiADC-5.3.4"
+                }
+              },
+              {
+                "@Name": "5.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.3",
+                  "@ProductID": "FortiADC-5.3.3"
+                }
+              },
+              {
+                "@Name": "5.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.2",
+                  "@ProductID": "FortiADC-5.3.2"
+                }
+              },
+              {
+                "@Name": "5.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.1",
+                  "@ProductID": "FortiADC-5.3.1"
+                }
+              },
+              {
+                "@Name": "5.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.0",
+                  "@ProductID": "FortiADC-5.3.0"
+                }
+              },
+              {
+                "@Name": "5.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.8",
+                  "@ProductID": "FortiADC-5.2.8"
+                }
+              },
+              {
+                "@Name": "5.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.7",
+                  "@ProductID": "FortiADC-5.2.7"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.6",
+                  "@ProductID": "FortiADC-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.5",
+                  "@ProductID": "FortiADC-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.4",
+                  "@ProductID": "FortiADC-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.3",
+                  "@ProductID": "FortiADC-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.2",
+                  "@ProductID": "FortiADC-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.1",
+                  "@ProductID": "FortiADC-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.0",
+                  "@ProductID": "FortiADC-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.1.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.7",
+                  "@ProductID": "FortiADC-5.1.7"
+                }
+              },
+              {
+                "@Name": "5.1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.6",
+                  "@ProductID": "FortiADC-5.1.6"
+                }
+              },
+              {
+                "@Name": "5.1.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.5",
+                  "@ProductID": "FortiADC-5.1.5"
+                }
+              },
+              {
+                "@Name": "5.1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.4",
+                  "@ProductID": "FortiADC-5.1.4"
+                }
+              },
+              {
+                "@Name": "5.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.3",
+                  "@ProductID": "FortiADC-5.1.3"
+                }
+              },
+              {
+                "@Name": "5.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.2",
+                  "@ProductID": "FortiADC-5.1.2"
+                }
+              },
+              {
+                "@Name": "5.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.1",
+                  "@ProductID": "FortiADC-5.1.1"
+                }
+              },
+              {
+                "@Name": "5.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.0",
+                  "@ProductID": "FortiADC-5.1.0"
+                }
+              },
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.0.4",
+                  "@ProductID": "FortiADC-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.0.3",
+                  "@ProductID": "FortiADC-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.0.2",
+                  "@ProductID": "FortiADC-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.0.1",
+                  "@ProductID": "FortiADC-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.0.0",
+                  "@ProductID": "FortiADC-5.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiDDoS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.6.2",
+                  "@ProductID": "FortiDDoS-5.6.2"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.6.1",
+                  "@ProductID": "FortiDDoS-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.6.0",
+                  "@ProductID": "FortiDDoS-5.6.0"
+                }
+              },
+              {
+                "@Name": "5.5.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.5.2",
+                  "@ProductID": "FortiDDoS-5.5.2"
+                }
+              },
+              {
+                "@Name": "5.5.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.5.1",
+                  "@ProductID": "FortiDDoS-5.5.1"
+                }
+              },
+              {
+                "@Name": "5.5.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.5.0",
+                  "@ProductID": "FortiDDoS-5.5.0"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.4.3",
+                  "@ProductID": "FortiDDoS-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.4.2",
+                  "@ProductID": "FortiDDoS-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.4.1",
+                  "@ProductID": "FortiDDoS-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.4.0",
+                  "@ProductID": "FortiDDoS-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.3.2",
+                  "@ProductID": "FortiDDoS-5.3.2"
+                }
+              },
+              {
+                "@Name": "5.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.3.1",
+                  "@ProductID": "FortiDDoS-5.3.1"
+                }
+              },
+              {
+                "@Name": "5.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.3.0",
+                  "@ProductID": "FortiDDoS-5.3.0"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.2.0",
+                  "@ProductID": "FortiDDoS-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.1.0",
+                  "@ProductID": "FortiDDoS-5.1.0"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.0.0",
+                  "@ProductID": "FortiDDoS-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.7.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.7.0",
+                  "@ProductID": "FortiDDoS-4.7.0"
+                }
+              },
+              {
+                "@Name": "4.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.6.0",
+                  "@ProductID": "FortiDDoS-4.6.0"
+                }
+              },
+              {
+                "@Name": "4.5.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.5.0",
+                  "@ProductID": "FortiDDoS-4.5.0"
+                }
+              },
+              {
+                "@Name": "4.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.4.2",
+                  "@ProductID": "FortiDDoS-4.4.2"
+                }
+              },
+              {
+                "@Name": "4.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.4.1",
+                  "@ProductID": "FortiDDoS-4.4.1"
+                }
+              },
+              {
+                "@Name": "4.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.4.0",
+                  "@ProductID": "FortiDDoS-4.4.0"
+                }
+              },
+              {
+                "@Name": "4.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.3.2",
+                  "@ProductID": "FortiDDoS-4.3.2"
+                }
+              },
+              {
+                "@Name": "4.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.3.1",
+                  "@ProductID": "FortiDDoS-4.3.1"
+                }
+              },
+              {
+                "@Name": "4.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.3.0",
+                  "@ProductID": "FortiDDoS-4.3.0"
+                }
+              },
+              {
+                "@Name": "4.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.2.3",
+                  "@ProductID": "FortiDDoS-4.2.3"
+                }
+              },
+              {
+                "@Name": "4.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.2.2",
+                  "@ProductID": "FortiDDoS-4.2.2"
+                }
+              },
+              {
+                "@Name": "4.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.2.1",
+                  "@ProductID": "FortiDDoS-4.2.1"
+                }
+              },
+              {
+                "@Name": "4.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.2.0",
+                  "@ProductID": "FortiDDoS-4.2.0"
+                }
+              },
+              {
+                "@Name": "4.1.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.12",
+                  "@ProductID": "FortiDDoS-4.1.12"
+                }
+              },
+              {
+                "@Name": "4.1.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.11",
+                  "@ProductID": "FortiDDoS-4.1.11"
+                }
+              },
+              {
+                "@Name": "4.1.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.10",
+                  "@ProductID": "FortiDDoS-4.1.10"
+                }
+              },
+              {
+                "@Name": "4.1.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.9",
+                  "@ProductID": "FortiDDoS-4.1.9"
+                }
+              },
+              {
+                "@Name": "4.1.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.8",
+                  "@ProductID": "FortiDDoS-4.1.8"
+                }
+              },
+              {
+                "@Name": "4.1.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.7",
+                  "@ProductID": "FortiDDoS-4.1.7"
+                }
+              },
+              {
+                "@Name": "4.1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.6",
+                  "@ProductID": "FortiDDoS-4.1.6"
+                }
+              },
+              {
+                "@Name": "4.1.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.5",
+                  "@ProductID": "FortiDDoS-4.1.5"
+                }
+              },
+              {
+                "@Name": "4.1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.4",
+                  "@ProductID": "FortiDDoS-4.1.4"
+                }
+              },
+              {
+                "@Name": "4.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.3",
+                  "@ProductID": "FortiDDoS-4.1.3"
+                }
+              },
+              {
+                "@Name": "4.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.2",
+                  "@ProductID": "FortiDDoS-4.1.2"
+                }
+              },
+              {
+                "@Name": "4.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.1",
+                  "@ProductID": "FortiDDoS-4.1.1"
+                }
+              },
+              {
+                "@Name": "4.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.1.0",
+                  "@ProductID": "FortiDDoS-4.1.0"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.0.1",
+                  "@ProductID": "FortiDDoS-4.0.1"
+                }
+              },
+              {
+                "@Name": "4.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.0.0",
+                  "@ProductID": "FortiDDoS-4.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiDDoS-F",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.4.0",
+                  "@ProductID": "FortiDDoS-F-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.3",
+                  "@ProductID": "FortiDDoS-F-6.3.3"
+                }
+              },
+              {
+                "@Name": "6.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.2",
+                  "@ProductID": "FortiDDoS-F-6.3.2"
+                }
+              },
+              {
+                "@Name": "6.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.1",
+                  "@ProductID": "FortiDDoS-F-6.3.1"
+                }
+              },
+              {
+                "@Name": "6.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.0",
+                  "@ProductID": "FortiDDoS-F-6.3.0"
+                }
+              },
+              {
+                "@Name": "6.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.2.2",
+                  "@ProductID": "FortiDDoS-F-6.2.2"
+                }
+              },
+              {
+                "@Name": "6.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.2.1",
+                  "@ProductID": "FortiDDoS-F-6.2.1"
+                }
+              },
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.2.0",
+                  "@ProductID": "FortiDDoS-F-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.1.4",
+                  "@ProductID": "FortiDDoS-F-6.1.4"
+                }
+              },
+              {
+                "@Name": "6.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.1.3",
+                  "@ProductID": "FortiDDoS-F-6.1.3"
+                }
+              },
+              {
+                "@Name": "6.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.1.2",
+                  "@ProductID": "FortiDDoS-F-6.1.2"
+                }
+              },
+              {
+                "@Name": "6.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.1.1",
+                  "@ProductID": "FortiDDoS-F-6.1.1"
+                }
+              },
+              {
+                "@Name": "6.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.1.0",
+                  "@ProductID": "FortiDDoS-F-6.1.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.1",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiADC-7.1.0",
+            "FortiADC-7.0.3",
+            "FortiADC-7.0.2",
+            "FortiADC-7.0.1",
+            "FortiADC-7.0.0",
+            "FortiADC-6.2.4",
+            "FortiADC-6.2.3",
+            "FortiADC-6.2.2",
+            "FortiADC-6.2.1",
+            "FortiADC-6.2.0",
+            "FortiADC-6.1.6",
+            "FortiADC-6.1.5",
+            "FortiADC-6.1.4",
+            "FortiADC-6.1.3",
+            "FortiADC-6.1.2",
+            "FortiADC-6.1.1",
+            "FortiADC-6.1.0",
+            "FortiADC-6.0.4",
+            "FortiADC-6.0.3",
+            "FortiADC-6.0.2",
+            "FortiADC-6.0.1",
+            "FortiADC-6.0.0",
+            "FortiADC-5.4.5",
+            "FortiADC-5.4.4",
+            "FortiADC-5.4.3",
+            "FortiADC-5.4.2",
+            "FortiADC-5.4.1",
+            "FortiADC-5.4.0",
+            "FortiADC-5.3.7",
+            "FortiADC-5.3.6",
+            "FortiADC-5.3.5",
+            "FortiADC-5.3.4",
+            "FortiADC-5.3.3",
+            "FortiADC-5.3.2",
+            "FortiADC-5.3.1",
+            "FortiADC-5.3.0",
+            "FortiADC-5.2.8",
+            "FortiADC-5.2.7",
+            "FortiADC-5.2.6",
+            "FortiADC-5.2.5",
+            "FortiADC-5.2.4",
+            "FortiADC-5.2.3",
+            "FortiADC-5.2.2",
+            "FortiADC-5.2.1",
+            "FortiADC-5.2.0",
+            "FortiADC-5.1.7",
+            "FortiADC-5.1.6",
+            "FortiADC-5.1.5",
+            "FortiADC-5.1.4",
+            "FortiADC-5.1.3",
+            "FortiADC-5.1.2",
+            "FortiADC-5.1.1",
+            "FortiADC-5.1.0",
+            "FortiADC-5.0.4",
+            "FortiADC-5.0.3",
+            "FortiADC-5.0.2",
+            "FortiADC-5.0.1",
+            "FortiADC-5.0.0",
+            "FortiDDoS-5.6.2",
+            "FortiDDoS-5.6.1",
+            "FortiDDoS-5.6.0",
+            "FortiDDoS-5.5.2",
+            "FortiDDoS-5.5.1",
+            "FortiDDoS-5.5.0",
+            "FortiDDoS-5.4.3",
+            "FortiDDoS-5.4.2",
+            "FortiDDoS-5.4.1",
+            "FortiDDoS-5.4.0",
+            "FortiDDoS-5.3.2",
+            "FortiDDoS-5.3.1",
+            "FortiDDoS-5.3.0",
+            "FortiDDoS-5.2.0",
+            "FortiDDoS-5.1.0",
+            "FortiDDoS-5.0.0",
+            "FortiDDoS-4.7.0",
+            "FortiDDoS-4.6.0",
+            "FortiDDoS-4.5.0",
+            "FortiDDoS-4.4.2",
+            "FortiDDoS-4.4.1",
+            "FortiDDoS-4.4.0",
+            "FortiDDoS-4.3.2",
+            "FortiDDoS-4.3.1",
+            "FortiDDoS-4.3.0",
+            "FortiDDoS-4.2.3",
+            "FortiDDoS-4.2.2",
+            "FortiDDoS-4.2.1",
+            "FortiDDoS-4.2.0",
+            "FortiDDoS-4.1.12",
+            "FortiDDoS-4.1.11",
+            "FortiDDoS-4.1.10",
+            "FortiDDoS-4.1.9",
+            "FortiDDoS-4.1.8",
+            "FortiDDoS-4.1.7",
+            "FortiDDoS-4.1.6",
+            "FortiDDoS-4.1.5",
+            "FortiDDoS-4.1.4",
+            "FortiDDoS-4.1.3",
+            "FortiDDoS-4.1.2",
+            "FortiDDoS-4.1.1",
+            "FortiDDoS-4.1.0",
+            "FortiDDoS-4.0.1",
+            "FortiDDoS-4.0.0",
+            "FortiDDoS-F-6.4.0",
+            "FortiDDoS-F-6.3.3",
+            "FortiDDoS-F-6.3.2",
+            "FortiDDoS-F-6.3.1",
+            "FortiDDoS-F-6.3.0",
+            "FortiDDoS-F-6.2.2",
+            "FortiDDoS-F-6.2.1",
+            "FortiDDoS-F-6.2.0",
+            "FortiDDoS-F-6.1.4",
+            "FortiDDoS-F-6.1.3",
+            "FortiDDoS-F-6.1.2",
+            "FortiDDoS-F-6.1.1",
+            "FortiDDoS-F-6.1.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Command injection in log & report module",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-335"
+        }
+      },
+      "Title": "Command injection in log & report module",
+      "cvrf:CVE": "CVE-2022-40679"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of special elements used in an OS command vulnerability [CWE-78] in FortiADC, FortiDDoS and FortiDDoS-F may allow an authenticated attacker to execute unauthorized commands via specifically crafted arguments to existing commands.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiDDoS-F 6.5 all versions are not affectedFortiDDoS-F version 6.4.0FortiDDoS-F version 6.3.0 through 6.3.3FortiDDoS-F version 6.2.0 through 6.2.2FortiDDoS-F version 6.1.0 through 6.1.4FortiADC 7.2 all versions are not affectedFortiADC version 7.1.0FortiADC version 7.0.0 through 7.0.3FortiADC version 6.2.0 through 6.2.4FortiADC 6.1 all versionsFortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versionsFortiADC 5.2 all versionsFortiADC 5.1 all versionsFortiADC 5.0 all versionsFortiDDoS 5.7 all versions are not affectedFortiDDoS 5.6 all versionsFortiDDoS 5.5 all versionsFortiDDoS 5.4 all versionsFortiDDoS 5.3 all versionsFortiDDoS 5.2 all versionsFortiDDoS 5.1 all versionsFortiDDoS 5.0 all versionsFortiDDoS 4.7 all versionsFortiDDoS 4.6 all versionsFortiDDoS 4.5 all versionsFortiDDoS 4.4 all versionsFortiDDoS 4.3 all versionsFortiDDoS 4.2 all versionsFortiDDoS 4.1 all versionsFortiDDoS 4.0 all versions",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiDDoS-F version 6.4.1 or abovePlease upgrade to FortiDDoS-F version 6.3.4 or abovePlease upgrade to FortiDDoS-F version 6.2.3 or abovePlease upgrade to FortiDDoS-F version 6.1.5 or abovePlease upgrade to FortiDDoS version 5.7.0 or abovePlease upgrade to FortiDDoS version 5.6.2 or abovePlease upgrade to FortiDDoS version 5.5.2 or abovePlease upgrade to FortiDDoS version 5.4.3 or abovePlease upgrade to FortiADC version 7.1.1 or abovePlease upgrade to FortiADC version 7.0.4 or abovePlease upgrade to FortiADC version 6.2.5 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Command injection in log & report module",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-04-11T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-335"
+      },
+      "cvrf:InitialReleaseDate": "2023-04-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-04-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

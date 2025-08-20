@@ -1,0 +1,80 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiWeb Multiple Vulnerabilities",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-13-009"
+        }
+      },
+      "Title": "FortiWeb Multiple Vulnerabilities",
+      "cvrf:CVE": [
+        "CVE-2014-1955",
+        "CVE-2014-1956",
+        "CVE-2014-1957"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Robert van Hamburg of Intermax Security"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiWeb 5.0.2 and lower are vulnerable to cross-site scripting (CVE-2014-1955), HTTP header injection (CVE-2014-1956) and privilege escalation (CVE-2014-1957) issues.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Script execution and privilege elevation.",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWeb 4.4.7 and lower.FortiWeb 5.0.2 and lower.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiWeb 5.0.3 or higher.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiWeb Multiple Vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2014-02-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-13-009"
+      },
+      "cvrf:InitialReleaseDate": "2014-02-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2014-02-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiAIOps",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "2.0.0",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiAIOps 2.0.0",
+              "@ProductID": "FortiAIOps-2.0.0"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:L/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiAIOps-2.0.0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiAIOps - Cross-site request forgery",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-070"
+        }
+      },
+      "Title": "FortiAIOps - Cross-site request forgery",
+      "cvrf:CVE": "CVE-2024-27783"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Shree Rawal of Fortinet PSIRT team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple cross-site request forgery (CSRF) vulnerabilities [CWE-352] in FortiAIOps may allow an unauthenticated remote attacker to perform arbitrary actions on behalf of an authenticated user via tricking the victim to execute malicious GET requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiAIOps - Cross-site request forgery",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2024-07-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-070"
+      },
+      "cvrf:InitialReleaseDate": "2024-07-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2024-07-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

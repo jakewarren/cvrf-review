@@ -1,0 +1,129 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiEDR CollectorWindows",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR CollectorWindows 5.0.2",
+                "@ProductID": "FortiEDR CollectorWindows-5.0.2"
+              }
+            },
+            {
+              "@Name": "5.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR CollectorWindows 5.0.1",
+                "@ProductID": "FortiEDR CollectorWindows-5.0.1"
+              }
+            },
+            {
+              "@Name": "5.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR CollectorWindows 5.0.0",
+                "@ProductID": "FortiEDR CollectorWindows-5.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiEDR CollectorWindows-5.0.2",
+            "FortiEDR CollectorWindows-5.0.1",
+            "FortiEDR CollectorWindows-5.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Protection may be disabled by local attacker",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-306"
+        }
+      },
+      "Title": "Protection may be disabled by local attacker",
+      "cvrf:CVE": "CVE-2023-44248"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper access control vulnerabilty [CWE-284] in FortiEDRCollectorWindows may allow a local attacker to prevent the collector service to start in the next system reboot by tampering with some registry keys of the service.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiEDR CollectorWindows 5.2 all versions are not affectedFortiEDR CollectorWindows version 5.0.0 through 5.0.2",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiEDRCollectorWindows version 5.2.0.4581 or abovePlease upgrade to FortiEDRCollectorWindows version 5.0.3.1016 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Protection may be disabled by local attacker",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-11-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-306"
+      },
+      "cvrf:InitialReleaseDate": "2023-11-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-11-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

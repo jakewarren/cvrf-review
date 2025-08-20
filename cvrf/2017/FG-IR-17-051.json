@@ -1,0 +1,328 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiManager",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "5.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiManager 5.4.2",
+                "@ProductID": "FortiManager-5.4.2"
+              }
+            }
+          },
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.4",
+                  "@ProductID": "FortiOS-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.3",
+                  "@ProductID": "FortiOS-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.2",
+                  "@ProductID": "FortiOS-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.1",
+                  "@ProductID": "FortiOS-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.0",
+                  "@ProductID": "FortiOS-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.2.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.11",
+                  "@ProductID": "FortiOS-5.2.11"
+                }
+              },
+              {
+                "@Name": "5.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.10",
+                  "@ProductID": "FortiOS-5.2.10"
+                }
+              },
+              {
+                "@Name": "5.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.9",
+                  "@ProductID": "FortiOS-5.2.9"
+                }
+              },
+              {
+                "@Name": "5.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.8",
+                  "@ProductID": "FortiOS-5.2.8"
+                }
+              },
+              {
+                "@Name": "5.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.7",
+                  "@ProductID": "FortiOS-5.2.7"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.6",
+                  "@ProductID": "FortiOS-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.5",
+                  "@ProductID": "FortiOS-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.4",
+                  "@ProductID": "FortiOS-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.3",
+                  "@ProductID": "FortiOS-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.2",
+                  "@ProductID": "FortiOS-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.1",
+                  "@ProductID": "FortiOS-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.0",
+                  "@ProductID": "FortiOS-5.2.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAnalyzer",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "5.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAnalyzer 5.4.2",
+                "@ProductID": "FortiAnalyzer-5.4.2"
+              }
+            }
+          },
+          {
+            "@Name": "FortiMail",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "5.3.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.3.13",
+                "@ProductID": "FortiMail-5.3.13"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.5",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiManager-5.4.2",
+            "FortiOS-5.4.4",
+            "FortiOS-5.4.3",
+            "FortiOS-5.4.2",
+            "FortiOS-5.4.1",
+            "FortiOS-5.4.0",
+            "FortiOS-5.2.11",
+            "FortiOS-5.2.10",
+            "FortiOS-5.2.9",
+            "FortiOS-5.2.8",
+            "FortiOS-5.2.7",
+            "FortiOS-5.2.6",
+            "FortiOS-5.2.5",
+            "FortiOS-5.2.4",
+            "FortiOS-5.2.3",
+            "FortiOS-5.2.2",
+            "FortiOS-5.2.1",
+            "FortiOS-5.2.0",
+            "FortiAnalyzer-5.4.2",
+            "FortiMail-5.3.13"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "libgd.so need upgrade to v2.2.4",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-051"
+          },
+          {
+            "Description": "https://libgd.github.io/",
+            "URL": "https://libgd.github.io/"
+          }
+        ]
+      },
+      "Title": "libgd.so need upgrade to v2.2.4",
+      "cvrf:CVE": [
+        "CVE-2015-8874",
+        "CVE-2016-10166",
+        "CVE-2016-10167",
+        "CVE-2016-10168",
+        "CVE-2016-5766",
+        "CVE-2016-5767",
+        "CVE-2016-6128",
+        "CVE-2016-6132",
+        "CVE-2016-6207",
+        "CVE-2016-6214",
+        "CVE-2016-6912",
+        "CVE-2016-9317",
+        "CVE-2016-9933"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The LibGD project released advisories on January 18th, 2017, July 22nd, 2016 and June 25th, 2016 describing 12 vulnerabilities, as listed below: * gdImageCreate() doesn't check for oversized images and as such is prone to DoS vulnerabilities. (CVE-2016-9317) * double-free in gdImageWebPtr() (CVE-2016-6912) * potential unsigned underflow in gd_interpolation.c (CVE-2016-10166) * DOS vulnerability in gdImageCreateFromGd2Ctx() (CVE-2016-10167) * Signed Integer Overflow gd_io.c (CVE-2016-10168) * Integer Overflow in _gd2GetHeader (CVE-2016-5766) * Read out-of-bands was found in the parsing of TGA files (CVE-2016-6132) * Buffer over-read issue when parsing crafted TGA file (CVE-2016-6214) * Integer overflow error within _gdContributionsAlloc() (CVE-2016-6207) * Invalid color index not handled, can lead to crash (CVE-2016-6128) * Integer Overflow in gdImagePaletteToTrueColor() resulting in heap overflow (CVE-2016-5767) * Stack overflow with gdImageFillToBorder (CVE-2015-8874, CVE-2016-9933)",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "The LibGD project released advisories on January 18th, 2017, July 22nd, 2016 and June 25th, 2016 describing 12 vulnerabilities, as listed below: * gdImageCreate() doesn't check for oversized images and as such is prone to DoS vulnerabilities. (CVE-2016-9317)* double-free in gdImageWebPtr() (CVE-2016-6912)* potential unsigned underflow in gd_interpolation.c (CVE-2016-10166)* DOS vulnerability in gdImageCreateFromGd2Ctx() (CVE-2016-10167)* Signed Integer Overflow gd_io.c (CVE-2016-10168)* Integer Overflow in _gd2GetHeader (CVE-2016-5766)* Read out-of-bands was found in the parsing of TGA files (CVE-2016-6132)* Buffer over-read issue when parsing crafted TGA file (CVE-2016-6214)* Integer overflow error within _gdContributionsAlloc() (CVE-2016-6207)* Invalid color index not handled, can lead to crash (CVE-2016-6128)* Integer Overflow in gdImagePaletteToTrueColor() resulting in heap overflow (CVE-2016-5767)* Stack overflow with gdImageFillToBorder (CVE-2015-8874, CVE-2016-9933)",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS version 5.4.4 and below FortiAnalyzer version 5.4.2 and below",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS: Upgrade to firmware version 5.4.5 or 5.6.0 FortiAnalyzer: Upgrade to firmware version 5.4.3",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "libgd.so need upgrade to v2.2.4",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-051"
+        },
+        {
+          "cvrf:Description": "https://libgd.github.io/",
+          "cvrf:URL": "https://libgd.github.io/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "libgd.so need upgrade to v2.2.4",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-07-26T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-051"
+      },
+      "cvrf:InitialReleaseDate": "2017-07-26T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-07-26T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

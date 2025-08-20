@@ -1,0 +1,119 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSandbox",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "3.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 3.2.2",
+                "@ProductID": "FortiSandbox-3.2.2"
+              }
+            },
+            {
+              "@Name": "3.1.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 3.1.4",
+                "@ProductID": "FortiSandbox-3.1.4"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.4",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H/E:P/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSandbox-3.2.2",
+            "FortiSandbox-3.1.4"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Security Best Practice: Buffer overflow due to use of size of source buffer in libc safe functions",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-234"
+        }
+      },
+      "Title": "Security Best Practice: Buffer overflow due to use of size of source buffer in libc safe functions",
+      "cvrf:CVE": "CVE-2021-26105"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Giuseppe Cocomazzi of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A stack-based buffer overflow vulnerability (CWE-121) in the profile parser of FortiSandbox may allow an authenticated attacker to potentially execute unauthorized code or commands via specifically crafted HTTP requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiSandbox 4.0.0.FortiSandbox 3.2.2 and below.FortiSandbox 3.1.4 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiSandbox 4.0.1 or above.Upgrade to FortiSandbox 3.2.3 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Security Best Practice: Buffer overflow due to use of size of source buffer in libc safe functions",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-10-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-234"
+      },
+      "cvrf:InitialReleaseDate": "2021-10-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-10-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

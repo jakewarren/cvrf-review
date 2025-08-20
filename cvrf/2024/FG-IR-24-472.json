@@ -1,0 +1,176 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.6.0",
+                  "@ProductID": "FortiOS-7.6.0"
+                }
+              },
+              {
+                "@Name": "7.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.4.6",
+                  "@ProductID": "FortiOS-7.4.6"
+                }
+              },
+              {
+                "@Name": "7.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.4.5",
+                  "@ProductID": "FortiOS-7.4.5"
+                }
+              },
+              {
+                "@Name": "7.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.4.4",
+                  "@ProductID": "FortiOS-7.4.4"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiProxy",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.6.1",
+                  "@ProductID": "FortiProxy-7.6.1"
+                }
+              },
+              {
+                "@Name": "7.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.6.0",
+                  "@ProductID": "FortiProxy-7.6.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSwitchManager",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSwitchManager 7.2.5",
+                "@ProductID": "FortiSwitchManager-7.2.5"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "9.0",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:W/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-7.6.0",
+            "FortiOS-7.4.6",
+            "FortiOS-7.4.5",
+            "FortiOS-7.4.4",
+            "FortiProxy-7.6.1",
+            "FortiProxy-7.6.0",
+            "FortiSwitchManager-7.2.5"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "TACACS+ authentication bypass",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-472"
+        }
+      },
+      "Title": "TACACS+ authentication bypass",
+      "cvrf:CVE": "CVE-2025-22252"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Cam B from Vital and NBS Telecom's Matheus Maia for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A missing authentication for critical function vulnerability [CWE-306] in FortiOS, FortiProxy, and FortiSwitchManager TACACS+ configured to use a remote TACACS+ server for authentication, that has itself been configured to use ASCII authentication may allow an attacker with knowledge of an existing admin account to access the device as a valid admin via an authentication bypass.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "TACACS+ authentication bypass",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-05-28T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-472"
+      },
+      "cvrf:InitialReleaseDate": "2025-05-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-05-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

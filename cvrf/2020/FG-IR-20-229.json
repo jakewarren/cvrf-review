@@ -1,0 +1,200 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiProxy",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "2.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 2.0.0",
+                "@ProductID": "FortiProxy-2.0.0"
+              }
+            },
+            {
+              "@Name": "1.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.8",
+                "@ProductID": "FortiProxy-1.2.8"
+              }
+            },
+            {
+              "@Name": "1.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.7",
+                "@ProductID": "FortiProxy-1.2.7"
+              }
+            },
+            {
+              "@Name": "1.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.6",
+                "@ProductID": "FortiProxy-1.2.6"
+              }
+            },
+            {
+              "@Name": "1.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.5",
+                "@ProductID": "FortiProxy-1.2.5"
+              }
+            },
+            {
+              "@Name": "1.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.4",
+                "@ProductID": "FortiProxy-1.2.4"
+              }
+            },
+            {
+              "@Name": "1.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.3",
+                "@ProductID": "FortiProxy-1.2.3"
+              }
+            },
+            {
+              "@Name": "1.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.2",
+                "@ProductID": "FortiProxy-1.2.2"
+              }
+            },
+            {
+              "@Name": "1.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.1",
+                "@ProductID": "FortiProxy-1.2.1"
+              }
+            },
+            {
+              "@Name": "1.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.0",
+                "@ProductID": "FortiProxy-1.2.0"
+              }
+            },
+            {
+              "@Name": "1.1.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.1.6",
+                "@ProductID": "FortiProxy-1.1.6"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiProxy-2.0.0",
+            "FortiProxy-1.2.8",
+            "FortiProxy-1.2.7",
+            "FortiProxy-1.2.6",
+            "FortiProxy-1.2.5",
+            "FortiProxy-1.2.4",
+            "FortiProxy-1.2.3",
+            "FortiProxy-1.2.2",
+            "FortiProxy-1.2.1",
+            "FortiProxy-1.2.0",
+            "FortiProxy-1.1.6"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiProxy] SSL VPN buffer overflow through JavaScript herf parsing when proxying webpages",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-229"
+        }
+      },
+      "Title": "[FortiProxy] SSL VPN buffer overflow through JavaScript herf parsing when proxying webpages",
+      "cvrf:CVE": "CVE-2018-13383"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Meh Chang and Orange Tsai from DEVCORE Security Research Team for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A heap buffer overflow vulnerability in the FortiProxy SSL VPN web portal may cause the SSL VPN web service termination for logged in users or potential remote code execution on FortiProxy. This happens when an authenticated user visits a specifically crafted proxied webpage and is due to a failure to handle Javascript HREF content properly.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiProxy version 2.0.0FortiProxy versions 1.2.8 and below.FortiProxy versions 1.1 all versionsFortiProxy versions 1.0 all versions",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiProxy versions 2.0.1 or above. Please upgrade to FortiProxy versions 1.2.9 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiProxy] SSL VPN buffer overflow through JavaScript herf parsing when proxying webpages",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-02-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-229"
+      },
+      "cvrf:InitialReleaseDate": "2021-02-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-02-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

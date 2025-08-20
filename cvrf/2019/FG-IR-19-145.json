@@ -1,0 +1,77 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Zombie POODLE and GOLDENDOODLE - Two new exploits found for TLS 1.2",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-145"
+        }
+      },
+      "Title": "Zombie POODLE and GOLDENDOODLE - Two new exploits found for TLS 1.2",
+      "cvrf:CVE": "CVE-2019-5592"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple padding Oracle vulnerabilities (Zombie POODLE, GOLDENDOODLE, OpenSSL 0-length) in the CBC padding implementation of FortiOS when configured with SSL Deep Inspection policies and with the IPS sensor enabled may allow an attacker to decipher TLS connections going through the FortiGate by monitoring the traffic (should he/she be able to).",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS when using the following IPS Engine versions: IPS Engine version 5.00000 to 5.00006 IPS Engine version 4.00000 to 4.00036 IPS Engine version 4.00200 to 4.00219 IPS Engine version 3.00547 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Update to IPS engine 3.00548, 4.00037, 5.00007 or above. Specifically: IPS Engine 3.00548 (or above) for the FortiOS 5.6 branch and branches below IPS Engine 4.00037 (or above) for the ForitOS 6.0 branch IPS Engine 5.00007 (or above) for the FortiOS 6.2 branch An IPS Engine that includes the fix is built-in FortiOS 5.6.11, 6.0.9 and 6.2.1, and versions above in those respective branches. To check for the FortiOS IPS engine version: * From the admin CLI console: run command \"diag autoupdate versions\" IPS Attack Engine Version: x.xxxxx * From the admin webUI: System->FortiGuard->IPS Engine->Version x.xxxxx For the IPS engine and FortiOS version compatibility chart, please refer the following link: https://pub.kb.fortinet.com/ksmcontent/Fortinet-Public/current/FortiGate_6_0/fortios-fortiaps-ips-av-compatibility.pdf Revision History: 07-23-2019 Initial version 02-25-2020 Added FortiOS versions with built-in IPS Engines.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Zombie POODLE and GOLDENDOODLE - Two new exploits found for TLS 1.2",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-02-25T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-145"
+      },
+      "cvrf:InitialReleaseDate": "2020-02-25T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-02-25T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

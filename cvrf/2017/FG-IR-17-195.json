@@ -1,0 +1,80 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Supermicro will try to use other port if the IPMI is not connected",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-195"
+        }
+      },
+      "Title": "Supermicro will try to use other port if the IPMI is not connected"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank \"taNET GmbH\", \"BOLL Engineering AG\" and \"CIC Consulting Informatico\" for reporting this operational risk under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Some models of FortiAnalyzer and FortiManager have a default setting of \"Failover\", for remote IPMI access; this means that if no cable is plugged in the IPMI port, the IPMI implementation will request an IP address on the regular LAN port of the device, via DHCP requests.Should such a DHCP request succeed, access to the IPMI web GUI is then possible on the granted IP address, via the regular LAN port of the device.This presents an operational risk, as this default behavior may not be known or understood by administrators of the device; the latter risk is more important if the default IPMI admin passwords have not been changed.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiAnalyzer models:FAZ-400E, FAZ-1000E, FAZ-2000E, FAZ-3000F, FAZ-3500F, FAZ-3700FFortiManager models:FMG-300E, FMG-400E, FMG-2000E, FMG-3000FOther models and Fortinet products are confirmed to not have a default Failover setting.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "IPMI firmware has been updated to avoid that potential operational risk, and production shipments after July 2017 do not present that risk. For customer using affected models, Fortinet PSIRT suggests checking the IPMI interface settings and making sure the IPMI port option is set to \"Dedicated\" instead of \"Failover\". The procedure is detailed in this document entry: https://docs.fortinet.com/document/fortimanager/hardware/disable-the-ipmi-port/ As a measure of precaution, and regardless the product, when an IPMI port is present, we also suggest to not leave the IPMI interface admin password to its default value. The procedure to change it is detailed in this document entry: https://docs.fortinet.com/document/fortimanager/hardware/change-the-ipmi-port-password/",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Supermicro will try to use other port if the IPMI is not connected",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-09-17T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-195"
+      },
+      "cvrf:InitialReleaseDate": "2019-09-17T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-09-17T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

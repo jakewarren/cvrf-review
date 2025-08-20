@@ -1,0 +1,147 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiEDR",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 5.1.0",
+                "@ProductID": "FortiEDR-5.1.0"
+              }
+            },
+            {
+              "@Name": "5.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 5.0.3",
+                "@ProductID": "FortiEDR-5.0.3"
+              }
+            },
+            {
+              "@Name": "5.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 5.0.1",
+                "@ProductID": "FortiEDR-5.0.1"
+              }
+            },
+            {
+              "@Name": "5.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 5.0.0",
+                "@ProductID": "FortiEDR-5.0.0"
+              }
+            },
+            {
+              "@Name": "4.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 4.0.0",
+                "@ProductID": "FortiEDR-4.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiEDR-5.1.0",
+            "FortiEDR-5.0.3",
+            "FortiEDR-5.0.1",
+            "FortiEDR-5.0.0",
+            "FortiEDR-4.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Cross Site Scripting (XSS) vulnerabilities over the Management Console",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-077"
+        }
+      },
+      "Title": "Cross Site Scripting (XSS) vulnerabilities over the Management Console",
+      "cvrf:CVE": "CVE-2022-29057"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of input during web page generation vulnerability [CWE-79] in FortiEDR Central Manager may allow a remote authenticated attacker to perform a reflected cross site scripting attack (XSS) via injecting a malicious payload into the Management Console through various endpoints.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "At leastFortiEDR Central Manager version 4.0.0FortiEDR Central Manager version 5.0.0 through 5.0.3 Patch 6FortiEDR Central Manager version 5.1.0",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade FortiEDR Central Manager to version 5.2.0 and above,Please upgrade FortiEDR Central Manager to version 5.0.3 Patch 7 and above.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Cross Site Scripting (XSS) vulnerabilities over the Management Console",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-07-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-077"
+      },
+      "cvrf:InitialReleaseDate": "2022-07-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-07-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

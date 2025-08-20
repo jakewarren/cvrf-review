@@ -1,0 +1,167 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientMac",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 7.0.5",
+                "@ProductID": "FortiClientMac-7.0.5"
+              }
+            },
+            {
+              "@Name": "7.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 7.0.4",
+                "@ProductID": "FortiClientMac-7.0.4"
+              }
+            },
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 7.0.3",
+                "@ProductID": "FortiClientMac-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 7.0.2",
+                "@ProductID": "FortiClientMac-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 7.0.1",
+                "@ProductID": "FortiClientMac-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 7.0.0",
+                "@ProductID": "FortiClientMac-7.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "2.2",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N/E:F/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientMac-7.0.5",
+            "FortiClientMac-7.0.4",
+            "FortiClientMac-7.0.3",
+            "FortiClientMac-7.0.2",
+            "FortiClientMac-7.0.1",
+            "FortiClientMac-7.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiTray stores the SSLVPN password in cleartext",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-246"
+          },
+          {
+            "Description": "Disable \"Save Password\" setting either on FortiGate SSLVPN settings or in FortiClientMAC",
+            "URL": "Disable \"Save Password\" setting either on FortiGate SSLVPN settings or in FortiClientMAC"
+          }
+        ]
+      },
+      "Title": "FortiTray stores the SSLVPN password in cleartext",
+      "cvrf:CVE": "CVE-2022-33878"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Pavel Bondarenko for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An exposure of sensitive information to an unauthorized actor vulnerabiltiy [CWE-200] in FortiClient for Mac may allow a local authenticated attacker to obtain the SSL-VPN password in cleartext via running a logstream for the FortiTray process in the terminal.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiTray stores the SSLVPN password in cleartext",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-246"
+        },
+        {
+          "cvrf:Description": "Disable \"Save Password\" setting either on FortiGate SSLVPN settings or in FortiClientMAC",
+          "cvrf:URL": "Disable \"Save Password\" setting either on FortiGate SSLVPN settings or in FortiClientMAC"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiTray stores the SSLVPN password in cleartext",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-11-01T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-246"
+      },
+      "cvrf:InitialReleaseDate": "2022-11-01T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-11-01T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

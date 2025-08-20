@@ -1,0 +1,93 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiOS open redirect vulnerability",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-004"
+          },
+          {
+            "Description": "https://cwe.mitre.org/data/definitions/601.html",
+            "URL": "https://cwe.mitre.org/data/definitions/601.html"
+          }
+        ]
+      },
+      "Title": "FortiOS open redirect vulnerability"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thanks to Javier Nieto from www.behindthefirewalls.com for reporting a FortiOS vulnerability under responsible disclosure"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The FortiOS webui accepts a user-controlled input that specifies a link to an external site, and uses that link in a redirect. The redirect input parameter is also prone to a cross site scripting.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Open redirect",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to one the following FortiOS versions: 5.0 branch: 5.0.13 or above 5.2 branch: 5.2.3 or above 5.4 branch: 5.4.0 or above 4.3 and lower branches are not affected by this vulnerability.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiOS open redirect vulnerability",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-004"
+        },
+        {
+          "cvrf:Description": "https://cwe.mitre.org/data/definitions/601.html",
+          "cvrf:URL": "https://cwe.mitre.org/data/definitions/601.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiOS open redirect vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-03-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-004"
+      },
+      "cvrf:InitialReleaseDate": "2016-03-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-03-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

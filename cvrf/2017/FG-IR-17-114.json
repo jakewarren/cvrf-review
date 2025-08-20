@@ -1,0 +1,280 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiPortal",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "4.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 4.0.1",
+                "@ProductID": "FortiPortal-4.0.1"
+              }
+            },
+            {
+              "@Name": "4.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 4.0.0",
+                "@ProductID": "FortiPortal-4.0.0"
+              }
+            },
+            {
+              "@Name": "3.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 3.2.2",
+                "@ProductID": "FortiPortal-3.2.2"
+              }
+            },
+            {
+              "@Name": "3.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 3.2.1",
+                "@ProductID": "FortiPortal-3.2.1"
+              }
+            },
+            {
+              "@Name": "3.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 3.2.0",
+                "@ProductID": "FortiPortal-3.2.0"
+              }
+            },
+            {
+              "@Name": "3.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 3.1.2",
+                "@ProductID": "FortiPortal-3.1.2"
+              }
+            },
+            {
+              "@Name": "3.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 3.1.1",
+                "@ProductID": "FortiPortal-3.1.1"
+              }
+            },
+            {
+              "@Name": "3.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 3.1.0",
+                "@ProductID": "FortiPortal-3.1.0"
+              }
+            },
+            {
+              "@Name": "3.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 3.0.0",
+                "@ProductID": "FortiPortal-3.0.0"
+              }
+            },
+            {
+              "@Name": "2.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.5.1",
+                "@ProductID": "FortiPortal-2.5.1"
+              }
+            },
+            {
+              "@Name": "2.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.5.0",
+                "@ProductID": "FortiPortal-2.5.0"
+              }
+            },
+            {
+              "@Name": "2.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.4.0",
+                "@ProductID": "FortiPortal-2.4.0"
+              }
+            },
+            {
+              "@Name": "2.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.3.1",
+                "@ProductID": "FortiPortal-2.3.1"
+              }
+            },
+            {
+              "@Name": "2.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.3.0",
+                "@ProductID": "FortiPortal-2.3.0"
+              }
+            },
+            {
+              "@Name": "2.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.2.2",
+                "@ProductID": "FortiPortal-2.2.2"
+              }
+            },
+            {
+              "@Name": "2.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.2.1",
+                "@ProductID": "FortiPortal-2.2.1"
+              }
+            },
+            {
+              "@Name": "2.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.2.0",
+                "@ProductID": "FortiPortal-2.2.0"
+              }
+            },
+            {
+              "@Name": "2.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.1.1",
+                "@ProductID": "FortiPortal-2.1.1"
+              }
+            },
+            {
+              "@Name": "2.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 2.1.0",
+                "@ProductID": "FortiPortal-2.1.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "3.4",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:L/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiPortal-4.0.1",
+            "FortiPortal-4.0.0",
+            "FortiPortal-3.2.2",
+            "FortiPortal-3.2.1",
+            "FortiPortal-3.2.0",
+            "FortiPortal-3.1.2",
+            "FortiPortal-3.1.1",
+            "FortiPortal-3.1.0",
+            "FortiPortal-3.0.0",
+            "FortiPortal-2.5.1",
+            "FortiPortal-2.5.0",
+            "FortiPortal-2.4.0",
+            "FortiPortal-2.3.1",
+            "FortiPortal-2.3.0",
+            "FortiPortal-2.2.2",
+            "FortiPortal-2.2.1",
+            "FortiPortal-2.2.0",
+            "FortiPortal-2.1.1",
+            "FortiPortal-2.1.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiPortal Multiple Vulnerabilities",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-114"
+        }
+      },
+      "Title": "FortiPortal Multiple Vulnerabilities",
+      "cvrf:CVE": [
+        "CVE-2017-7337",
+        "CVE-2017-7338",
+        "CVE-2017-7339",
+        "CVE-2017-7340",
+        "CVE-2017-7342",
+        "CVE-2017-7343",
+        "CVE-2017-7731"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank David Tredger, Senior Security Consultant, Aura Information Security for reporting this vulnerability under Responsible Disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple vulnerabilities impacting FortiPortal were disclosed to Fortinet with details as follows:- CVE-2017-7337: Improper Access Control allows a user to potentially view firewall policies and objects from a VDOM s/he is not authorized to, enumerate other customer ADOMs and view other customers' data- CVE-2017-7338: Application returns password hashes, and passwords for associated FortiAnalyzer devices via the UI- CVE-2017-7339: Persistent XSS via the 'Name' and 'Description' fields in the pop-up to add Revision Backups as a customer- CVE-2017-7340: Reflected XSS via the 'applicationSearch' parameter in the 'View' tab- CVE-2017-7342: Weak password Policy allows a user to bypass the enforced password change post a password recovery request- CVE-2017-7343: Open Redirect via the 'url' parameter- CVE-2017-7731: User Enumeration through Forgotten Password due to difference in responses for when an email address exists in the system and when one doesn't",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiPortal versions 4.0.0 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiPortal version 4.0.1",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiPortal Multiple Vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-05-15T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-114"
+      },
+      "cvrf:InitialReleaseDate": "2017-05-15T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-05-15T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

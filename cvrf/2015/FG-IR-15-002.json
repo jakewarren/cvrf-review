@@ -1,0 +1,68 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiOS CAPWAP server two vulnerabilities",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-002"
+        }
+      },
+      "Title": "FortiOS CAPWAP server two vulnerabilities",
+      "cvrf:CVE": [
+        "CVE-2015-1451",
+        "CVE-2015-1452"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Limitation of Capwap service, authenticated XSS",
+          "@Ordinal": "1",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS with CAPWAP enabled:5.2.2 and below5.0.11 and below",
+          "@Ordinal": "2",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade FortiOS to the following versions:5.4.05.2.35.0.12Workaround:Make sure CAPWAP is disabled if not needed:show system interfaceMust not display \"capwap\" in the \"allowaccess\" entry. If it is present, the interface must be re-configured without capwap. For instance:config system interfaceÃ‚Â Ã‚Â Ã‚Â edit \"port1\"Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â set allowaccess ssh httpsÃ‚Â Ã‚Â Ã‚Â endendIf CAPWAP is needed, the XSS vulnerability have been fixed starting with FortiOS 5.2.3.Otherwise the following workarounds apply:Regarding the DoS condition and the XSS vulnerability: Use a local-in policy to restrict access to the CAPWAP server to IP addresses of legitimate APs. Forinstance, to authorize only the 192.168.1.0/24 subnet:config firewall addressÃ‚Â Ã‚Â Ã‚Â edit \"lan_subnet\"Ã‚Â Ã‚Â Ã‚Â set subnet 192.168.1.0 255.255.255.0Ã‚Â Ã‚Â Ã‚Â nextendconfig firewall service customÃ‚Â Ã‚Â Ã‚Â edit \"capwap_udp\"Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â set udp-portrange 5246Ã‚Â Ã‚Â Ã‚Â nextendconfig firewall local-in-policyÃ‚Â Ã‚Â Ã‚Â edit 0Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â set intf \"any\"Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â set srcaddr \"lan_subnet\"Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â set dstaddr \"all\"Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â set service \"capwap_udp\"Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â Ã‚Â set schedule \"always\"Ã‚Â Ã‚Â Ã‚Â nextendRegarding the XSS vulnerability, to prevent a successful attacker from hijacking your user session in the GUI, make sure to restrict your Trusted Hosts to your IP address only:Single-vdom configuration: System->Admin->AdministratorsMulti-vdoms configuration: Global->Admin->Administrators",
+          "@Ordinal": "3",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiOS CAPWAP server two vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-02-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-002"
+      },
+      "cvrf:InitialReleaseDate": "2015-02-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-02-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

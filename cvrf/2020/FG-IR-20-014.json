@@ -1,0 +1,412 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAuthenticator",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAuthenticator 6.1.0",
+                  "@ProductID": "FortiAuthenticator-6.1.0"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAuthenticator 6.0.4",
+                  "@ProductID": "FortiAuthenticator-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAuthenticator 6.0.3",
+                  "@ProductID": "FortiAuthenticator-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAuthenticator 6.0.2",
+                  "@ProductID": "FortiAuthenticator-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAuthenticator 6.0.1",
+                  "@ProductID": "FortiAuthenticator-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAuthenticator 6.0.0",
+                  "@ProductID": "FortiAuthenticator-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.5.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAuthenticator 5.5.0",
+                  "@ProductID": "FortiAuthenticator-5.5.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.1",
+                  "@ProductID": "FortiOS-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.0",
+                  "@ProductID": "FortiOS-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.9",
+                  "@ProductID": "FortiOS-6.2.9"
+                }
+              },
+              {
+                "@Name": "6.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.8",
+                  "@ProductID": "FortiOS-6.2.8"
+                }
+              },
+              {
+                "@Name": "6.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.7",
+                  "@ProductID": "FortiOS-6.2.7"
+                }
+              },
+              {
+                "@Name": "6.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.6",
+                  "@ProductID": "FortiOS-6.2.6"
+                }
+              },
+              {
+                "@Name": "6.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.5",
+                  "@ProductID": "FortiOS-6.2.5"
+                }
+              },
+              {
+                "@Name": "6.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.4",
+                  "@ProductID": "FortiOS-6.2.4"
+                }
+              },
+              {
+                "@Name": "6.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.3",
+                  "@ProductID": "FortiOS-6.2.3"
+                }
+              },
+              {
+                "@Name": "6.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.2",
+                  "@ProductID": "FortiOS-6.2.2"
+                }
+              },
+              {
+                "@Name": "6.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.1",
+                  "@ProductID": "FortiOS-6.2.1"
+                }
+              },
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.0",
+                  "@ProductID": "FortiOS-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.13",
+                  "@ProductID": "FortiOS-6.0.13"
+                }
+              },
+              {
+                "@Name": "6.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.12",
+                  "@ProductID": "FortiOS-6.0.12"
+                }
+              },
+              {
+                "@Name": "6.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.11",
+                  "@ProductID": "FortiOS-6.0.11"
+                }
+              },
+              {
+                "@Name": "6.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.10",
+                  "@ProductID": "FortiOS-6.0.10"
+                }
+              },
+              {
+                "@Name": "6.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.9",
+                  "@ProductID": "FortiOS-6.0.9"
+                }
+              },
+              {
+                "@Name": "6.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.8",
+                  "@ProductID": "FortiOS-6.0.8"
+                }
+              },
+              {
+                "@Name": "6.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.7",
+                  "@ProductID": "FortiOS-6.0.7"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.6",
+                  "@ProductID": "FortiOS-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.5",
+                  "@ProductID": "FortiOS-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.4",
+                  "@ProductID": "FortiOS-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.3",
+                  "@ProductID": "FortiOS-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.2",
+                  "@ProductID": "FortiOS-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.1",
+                  "@ProductID": "FortiOS-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.0",
+                  "@ProductID": "FortiOS-6.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAuthenticator-6.1.0",
+            "FortiAuthenticator-6.0.4",
+            "FortiAuthenticator-6.0.3",
+            "FortiAuthenticator-6.0.2",
+            "FortiAuthenticator-6.0.1",
+            "FortiAuthenticator-6.0.0",
+            "FortiAuthenticator-5.5.0",
+            "FortiOS-6.4.1",
+            "FortiOS-6.4.0",
+            "FortiOS-6.2.9",
+            "FortiOS-6.2.8",
+            "FortiOS-6.2.7",
+            "FortiOS-6.2.6",
+            "FortiOS-6.2.5",
+            "FortiOS-6.2.4",
+            "FortiOS-6.2.3",
+            "FortiOS-6.2.2",
+            "FortiOS-6.2.1",
+            "FortiOS-6.2.0",
+            "FortiOS-6.0.13",
+            "FortiOS-6.0.12",
+            "FortiOS-6.0.11",
+            "FortiOS-6.0.10",
+            "FortiOS-6.0.9",
+            "FortiOS-6.0.8",
+            "FortiOS-6.0.7",
+            "FortiOS-6.0.6",
+            "FortiOS-6.0.5",
+            "FortiOS-6.0.4",
+            "FortiOS-6.0.3",
+            "FortiOS-6.0.2",
+            "FortiOS-6.0.1",
+            "FortiOS-6.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Cert private key disclosure",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-014"
+        }
+      },
+      "Title": "Cert private key disclosure",
+      "cvrf:CVE": "CVE-2022-22302"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Independent security researcher Tom Pohl (https://twitter.com/tompohl) for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A clear text storage of sensitive information (CWE-312) vulnerability in both FortiGate and FortiAuthenticator may allow a local unauthorized party to retrieve the Fortinet private keys used to establish secure communication with both Apple Push Notification and Google Cloud Messaging services, via accessing the files on the filesystem.The potentially exposed private keys have been revoked, please upgrade to the versions provided in the solutions to support push proxy.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS version 6.4.0 through 6.4.1FortiOS version 6.2.0 through 6.2.9FortiOS version 6.0.0 through 6.0.13FortiAuthenticator version 6.1.0FortiAuthenticator version 6.0.0 through 6.0.4FortiAuthenticator 5.5 all versions",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiGate version 6.4.2 or above.Please upgrade to FortiOS version 6.2.10 or abovePlease upgrade to FortiOS version 6.0.14 or abovePlease upgrade to FortiAuthenticator version 6.2.0 or abovePlease upgrade to FortiAuthenticator version 6.1.1 or abovePlease upgrade to FortiAuthenticator version 6.0.5 or aboveWorkaround in FortiOS:Disable the FTM push service by using the below commands:config system ftm-pushset status disableend",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Cert private key disclosure",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-02-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-014"
+      },
+      "cvrf:InitialReleaseDate": "2023-02-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-02-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

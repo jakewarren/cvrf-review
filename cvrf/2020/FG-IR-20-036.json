@@ -1,0 +1,149 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiRecorder",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 6.0.1",
+                  "@ProductID": "FortiRecorder-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 6.0.0",
+                  "@ProductID": "FortiRecorder-6.0.0"
+                }
+              },
+              {
+                "@Name": "2.7.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 2.7.7",
+                  "@ProductID": "FortiRecorder-2.7.7"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAnalyzer",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.4.0",
+                  "@ProductID": "FortiAnalyzer-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.2.3",
+                  "@ProductID": "FortiAnalyzer-6.2.3"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiRecorder-6.0.1",
+            "FortiRecorder-6.0.0",
+            "FortiRecorder-2.7.7",
+            "FortiAnalyzer-6.4.0",
+            "FortiAnalyzer-6.2.3"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "NTP amplification attacks (mode 6 queries)",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-036"
+        }
+      },
+      "Title": "NTP amplification attacks (mode 6 queries)",
+      "cvrf:CVE": "CVE-2013-5211"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An insufficient control of network message volume (CWE-406) vulnerability in FortiAnalyzer may allow an unauthenticated remote attacker to perform NTP amplification attacks (thereby causing reflected denial of service on arbitrary targets) via sending specially crafted mode 6 queries to the FortiAnalyzer built-in NTP server.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiAnalyzer 6.4.0, 6.2.3 and below (*)* only models that support FortiRecorder management are impacted:FAZ_200FFAZ_300FFAZ_400EFAZ_800F.FAZ_1000EFAZ_1000FFAZ_2000EFAZ_3000FFAZ_3500GFAZ_3700FFAZ_VM64FAZ_VM64_KVM",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiAnalyzer 6.2.4 or 6.4.1",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "NTP amplification attacks (mode 6 queries)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-06-22T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-036"
+      },
+      "cvrf:InitialReleaseDate": "2020-06-22T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-06-22T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiCloud",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "3.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.2.1",
+                "@ProductID": "FortiCloud-3.2.1"
+              }
+            },
+            {
+              "@Name": "3.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.2.0",
+                "@ProductID": "FortiCloud-3.2.0"
+              }
+            },
+            {
+              "@Name": "3.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.1.2",
+                "@ProductID": "FortiCloud-3.1.2"
+              }
+            },
+            {
+              "@Name": "3.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.1.0",
+                "@ProductID": "FortiCloud-3.1.0"
+              }
+            },
+            {
+              "@Name": "3.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.0.0",
+                "@ProductID": "FortiCloud-3.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiCloud-3.2.1",
+            "FortiCloud-3.2.0",
+            "FortiCloud-3.1.2",
+            "FortiCloud-3.1.0",
+            "FortiCloud-3.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Multiple Cross Site Scripting on FortiCloud Web Interface Login",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-026"
+        }
+      },
+      "Title": "Multiple Cross Site Scripting on FortiCloud Web Interface Login"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Donato Onofri of Business Integration Partners reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Before August, 2018, parameters at /loginmgrlogin in forticloud.com were vulnerable to a Cross-Site-Scripting (XSS) attack.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiCloud 3.2.1 and below (before August, 2018)",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiCloud 3.3.0 (online since August, 2018)",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Multiple Cross Site Scripting on FortiCloud Web Interface Login",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-08-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-026"
+      },
+      "cvrf:InitialReleaseDate": "2018-08-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-08-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

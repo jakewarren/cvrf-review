@@ -1,0 +1,164 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiIsolator",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "2.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.4.4",
+                "@ProductID": "FortiIsolator-2.4.4"
+              }
+            },
+            {
+              "@Name": "2.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.4.3",
+                "@ProductID": "FortiIsolator-2.4.3"
+              }
+            },
+            {
+              "@Name": "2.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.4",
+                "@ProductID": "FortiIsolator-2.3.4"
+              }
+            },
+            {
+              "@Name": "2.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.3",
+                "@ProductID": "FortiIsolator-2.3.3"
+              }
+            },
+            {
+              "@Name": "2.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.2",
+                "@ProductID": "FortiIsolator-2.3.2"
+              }
+            },
+            {
+              "@Name": "2.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.1",
+                "@ProductID": "FortiIsolator-2.3.1"
+              }
+            },
+            {
+              "@Name": "2.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.0",
+                "@ProductID": "FortiIsolator-2.3.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.0",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiIsolator-2.4.4",
+            "FortiIsolator-2.4.3",
+            "FortiIsolator-2.3.4",
+            "FortiIsolator-2.3.3",
+            "FortiIsolator-2.3.2",
+            "FortiIsolator-2.3.1",
+            "FortiIsolator-2.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Access control bypass in logging component",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-045"
+        }
+      },
+      "Title": "Access control bypass in logging component",
+      "cvrf:CVE": "CVE-2024-32124"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Leslie Zhou of Fortinet Vulnerability Research team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper access control vulnerability [CWE-284] in FortiIsolator logging component may allow a remote authenticated read-only attacker to alter logs via a crafted HTTP request.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Access control bypass in logging component",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-07-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-045"
+      },
+      "cvrf:InitialReleaseDate": "2025-07-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-07-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

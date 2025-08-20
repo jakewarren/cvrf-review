@@ -1,0 +1,157 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.0",
+                "@ProductID": "FortiOS-5.6.0"
+              }
+            },
+            {
+              "@Name": "5.4.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.8",
+                "@ProductID": "FortiOS-5.4.8"
+              }
+            },
+            {
+              "@Name": "5.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.5",
+                "@ProductID": "FortiOS-5.4.5"
+              }
+            },
+            {
+              "@Name": "5.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.0",
+                "@ProductID": "FortiOS-5.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-5.6.0",
+            "FortiOS-5.4.8",
+            "FortiOS-5.4.5",
+            "FortiOS-5.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiOS proxy mode SSL Deep Inspection badssl.com Compliance",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-160"
+          },
+          {
+            "Description": "https://www.us-cert.gov/ncas/alerts/TA17-075A",
+            "URL": "https://www.us-cert.gov/ncas/alerts/TA17-075A"
+          },
+          {
+            "Description": "https://www.cvedetails.com/cve/CVE-2005-4900/",
+            "URL": "https://www.cvedetails.com/cve/CVE-2005-4900/"
+          }
+        ]
+      },
+      "Title": "FortiOS proxy mode SSL Deep Inspection badssl.com Compliance",
+      "cvrf:CVE": "CVE-2005-4900"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "US-Cert published a document at https://www.us-cert.gov/ncas/alerts/TA17-075A which outlines some security flaws that may be introduced by the use of SSL Deep-Inspection. FortiOS was flagged as \"potentially vulnerable\" to some of these vulnerabilities by badssl.com.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "https://sha1-intermediate.badssl.comFortiOS 5.6.0, FortiOS 5.4.8 and below. https://revoked.badssl.comFortiOS 5.6.0 and below. https://invalid-expected-sct.badssl.comFortiOS 5.6.0 and below.* https://pinning-test.badssl.comFortiOS all versions.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "https://sha1-intermediate.badssl.comBranch 5.6: Upgrade to FortiOS 5.6.1 or aboveBranch 5.4: Upgrade to FortiOS 5.4.9 https://revoked.badssl.comUpgrade to FortiOS 5.6.1 or above, and adjust the configuration via the following CLI commands, to enable the auto-checking of revoked certificates through OCSP:config vpn certificate setting set ocsp-status enable set ssl-ocsp-status enable set ssl-ocsp-option certificateend https://invalid-expected-sct.badssl.comUpgrade to FortiOS 5.6.1 or above.* https://pinning-test.badssl.comCurrently there is no plan to support Public-Key-Pins verification during SSL Deep-Inspection. FortiGate administrators can manually block such websites using a webfilter profile if needed.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiOS proxy mode SSL Deep Inspection badssl.com Compliance",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-160"
+        },
+        {
+          "cvrf:Description": "https://www.us-cert.gov/ncas/alerts/TA17-075A",
+          "cvrf:URL": "https://www.us-cert.gov/ncas/alerts/TA17-075A"
+        },
+        {
+          "cvrf:Description": "https://www.cvedetails.com/cve/CVE-2005-4900/",
+          "cvrf:URL": "https://www.cvedetails.com/cve/CVE-2005-4900/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiOS proxy mode SSL Deep Inspection badssl.com Compliance",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-05-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-160"
+      },
+      "cvrf:InitialReleaseDate": "2018-05-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-05-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

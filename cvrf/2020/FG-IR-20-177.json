@@ -1,0 +1,236 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiDeceptor",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "4.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 4.0.0",
+                "@ProductID": "FortiDeceptor-4.0.0"
+              }
+            },
+            {
+              "@Name": "3.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.3.1",
+                "@ProductID": "FortiDeceptor-3.3.1"
+              }
+            },
+            {
+              "@Name": "3.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.3.0",
+                "@ProductID": "FortiDeceptor-3.3.0"
+              }
+            },
+            {
+              "@Name": "3.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.2.1",
+                "@ProductID": "FortiDeceptor-3.2.1"
+              }
+            },
+            {
+              "@Name": "3.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.2.0",
+                "@ProductID": "FortiDeceptor-3.2.0"
+              }
+            },
+            {
+              "@Name": "3.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.1.1",
+                "@ProductID": "FortiDeceptor-3.1.1"
+              }
+            },
+            {
+              "@Name": "3.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.1.0",
+                "@ProductID": "FortiDeceptor-3.1.0"
+              }
+            },
+            {
+              "@Name": "3.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.0.2",
+                "@ProductID": "FortiDeceptor-3.0.2"
+              }
+            },
+            {
+              "@Name": "3.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.0.1",
+                "@ProductID": "FortiDeceptor-3.0.1"
+              }
+            },
+            {
+              "@Name": "3.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 3.0.0",
+                "@ProductID": "FortiDeceptor-3.0.0"
+              }
+            },
+            {
+              "@Name": "2.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 2.1.0",
+                "@ProductID": "FortiDeceptor-2.1.0"
+              }
+            },
+            {
+              "@Name": "2.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 2.0.0",
+                "@ProductID": "FortiDeceptor-2.0.0"
+              }
+            },
+            {
+              "@Name": "1.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 1.1.0",
+                "@ProductID": "FortiDeceptor-1.1.0"
+              }
+            },
+            {
+              "@Name": "1.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 1.0.1",
+                "@ProductID": "FortiDeceptor-1.0.1"
+              }
+            },
+            {
+              "@Name": "1.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDeceptor 1.0.0",
+                "@ProductID": "FortiDeceptor-1.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "8.6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiDeceptor-4.0.0",
+            "FortiDeceptor-3.3.1",
+            "FortiDeceptor-3.3.0",
+            "FortiDeceptor-3.2.1",
+            "FortiDeceptor-3.2.0",
+            "FortiDeceptor-3.1.1",
+            "FortiDeceptor-3.1.0",
+            "FortiDeceptor-3.0.2",
+            "FortiDeceptor-3.0.1",
+            "FortiDeceptor-3.0.0",
+            "FortiDeceptor-2.1.0",
+            "FortiDeceptor-2.0.0",
+            "FortiDeceptor-1.1.0",
+            "FortiDeceptor-1.0.1",
+            "FortiDeceptor-1.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiDeceptor] OS command injection",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-177"
+        }
+      },
+      "Title": "[FortiDeceptor] OS command injection",
+      "cvrf:CVE": "CVE-2020-29017"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Chua Wei Kiat for finding and reporting this issue."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple OS command injection vulnerabilities in FortiDeceptor management interface may allow an authenticated user to execute arbitrary commands on the system via specifically crafted web requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiDeceptor version 4.0.0.FortiDeceptor versions 3.3.1 and below.FortiDeceptor versions 3.2.1 and below.FortiDeceptor versions 3.1.x.FortiDeceptor versions 3.0.xFortiDeceptor versions 1.x.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiDeceptor versions 4.1.0 or above.Please upgrade to FortiDeceptor versions 3.3.2 or above.Please upgrade to FortiDeceptor versions 3.2.2 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiDeceptor] OS command injection",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-01-04T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-177"
+      },
+      "cvrf:InitialReleaseDate": "2021-01-04T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-01-04T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

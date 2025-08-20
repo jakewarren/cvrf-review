@@ -1,0 +1,151 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAnalyzer",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.0.0",
+                  "@ProductID": "FortiAnalyzer-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.4.6",
+                  "@ProductID": "FortiAnalyzer-6.4.6"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiManager",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.0.0",
+                  "@ProductID": "FortiManager-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.4.6",
+                  "@ProductID": "FortiManager-6.4.6"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "3.0",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:L/I:N/A:N/E:F/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAnalyzer-7.0.0",
+            "FortiAnalyzer-6.4.6",
+            "FortiManager-7.0.0",
+            "FortiManager-6.4.6"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Credentials observed in cleartext in the logfile",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-112"
+        }
+      },
+      "Title": "Credentials observed in cleartext in the logfile",
+      "cvrf:CVE": "CVE-2021-36170"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Evgenii Erinskii from the Technical Support Team for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An information disclosure vulnerability [CWE-200] in FortiAnalyzer and FortiManager VM may allow an authenticated attacker to read the FortiCloud credentials which were used to activate the trial license in cleartext.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiManager version 7.0.0.FortiManager versions 6.4.6 and below.FortiAnalyzer version 7.0.0.FortiAnalyzer versions 6.4.6 and below.",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiManager version 6.4.7 or above.Please upgrade to FortiManager version 7.0.1 or above.Please upgrade to FortiAnalyzer version 6.4.7 or above.Please upgrade to FortiAnalyzer version 7.0.1 or above.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Credentials observed in cleartext in the logfile",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-10-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-112"
+      },
+      "cvrf:InitialReleaseDate": "2021-10-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-10-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

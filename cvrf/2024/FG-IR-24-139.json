@@ -1,0 +1,374 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.2.5",
+                "@ProductID": "FortiClientiOS-7.2.5"
+              }
+            },
+            {
+              "@Name": "7.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.2.4",
+                "@ProductID": "FortiClientiOS-7.2.4"
+              }
+            },
+            {
+              "@Name": "7.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.2.3",
+                "@ProductID": "FortiClientiOS-7.2.3"
+              }
+            },
+            {
+              "@Name": "7.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.2.2",
+                "@ProductID": "FortiClientiOS-7.2.2"
+              }
+            },
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.2.1",
+                "@ProductID": "FortiClientiOS-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.2.0",
+                "@ProductID": "FortiClientiOS-7.2.0"
+              }
+            },
+            {
+              "@Name": "7.0.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.9",
+                "@ProductID": "FortiClientiOS-7.0.9"
+              }
+            },
+            {
+              "@Name": "7.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.8",
+                "@ProductID": "FortiClientiOS-7.0.8"
+              }
+            },
+            {
+              "@Name": "7.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.7",
+                "@ProductID": "FortiClientiOS-7.0.7"
+              }
+            },
+            {
+              "@Name": "7.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.6",
+                "@ProductID": "FortiClientiOS-7.0.6"
+              }
+            },
+            {
+              "@Name": "7.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.5",
+                "@ProductID": "FortiClientiOS-7.0.5"
+              }
+            },
+            {
+              "@Name": "7.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.4",
+                "@ProductID": "FortiClientiOS-7.0.4"
+              }
+            },
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.3",
+                "@ProductID": "FortiClientiOS-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.1",
+                "@ProductID": "FortiClientiOS-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 7.0.0",
+                "@ProductID": "FortiClientiOS-7.0.0"
+              }
+            },
+            {
+              "@Name": "6.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.4.6",
+                "@ProductID": "FortiClientiOS-6.4.6"
+              }
+            },
+            {
+              "@Name": "6.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.4.5",
+                "@ProductID": "FortiClientiOS-6.4.5"
+              }
+            },
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.4.4",
+                "@ProductID": "FortiClientiOS-6.4.4"
+              }
+            },
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.4.3",
+                "@ProductID": "FortiClientiOS-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.4.2",
+                "@ProductID": "FortiClientiOS-6.4.2"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.4.0",
+                "@ProductID": "FortiClientiOS-6.4.0"
+              }
+            },
+            {
+              "@Name": "6.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.2.4",
+                "@ProductID": "FortiClientiOS-6.2.4"
+              }
+            },
+            {
+              "@Name": "6.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.2.3",
+                "@ProductID": "FortiClientiOS-6.2.3"
+              }
+            },
+            {
+              "@Name": "6.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.2.2",
+                "@ProductID": "FortiClientiOS-6.2.2"
+              }
+            },
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.2.1",
+                "@ProductID": "FortiClientiOS-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.0.5",
+                "@ProductID": "FortiClientiOS-6.0.5"
+              }
+            },
+            {
+              "@Name": "6.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.0.4",
+                "@ProductID": "FortiClientiOS-6.0.4"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.0.3",
+                "@ProductID": "FortiClientiOS-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.0.2",
+                "@ProductID": "FortiClientiOS-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.0.1",
+                "@ProductID": "FortiClientiOS-6.0.1"
+              }
+            },
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientiOS 6.0.0",
+                "@ProductID": "FortiClientiOS-6.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4",
+          "VectorV3": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N/E:F/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientiOS-7.2.5",
+            "FortiClientiOS-7.2.4",
+            "FortiClientiOS-7.2.3",
+            "FortiClientiOS-7.2.2",
+            "FortiClientiOS-7.2.1",
+            "FortiClientiOS-7.2.0",
+            "FortiClientiOS-7.0.9",
+            "FortiClientiOS-7.0.8",
+            "FortiClientiOS-7.0.7",
+            "FortiClientiOS-7.0.6",
+            "FortiClientiOS-7.0.5",
+            "FortiClientiOS-7.0.4",
+            "FortiClientiOS-7.0.3",
+            "FortiClientiOS-7.0.1",
+            "FortiClientiOS-7.0.0",
+            "FortiClientiOS-6.4.6",
+            "FortiClientiOS-6.4.5",
+            "FortiClientiOS-6.4.4",
+            "FortiClientiOS-6.4.3",
+            "FortiClientiOS-6.4.2",
+            "FortiClientiOS-6.4.0",
+            "FortiClientiOS-6.2.4",
+            "FortiClientiOS-6.2.3",
+            "FortiClientiOS-6.2.2",
+            "FortiClientiOS-6.2.1",
+            "FortiClientiOS-6.0.5",
+            "FortiClientiOS-6.0.4",
+            "FortiClientiOS-6.0.3",
+            "FortiClientiOS-6.0.2",
+            "FortiClientiOS-6.0.1",
+            "FortiClientiOS-6.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Unencrypted keychain permanent password",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-139"
+        }
+      },
+      "Title": "Unencrypted keychain permanent password",
+      "cvrf:CVE": "CVE-2024-35282"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Sanjeev Sinha, formerly of Walmart Global Tech for bringing this issue to our attention under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A cleartext storage of sensitive information in memory vulnerability [CWE-316] affecting FortiClient VPN iOS may allow an unauthenticated attacker that has physical access to a jailbroken device to obtain cleartext passwords via keychain dump.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Unencrypted keychain permanent password",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2024-09-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-139"
+      },
+      "cvrf:InitialReleaseDate": "2024-09-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2024-09-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

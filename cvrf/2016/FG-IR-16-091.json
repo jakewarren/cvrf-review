@@ -1,0 +1,99 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Blacknurse ICMP 3/3 attack",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-091"
+          },
+          {
+            "Description": "http://blacknurse.dk/",
+            "URL": "http://blacknurse.dk/"
+          }
+        ]
+      },
+      "Title": "Blacknurse ICMP 3/3 attack"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "BlackNurse is a Denial of Service attack consisting in flooding the target with ICMP Type 3 Code 3 packets. The latter type of packets generally consumes more CPU to be processed than the \"traditional\" ICMP packets used in classical ping-flood attacks (Type 8 Code 0). As such, Blacknurse aims at exhausting the target's CPU, rather than its bandwidth (so called \"low-bandwidth attack\").",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "BlackNurse is a Denial of Service attack consisting in flooding the target with ICMP Type 3 Code 3 packets. The latter type of packets generally consumes more CPU to be processed than the \"traditional\" ICMP packets used in classical ping-flood attacks (Type 8 Code 0). As such, Blacknurse aims at exhausting the target's CPU, rather than its bandwidth (so called \"low-bandwidth attack\").",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The attack does not rely on a software bug, but on the normal functioning of the ICMP stack. Therefore, any networking device is susceptible to be impacted by a flood of Blacknurse packets.",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Configuring a DoS rate limiter for ICMP in FortiOS with the default rate effectively disables the attack, should the target be the FortiGate itself, or any device it protects.This can for instance be done in CLI mode, with the following commands:config firewall DoS-policy edit 0 set status enable set interface \"wan1\" set srcaddr \"all\" set dstaddr \"all\" set service \"ALL\" config anomaly edit icmp_flood set action block next end nextendOr in the GUI, via the menu Policy&Objects -> IPv4 DoS Policy -> Create New. Then choose the interface, src address, dst address, service and set the ICMP_FLOOD button to \"Block\".FortiDDoS will also protect itself or devices sitting behind it, automatically (see https://blog.fortinet.com/2016/11/14/black-nurse-ddos-attack-power-of-granular-packet-inspection-of-fortiddos-with-unpredictable-ddos-attacks for more details).",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Blacknurse ICMP 3/3 attack",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-091"
+        },
+        {
+          "cvrf:Description": "http://blacknurse.dk/",
+          "cvrf:URL": "http://blacknurse.dk/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Blacknurse ICMP 3/3 attack",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-11-15T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-091"
+      },
+      "cvrf:InitialReleaseDate": "2016-11-15T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-11-15T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

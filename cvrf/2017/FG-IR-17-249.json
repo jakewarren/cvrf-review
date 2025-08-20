@@ -1,0 +1,96 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "ROCA: Vulnerable RSA generation (CVE-2017-15361)",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-249"
+          },
+          {
+            "Description": "https://www.kb.cert.org/vuls/id/307015",
+            "URL": "https://www.kb.cert.org/vuls/id/307015"
+          },
+          {
+            "Description": "https://crocs.fi.muni.cz/public/papers/rsa_ccs17",
+            "URL": "https://crocs.fi.muni.cz/public/papers/rsa_ccs17"
+          }
+        ]
+      },
+      "Title": "ROCA: Vulnerable RSA generation (CVE-2017-15361)",
+      "cvrf:CVE": "CVE-2017-15361"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An old Infineon RSA library does not properly generate RSA key pairs, therefore enabling an attacker to potentially infer a private key from a public key.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following Fortinet products are NOT affected:FortiOSFortiSwitchFortiAPFortiAnalyzerFortiMailfortiManagerFortiWebFortiTokenFortiAuthenticatorNone of the products above are using the affected Infineon RSA library or TPM chips.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "ROCA: Vulnerable RSA generation (CVE-2017-15361)",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-249"
+        },
+        {
+          "cvrf:Description": "https://www.kb.cert.org/vuls/id/307015",
+          "cvrf:URL": "https://www.kb.cert.org/vuls/id/307015"
+        },
+        {
+          "cvrf:Description": "https://crocs.fi.muni.cz/public/papers/rsa_ccs17",
+          "cvrf:URL": "https://crocs.fi.muni.cz/public/papers/rsa_ccs17"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "ROCA: Vulnerable RSA generation (CVE-2017-15361)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-11-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-249"
+      },
+      "cvrf:InitialReleaseDate": "2017-11-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-11-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

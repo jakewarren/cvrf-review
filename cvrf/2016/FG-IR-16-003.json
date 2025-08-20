@@ -1,0 +1,94 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "DHCP Hostname HTML Injection",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-003"
+          },
+          {
+            "Description": "https://cwe.mitre.org/data/definitions/80.html",
+            "URL": "https://cwe.mitre.org/data/definitions/80.html"
+          }
+        ]
+      },
+      "Title": "DHCP Hostname HTML Injection",
+      "cvrf:CVE": "CVE-2015-3626"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thanks to Ziv Kamir from GamaSec for reporting a FortiOS vulnerability under responsible disclosure"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "It is possible to inject malicious script through the DHCP HOSTNAME option. The malicious script code is injected into the device's \"DHCP Monitor\" page (System->Monitor->DHCP Monitor) on the web-based interface which is accessible by the webui administrators.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Cross Site Scripting",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to one the following FortiOS versions: 5.0 branch: 5.0.13 or above 5.2 branch: 5.2.4 or above 5.4 branch: 5.4.0 or above 4.3 and lower branches are not affected by this vulnerability.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "DHCP Hostname HTML Injection",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-003"
+        },
+        {
+          "cvrf:Description": "https://cwe.mitre.org/data/definitions/80.html",
+          "cvrf:URL": "https://cwe.mitre.org/data/definitions/80.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "DHCP Hostname HTML Injection",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-03-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-003"
+      },
+      "cvrf:InitialReleaseDate": "2016-03-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-03-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

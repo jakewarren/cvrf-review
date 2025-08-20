@@ -1,0 +1,422 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAP",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 5.6.0",
+                  "@ProductID": "FortiAP-5.6.0"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 5.4.3",
+                  "@ProductID": "FortiAP-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 5.2.6",
+                  "@ProductID": "FortiAP-5.2.6"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiWLC",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "8.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWLC 8.3.2",
+                  "@ProductID": "FortiWLC-8.3.2"
+                }
+              },
+              {
+                "@Name": "8.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWLC 8.2.6",
+                  "@ProductID": "FortiWLC-8.2.6"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.2",
+                  "@ProductID": "FortiOS-5.6.2"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.1",
+                  "@ProductID": "FortiOS-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.0",
+                  "@ProductID": "FortiOS-5.6.0"
+                }
+              },
+              {
+                "@Name": "5.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.8",
+                  "@ProductID": "FortiOS-5.4.8"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.5",
+                  "@ProductID": "FortiOS-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.4",
+                  "@ProductID": "FortiOS-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.3",
+                  "@ProductID": "FortiOS-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.2",
+                  "@ProductID": "FortiOS-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.1",
+                  "@ProductID": "FortiOS-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.0",
+                  "@ProductID": "FortiOS-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.2.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.13",
+                  "@ProductID": "FortiOS-5.2.13"
+                }
+              },
+              {
+                "@Name": "5.2.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.12",
+                  "@ProductID": "FortiOS-5.2.12"
+                }
+              },
+              {
+                "@Name": "5.2.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.11",
+                  "@ProductID": "FortiOS-5.2.11"
+                }
+              },
+              {
+                "@Name": "5.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.10",
+                  "@ProductID": "FortiOS-5.2.10"
+                }
+              },
+              {
+                "@Name": "5.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.9",
+                  "@ProductID": "FortiOS-5.2.9"
+                }
+              },
+              {
+                "@Name": "5.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.8",
+                  "@ProductID": "FortiOS-5.2.8"
+                }
+              },
+              {
+                "@Name": "5.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.7",
+                  "@ProductID": "FortiOS-5.2.7"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.6",
+                  "@ProductID": "FortiOS-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.5",
+                  "@ProductID": "FortiOS-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.4",
+                  "@ProductID": "FortiOS-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.3",
+                  "@ProductID": "FortiOS-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.2",
+                  "@ProductID": "FortiOS-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.1",
+                  "@ProductID": "FortiOS-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.0",
+                  "@ProductID": "FortiOS-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.6",
+                  "@ProductID": "FortiOS-5.0.6"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "Meru AP",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "8.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "Meru AP 8.3.2",
+                "@ProductID": "Meru AP-8.3.2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.9",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAP-5.6.0",
+            "FortiAP-5.4.3",
+            "FortiAP-5.2.6",
+            "FortiWLC-8.3.2",
+            "FortiWLC-8.2.6",
+            "FortiOS-5.6.2",
+            "FortiOS-5.6.1",
+            "FortiOS-5.6.0",
+            "FortiOS-5.4.8",
+            "FortiOS-5.4.5",
+            "FortiOS-5.4.4",
+            "FortiOS-5.4.3",
+            "FortiOS-5.4.2",
+            "FortiOS-5.4.1",
+            "FortiOS-5.4.0",
+            "FortiOS-5.2.13",
+            "FortiOS-5.2.12",
+            "FortiOS-5.2.11",
+            "FortiOS-5.2.10",
+            "FortiOS-5.2.9",
+            "FortiOS-5.2.8",
+            "FortiOS-5.2.7",
+            "FortiOS-5.2.6",
+            "FortiOS-5.2.5",
+            "FortiOS-5.2.4",
+            "FortiOS-5.2.3",
+            "FortiOS-5.2.2",
+            "FortiOS-5.2.1",
+            "FortiOS-5.2.0",
+            "FortiOS-5.0.6",
+            "Meru AP-8.3.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Key Reinstallation Attacks: Cryptographic/protocol attack against WPA2",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-196"
+          },
+          {
+            "Description": "https://www.krackattacks.com/",
+            "URL": "https://www.krackattacks.com/"
+          }
+        ]
+      },
+      "Title": "Key Reinstallation Attacks: Cryptographic/protocol attack against WPA2",
+      "cvrf:CVE": [
+        "CVE-2017-13077",
+        "CVE-2017-13078",
+        "CVE-2017-13079",
+        "CVE-2017-13080",
+        "CVE-2017-13081",
+        "CVE-2017-13082",
+        "CVE-2017-13084",
+        "CVE-2017-13086",
+        "CVE-2017-13087",
+        "CVE-2017-13088"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Several vulnerabilities affect the Wi-Fi Protected Access II (WPA2) protocol, potentially enabling Man-in-the-Middle (MitM) attacks between Wifi Clients and Access Points running WPA2 . The impact includes decryption, packet replay, TCP connection hijacking and HTTP content injection.The related CVEs are:1. CVE-2017-13077: reinstallation of the pairwise key in the 4-way handshake2. CVE-2017-13078: reinstallation of the group key in the 4-way handshake3. CVE-2017-13079: reinstallation of the integrity group key in the 4-way handshake4. CVE-2017-13080: reinstallation of the group key in the group key handshake5. CVE-2017-13081: reinstallation of the integrity group key in the group key handshake6. CVE-2017-13082: accepting a retransmitted FT Reassociation Request and reinstalling the pairwise key while processing it7. CVE-2017-13084: Reinstallation of the STK key in the PeerKey handshake.8. CVE-2017-13086: reinstallation of the Tunneled Direct-Link Setup (TDLS) PeerKey (TPK) key in the TDLS handshake.9. CVE-2017-13087: reinstallation of the group key (GTK) when processing a Wireless Network Management (WNM) Sleep Mode Response frame.10. CVE-2017-13088: reinstallation of the integrity group key (IGTK) when processing a Wireless Network Management (WNM) Sleep Mode Response frame.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate:Those issues may only affect FortiGate Wifi models used under Wifi Client mode. Specifically: FortiGates are not affected by CVE-2017-13082, CVE-2017-13084, CVE-2017-13086, CVE-2017-13087 and CVE-2017-13088 All other CVEs (CVE-2017-13077, CVE-2017-13078, CVE-2017-13079, CVE-2017-13080, CVE-2017-13081) affect FortiGates running the following versions: Branch 5.6: FortiOS 5.6.2 and below Branch 5.4: FortiOS 5.4.5 and below Branch 5.2: FortiOS 5.2.11 and below Previous branches: All versions2. FortiAP:Those issues may only affect FortiAP working as a mesh leaf. Specifically: FortiAP is not affected by CVE-2017-13082, CVE-2017-13084, CVE-2017-13086, CVE-2017-13087 and CVE-2017-13088 All other CVEs (CVE-2017-13077, CVE-2017-13078, CVE-2017-13079, CVE-2017-13080, CVE-2017-13081) affect FortiAP running the following firmware versions: Branch 5.6: FortiAP 5.6.0 Branch 5.4: FortiAP 5.4.3 and below Branch 5.2: FortiAP 5.2.6 and below Previous branches: All versions3. Meru AP:Meru AP is affected when working in Mesh mode or when Service assurance module (SAM) is enabled or when 801.11r is enabled. Specifically: Meru AP is not affected by CVE-2017-13081, CVE-2017-13084, CVE-2017-13086, CVE-2017-13087 and CVE-2017-13088 Meru AP is affected by CVE-2017-13082 when 802.11r is enabled and only with 11ac/wave2 APs. The affected versions are: Branch 8.3: Meru AP 8.3.3 and below Branch 8.2: Meru AP 8.2.7 and below Branch 8.0: All versions* Meru AP is affected by CVE-2017-13077, CVE-2017-13078, CVE-2017-13079 and CVE-2017-13080 when under WPA2 security profile with the AP in client mode (under Mesh mode or when SAM enabled). The affected versions are: Branch 8.3: Meru AP 8.3.3 and below Branch 8.2: Meru AP 8.2.7 and below Branch 8.0: All versions Branch 7.0: Meru AP 7.0.11 and below Previous branches: All versions4. FortiWLC:FortiWLC is affected when working in Mesh mode or when Service assurance module (SAM) is enabled or when 801.11r is enabled. Specifically: FortiWLC is not affected by CVE-2017-13081, CVE-2017-13084, CVE-2017-13086, CVE-2017-13087 and CVE-2017-13088 FortiWLC is affected by CVE-2017-13082 when 802.11r is enabled and only with 11ac/wave2 APs. The affected versions are: Branch 8.3: FortiWLC 8.3.3 and below Branch 8.2: FortiWLC 8.2.7 and below Branch 8.0: All versions* FortiWLC is affected by CVE-2017-13077, CVE-2017-13078, CVE-2017-13079 and CVE-2017-13080 when under WPA2 security profile with the AP in client mode (under Mesh mode or when SAM enabled). The affected versions are: Branch 8.3: FortiWLC 8.3.3 and below Branch 8.2: FortiWLC 8.2.7 and below Branch 8.0: All versions Branch 7.0: FortiWLC 7.0.11 and below Previous branches: All versions",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "For FortiGate Wifi models used under Wifi Client mode:Upgrade to 5.2.12, 5.4.6 or 5.6.3 []For FortiAP used as a mesh leaf:Upgrade to FortiAP 5.2.7, 5.4.4 or 5.6.1 []For Meru AP:Apply special patches[] to already released 8.3.3, 8.2.7 or 7.0.11For FortiWLC:Apply special patches[] to already released 8.3.3, 8.2.7 or 7.0.11[] Reach out to your local TAC to request the special build and patches[*] for the additional CVE-2017-13077 fix, refer to the UPDATE belowUPDATE: Accumulate fix for CVE-2017-13077:To pass Wi-Fi Alliance Security Detection 2017 Test Plan Version 1.1, test case 4.1.5, the following product need to be specially upgraded to the following versions:FortiOS 5.2 branch: upgrade to upcoming 5.2.14FortiOS 5.4 branch: upgrade to FortiOS 5.4.9FortiAP 5.6 branch: upgrade to FortiAP 5.6.2UPDATE: AP side patch to prevent WPA2 KRACK attacks against vulnerable Wifi clients:Fortinet is providing Access Point side protection to prevent WPA2 KRACK attacks against vulnerable Wifi Clients (regardless their brand or make), with the following released or upcoming product and versions:FortiOS: From upcoming FortiOS 6.0.0FortiAP: From FortiAP 5.6.2 and 5.4.4Meru AP: From upcoming Meru AP 8.5.0FortiWLC: From upcoming FortiWLC 8.4.0When connected to the products and versions above, even third party Wifi Clients that are theoretically vulnerable to WPA2 KRACK attacks will actually become \"not impacted\", due to the protection provided by the Access Point.Update History:10-16-2017 Initial version01-19-2018 Update accumulate fix info for CVE-2017-1307701-19-2018 AP side patch to prevent WPA2 KRACK attacks against vulnerable Wifi clients",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Key Reinstallation Attacks: Cryptographic/protocol attack against WPA2",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-196"
+        },
+        {
+          "cvrf:Description": "https://www.krackattacks.com/",
+          "cvrf:URL": "https://www.krackattacks.com/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Key Reinstallation Attacks: Cryptographic/protocol attack against WPA2",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-10-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-196"
+      },
+      "cvrf:InitialReleaseDate": "2017-10-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-10-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

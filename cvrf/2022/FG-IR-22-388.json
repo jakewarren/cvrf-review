@@ -1,0 +1,251 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiRecorder",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.4.3",
+                "@ProductID": "FortiRecorder-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.4.2",
+                "@ProductID": "FortiRecorder-6.4.2"
+              }
+            },
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.4.1",
+                "@ProductID": "FortiRecorder-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.4.0",
+                "@ProductID": "FortiRecorder-6.4.0"
+              }
+            },
+            {
+              "@Name": "6.0.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.11",
+                "@ProductID": "FortiRecorder-6.0.11"
+              }
+            },
+            {
+              "@Name": "6.0.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.10",
+                "@ProductID": "FortiRecorder-6.0.10"
+              }
+            },
+            {
+              "@Name": "6.0.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.9",
+                "@ProductID": "FortiRecorder-6.0.9"
+              }
+            },
+            {
+              "@Name": "6.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.8",
+                "@ProductID": "FortiRecorder-6.0.8"
+              }
+            },
+            {
+              "@Name": "6.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.7",
+                "@ProductID": "FortiRecorder-6.0.7"
+              }
+            },
+            {
+              "@Name": "6.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.6",
+                "@ProductID": "FortiRecorder-6.0.6"
+              }
+            },
+            {
+              "@Name": "6.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.5",
+                "@ProductID": "FortiRecorder-6.0.5"
+              }
+            },
+            {
+              "@Name": "6.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.4",
+                "@ProductID": "FortiRecorder-6.0.4"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.3",
+                "@ProductID": "FortiRecorder-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.2",
+                "@ProductID": "FortiRecorder-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.1",
+                "@ProductID": "FortiRecorder-6.0.1"
+              }
+            },
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 6.0.0",
+                "@ProductID": "FortiRecorder-6.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiRecorder-6.4.3",
+            "FortiRecorder-6.4.2",
+            "FortiRecorder-6.4.1",
+            "FortiRecorder-6.4.0",
+            "FortiRecorder-6.0.11",
+            "FortiRecorder-6.0.10",
+            "FortiRecorder-6.0.9",
+            "FortiRecorder-6.0.8",
+            "FortiRecorder-6.0.7",
+            "FortiRecorder-6.0.6",
+            "FortiRecorder-6.0.5",
+            "FortiRecorder-6.0.4",
+            "FortiRecorder-6.0.3",
+            "FortiRecorder-6.0.2",
+            "FortiRecorder-6.0.1",
+            "FortiRecorder-6.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiRecorder - DoS in login authentication mechanism",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-388"
+        }
+      },
+      "Title": "FortiRecorder - DoS in login authentication mechanism",
+      "cvrf:CVE": "CVE-2022-41333"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Mohammed Adel of Safe Decision Cybersecurity Labs for bringing this issue to our attention under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An uncontrolled resource consumption vulnerability [CWE-400] in FortiRecorder login authentication mechanism may allow an unauthenticated attacker to make the device unavailable via crafted GET requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "At leastFortiRecorder 7.0 all versions are not affectedFortiRecorder version 6.4.0 through 6.4.3FortiRecorder version 6.0.0 through 6.0.11FortiRecorder 2.7 all versions are not affected",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiRecorder version 7.0.0 or abovePlease upgrade to FortiRecorder version 6.4.4 or abovePlease upgrade to FortiRecorder version 6.0.12 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiRecorder - DoS in login authentication mechanism",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-03-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-388"
+      },
+      "cvrf:InitialReleaseDate": "2023-03-07T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-03-07T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

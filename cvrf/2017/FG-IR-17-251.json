@@ -1,0 +1,91 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Apache Tomcat vulnerabilities (Tier1/2 Focus)",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-251"
+          },
+          {
+            "Description": "http://tomcat.apache.org/security.html",
+            "URL": "http://tomcat.apache.org/security.html"
+          }
+        ]
+      },
+      "Title": "Apache Tomcat vulnerabilities (Tier1/2 Focus)",
+      "cvrf:CVE": [
+        "CVE-2017-12615",
+        "CVE-2017-12617"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple Remote Code Execution (RCE) vulnerabilities (CVE-2017-12615, CVE-2017-12617) are affecting Apache Tomcat.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following Fortinet products are NOT affected:FortiOSFortiAPFortiSwitchFortiAnalyzerFortiMailFortiManagerFortiWebNone of the products above are using Apache Tomcat.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Apache Tomcat vulnerabilities (Tier1/2 Focus)",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-251"
+        },
+        {
+          "cvrf:Description": "http://tomcat.apache.org/security.html",
+          "cvrf:URL": "http://tomcat.apache.org/security.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Apache Tomcat vulnerabilities (Tier1/2 Focus)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-10-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-251"
+      },
+      "cvrf:InitialReleaseDate": "2017-10-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-10-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

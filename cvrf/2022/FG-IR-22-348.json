@@ -1,0 +1,131 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWeb",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.3",
+                "@ProductID": "FortiWeb-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.2",
+                "@ProductID": "FortiWeb-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.1",
+                "@ProductID": "FortiWeb-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.0",
+                "@ProductID": "FortiWeb-7.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.1",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWeb-7.0.3",
+            "FortiWeb-7.0.2",
+            "FortiWeb-7.0.1",
+            "FortiWeb-7.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiWeb - Double free in pipe management",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-348"
+        }
+      },
+      "Title": "FortiWeb - Double free in pipe management",
+      "cvrf:CVE": "CVE-2022-40683"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A double free vulnerability (CWE-415) in FortiWeb CLI may allow an authenticated, local attacker to achieve arbitrary code execution via specifically crafted commands",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiWeb - Double free in pipe management",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-02-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-348"
+      },
+      "cvrf:InitialReleaseDate": "2023-02-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-02-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

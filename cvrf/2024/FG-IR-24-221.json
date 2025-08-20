@@ -1,0 +1,1144 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAnalyzer",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.6.1",
+                  "@ProductID": "FortiAnalyzer-7.6.1"
+                }
+              },
+              {
+                "@Name": "7.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.6.0",
+                  "@ProductID": "FortiAnalyzer-7.6.0"
+                }
+              },
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.4.3",
+                  "@ProductID": "FortiAnalyzer-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.4.2",
+                  "@ProductID": "FortiAnalyzer-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.4.1",
+                  "@ProductID": "FortiAnalyzer-7.4.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAnalyzer Cloud",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.4.3",
+                  "@ProductID": "FortiAnalyzer Cloud-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.4.2",
+                  "@ProductID": "FortiAnalyzer Cloud-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.4.1",
+                  "@ProductID": "FortiAnalyzer Cloud-7.4.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiManager",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.6.1",
+                  "@ProductID": "FortiManager-7.6.1"
+                }
+              },
+              {
+                "@Name": "7.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.6.0",
+                  "@ProductID": "FortiManager-7.6.0"
+                }
+              },
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.4.3",
+                  "@ProductID": "FortiManager-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.4.2",
+                  "@ProductID": "FortiManager-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.4.1",
+                  "@ProductID": "FortiManager-7.4.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiManager Cloud",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager Cloud 7.4.3",
+                  "@ProductID": "FortiManager Cloud-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager Cloud 7.4.2",
+                  "@ProductID": "FortiManager Cloud-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager Cloud 7.4.1",
+                  "@ProductID": "FortiManager Cloud-7.4.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.4.4",
+                  "@ProductID": "FortiOS-7.4.4"
+                }
+              },
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.4.3",
+                  "@ProductID": "FortiOS-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.4.2",
+                  "@ProductID": "FortiOS-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.4.1",
+                  "@ProductID": "FortiOS-7.4.1"
+                }
+              },
+              {
+                "@Name": "7.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.4.0",
+                  "@ProductID": "FortiOS-7.4.0"
+                }
+              },
+              {
+                "@Name": "7.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.8",
+                  "@ProductID": "FortiOS-7.2.8"
+                }
+              },
+              {
+                "@Name": "7.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.7",
+                  "@ProductID": "FortiOS-7.2.7"
+                }
+              },
+              {
+                "@Name": "7.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.6",
+                  "@ProductID": "FortiOS-7.2.6"
+                }
+              },
+              {
+                "@Name": "7.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.5",
+                  "@ProductID": "FortiOS-7.2.5"
+                }
+              },
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.4",
+                  "@ProductID": "FortiOS-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.3",
+                  "@ProductID": "FortiOS-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.2",
+                  "@ProductID": "FortiOS-7.2.2"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.1",
+                  "@ProductID": "FortiOS-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.0",
+                  "@ProductID": "FortiOS-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.15",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.15",
+                  "@ProductID": "FortiOS-7.0.15"
+                }
+              },
+              {
+                "@Name": "7.0.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.14",
+                  "@ProductID": "FortiOS-7.0.14"
+                }
+              },
+              {
+                "@Name": "7.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.13",
+                  "@ProductID": "FortiOS-7.0.13"
+                }
+              },
+              {
+                "@Name": "7.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.12",
+                  "@ProductID": "FortiOS-7.0.12"
+                }
+              },
+              {
+                "@Name": "7.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.11",
+                  "@ProductID": "FortiOS-7.0.11"
+                }
+              },
+              {
+                "@Name": "7.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.10",
+                  "@ProductID": "FortiOS-7.0.10"
+                }
+              },
+              {
+                "@Name": "7.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.9",
+                  "@ProductID": "FortiOS-7.0.9"
+                }
+              },
+              {
+                "@Name": "7.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.8",
+                  "@ProductID": "FortiOS-7.0.8"
+                }
+              },
+              {
+                "@Name": "7.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.7",
+                  "@ProductID": "FortiOS-7.0.7"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.6",
+                  "@ProductID": "FortiOS-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.5",
+                  "@ProductID": "FortiOS-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.4",
+                  "@ProductID": "FortiOS-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.3",
+                  "@ProductID": "FortiOS-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.2",
+                  "@ProductID": "FortiOS-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.1",
+                  "@ProductID": "FortiOS-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.0",
+                  "@ProductID": "FortiOS-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.16",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.16",
+                  "@ProductID": "FortiOS-6.4.16"
+                }
+              },
+              {
+                "@Name": "6.4.15",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.15",
+                  "@ProductID": "FortiOS-6.4.15"
+                }
+              },
+              {
+                "@Name": "6.4.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.14",
+                  "@ProductID": "FortiOS-6.4.14"
+                }
+              },
+              {
+                "@Name": "6.4.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.13",
+                  "@ProductID": "FortiOS-6.4.13"
+                }
+              },
+              {
+                "@Name": "6.4.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.12",
+                  "@ProductID": "FortiOS-6.4.12"
+                }
+              },
+              {
+                "@Name": "6.4.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.11",
+                  "@ProductID": "FortiOS-6.4.11"
+                }
+              },
+              {
+                "@Name": "6.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.10",
+                  "@ProductID": "FortiOS-6.4.10"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.9",
+                  "@ProductID": "FortiOS-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.8",
+                  "@ProductID": "FortiOS-6.4.8"
+                }
+              },
+              {
+                "@Name": "6.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.7",
+                  "@ProductID": "FortiOS-6.4.7"
+                }
+              },
+              {
+                "@Name": "6.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.6",
+                  "@ProductID": "FortiOS-6.4.6"
+                }
+              },
+              {
+                "@Name": "6.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.5",
+                  "@ProductID": "FortiOS-6.4.5"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.4",
+                  "@ProductID": "FortiOS-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.3",
+                  "@ProductID": "FortiOS-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.2",
+                  "@ProductID": "FortiOS-6.4.2"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.1",
+                  "@ProductID": "FortiOS-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.0",
+                  "@ProductID": "FortiOS-6.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiProxy",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.4.4",
+                  "@ProductID": "FortiProxy-7.4.4"
+                }
+              },
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.4.3",
+                  "@ProductID": "FortiProxy-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.4.2",
+                  "@ProductID": "FortiProxy-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.4.1",
+                  "@ProductID": "FortiProxy-7.4.1"
+                }
+              },
+              {
+                "@Name": "7.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.4.0",
+                  "@ProductID": "FortiProxy-7.4.0"
+                }
+              },
+              {
+                "@Name": "7.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.10",
+                  "@ProductID": "FortiProxy-7.2.10"
+                }
+              },
+              {
+                "@Name": "7.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.9",
+                  "@ProductID": "FortiProxy-7.2.9"
+                }
+              },
+              {
+                "@Name": "7.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.8",
+                  "@ProductID": "FortiProxy-7.2.8"
+                }
+              },
+              {
+                "@Name": "7.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.7",
+                  "@ProductID": "FortiProxy-7.2.7"
+                }
+              },
+              {
+                "@Name": "7.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.6",
+                  "@ProductID": "FortiProxy-7.2.6"
+                }
+              },
+              {
+                "@Name": "7.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.5",
+                  "@ProductID": "FortiProxy-7.2.5"
+                }
+              },
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.4",
+                  "@ProductID": "FortiProxy-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.3",
+                  "@ProductID": "FortiProxy-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.2",
+                  "@ProductID": "FortiProxy-7.2.2"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.1",
+                  "@ProductID": "FortiProxy-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.0",
+                  "@ProductID": "FortiProxy-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.17",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.17",
+                  "@ProductID": "FortiProxy-7.0.17"
+                }
+              },
+              {
+                "@Name": "7.0.16",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.16",
+                  "@ProductID": "FortiProxy-7.0.16"
+                }
+              },
+              {
+                "@Name": "7.0.15",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.15",
+                  "@ProductID": "FortiProxy-7.0.15"
+                }
+              },
+              {
+                "@Name": "7.0.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.14",
+                  "@ProductID": "FortiProxy-7.0.14"
+                }
+              },
+              {
+                "@Name": "7.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.13",
+                  "@ProductID": "FortiProxy-7.0.13"
+                }
+              },
+              {
+                "@Name": "7.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.12",
+                  "@ProductID": "FortiProxy-7.0.12"
+                }
+              },
+              {
+                "@Name": "7.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.11",
+                  "@ProductID": "FortiProxy-7.0.11"
+                }
+              },
+              {
+                "@Name": "7.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.10",
+                  "@ProductID": "FortiProxy-7.0.10"
+                }
+              },
+              {
+                "@Name": "7.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.9",
+                  "@ProductID": "FortiProxy-7.0.9"
+                }
+              },
+              {
+                "@Name": "7.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.8",
+                  "@ProductID": "FortiProxy-7.0.8"
+                }
+              },
+              {
+                "@Name": "7.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.7",
+                  "@ProductID": "FortiProxy-7.0.7"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.6",
+                  "@ProductID": "FortiProxy-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.5",
+                  "@ProductID": "FortiProxy-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.4",
+                  "@ProductID": "FortiProxy-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.3",
+                  "@ProductID": "FortiProxy-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.2",
+                  "@ProductID": "FortiProxy-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.1",
+                  "@ProductID": "FortiProxy-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.0",
+                  "@ProductID": "FortiProxy-7.0.0"
+                }
+              },
+              {
+                "@Name": "2.0.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.14",
+                  "@ProductID": "FortiProxy-2.0.14"
+                }
+              },
+              {
+                "@Name": "2.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.13",
+                  "@ProductID": "FortiProxy-2.0.13"
+                }
+              },
+              {
+                "@Name": "2.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.12",
+                  "@ProductID": "FortiProxy-2.0.12"
+                }
+              },
+              {
+                "@Name": "2.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.11",
+                  "@ProductID": "FortiProxy-2.0.11"
+                }
+              },
+              {
+                "@Name": "2.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.10",
+                  "@ProductID": "FortiProxy-2.0.10"
+                }
+              },
+              {
+                "@Name": "2.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.9",
+                  "@ProductID": "FortiProxy-2.0.9"
+                }
+              },
+              {
+                "@Name": "2.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.8",
+                  "@ProductID": "FortiProxy-2.0.8"
+                }
+              },
+              {
+                "@Name": "2.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.7",
+                  "@ProductID": "FortiProxy-2.0.7"
+                }
+              },
+              {
+                "@Name": "2.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.6",
+                  "@ProductID": "FortiProxy-2.0.6"
+                }
+              },
+              {
+                "@Name": "2.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.5",
+                  "@ProductID": "FortiProxy-2.0.5"
+                }
+              },
+              {
+                "@Name": "2.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.4",
+                  "@ProductID": "FortiProxy-2.0.4"
+                }
+              },
+              {
+                "@Name": "2.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.3",
+                  "@ProductID": "FortiProxy-2.0.3"
+                }
+              },
+              {
+                "@Name": "2.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.2",
+                  "@ProductID": "FortiProxy-2.0.2"
+                }
+              },
+              {
+                "@Name": "2.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.1",
+                  "@ProductID": "FortiProxy-2.0.1"
+                }
+              },
+              {
+                "@Name": "2.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.0",
+                  "@ProductID": "FortiProxy-2.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "8.0",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H/E:F/RL:O/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAnalyzer-7.6.1",
+            "FortiAnalyzer-7.6.0",
+            "FortiAnalyzer-7.4.3",
+            "FortiAnalyzer-7.4.2",
+            "FortiAnalyzer-7.4.1",
+            "FortiAnalyzer Cloud-7.4.3",
+            "FortiAnalyzer Cloud-7.4.2",
+            "FortiAnalyzer Cloud-7.4.1",
+            "FortiManager-7.6.1",
+            "FortiManager-7.6.0",
+            "FortiManager-7.4.3",
+            "FortiManager-7.4.2",
+            "FortiManager-7.4.1",
+            "FortiManager Cloud-7.4.3",
+            "FortiManager Cloud-7.4.2",
+            "FortiManager Cloud-7.4.1",
+            "FortiOS-7.4.4",
+            "FortiOS-7.4.3",
+            "FortiOS-7.4.2",
+            "FortiOS-7.4.1",
+            "FortiOS-7.4.0",
+            "FortiOS-7.2.8",
+            "FortiOS-7.2.7",
+            "FortiOS-7.2.6",
+            "FortiOS-7.2.5",
+            "FortiOS-7.2.4",
+            "FortiOS-7.2.3",
+            "FortiOS-7.2.2",
+            "FortiOS-7.2.1",
+            "FortiOS-7.2.0",
+            "FortiOS-7.0.15",
+            "FortiOS-7.0.14",
+            "FortiOS-7.0.13",
+            "FortiOS-7.0.12",
+            "FortiOS-7.0.11",
+            "FortiOS-7.0.10",
+            "FortiOS-7.0.9",
+            "FortiOS-7.0.8",
+            "FortiOS-7.0.7",
+            "FortiOS-7.0.6",
+            "FortiOS-7.0.5",
+            "FortiOS-7.0.4",
+            "FortiOS-7.0.3",
+            "FortiOS-7.0.2",
+            "FortiOS-7.0.1",
+            "FortiOS-7.0.0",
+            "FortiOS-6.4.16",
+            "FortiOS-6.4.15",
+            "FortiOS-6.4.14",
+            "FortiOS-6.4.13",
+            "FortiOS-6.4.12",
+            "FortiOS-6.4.11",
+            "FortiOS-6.4.10",
+            "FortiOS-6.4.9",
+            "FortiOS-6.4.8",
+            "FortiOS-6.4.7",
+            "FortiOS-6.4.6",
+            "FortiOS-6.4.5",
+            "FortiOS-6.4.4",
+            "FortiOS-6.4.3",
+            "FortiOS-6.4.2",
+            "FortiOS-6.4.1",
+            "FortiOS-6.4.0",
+            "FortiProxy-7.4.4",
+            "FortiProxy-7.4.3",
+            "FortiProxy-7.4.2",
+            "FortiProxy-7.4.1",
+            "FortiProxy-7.4.0",
+            "FortiProxy-7.2.10",
+            "FortiProxy-7.2.9",
+            "FortiProxy-7.2.8",
+            "FortiProxy-7.2.7",
+            "FortiProxy-7.2.6",
+            "FortiProxy-7.2.5",
+            "FortiProxy-7.2.4",
+            "FortiProxy-7.2.3",
+            "FortiProxy-7.2.2",
+            "FortiProxy-7.2.1",
+            "FortiProxy-7.2.0",
+            "FortiProxy-7.0.17",
+            "FortiProxy-7.0.16",
+            "FortiProxy-7.0.15",
+            "FortiProxy-7.0.14",
+            "FortiProxy-7.0.13",
+            "FortiProxy-7.0.12",
+            "FortiProxy-7.0.11",
+            "FortiProxy-7.0.10",
+            "FortiProxy-7.0.9",
+            "FortiProxy-7.0.8",
+            "FortiProxy-7.0.7",
+            "FortiProxy-7.0.6",
+            "FortiProxy-7.0.5",
+            "FortiProxy-7.0.4",
+            "FortiProxy-7.0.3",
+            "FortiProxy-7.0.2",
+            "FortiProxy-7.0.1",
+            "FortiProxy-7.0.0",
+            "FortiProxy-2.0.14",
+            "FortiProxy-2.0.13",
+            "FortiProxy-2.0.12",
+            "FortiProxy-2.0.11",
+            "FortiProxy-2.0.10",
+            "FortiProxy-2.0.9",
+            "FortiProxy-2.0.8",
+            "FortiProxy-2.0.7",
+            "FortiProxy-2.0.6",
+            "FortiProxy-2.0.5",
+            "FortiProxy-2.0.4",
+            "FortiProxy-2.0.3",
+            "FortiProxy-2.0.2",
+            "FortiProxy-2.0.1",
+            "FortiProxy-2.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Weak Authentication in csfd daemon",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-221"
+        }
+      },
+      "Title": "Weak Authentication in csfd daemon",
+      "cvrf:CVE": [
+        "CVE-2024-48886",
+        "CVE-2024-50563"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security Team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A Weak Authentication vulnerability [CWE 1390] in FortiOS, FortiPAM and FortiProxy csfd daemon may allow an unauthenticated attacker with access to the Security Fabric interface and port to bruteforce the authentication process in the Security Fabric protocol and take control of the devices of the Fabric.A Weak Authentication vulnerability [CWE 1390] of the same nature in Fortimanager csfd daemon may allow an unauthenticated attacker with access to the Security Fabric interface and port to bypass the authentication process and access a restricted list of features.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Weak Authentication in csfd daemon",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-01-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-221"
+      },
+      "cvrf:InitialReleaseDate": "2025-01-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-01-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.4.4",
+                "@ProductID": "FortiOS-6.4.4"
+              }
+            },
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.4.3",
+                "@ProductID": "FortiOS-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.4.2",
+                "@ProductID": "FortiOS-6.4.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.4",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L/E:F/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-6.4.4",
+            "FortiOS-6.4.3",
+            "FortiOS-6.4.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-018"
+        }
+      },
+      "Title": "Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
+      "cvrf:CVE": "CVE-2021-24012"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank María Teresa Muñoz Blanco from Vectoritcgroup for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper following of a certificate's chain of trust vulnerability in FortiGate SSL-VPN may allow an LDAP user to connect to VPN with any certificate that is signed by a trusted Certificate Authority.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate version 6.4.2 to 6.4.4.FortiGate versions 5.6.x, 6.0.x and 6.2.x, 6.4.0 and 6.4.1 are NOT impacted by this vulnerability.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiGate Version 7.0.0.Please upgrade to FortiGate Version 6.4.5 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Improper verification of the user certificate's chain of trust in FortiGate when connecting to SSL-VPN",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-06-01T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-018"
+      },
+      "cvrf:InitialReleaseDate": "2021-06-01T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-06-01T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

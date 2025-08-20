@@ -1,0 +1,803 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "AscenLink",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.13",
+                  "@ProductID": "AscenLink-7.2.13"
+                }
+              },
+              {
+                "@Name": "7.2.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.12",
+                  "@ProductID": "AscenLink-7.2.12"
+                }
+              },
+              {
+                "@Name": "7.2.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.11",
+                  "@ProductID": "AscenLink-7.2.11"
+                }
+              },
+              {
+                "@Name": "7.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.10",
+                  "@ProductID": "AscenLink-7.2.10"
+                }
+              },
+              {
+                "@Name": "7.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.9",
+                  "@ProductID": "AscenLink-7.2.9"
+                }
+              },
+              {
+                "@Name": "7.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.8",
+                  "@ProductID": "AscenLink-7.2.8"
+                }
+              },
+              {
+                "@Name": "7.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.7",
+                  "@ProductID": "AscenLink-7.2.7"
+                }
+              },
+              {
+                "@Name": "7.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.6",
+                  "@ProductID": "AscenLink-7.2.6"
+                }
+              },
+              {
+                "@Name": "7.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.5",
+                  "@ProductID": "AscenLink-7.2.5"
+                }
+              },
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.4",
+                  "@ProductID": "AscenLink-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.3",
+                  "@ProductID": "AscenLink-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.2",
+                  "@ProductID": "AscenLink-7.2.2"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.1",
+                  "@ProductID": "AscenLink-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "AscenLink 7.2.0",
+                  "@ProductID": "AscenLink-7.2.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.1",
+                  "@ProductID": "FortiOS-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.0",
+                  "@ProductID": "FortiOS-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.8",
+                  "@ProductID": "FortiOS-5.2.8"
+                }
+              },
+              {
+                "@Name": "5.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.7",
+                  "@ProductID": "FortiOS-5.2.7"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.6",
+                  "@ProductID": "FortiOS-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.5",
+                  "@ProductID": "FortiOS-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.4",
+                  "@ProductID": "FortiOS-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.3",
+                  "@ProductID": "FortiOS-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.2",
+                  "@ProductID": "FortiOS-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.1",
+                  "@ProductID": "FortiOS-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.0",
+                  "@ProductID": "FortiOS-5.2.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiRecorder",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "2.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 2.3.0",
+                  "@ProductID": "FortiRecorder-2.3.0"
+                }
+              },
+              {
+                "@Name": "2.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 2.2.2",
+                  "@ProductID": "FortiRecorder-2.2.2"
+                }
+              },
+              {
+                "@Name": "2.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 2.2.1",
+                  "@ProductID": "FortiRecorder-2.2.1"
+                }
+              },
+              {
+                "@Name": "2.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 2.2.0",
+                  "@ProductID": "FortiRecorder-2.2.0"
+                }
+              },
+              {
+                "@Name": "2.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 2.1.1",
+                  "@ProductID": "FortiRecorder-2.1.1"
+                }
+              },
+              {
+                "@Name": "2.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 2.1.0",
+                  "@ProductID": "FortiRecorder-2.1.0"
+                }
+              },
+              {
+                "@Name": "2.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 2.0.0",
+                  "@ProductID": "FortiRecorder-2.0.0"
+                }
+              },
+              {
+                "@Name": "1.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 1.4.1",
+                  "@ProductID": "FortiRecorder-1.4.1"
+                }
+              },
+              {
+                "@Name": "1.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 1.4.0",
+                  "@ProductID": "FortiRecorder-1.4.0"
+                }
+              },
+              {
+                "@Name": "1.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 1.3.1",
+                  "@ProductID": "FortiRecorder-1.3.1"
+                }
+              },
+              {
+                "@Name": "1.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 1.3.0",
+                  "@ProductID": "FortiRecorder-1.3.0"
+                }
+              },
+              {
+                "@Name": "1.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 1.2.0",
+                  "@ProductID": "FortiRecorder-1.2.0"
+                }
+              },
+              {
+                "@Name": "1.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 1.1.0",
+                  "@ProductID": "FortiRecorder-1.1.0"
+                }
+              },
+              {
+                "@Name": "1.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 1.0.0",
+                  "@ProductID": "FortiRecorder-1.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiVoice",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.0.4",
+                  "@ProductID": "FortiVoice-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.0.3",
+                  "@ProductID": "FortiVoice-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.0.2",
+                  "@ProductID": "FortiVoice-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.0.1",
+                  "@ProductID": "FortiVoice-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.0.0",
+                  "@ProductID": "FortiVoice-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 4.0.2",
+                  "@ProductID": "FortiVoice-4.0.2"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 4.0.1",
+                  "@ProductID": "FortiVoice-4.0.1"
+                }
+              },
+              {
+                "@Name": "4.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 4.0.0",
+                  "@ProductID": "FortiVoice-4.0.0"
+                }
+              },
+              {
+                "@Name": "3.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 3.0.5",
+                  "@ProductID": "FortiVoice-3.0.5"
+                }
+              },
+              {
+                "@Name": "3.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 3.0.3",
+                  "@ProductID": "FortiVoice-3.0.3"
+                }
+              },
+              {
+                "@Name": "3.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 3.0.2",
+                  "@ProductID": "FortiVoice-3.0.2"
+                }
+              },
+              {
+                "@Name": "3.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 3.0.1",
+                  "@ProductID": "FortiVoice-3.0.1"
+                }
+              },
+              {
+                "@Name": "3.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 3.0.0",
+                  "@ProductID": "FortiVoice-3.0.0"
+                }
+              },
+              {
+                "@Name": "2.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 2.2.1",
+                  "@ProductID": "FortiVoice-2.2.1"
+                }
+              },
+              {
+                "@Name": "2.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 2.2.0",
+                  "@ProductID": "FortiVoice-2.2.0"
+                }
+              },
+              {
+                "@Name": "2.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 2.1.0",
+                  "@ProductID": "FortiVoice-2.1.0"
+                }
+              },
+              {
+                "@Name": "2.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 2.0.0",
+                  "@ProductID": "FortiVoice-2.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiWAN",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "4.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.2.2",
+                  "@ProductID": "FortiWAN-4.2.2"
+                }
+              },
+              {
+                "@Name": "4.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.2.1",
+                  "@ProductID": "FortiWAN-4.2.1"
+                }
+              },
+              {
+                "@Name": "4.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.1.3",
+                  "@ProductID": "FortiWAN-4.1.3"
+                }
+              },
+              {
+                "@Name": "4.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.1.2",
+                  "@ProductID": "FortiWAN-4.1.2"
+                }
+              },
+              {
+                "@Name": "4.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.1.1",
+                  "@ProductID": "FortiWAN-4.1.1"
+                }
+              },
+              {
+                "@Name": "4.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.0.6",
+                  "@ProductID": "FortiWAN-4.0.6"
+                }
+              },
+              {
+                "@Name": "4.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.0.5",
+                  "@ProductID": "FortiWAN-4.0.5"
+                }
+              },
+              {
+                "@Name": "4.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.0.4",
+                  "@ProductID": "FortiWAN-4.0.4"
+                }
+              },
+              {
+                "@Name": "4.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.0.3",
+                  "@ProductID": "FortiWAN-4.0.3"
+                }
+              },
+              {
+                "@Name": "4.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.0.2",
+                  "@ProductID": "FortiWAN-4.0.2"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.0.1",
+                  "@ProductID": "FortiWAN-4.0.1"
+                }
+              },
+              {
+                "@Name": "4.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.0.0",
+                  "@ProductID": "FortiWAN-4.0.0"
+                }
+              },
+              {
+                "@Name": "0.4.23",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 0.4.23",
+                  "@ProductID": "FortiWAN-0.4.23"
+                }
+              },
+              {
+                "@Name": "0.4.20",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 0.4.20",
+                  "@ProductID": "FortiWAN-0.4.20"
+                }
+              },
+              {
+                "@Name": "0.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 0.4.10",
+                  "@ProductID": "FortiWAN-0.4.10"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiWAN-Manager",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "0.4.20",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWAN-Manager 0.4.20",
+                "@ProductID": "FortiWAN-Manager-0.4.20"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "AscenLink-7.2.13",
+            "AscenLink-7.2.12",
+            "AscenLink-7.2.11",
+            "AscenLink-7.2.10",
+            "AscenLink-7.2.9",
+            "AscenLink-7.2.8",
+            "AscenLink-7.2.7",
+            "AscenLink-7.2.6",
+            "AscenLink-7.2.5",
+            "AscenLink-7.2.4",
+            "AscenLink-7.2.3",
+            "AscenLink-7.2.2",
+            "AscenLink-7.2.1",
+            "AscenLink-7.2.0",
+            "FortiOS-5.4.1",
+            "FortiOS-5.4.0",
+            "FortiOS-5.2.8",
+            "FortiOS-5.2.7",
+            "FortiOS-5.2.6",
+            "FortiOS-5.2.5",
+            "FortiOS-5.2.4",
+            "FortiOS-5.2.3",
+            "FortiOS-5.2.2",
+            "FortiOS-5.2.1",
+            "FortiOS-5.2.0",
+            "FortiRecorder-2.3.0",
+            "FortiRecorder-2.2.2",
+            "FortiRecorder-2.2.1",
+            "FortiRecorder-2.2.0",
+            "FortiRecorder-2.1.1",
+            "FortiRecorder-2.1.0",
+            "FortiRecorder-2.0.0",
+            "FortiRecorder-1.4.1",
+            "FortiRecorder-1.4.0",
+            "FortiRecorder-1.3.1",
+            "FortiRecorder-1.3.0",
+            "FortiRecorder-1.2.0",
+            "FortiRecorder-1.1.0",
+            "FortiRecorder-1.0.0",
+            "FortiVoice-5.0.4",
+            "FortiVoice-5.0.3",
+            "FortiVoice-5.0.2",
+            "FortiVoice-5.0.1",
+            "FortiVoice-5.0.0",
+            "FortiVoice-4.0.2",
+            "FortiVoice-4.0.1",
+            "FortiVoice-4.0.0",
+            "FortiVoice-3.0.5",
+            "FortiVoice-3.0.3",
+            "FortiVoice-3.0.2",
+            "FortiVoice-3.0.1",
+            "FortiVoice-3.0.0",
+            "FortiVoice-2.2.1",
+            "FortiVoice-2.2.0",
+            "FortiVoice-2.1.0",
+            "FortiVoice-2.0.0",
+            "FortiWAN-4.2.2",
+            "FortiWAN-4.2.1",
+            "FortiWAN-4.1.3",
+            "FortiWAN-4.1.2",
+            "FortiWAN-4.1.1",
+            "FortiWAN-4.0.6",
+            "FortiWAN-4.0.5",
+            "FortiWAN-4.0.4",
+            "FortiWAN-4.0.3",
+            "FortiWAN-4.0.2",
+            "FortiWAN-4.0.1",
+            "FortiWAN-4.0.0",
+            "FortiWAN-0.4.23",
+            "FortiWAN-0.4.20",
+            "FortiWAN-0.4.10",
+            "FortiWAN-Manager-0.4.20"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "April 2016 ntp-4.2.8p7 Security Vulnerability Announcement",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-035"
+          },
+          {
+            "Description": "http://support.ntp.org/bin/view/Main/SecurityNotice#April_2016_NTP_4_2_8p7_Security",
+            "URL": "http://support.ntp.org/bin/view/Main/SecurityNotice#April_2016_NTP_4_2_8p7_Security"
+          }
+        ]
+      },
+      "Title": "April 2016 ntp-4.2.8p7 Security Vulnerability Announcement",
+      "cvrf:CVE": [
+        "CVE-2015-7704",
+        "CVE-2015-8138",
+        "CVE-2016-1547",
+        "CVE-2016-1548",
+        "CVE-2016-1549",
+        "CVE-2016-1550",
+        "CVE-2016-1551",
+        "CVE-2016-2516",
+        "CVE-2016-2517",
+        "CVE-2016-2518",
+        "CVE-2016-2519"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "ntp released an announcement on 26th April 2016, describing 4 low and 7 medium severity vulnerabilities, as listed below:- CVE-2016-1551- CVE-2016-1549- CVE-2016-2516- CVE-2016-2517- CVE-2016-2518- CVE-2016-2519- CVE-2016-1547- CVE-2016-1548- CVE-2015-7704- CVE-2015-8138- CVE-2015-1550",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS versions 5.4.1, 5.4.0, 5.2.8 and below are vulnerable to only CVE-2016-1550.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiOS version5.2.9 or above5.4.2 or aboveor 5.6.0",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "April 2016 ntp-4.2.8p7 Security Vulnerability Announcement",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-035"
+        },
+        {
+          "cvrf:Description": "http://support.ntp.org/bin/view/Main/SecurityNotice#April_2016_NTP_4_2_8p7_Security",
+          "cvrf:URL": "http://support.ntp.org/bin/view/Main/SecurityNotice#April_2016_NTP_4_2_8p7_Security"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "April 2016 ntp-4.2.8p7 Security Vulnerability Announcement",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-04-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-035"
+      },
+      "cvrf:InitialReleaseDate": "2017-04-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-04-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

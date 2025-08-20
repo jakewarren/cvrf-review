@@ -1,0 +1,76 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiAnalyzer and FortiManager stored XSS vulnerability in report filters",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-051"
+        }
+      },
+      "Title": "FortiAnalyzer and FortiManager stored XSS vulnerability in report filters",
+      "cvrf:CVE": "CVE-2015-7363"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Ismail Saygili for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A cross-site-scripting vulnerablity in FortiAnalyzer/FortiManager in advanced settings page could allow an administrator to inject scripts in the add filter field.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Access to another privileged administrator user's data",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiManager: 5.0.0 - 5.0.11, 5.2.0 - 5.2.2 FortiAnalyzer: 5.0.0 - 5.0.12, 5.2.0 - 5.2.2",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to: FortiManager 5.0.12 and above 5.2.3 and above 5.4.0 and above Ã‚Â FortiAnalyzer 5.0.13 and above 5.2.3 and above 5.4.0 and above Ã‚Â FortiManager hardware models without hard disk are not affected. This feature is disabled by default in all FortiManager versions.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiAnalyzer and FortiManager stored XSS vulnerability in report filters",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-10-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-051"
+      },
+      "cvrf:InitialReleaseDate": "2016-10-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-10-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

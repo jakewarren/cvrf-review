@@ -1,0 +1,82 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "ZebOS routing remote shell service enabled",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-020"
+        }
+      },
+      "Title": "ZebOS routing remote shell service enabled",
+      "cvrf:CVE": "CVE-2015-7361"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Thanks to Burda Digital Systems."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "None",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "A remote attacker may access the internal ZebOS shell of FortiOS 5.2.3 without authentication on the HA (\"High Availability\") dedicated management interface only. Only FortiGates configured with HA *and* with an enabled HA dedicated management interface are vulnerable. Note: when a FortiGate is configured to use HA, the dedicated management interface is disabled by default .",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Remote shell access",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate v5.2.3 only.",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS 5.2.3 must be upgraded to FortiOS 5.2.4.FortiOS 5.2.2 and lower are not affected.FortiOS 5.0.12 and lower are not affected.As a workaround the LAN access to the HA interface may be filtered by a transit firewall or not routed.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "ZebOS routing remote shell service enabled",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-07-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-020"
+      },
+      "cvrf:InitialReleaseDate": "2015-07-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-07-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

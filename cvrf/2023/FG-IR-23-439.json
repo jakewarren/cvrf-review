@@ -1,0 +1,100 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiMail",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "7.4.0",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiMail 7.4.0",
+              "@ProductID": "FortiMail-7.4.0"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "9.0",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiMail-7.4.0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Potential Remote_wildcard RADIUS login bypass",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-439"
+        }
+      },
+      "Title": "Potential Remote_wildcard RADIUS login bypass",
+      "cvrf:CVE": "CVE-2023-47539"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper access control vulnerability [CWE-284] in FortiMail configured with RADIUS authentication and remote_wildcard enabled may allow a remote unauthenticated attacker to bypass admin login via a crafted HTTP request.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Potential Remote_wildcard RADIUS login bypass",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-12-12T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-439"
+      },
+      "cvrf:InitialReleaseDate": "2023-12-12T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-12-12T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiPortal",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.2",
+                "@ProductID": "FortiPortal-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.1",
+                "@ProductID": "FortiPortal-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.0",
+                "@ProductID": "FortiPortal-7.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiPortal-7.0.2",
+            "FortiPortal-7.0.1",
+            "FortiPortal-7.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Device password exposure in audit log",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-430"
+        }
+      },
+      "Title": "Device password exposure in audit log",
+      "cvrf:CVE": "CVE-2022-43954"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An insertion of sensitive information into log file vulnerability [CWE-532] in the FortiPortal management interface may allow a remote authenticated attacker to read other devices' passwords in the audit log page.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Device password exposure in audit log",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-02-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-430"
+      },
+      "cvrf:InitialReleaseDate": "2023-02-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-02-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

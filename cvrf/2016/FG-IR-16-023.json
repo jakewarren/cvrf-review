@@ -1,0 +1,76 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Cookie Parser Buffer Overflow Vulnerability",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-023"
+        }
+      },
+      "Title": "Cookie Parser Buffer Overflow Vulnerability",
+      "cvrf:CVE": "CVE-2016-6909"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "The vulnerability was initially reported to Fortinet in August 2012 by Florian Gaultier of SCRT. Back then, it was mentioned in FortiOS 4.3.9 release notes."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiGate firmware (FortiOS) released before Aug 2012 has a cookie parser buffer overflow vulnerability. This vulnerability, when exploited by a crafted HTTP request, can result in execution control being taken over. Ã‚Â Affected firmware versions are lower versions of 4.x firmware release. Ã‚Â FortiOS 5.x firmware is NOT affected.Affected FortiSwitch firmware versions are 3.4.2 and below.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Remote administrative access",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate (FortiOS):Ã‚Â 4.3.8 and below 4.2.12 and below 4.1.10 and belowFortiSwitch:3.4.2 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to release 5.x.Upgrade to release 4.3.9 or above for models not compatible with FortiOS 5.x.Note that the following AV and IPS signatures block the potential attacks:ELF/Adows.A!exploit since AV DB 36.803IPS signature: FortiGate.Cookie.Buffer.Overflow since IPS DB 8.935FortiSwitch:Upgrade to release 3.4.3Workarounds:FortiOS:Disable admin access via HTTP and HTTPS on all interfaces, and use SSH insteadOn 4.3, if HTTP or HTTPS access is mandatory, one can restrict access to HTTP and HTTPS to a minimal set of authorized IP addresses, via the Local In policiesOn 4.2 and 4.1, if HTTP or HTTPS access is mandatory, one can restrict access to the administration interfaces (including HTTP and HTTPS access) to a minimal set of authorized IP addresses, via the trusthost commandsFortiSwitch:Disable admin access via HTTP and HTTPS on all interfaces, and use the CLI instead. Alternatively, restrict access to the administration interfaces (including HTTP and HTTPS access) to a minimal set of authorized IP addresses, via the trusthost commands",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Cookie Parser Buffer Overflow Vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-08-17T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-023"
+      },
+      "cvrf:InitialReleaseDate": "2016-08-17T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-08-17T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiCloud",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "4.4.0",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiCloud 4.4.0",
+              "@ProductID": "FortiCloud-4.4.0"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiCloud-4.4.0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiCloud] XSS in the Security Profiles comments section in FortiGate Cloud",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-193"
+        }
+      },
+      "Title": "[FortiCloud] XSS in the Security Profiles comments section in FortiGate Cloud"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Johnatan Camargo from Itau-Unibanco for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of input vulnerability in FortiGate Cloud may allow a remote authenticated attacker to perform a stored cross site scripting attack (XSS) via the comments section of the Security Profiles.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate Cloud Version 20.3 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Fortinet has remediated this issue in FortiGate Cloud version 20.4 and hence the customers do not need to perform any action.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiCloud] XSS in the Security Profiles comments section in FortiGate Cloud",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-02-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-193"
+      },
+      "cvrf:InitialReleaseDate": "2021-02-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-02-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

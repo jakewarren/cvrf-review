@@ -1,0 +1,331 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAnalyzer",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.2.1",
+                  "@ProductID": "FortiAnalyzer-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.2.0",
+                  "@ProductID": "FortiAnalyzer-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.0.6",
+                  "@ProductID": "FortiAnalyzer-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.0.5",
+                  "@ProductID": "FortiAnalyzer-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.0.4",
+                  "@ProductID": "FortiAnalyzer-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.0.3",
+                  "@ProductID": "FortiAnalyzer-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.0.2",
+                  "@ProductID": "FortiAnalyzer-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.0.1",
+                  "@ProductID": "FortiAnalyzer-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.0.0",
+                  "@ProductID": "FortiAnalyzer-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.4.10",
+                  "@ProductID": "FortiAnalyzer-6.4.10"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.4.9",
+                  "@ProductID": "FortiAnalyzer-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.4.8",
+                  "@ProductID": "FortiAnalyzer-6.4.8"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiManager",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.2.1",
+                  "@ProductID": "FortiManager-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.2.0",
+                  "@ProductID": "FortiManager-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.0.6",
+                  "@ProductID": "FortiManager-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.0.5",
+                  "@ProductID": "FortiManager-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.0.4",
+                  "@ProductID": "FortiManager-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.0.3",
+                  "@ProductID": "FortiManager-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.0.2",
+                  "@ProductID": "FortiManager-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.0.1",
+                  "@ProductID": "FortiManager-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 7.0.0",
+                  "@ProductID": "FortiManager-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.4.10",
+                  "@ProductID": "FortiManager-6.4.10"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.4.9",
+                  "@ProductID": "FortiManager-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.4.8",
+                  "@ProductID": "FortiManager-6.4.8"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAnalyzer-7.2.1",
+            "FortiAnalyzer-7.2.0",
+            "FortiAnalyzer-7.0.6",
+            "FortiAnalyzer-7.0.5",
+            "FortiAnalyzer-7.0.4",
+            "FortiAnalyzer-7.0.3",
+            "FortiAnalyzer-7.0.2",
+            "FortiAnalyzer-7.0.1",
+            "FortiAnalyzer-7.0.0",
+            "FortiAnalyzer-6.4.10",
+            "FortiAnalyzer-6.4.9",
+            "FortiAnalyzer-6.4.8",
+            "FortiManager-7.2.1",
+            "FortiManager-7.2.0",
+            "FortiManager-7.0.6",
+            "FortiManager-7.0.5",
+            "FortiManager-7.0.4",
+            "FortiManager-7.0.3",
+            "FortiManager-7.0.2",
+            "FortiManager-7.0.1",
+            "FortiManager-7.0.0",
+            "FortiManager-6.4.10",
+            "FortiManager-6.4.9",
+            "FortiManager-6.4.8"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-502"
+        }
+      },
+      "Title": "Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
+      "cvrf:CVE": "CVE-2023-22642"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Wilfried Djettchou of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper certificate validation vulnerability [CWE-295] in FortiAnalyzer and FortiManager may allow a remote and unauthenticated attacker to perform a Man-in-the-Middle attack on the communication channel between the device and the remote FortiGuard server hosting outbreakalert ressources.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiManager version 7.2.0 through 7.2.1FortiManager version 7.0.0 through 7.0.6FortiManager version 6.4.8 through 6.4.10FortiManager 6.2 all versions are not affectedFortiAnalyzer version 7.2.0 through 7.2.1FortiAnalyzer version 7.0.0 through 7.0.6FortiAnalyzer version 6.4.8 through 6.4.10FortiAnalyzer 6.2 all versions are not affected",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiManager version 7.2.2 or abovePlease upgrade to FortiManager version 7.0.6 or abovePlease upgrade to FortiManager version 6.4.11 or abovePlease upgrade to FortiAnalyzer version 7.2.2 or abovePlease upgrade to FortiAnalyzer version 7.0.6 or abovePlease upgrade to FortiAnalyzer version 6.4.11 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Lack of client-side certificate validation when establishing secure connections with FortiGuard to download outbreakalert",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-04-11T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-502"
+      },
+      "cvrf:InitialReleaseDate": "2023-04-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-04-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

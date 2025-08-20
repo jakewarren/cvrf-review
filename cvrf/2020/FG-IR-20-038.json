@@ -1,0 +1,106 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiNAC",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "8.7.1",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiNAC 8.7.1",
+              "@ProductID": "FortiNAC-8.7.1"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.2",
+          "VectorV3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiNAC-8.7.1"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiNAC] Privilege Escalation observed in FortiNAC",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-038"
+        }
+      },
+      "Title": "[FortiNAC] Privilege Escalation observed in FortiNAC",
+      "cvrf:CVE": "CVE-2021-24011"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Jeremy Parente from Fortinet for reporting this vulnerability."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A privilege escalation vulnerability in FortiNAC may allow an admin user to escalate the privileges to root by abusing the sudo privileges.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiNAC version 8.8.1 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiNAC version 8.8.2 or above. Please upgrade to FortiNAC version 9.1.0 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiNAC] Privilege Escalation observed in FortiNAC",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-05-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-038"
+      },
+      "cvrf:InitialReleaseDate": "2021-05-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-05-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

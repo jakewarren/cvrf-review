@@ -1,0 +1,106 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "6.2.4",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiOS 6.2.4",
+              "@ProductID": "FortiOS-6.2.4"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "3.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:L/A:N/E:U/RL:W/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiOS-6.2.4"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiOS] FortiGate fails to block malformed HTTP/S traffic when transparent proxy is enabled",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-172"
+        }
+      },
+      "Title": "[FortiOS] FortiGate fails to block malformed HTTP/S traffic when transparent proxy is enabled",
+      "cvrf:CVE": "CVE-2020-15938"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Marko Winkler, Tobias Leydow, Marcus Schiefer and Sebastian Toth of T-Systems Multimedia Solutions GmbH for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "When traffic other than HTTP/S (eg: SSH traffic, etc...) traverses the FortiOS on port 80/443, it is not redirected to the transparent proxy policy for processing, as it doesn't have a valid HTTP header.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "Issue is observed only when the traffic is redirected to transparent proxy policy.FortiOS versions 6.4.2 and below.FortiOS versions 6.2.5 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiOS version 6.4.3 or above.Workaround:To block invalid HTTP traffic on port 80, disable the tunnel-non-http setting:'''config web-proxy global set tunnel-non-http disableend '''To block invalid HTTPS traffic on port 443, set the unsupported-ssl setting to \"block\":'''config firewall ssl-ssh-profile edit [profile-name] config https set ports 443 set unsupported-ssl block endend'''",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiOS] FortiGate fails to block malformed HTTP/S traffic when transparent proxy is enabled",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-01-21T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-172"
+      },
+      "cvrf:InitialReleaseDate": "2021-01-21T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-01-21T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

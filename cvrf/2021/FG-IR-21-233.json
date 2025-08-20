@@ -1,0 +1,251 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiIsolator",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "2.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.4",
+                "@ProductID": "FortiIsolator-2.3.4"
+              }
+            },
+            {
+              "@Name": "2.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.3",
+                "@ProductID": "FortiIsolator-2.3.3"
+              }
+            },
+            {
+              "@Name": "2.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.2",
+                "@ProductID": "FortiIsolator-2.3.2"
+              }
+            },
+            {
+              "@Name": "2.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.1",
+                "@ProductID": "FortiIsolator-2.3.1"
+              }
+            },
+            {
+              "@Name": "2.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.3.0",
+                "@ProductID": "FortiIsolator-2.3.0"
+              }
+            },
+            {
+              "@Name": "2.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.2.0",
+                "@ProductID": "FortiIsolator-2.2.0"
+              }
+            },
+            {
+              "@Name": "2.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.1.2",
+                "@ProductID": "FortiIsolator-2.1.2"
+              }
+            },
+            {
+              "@Name": "2.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.1.1",
+                "@ProductID": "FortiIsolator-2.1.1"
+              }
+            },
+            {
+              "@Name": "2.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.1.0",
+                "@ProductID": "FortiIsolator-2.1.0"
+              }
+            },
+            {
+              "@Name": "2.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.0.1",
+                "@ProductID": "FortiIsolator-2.0.1"
+              }
+            },
+            {
+              "@Name": "2.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 2.0.0",
+                "@ProductID": "FortiIsolator-2.0.0"
+              }
+            },
+            {
+              "@Name": "1.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 1.2.2",
+                "@ProductID": "FortiIsolator-1.2.2"
+              }
+            },
+            {
+              "@Name": "1.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 1.2.1",
+                "@ProductID": "FortiIsolator-1.2.1"
+              }
+            },
+            {
+              "@Name": "1.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 1.2.0",
+                "@ProductID": "FortiIsolator-1.2.0"
+              }
+            },
+            {
+              "@Name": "1.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 1.1.0",
+                "@ProductID": "FortiIsolator-1.1.0"
+              }
+            },
+            {
+              "@Name": "1.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiIsolator 1.0.0",
+                "@ProductID": "FortiIsolator-1.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.7",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:H/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiIsolator-2.3.4",
+            "FortiIsolator-2.3.3",
+            "FortiIsolator-2.3.2",
+            "FortiIsolator-2.3.1",
+            "FortiIsolator-2.3.0",
+            "FortiIsolator-2.2.0",
+            "FortiIsolator-2.1.2",
+            "FortiIsolator-2.1.1",
+            "FortiIsolator-2.1.0",
+            "FortiIsolator-2.0.1",
+            "FortiIsolator-2.0.0",
+            "FortiIsolator-1.2.2",
+            "FortiIsolator-1.2.1",
+            "FortiIsolator-1.2.0",
+            "FortiIsolator-1.1.0",
+            "FortiIsolator-1.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "OS command injection in CLI commands",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-233"
+        }
+      },
+      "Title": "OS command injection in CLI commands",
+      "cvrf:CVE": "CVE-2022-22298"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Mattia Fecit of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of special elements used in an os command ('OS Command Injection') vulnerability [CWE-78] in FortiIsolator may allow a privileged attacker to execute arbitrary OS commands in the underlying shell via specially crafted input parameters.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiIsolator version 1.0.0FortiIsolator version 1.1.0FortiIsolator version 1.2.0 through 1.2.2FortiIsolator version 2.0.0 through 2.0.1FortiIsolator version 2.1.0 through 2.1.2FortiIsolator version 2.2.0FortiIsolator version 2.3.0 through 2.3.4",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiIsolator version 2.4.0 or above.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "OS command injection in CLI commands",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-10-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-233"
+      },
+      "cvrf:InitialReleaseDate": "2023-10-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-10-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

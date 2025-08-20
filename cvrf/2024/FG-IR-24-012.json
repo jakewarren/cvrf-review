@@ -1,0 +1,221 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.3",
+                "@ProductID": "FortiOS-7.4.3"
+              }
+            },
+            {
+              "@Name": "7.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.2",
+                "@ProductID": "FortiOS-7.4.2"
+              }
+            },
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.1",
+                "@ProductID": "FortiOS-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.0",
+                "@ProductID": "FortiOS-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.7",
+                "@ProductID": "FortiOS-7.2.7"
+              }
+            },
+            {
+              "@Name": "7.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.6",
+                "@ProductID": "FortiOS-7.2.6"
+              }
+            },
+            {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.5",
+                "@ProductID": "FortiOS-7.2.5"
+              }
+            },
+            {
+              "@Name": "7.0.14",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.0.14",
+                "@ProductID": "FortiOS-7.0.14"
+              }
+            },
+            {
+              "@Name": "7.0.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.0.13",
+                "@ProductID": "FortiOS-7.0.13"
+              }
+            },
+            {
+              "@Name": "7.0.12",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.0.12",
+                "@ProductID": "FortiOS-7.0.12"
+              }
+            },
+            {
+              "@Name": "6.4.16",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.4.16",
+                "@ProductID": "FortiOS-6.4.16"
+              }
+            },
+            {
+              "@Name": "6.4.15",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.4.15",
+                "@ProductID": "FortiOS-6.4.15"
+              }
+            },
+            {
+              "@Name": "6.4.14",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.4.14",
+                "@ProductID": "FortiOS-6.4.14"
+              }
+            },
+            {
+              "@Name": "6.4.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.4.13",
+                "@ProductID": "FortiOS-6.4.13"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.7",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-7.4.3",
+            "FortiOS-7.4.2",
+            "FortiOS-7.4.1",
+            "FortiOS-7.4.0",
+            "FortiOS-7.2.7",
+            "FortiOS-7.2.6",
+            "FortiOS-7.2.5",
+            "FortiOS-7.0.14",
+            "FortiOS-7.0.13",
+            "FortiOS-7.0.12",
+            "FortiOS-6.4.16",
+            "FortiOS-6.4.15",
+            "FortiOS-6.4.14",
+            "FortiOS-6.4.13"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Real-time file system integrity checking write protection bypass",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-012"
+        }
+      },
+      "Title": "Real-time file system integrity checking write protection bypass",
+      "cvrf:CVE": "CVE-2024-36505"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Wilfried Djettchou of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper access control vulnerability [CWE-284] in FortiOS may allow an attacker who has already successfully obtained write access to the underlying system (via another hypothetical exploit) to bypass the file integrity checking system.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Real-time file system integrity checking write protection bypass",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2024-08-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-012"
+      },
+      "cvrf:InitialReleaseDate": "2024-08-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2024-08-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

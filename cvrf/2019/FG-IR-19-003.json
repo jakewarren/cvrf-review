@@ -1,0 +1,137 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientMac",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 6.0.4",
+                "@ProductID": "FortiClientMac-6.0.4"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 6.0.3",
+                "@ProductID": "FortiClientMac-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 6.0.2",
+                "@ProductID": "FortiClientMac-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientMac 6.0.1",
+                "@ProductID": "FortiClientMac-6.0.1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.7",
+          "VectorV3": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientMac-6.0.4",
+            "FortiClientMac-6.0.3",
+            "FortiClientMac-6.0.2",
+            "FortiClientMac-6.0.1"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiClientMAC - Local Denial of Service with fctc.s",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-003"
+        }
+      },
+      "Title": "FortiClientMAC - Local Denial of Service with fctc.s",
+      "cvrf:CVE": "CVE-2019-5585"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet thanks Antonio Zeki for reporting this vulnerability."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper access control vulnerability in FortiClientMac may allow an attacker to affect the application's performance via modifying the content of a file used by several FortiClientMac processes.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClientMAC 6.0.1, 6.0.2, 6.0.3 and 6.0.4",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to 6.0.5 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiClientMAC - Local Denial of Service with fctc.s",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-04-02T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-003"
+      },
+      "cvrf:InitialReleaseDate": "2019-04-02T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-04-02T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

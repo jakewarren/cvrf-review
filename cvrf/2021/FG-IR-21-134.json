@@ -1,0 +1,125 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWeb",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.4.1",
+                "@ProductID": "FortiWeb-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.4.0",
+                "@ProductID": "FortiWeb-6.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.9",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWeb-6.4.1",
+            "FortiWeb-6.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Stack-based buffer overflow due to type mismatch",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-134"
+        }
+      },
+      "Title": "Stack-based buffer overflow due to type mismatch",
+      "cvrf:CVE": "CVE-2021-41027"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Mattia Fecit of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A stack-based buffer overflow vulnerability [CWE-121] in FortiWeb may allow an authenticated attacker to execute unauthorized code or commands via SAML login using a crafted certificate.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWeb 6.4.0 and 6.4.1 are impacted.",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to the upcoming FortiWeb version 7.0.0 or above.Upgrade to FortiWeb version 6.4.2 or above.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Stack-based buffer overflow due to type mismatch",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-12-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-134"
+      },
+      "cvrf:InitialReleaseDate": "2021-12-07T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-12-07T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

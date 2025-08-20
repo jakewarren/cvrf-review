@@ -1,0 +1,326 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWeb",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.0.8",
+                "@ProductID": "FortiWeb-6.0.8"
+              }
+            },
+            {
+              "@Name": "6.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.0.7",
+                "@ProductID": "FortiWeb-6.0.7"
+              }
+            },
+            {
+              "@Name": "6.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.0.5",
+                "@ProductID": "FortiWeb-6.0.5"
+              }
+            },
+            {
+              "@Name": "6.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.0.4",
+                "@ProductID": "FortiWeb-6.0.4"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.0.3",
+                "@ProductID": "FortiWeb-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.0.2",
+                "@ProductID": "FortiWeb-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.0.1",
+                "@ProductID": "FortiWeb-6.0.1"
+              }
+            },
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.0.0",
+                "@ProductID": "FortiWeb-6.0.0"
+              }
+            },
+            {
+              "@Name": "5.9.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.9.2",
+                "@ProductID": "FortiWeb-5.9.2"
+              }
+            },
+            {
+              "@Name": "5.9.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.9.1",
+                "@ProductID": "FortiWeb-5.9.1"
+              }
+            },
+            {
+              "@Name": "5.9.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.9.0",
+                "@ProductID": "FortiWeb-5.9.0"
+              }
+            },
+            {
+              "@Name": "5.8.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.7",
+                "@ProductID": "FortiWeb-5.8.7"
+              }
+            },
+            {
+              "@Name": "5.8.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.6",
+                "@ProductID": "FortiWeb-5.8.6"
+              }
+            },
+            {
+              "@Name": "5.8.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.5",
+                "@ProductID": "FortiWeb-5.8.5"
+              }
+            },
+            {
+              "@Name": "5.8.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.3",
+                "@ProductID": "FortiWeb-5.8.3"
+              }
+            },
+            {
+              "@Name": "5.8.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.2",
+                "@ProductID": "FortiWeb-5.8.2"
+              }
+            },
+            {
+              "@Name": "5.8.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.1",
+                "@ProductID": "FortiWeb-5.8.1"
+              }
+            },
+            {
+              "@Name": "5.8.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.0",
+                "@ProductID": "FortiWeb-5.8.0"
+              }
+            },
+            {
+              "@Name": "5.7.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.7.3",
+                "@ProductID": "FortiWeb-5.7.3"
+              }
+            },
+            {
+              "@Name": "5.7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.7.2",
+                "@ProductID": "FortiWeb-5.7.2"
+              }
+            },
+            {
+              "@Name": "5.7.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.7.1",
+                "@ProductID": "FortiWeb-5.7.1"
+              }
+            },
+            {
+              "@Name": "5.7.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.7.0",
+                "@ProductID": "FortiWeb-5.7.0"
+              }
+            },
+            {
+              "@Name": "5.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.6.2",
+                "@ProductID": "FortiWeb-5.6.2"
+              }
+            },
+            {
+              "@Name": "5.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.6.1",
+                "@ProductID": "FortiWeb-5.6.1"
+              }
+            },
+            {
+              "@Name": "5.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.6.0",
+                "@ProductID": "FortiWeb-5.6.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWeb-6.0.8",
+            "FortiWeb-6.0.7",
+            "FortiWeb-6.0.5",
+            "FortiWeb-6.0.4",
+            "FortiWeb-6.0.3",
+            "FortiWeb-6.0.2",
+            "FortiWeb-6.0.1",
+            "FortiWeb-6.0.0",
+            "FortiWeb-5.9.2",
+            "FortiWeb-5.9.1",
+            "FortiWeb-5.9.0",
+            "FortiWeb-5.8.7",
+            "FortiWeb-5.8.6",
+            "FortiWeb-5.8.5",
+            "FortiWeb-5.8.3",
+            "FortiWeb-5.8.2",
+            "FortiWeb-5.8.1",
+            "FortiWeb-5.8.0",
+            "FortiWeb-5.7.3",
+            "FortiWeb-5.7.2",
+            "FortiWeb-5.7.1",
+            "FortiWeb-5.7.0",
+            "FortiWeb-5.6.2",
+            "FortiWeb-5.6.1",
+            "FortiWeb-5.6.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiWeb cookie protection by pass and session hijacking vulnerability",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-279"
+        }
+      },
+      "Title": "FortiWeb cookie protection by pass and session hijacking vulnerability",
+      "cvrf:CVE": "CVE-2017-14191"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank independent researcher \"Yavuz Özdemir\" from PentesterLab for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper access control vulnerability in FortiWeb's Signed Security mode may allow an attacker to disable the cookie tampering protection offered by FortiWeb (to sites FortiWeb protects), via deleting FortiWeb's session cookie.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWeb all versions below 6.1.0, starting from 5.6.0.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiWeb 6.1.0 and ensure the \"Allow Suspicious Cookies\" value is set to \"Never\" or \"Custom\" (default value) when \"Security Mode\" is set to \"Signed\".Workarounds:A simple workaround with no downside is available for impacted versions, as described below:Use \"Encrypted\" security mode instead of \"Signed\" security mode. Cookies set by protected web-sites will then be encrypted by FortiWeb before passing them on to the end-users. Attackers being unaware of the encryption key, cookie tampering will remain impossible, and removing FortiWeb's own session cookie will not enable protection bypass.From the FortiWeb GUI, choose \"Encrypted\" Security Mode under Web Protection > Cookie Security.From the FortiWeb CLI, set security-mode to \"encrypted\" instead \"signed\":config waf cookie-securityedit [cookie-security_name]set security-mode {no | encrypted* | signed}nextendFurther Reference: http://help.fortinet.com/fweb/580/Content/FortiWeb/fortiweb-admin/cookie_security.htmRevision History:2018-03-06 Initial Version2019-04-01 Formal solution provided in FortiWeb 6.1.0",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiWeb cookie protection by pass and session hijacking vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-03-06T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-279"
+      },
+      "cvrf:InitialReleaseDate": "2018-03-06T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-03-06T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

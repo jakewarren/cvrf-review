@@ -1,0 +1,83 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "CVE-2014-8730 \"Poodle for TLS\" vulnerability",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-034"
+          },
+          {
+            "Description": "https://www.imperialviolet.org/2014/12/08/poodleagain.html",
+            "URL": "https://www.imperialviolet.org/2014/12/08/poodleagain.html"
+          }
+        ]
+      },
+      "Title": "CVE-2014-8730 \"Poodle for TLS\" vulnerability",
+      "cvrf:CVE": "CVE-2014-8730"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "1",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS 5.2.2, 5.2.1, 5.2.0, 5.0.10 and lower running on a hardware appliance when all the following conditions are met:FortiGate models with accelerated CP processorsThe SSL connection is using TLS v1.0, v1.1 or v1.2The SSL ciphers are CBCOnly the following features are affected: virtual server with SSL, SSL offload, explicit-proxy SSL,transparent-proxy SSL, web-cache SSL, Wan Opt SSL and SIP SSLAll versions of Fortigate VM, FortiOS 5.4 branch, FortiOS 5.6 branch and next releases are not vulnerable.",
+          "@Ordinal": "2",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS 5.0 branch users must upgrade to 5.0.11 or higher.FortiOS 5.2.0 branch customers must upgrade to 5.2.3 or higher.The customers running FortiOS 5.2.2, 5.2.1, 5.2.0, 5.0.10 and lower under all conditions met as per the affected product section can apply the following workaround: config system globalset virtual-server-hardware-acceleration disableendNote: The performance impact may be significant.To protect devices with a FortiGate, the following IPS signature blocks any attack attempt and is available since IPS update 5.587: TLS.Padding.Oracle.Information.Disclosure",
+          "@Ordinal": "3",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "CVE-2014-8730 \"Poodle for TLS\" vulnerability",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-034"
+        },
+        {
+          "cvrf:Description": "https://www.imperialviolet.org/2014/12/08/poodleagain.html",
+          "cvrf:URL": "https://www.imperialviolet.org/2014/12/08/poodleagain.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "CVE-2014-8730 \"Poodle for TLS\" vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2014-12-18T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-14-034"
+      },
+      "cvrf:InitialReleaseDate": "2014-12-18T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2014-12-18T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

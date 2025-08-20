@@ -1,0 +1,104 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiCloud",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "3.2.0",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiCloud 3.2.0",
+              "@ProductID": "FortiCloud-3.2.0"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiCloud-3.2.0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiCloud sandbox on-demand upload name XSS",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-259"
+        }
+      },
+      "Title": "FortiCloud sandbox on-demand upload name XSS"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Mohamed KEFFOUS of SOGETI for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Before Dec 5th, 2017, a Cross-Site-Scripting (XSS) vulnerability in forticloud.com on-demand sandbox GUI may have allowed an authenticated user to inject arbitrary web code or HTML in the context of the victim's browser via the upload of a maliciously crafted file.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiCloud 3.2.0 and below (Before Dec 5, 2017)",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiCloud 3.2.1 (Online since Dec 5, 2017)",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiCloud sandbox on-demand upload name XSS",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-12-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-259"
+      },
+      "cvrf:InitialReleaseDate": "2017-12-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-12-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

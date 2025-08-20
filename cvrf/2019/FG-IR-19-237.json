@@ -1,0 +1,293 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiMail",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.1",
+                "@ProductID": "FortiMail-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.0",
+                "@ProductID": "FortiMail-6.2.0"
+              }
+            },
+            {
+              "@Name": "6.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.0.7",
+                "@ProductID": "FortiMail-6.0.7"
+              }
+            },
+            {
+              "@Name": "6.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.0.6",
+                "@ProductID": "FortiMail-6.0.6"
+              }
+            },
+            {
+              "@Name": "6.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.0.5",
+                "@ProductID": "FortiMail-6.0.5"
+              }
+            },
+            {
+              "@Name": "6.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.0.4",
+                "@ProductID": "FortiMail-6.0.4"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.0.3",
+                "@ProductID": "FortiMail-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.0.2",
+                "@ProductID": "FortiMail-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.0.1",
+                "@ProductID": "FortiMail-6.0.1"
+              }
+            },
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.0.0",
+                "@ProductID": "FortiMail-6.0.0"
+              }
+            },
+            {
+              "@Name": "5.4.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.10",
+                "@ProductID": "FortiMail-5.4.10"
+              }
+            },
+            {
+              "@Name": "5.4.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.9",
+                "@ProductID": "FortiMail-5.4.9"
+              }
+            },
+            {
+              "@Name": "5.4.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.8",
+                "@ProductID": "FortiMail-5.4.8"
+              }
+            },
+            {
+              "@Name": "5.4.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.7",
+                "@ProductID": "FortiMail-5.4.7"
+              }
+            },
+            {
+              "@Name": "5.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.6",
+                "@ProductID": "FortiMail-5.4.6"
+              }
+            },
+            {
+              "@Name": "5.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.5",
+                "@ProductID": "FortiMail-5.4.5"
+              }
+            },
+            {
+              "@Name": "5.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.4",
+                "@ProductID": "FortiMail-5.4.4"
+              }
+            },
+            {
+              "@Name": "5.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.3",
+                "@ProductID": "FortiMail-5.4.3"
+              }
+            },
+            {
+              "@Name": "5.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.2",
+                "@ProductID": "FortiMail-5.4.2"
+              }
+            },
+            {
+              "@Name": "5.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.1",
+                "@ProductID": "FortiMail-5.4.1"
+              }
+            },
+            {
+              "@Name": "5.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 5.4.0",
+                "@ProductID": "FortiMail-5.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiMail-6.2.1",
+            "FortiMail-6.2.0",
+            "FortiMail-6.0.7",
+            "FortiMail-6.0.6",
+            "FortiMail-6.0.5",
+            "FortiMail-6.0.4",
+            "FortiMail-6.0.3",
+            "FortiMail-6.0.2",
+            "FortiMail-6.0.1",
+            "FortiMail-6.0.0",
+            "FortiMail-5.4.10",
+            "FortiMail-5.4.9",
+            "FortiMail-5.4.8",
+            "FortiMail-5.4.7",
+            "FortiMail-5.4.6",
+            "FortiMail-5.4.5",
+            "FortiMail-5.4.4",
+            "FortiMail-5.4.3",
+            "FortiMail-5.4.2",
+            "FortiMail-5.4.1",
+            "FortiMail-5.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiMail admin privilegie elevation through improper user profile control",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-237"
+        }
+      },
+      "Title": "FortiMail admin privilegie elevation through improper user profile control",
+      "cvrf:CVE": [
+        "CVE-2019-15707",
+        "CVE-2019-15712"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Danilo Costa from PBI Dynamic IT Security for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Two improper access control vulnerabilities in FortiMail admin webUI may allow administrators to perform privileged functions they should not be authorized for.Specifically, the two vulnerabilities are identified as the following:CVE-2019-15712: improper access control to web consoleCVE-2019-15707: improper access control to system backup config download",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiMail 6.2.0, 6.0.0 to 6.0.6, 5.4.10 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to 6.2.1, 6.0.7 or 5.4.11 After upgrading to the patched version: * web console in admin webUI will be controlled by the following profile setting: config system accprofile set others read, read-write or none end * system config downloading will be controlled by the following profile setting: config system accprofile set system read, read-write or none end Revision History: 2019-10-18 Initial version 2020-01-03 New fix on 5.4.11 released",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiMail admin privilegie elevation through improper user profile control",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-01-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-237"
+      },
+      "cvrf:InitialReleaseDate": "2020-01-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-01-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAnalyzer",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.4.3",
+                  "@ProductID": "FortiAnalyzer-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.4.2",
+                  "@ProductID": "FortiAnalyzer-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.4.1",
+                  "@ProductID": "FortiAnalyzer-7.4.1"
+                }
+              },
+              {
+                "@Name": "7.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.4.0",
+                  "@ProductID": "FortiAnalyzer-7.4.0"
+                }
+              },
+              {
+                "@Name": "7.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.2.5",
+                  "@ProductID": "FortiAnalyzer-7.2.5"
+                }
+              },
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.2.4",
+                  "@ProductID": "FortiAnalyzer-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.2.3",
+                  "@ProductID": "FortiAnalyzer-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 7.2.2",
+                  "@ProductID": "FortiAnalyzer-7.2.2"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAnalyzer Cloud",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.4.3",
+                  "@ProductID": "FortiAnalyzer Cloud-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.4.2",
+                  "@ProductID": "FortiAnalyzer Cloud-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.4.1",
+                  "@ProductID": "FortiAnalyzer Cloud-7.4.1"
+                }
+              },
+              {
+                "@Name": "7.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.2.6",
+                  "@ProductID": "FortiAnalyzer Cloud-7.2.6"
+                }
+              },
+              {
+                "@Name": "7.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.2.5",
+                  "@ProductID": "FortiAnalyzer Cloud-7.2.5"
+                }
+              },
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.2.4",
+                  "@ProductID": "FortiAnalyzer Cloud-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.2.3",
+                  "@ProductID": "FortiAnalyzer Cloud-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.2.2",
+                  "@ProductID": "FortiAnalyzer Cloud-7.2.2"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAnalyzer-7.4.3",
+            "FortiAnalyzer-7.4.2",
+            "FortiAnalyzer-7.4.1",
+            "FortiAnalyzer-7.4.0",
+            "FortiAnalyzer-7.2.5",
+            "FortiAnalyzer-7.2.4",
+            "FortiAnalyzer-7.2.3",
+            "FortiAnalyzer-7.2.2",
+            "FortiAnalyzer Cloud-7.4.3",
+            "FortiAnalyzer Cloud-7.4.2",
+            "FortiAnalyzer Cloud-7.4.1",
+            "FortiAnalyzer Cloud-7.2.6",
+            "FortiAnalyzer Cloud-7.2.5",
+            "FortiAnalyzer Cloud-7.2.4",
+            "FortiAnalyzer Cloud-7.2.3",
+            "FortiAnalyzer Cloud-7.2.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Format String Bug in fazsvcd",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-196"
+        }
+      },
+      "Title": "Format String Bug in fazsvcd",
+      "cvrf:CVE": "CVE-2024-45330"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security Team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A use of externally-controlled format string vulnerability [CWE-134] in FortiAnalyzer fazsvcd daemon may allow a remote privileged attacker with admin profile to execute arbitrary code or commands via specially crafted requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Format String Bug in fazsvcd",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2024-10-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-196"
+      },
+      "cvrf:InitialReleaseDate": "2024-10-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2024-10-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

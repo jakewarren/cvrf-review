@@ -1,0 +1,83 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "CVE-2015-0235 \"GHOST\" vulnerability",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-001"
+          },
+          {
+            "Description": "https://www.qualys.com/research/security-advisories/GHOST-CVE-2015-0235.txt",
+            "URL": "https://www.qualys.com/research/security-advisories/GHOST-CVE-2015-0235.txt"
+          }
+        ]
+      },
+      "Title": "CVE-2015-0235 \"GHOST\" vulnerability",
+      "cvrf:CVE": "CVE-2015-0235"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Remote Code Execution",
+          "@Ordinal": "1",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS, FortiCache, FortiWeb, FortiADC E series, FortiExtender - All versions embed a vulnerable version of glibc, however the vulnerable functions are not called by Fortinet code (nor are they called by third-party code). Therefore, these products are not vulnerable.All versions of the following products embed a vulnerable version of glibc, however no real-life exploitation scenario has been found to be possible so far:FortiManager versions FortiAnalyzer FortiMail versions FortiVoiceEnterprise versions FortiRecorder versions AscenLink versions FortiSandbox all versions FortiAuthenticator versions FortiSwitch versions FortiWAN versions FortiDDoS versions FortiDB all versionsFortiADC D series versions",
+          "@Ordinal": "2",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Regardless the exploitability (or lack thereof), all products embedding a vulnerable version of glibc will be updated.In the meantime, to reduce further the theoretical attack surface, Fortinet PSIRT recommends the following:Make sure IPS signature Glibc.Gethostbyname.Buffer.Overflow is enabled. It is available in IPS update 5.604Make sure the administration interfaces of your Fortinet products are not accessible from outside of your network",
+          "@Ordinal": "3",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "CVE-2015-0235 \"GHOST\" vulnerability",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-001"
+        },
+        {
+          "cvrf:Description": "https://www.qualys.com/research/security-advisories/GHOST-CVE-2015-0235.txt",
+          "cvrf:URL": "https://www.qualys.com/research/security-advisories/GHOST-CVE-2015-0235.txt"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "CVE-2015-0235 \"GHOST\" vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-01-28T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-001"
+      },
+      "cvrf:InitialReleaseDate": "2015-01-28T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-01-28T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

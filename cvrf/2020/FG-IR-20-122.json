@@ -1,0 +1,272 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWeb",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.3.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.13",
+                "@ProductID": "FortiWeb-6.3.13"
+              }
+            },
+            {
+              "@Name": "6.3.12",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.12",
+                "@ProductID": "FortiWeb-6.3.12"
+              }
+            },
+            {
+              "@Name": "6.3.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.11",
+                "@ProductID": "FortiWeb-6.3.11"
+              }
+            },
+            {
+              "@Name": "6.3.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.10",
+                "@ProductID": "FortiWeb-6.3.10"
+              }
+            },
+            {
+              "@Name": "6.3.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.9",
+                "@ProductID": "FortiWeb-6.3.9"
+              }
+            },
+            {
+              "@Name": "6.3.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.8",
+                "@ProductID": "FortiWeb-6.3.8"
+              }
+            },
+            {
+              "@Name": "6.3.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.7",
+                "@ProductID": "FortiWeb-6.3.7"
+              }
+            },
+            {
+              "@Name": "6.3.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.6",
+                "@ProductID": "FortiWeb-6.3.6"
+              }
+            },
+            {
+              "@Name": "6.3.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.5",
+                "@ProductID": "FortiWeb-6.3.5"
+              }
+            },
+            {
+              "@Name": "6.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.4",
+                "@ProductID": "FortiWeb-6.3.4"
+              }
+            },
+            {
+              "@Name": "6.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.3",
+                "@ProductID": "FortiWeb-6.3.3"
+              }
+            },
+            {
+              "@Name": "6.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.2",
+                "@ProductID": "FortiWeb-6.3.2"
+              }
+            },
+            {
+              "@Name": "6.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.1",
+                "@ProductID": "FortiWeb-6.3.1"
+              }
+            },
+            {
+              "@Name": "6.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.3.0",
+                "@ProductID": "FortiWeb-6.3.0"
+              }
+            },
+            {
+              "@Name": "6.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.2.4",
+                "@ProductID": "FortiWeb-6.2.4"
+              }
+            },
+            {
+              "@Name": "6.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.2.3",
+                "@ProductID": "FortiWeb-6.2.3"
+              }
+            },
+            {
+              "@Name": "6.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.2.2",
+                "@ProductID": "FortiWeb-6.2.2"
+              }
+            },
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.2.1",
+                "@ProductID": "FortiWeb-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 6.2.0",
+                "@ProductID": "FortiWeb-6.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N/E:H/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWeb-6.3.13",
+            "FortiWeb-6.3.12",
+            "FortiWeb-6.3.11",
+            "FortiWeb-6.3.10",
+            "FortiWeb-6.3.9",
+            "FortiWeb-6.3.8",
+            "FortiWeb-6.3.7",
+            "FortiWeb-6.3.6",
+            "FortiWeb-6.3.5",
+            "FortiWeb-6.3.4",
+            "FortiWeb-6.3.3",
+            "FortiWeb-6.3.2",
+            "FortiWeb-6.3.1",
+            "FortiWeb-6.3.0",
+            "FortiWeb-6.2.4",
+            "FortiWeb-6.2.3",
+            "FortiWeb-6.2.2",
+            "FortiWeb-6.2.1",
+            "FortiWeb-6.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiWeb] Multiple XSS vulnerabilities",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-122"
+        }
+      },
+      "Title": "[FortiWeb] Multiple XSS vulnerabilities",
+      "cvrf:CVE": "CVE-2021-22122"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Andrey Medov from ptsecurity for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of input during web page generation in FortiWeb GUI interface may allow an unauthenticated, remote attacker to perform a reflected cross site scripting attack (XSS) by injecting malicious payload in different vulnerable API end-points.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWeb versions 6.3.7 and below. FortiWeb versions 6.2.3 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiWeb versions 6.3.8 or above. Please upgrade to FortiWeb versions 6.2.4 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiWeb] Multiple XSS vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-02-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-122"
+      },
+      "cvrf:InitialReleaseDate": "2021-02-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-02-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

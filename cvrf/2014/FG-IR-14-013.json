@@ -1,0 +1,76 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiWeb Cross-Site Request Forgery Vulnerability",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-013"
+        }
+      },
+      "Title": "FortiWeb Cross-Site Request Forgery Vulnerability",
+      "cvrf:CVE": "CVE-2014-3115"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "This vulnerability was separately reported by both William Costa and Enrique Nissim."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple CSRF vulnerabilities exist in the FortiWeb web administration console due to lack of CSRF token protection. This could allow remote attackers to perform administrative actions under specific conditions.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Authorization Bypass",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWeb 5.1.x and lower.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiWeb 5.2.0 or higher.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiWeb Cross-Site Request Forgery Vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2014-05-02T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-14-013"
+      },
+      "cvrf:InitialReleaseDate": "2014-05-02T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2014-05-02T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

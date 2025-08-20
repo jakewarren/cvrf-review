@@ -1,0 +1,817 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAP",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 7.2.1",
+                  "@ProductID": "FortiAP-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 7.2.0",
+                  "@ProductID": "FortiAP-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 7.0.5",
+                  "@ProductID": "FortiAP-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 7.0.4",
+                  "@ProductID": "FortiAP-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 7.0.3",
+                  "@ProductID": "FortiAP-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 7.0.2",
+                  "@ProductID": "FortiAP-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 7.0.1",
+                  "@ProductID": "FortiAP-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 7.0.0",
+                  "@ProductID": "FortiAP-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.4.9",
+                  "@ProductID": "FortiAP-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.4.8",
+                  "@ProductID": "FortiAP-6.4.8"
+                }
+              },
+              {
+                "@Name": "6.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.4.7",
+                  "@ProductID": "FortiAP-6.4.7"
+                }
+              },
+              {
+                "@Name": "6.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.4.6",
+                  "@ProductID": "FortiAP-6.4.6"
+                }
+              },
+              {
+                "@Name": "6.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.4.5",
+                  "@ProductID": "FortiAP-6.4.5"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.4.4",
+                  "@ProductID": "FortiAP-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.4.3",
+                  "@ProductID": "FortiAP-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.0.6",
+                  "@ProductID": "FortiAP-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.0.5",
+                  "@ProductID": "FortiAP-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.0.4",
+                  "@ProductID": "FortiAP-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.0.3",
+                  "@ProductID": "FortiAP-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.0.2",
+                  "@ProductID": "FortiAP-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.0.1",
+                  "@ProductID": "FortiAP-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.0.0",
+                  "@ProductID": "FortiAP-6.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAP-C",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-C 5.4.4",
+                  "@ProductID": "FortiAP-C-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-C 5.4.3",
+                  "@ProductID": "FortiAP-C-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-C 5.4.2",
+                  "@ProductID": "FortiAP-C-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-C 5.4.1",
+                  "@ProductID": "FortiAP-C-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-C 5.4.0",
+                  "@ProductID": "FortiAP-C-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-C 5.2.1",
+                  "@ProductID": "FortiAP-C-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-C 5.2.0",
+                  "@ProductID": "FortiAP-C-5.2.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAP-U",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 7.0.0",
+                  "@ProductID": "FortiAP-U-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.2.5",
+                  "@ProductID": "FortiAP-U-6.2.5"
+                }
+              },
+              {
+                "@Name": "6.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.2.4",
+                  "@ProductID": "FortiAP-U-6.2.4"
+                }
+              },
+              {
+                "@Name": "6.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.2.3",
+                  "@ProductID": "FortiAP-U-6.2.3"
+                }
+              },
+              {
+                "@Name": "6.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.2.2",
+                  "@ProductID": "FortiAP-U-6.2.2"
+                }
+              },
+              {
+                "@Name": "6.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.2.1",
+                  "@ProductID": "FortiAP-U-6.2.1"
+                }
+              },
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.2.0",
+                  "@ProductID": "FortiAP-U-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.0.4",
+                  "@ProductID": "FortiAP-U-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.0.3",
+                  "@ProductID": "FortiAP-U-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.0.2",
+                  "@ProductID": "FortiAP-U-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.0.1",
+                  "@ProductID": "FortiAP-U-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 6.0.0",
+                  "@ProductID": "FortiAP-U-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.6",
+                  "@ProductID": "FortiAP-U-5.4.6"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.5",
+                  "@ProductID": "FortiAP-U-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.4",
+                  "@ProductID": "FortiAP-U-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.3",
+                  "@ProductID": "FortiAP-U-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.0",
+                  "@ProductID": "FortiAP-U-5.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAP-W2",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 7.2.1",
+                  "@ProductID": "FortiAP-W2-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 7.2.0",
+                  "@ProductID": "FortiAP-W2-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 7.0.5",
+                  "@ProductID": "FortiAP-W2-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 7.0.4",
+                  "@ProductID": "FortiAP-W2-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 7.0.3",
+                  "@ProductID": "FortiAP-W2-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 7.0.1",
+                  "@ProductID": "FortiAP-W2-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 7.0.0",
+                  "@ProductID": "FortiAP-W2-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.10",
+                  "@ProductID": "FortiAP-W2-6.4.10"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.9",
+                  "@ProductID": "FortiAP-W2-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.8",
+                  "@ProductID": "FortiAP-W2-6.4.8"
+                }
+              },
+              {
+                "@Name": "6.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.7",
+                  "@ProductID": "FortiAP-W2-6.4.7"
+                }
+              },
+              {
+                "@Name": "6.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.6",
+                  "@ProductID": "FortiAP-W2-6.4.6"
+                }
+              },
+              {
+                "@Name": "6.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.5",
+                  "@ProductID": "FortiAP-W2-6.4.5"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.4",
+                  "@ProductID": "FortiAP-W2-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.3",
+                  "@ProductID": "FortiAP-W2-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.2",
+                  "@ProductID": "FortiAP-W2-6.4.2"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.1",
+                  "@ProductID": "FortiAP-W2-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.4.0",
+                  "@ProductID": "FortiAP-W2-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.2.6",
+                  "@ProductID": "FortiAP-W2-6.2.6"
+                }
+              },
+              {
+                "@Name": "6.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.2.5",
+                  "@ProductID": "FortiAP-W2-6.2.5"
+                }
+              },
+              {
+                "@Name": "6.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.2.4",
+                  "@ProductID": "FortiAP-W2-6.2.4"
+                }
+              },
+              {
+                "@Name": "6.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.2.3",
+                  "@ProductID": "FortiAP-W2-6.2.3"
+                }
+              },
+              {
+                "@Name": "6.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.2.2",
+                  "@ProductID": "FortiAP-W2-6.2.2"
+                }
+              },
+              {
+                "@Name": "6.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.2.1",
+                  "@ProductID": "FortiAP-W2-6.2.1"
+                }
+              },
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.2.0",
+                  "@ProductID": "FortiAP-W2-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.6",
+                  "@ProductID": "FortiAP-W2-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.5",
+                  "@ProductID": "FortiAP-W2-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.4",
+                  "@ProductID": "FortiAP-W2-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.3",
+                  "@ProductID": "FortiAP-W2-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.2",
+                  "@ProductID": "FortiAP-W2-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.1",
+                  "@ProductID": "FortiAP-W2-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.0",
+                  "@ProductID": "FortiAP-W2-6.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.2",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAP-7.2.1",
+            "FortiAP-7.2.0",
+            "FortiAP-7.0.5",
+            "FortiAP-7.0.4",
+            "FortiAP-7.0.3",
+            "FortiAP-7.0.2",
+            "FortiAP-7.0.1",
+            "FortiAP-7.0.0",
+            "FortiAP-6.4.9",
+            "FortiAP-6.4.8",
+            "FortiAP-6.4.7",
+            "FortiAP-6.4.6",
+            "FortiAP-6.4.5",
+            "FortiAP-6.4.4",
+            "FortiAP-6.4.3",
+            "FortiAP-6.0.6",
+            "FortiAP-6.0.5",
+            "FortiAP-6.0.4",
+            "FortiAP-6.0.3",
+            "FortiAP-6.0.2",
+            "FortiAP-6.0.1",
+            "FortiAP-6.0.0",
+            "FortiAP-C-5.4.4",
+            "FortiAP-C-5.4.3",
+            "FortiAP-C-5.4.2",
+            "FortiAP-C-5.4.1",
+            "FortiAP-C-5.4.0",
+            "FortiAP-C-5.2.1",
+            "FortiAP-C-5.2.0",
+            "FortiAP-U-7.0.0",
+            "FortiAP-U-6.2.5",
+            "FortiAP-U-6.2.4",
+            "FortiAP-U-6.2.3",
+            "FortiAP-U-6.2.2",
+            "FortiAP-U-6.2.1",
+            "FortiAP-U-6.2.0",
+            "FortiAP-U-6.0.4",
+            "FortiAP-U-6.0.3",
+            "FortiAP-U-6.0.2",
+            "FortiAP-U-6.0.1",
+            "FortiAP-U-6.0.0",
+            "FortiAP-U-5.4.6",
+            "FortiAP-U-5.4.5",
+            "FortiAP-U-5.4.4",
+            "FortiAP-U-5.4.3",
+            "FortiAP-U-5.4.0",
+            "FortiAP-W2-7.2.1",
+            "FortiAP-W2-7.2.0",
+            "FortiAP-W2-7.0.5",
+            "FortiAP-W2-7.0.4",
+            "FortiAP-W2-7.0.3",
+            "FortiAP-W2-7.0.1",
+            "FortiAP-W2-7.0.0",
+            "FortiAP-W2-6.4.10",
+            "FortiAP-W2-6.4.9",
+            "FortiAP-W2-6.4.8",
+            "FortiAP-W2-6.4.7",
+            "FortiAP-W2-6.4.6",
+            "FortiAP-W2-6.4.5",
+            "FortiAP-W2-6.4.4",
+            "FortiAP-W2-6.4.3",
+            "FortiAP-W2-6.4.2",
+            "FortiAP-W2-6.4.1",
+            "FortiAP-W2-6.4.0",
+            "FortiAP-W2-6.2.6",
+            "FortiAP-W2-6.2.5",
+            "FortiAP-W2-6.2.4",
+            "FortiAP-W2-6.2.3",
+            "FortiAP-W2-6.2.2",
+            "FortiAP-W2-6.2.1",
+            "FortiAP-W2-6.2.0",
+            "FortiAP-W2-6.0.6",
+            "FortiAP-W2-6.0.5",
+            "FortiAP-W2-6.0.4",
+            "FortiAP-W2-6.0.3",
+            "FortiAP-W2-6.0.2",
+            "FortiAP-W2-6.0.1",
+            "FortiAP-W2-6.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiAP's - Arbitrary file read through the CLI",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-120"
+        }
+      },
+      "Title": "FortiAP's - Arbitrary file read through the CLI",
+      "cvrf:CVE": "CVE-2023-25608"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Wilfried Djettchou of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An incomplete filtering of one or more instances of special elements vulnerability [CWE-792] in the command line interpreter of FortiAP, FortiAP-W2, FortiAP-U, FortiAP-C may allow an authenticated attacker to read arbitrary files via specially crafted command arguments.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiAP's - Arbitrary file read through the CLI",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-09-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-120"
+      },
+      "cvrf:InitialReleaseDate": "2023-09-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-09-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.2.15",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.15",
+                "@ProductID": "FortiOS-6.2.15"
+              }
+            },
+            {
+              "@Name": "6.2.14",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.14",
+                "@ProductID": "FortiOS-6.2.14"
+              }
+            },
+            {
+              "@Name": "6.2.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.13",
+                "@ProductID": "FortiOS-6.2.13"
+              }
+            },
+            {
+              "@Name": "6.2.12",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.12",
+                "@ProductID": "FortiOS-6.2.12"
+              }
+            },
+            {
+              "@Name": "6.2.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.11",
+                "@ProductID": "FortiOS-6.2.11"
+              }
+            },
+            {
+              "@Name": "6.2.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.10",
+                "@ProductID": "FortiOS-6.2.10"
+              }
+            },
+            {
+              "@Name": "6.2.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.9",
+                "@ProductID": "FortiOS-6.2.9"
+              }
+            },
+            {
+              "@Name": "6.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.8",
+                "@ProductID": "FortiOS-6.2.8"
+              }
+            },
+            {
+              "@Name": "6.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.7",
+                "@ProductID": "FortiOS-6.2.7"
+              }
+            },
+            {
+              "@Name": "6.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.6",
+                "@ProductID": "FortiOS-6.2.6"
+              }
+            },
+            {
+              "@Name": "6.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.5",
+                "@ProductID": "FortiOS-6.2.5"
+              }
+            },
+            {
+              "@Name": "6.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.4",
+                "@ProductID": "FortiOS-6.2.4"
+              }
+            },
+            {
+              "@Name": "6.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.3",
+                "@ProductID": "FortiOS-6.2.3"
+              }
+            },
+            {
+              "@Name": "6.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.2",
+                "@ProductID": "FortiOS-6.2.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-6.2.15",
+            "FortiOS-6.2.14",
+            "FortiOS-6.2.13",
+            "FortiOS-6.2.12",
+            "FortiOS-6.2.11",
+            "FortiOS-6.2.10",
+            "FortiOS-6.2.9",
+            "FortiOS-6.2.8",
+            "FortiOS-6.2.7",
+            "FortiOS-6.2.6",
+            "FortiOS-6.2.5",
+            "FortiOS-6.2.4",
+            "FortiOS-6.2.3",
+            "FortiOS-6.2.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Fortigate 6.2.3 fails to log traffic to IP addresses 173.243.138.98 - 173.243.138.110",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-033"
+        }
+      },
+      "Title": "Fortigate 6.2.3 fails to log traffic to IP addresses 173.243.138.98 - 173.243.138.110",
+      "cvrf:CVE": "CVE-2020-12818"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Michael Weinstein from NetTects LLC for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiGate may fail to record traffic destined to Fortinet owned IP addresses i.e. traffic destined to the following subnets: 173.243.128.0/20, 96.45.32.0/20 As an example, traffic generated by FortiClient/FortiClient EMS via the FortiGate in order to request updates from the FortiGuard distributed servers may not be logged under Logs > forward traffic logs.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate versions 6.0.11 and below. FortiGate versions 6.2.5 and below. This issue is triggered ONLY when fabric/fortiheartbeat/endpoint-compliance is enabled at the interface level.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiGate Version 6.4.0 or above. Workaround: For FortiGate versions 6.2.5 and below, please disable Fabric/Fortiheartbeat on all interfaces and reboot the FortiGate. config system interface edit set fortiheartbeat disable next end or config system interface edit set allowaccess ping https http ssh fabric -----------> remove fabric next end For FortiGate versions 6.0.11 and below, disable endpoint-compliance on all interfaces and reboot the FortiGate config system interface edit set endpoint-compliance disable next end",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Fortigate 6.2.3 fails to log traffic to IP addresses 173.243.138.98 - 173.243.138.110",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-09-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-033"
+      },
+      "cvrf:InitialReleaseDate": "2020-09-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-09-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

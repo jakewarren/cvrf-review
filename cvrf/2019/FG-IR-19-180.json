@@ -1,0 +1,823 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "AscenLink",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "7.2.23",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "AscenLink 7.2.23",
+                "@ProductID": "AscenLink-7.2.23"
+              }
+            }
+          },
+          {
+            "@Name": "FortiADC",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.3.1",
+                  "@ProductID": "FortiADC-5.3.1"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.2.4",
+                  "@ProductID": "FortiADC-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 5.1.6",
+                  "@ProductID": "FortiADC-5.1.6"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAP",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "6.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAP 6.0.5",
+                "@ProductID": "FortiAP-6.0.5"
+              }
+            }
+          },
+          {
+            "@Name": "FortiAP-U",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.6",
+                  "@ProductID": "FortiAP-U-5.4.6"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.5",
+                  "@ProductID": "FortiAP-U-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.4",
+                  "@ProductID": "FortiAP-U-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.3",
+                  "@ProductID": "FortiAP-U-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-U 5.4.0",
+                  "@ProductID": "FortiAP-U-5.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAP-W2",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.2.0",
+                  "@ProductID": "FortiAP-W2-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.6",
+                  "@ProductID": "FortiAP-W2-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.5",
+                  "@ProductID": "FortiAP-W2-6.0.5"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAnalyzer",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.2.0",
+                  "@ProductID": "FortiAnalyzer-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.0.6",
+                  "@ProductID": "FortiAnalyzer-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.0.5",
+                  "@ProductID": "FortiAnalyzer-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.0.4",
+                  "@ProductID": "FortiAnalyzer-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.0.3",
+                  "@ProductID": "FortiAnalyzer-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.0.2",
+                  "@ProductID": "FortiAnalyzer-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.0.1",
+                  "@ProductID": "FortiAnalyzer-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 6.0.0",
+                  "@ProductID": "FortiAnalyzer-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.6.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.11",
+                  "@ProductID": "FortiAnalyzer-5.6.11"
+                }
+              },
+              {
+                "@Name": "5.6.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.10",
+                  "@ProductID": "FortiAnalyzer-5.6.10"
+                }
+              },
+              {
+                "@Name": "5.6.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.9",
+                  "@ProductID": "FortiAnalyzer-5.6.9"
+                }
+              },
+              {
+                "@Name": "5.6.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.8",
+                  "@ProductID": "FortiAnalyzer-5.6.8"
+                }
+              },
+              {
+                "@Name": "5.6.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.7",
+                  "@ProductID": "FortiAnalyzer-5.6.7"
+                }
+              },
+              {
+                "@Name": "5.6.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.6",
+                  "@ProductID": "FortiAnalyzer-5.6.6"
+                }
+              },
+              {
+                "@Name": "5.6.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.5",
+                  "@ProductID": "FortiAnalyzer-5.6.5"
+                }
+              },
+              {
+                "@Name": "5.6.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.4",
+                  "@ProductID": "FortiAnalyzer-5.6.4"
+                }
+              },
+              {
+                "@Name": "5.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.3",
+                  "@ProductID": "FortiAnalyzer-5.6.3"
+                }
+              },
+              {
+                "@Name": "5.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.2",
+                  "@ProductID": "FortiAnalyzer-5.6.2"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.1",
+                  "@ProductID": "FortiAnalyzer-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer 5.6.0",
+                  "@ProductID": "FortiAnalyzer-5.6.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAuthenticator",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.0.1",
+                "@ProductID": "FortiAuthenticator-6.0.1"
+              }
+            }
+          },
+          {
+            "@Name": "FortiMail",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.5",
+                  "@ProductID": "FortiMail-6.0.5"
+                }
+              },
+              {
+                "@Name": "5.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.9",
+                  "@ProductID": "FortiMail-5.4.9"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiManager",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.2.0",
+                  "@ProductID": "FortiManager-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.0.7",
+                  "@ProductID": "FortiManager-6.0.7"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.0.6",
+                  "@ProductID": "FortiManager-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.0.5",
+                  "@ProductID": "FortiManager-6.0.5"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiPortal",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "5.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 5.2.3",
+                "@ProductID": "FortiPortal-5.2.3"
+              }
+            }
+          },
+          {
+            "@Name": "FortiProxy",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "1.1.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.1.3",
+                "@ProductID": "FortiProxy-1.1.3"
+              }
+            }
+          },
+          {
+            "@Name": "FortiRecorder",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "2.7.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiRecorder 2.7.4",
+                "@ProductID": "FortiRecorder-2.7.4"
+              }
+            }
+          },
+          {
+            "@Name": "FortiSIEM",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "5.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.2.2",
+                "@ProductID": "FortiSIEM-5.2.2"
+              }
+            }
+          },
+          {
+            "@Name": "FortiSandbox",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "3.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.7",
+                  "@ProductID": "FortiSandbox-3.0.7"
+                }
+              },
+              {
+                "@Name": "3.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.6",
+                  "@ProductID": "FortiSandbox-3.0.6"
+                }
+              },
+              {
+                "@Name": "3.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.5",
+                  "@ProductID": "FortiSandbox-3.0.5"
+                }
+              },
+              {
+                "@Name": "3.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.4",
+                  "@ProductID": "FortiSandbox-3.0.4"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSwitch",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch 6.2.2",
+                  "@ProductID": "FortiSwitch-6.2.2"
+                }
+              },
+              {
+                "@Name": "6.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch 6.2.1",
+                  "@ProductID": "FortiSwitch-6.2.1"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch 6.0.4",
+                  "@ProductID": "FortiSwitch-6.0.4"
+                }
+              },
+              {
+                "@Name": "3.6.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch 3.6.11",
+                  "@ProductID": "FortiSwitch-3.6.11"
+                }
+              },
+              {
+                "@Name": "3.6.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch 3.6.10",
+                  "@ProductID": "FortiSwitch-3.6.10"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiVoice",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.3.26",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.3.26",
+                  "@ProductID": "FortiVoice-5.3.26"
+                }
+              },
+              {
+                "@Name": "5.3.25",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.3.25",
+                  "@ProductID": "FortiVoice-5.3.25"
+                }
+              },
+              {
+                "@Name": "5.3.24",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.3.24",
+                  "@ProductID": "FortiVoice-5.3.24"
+                }
+              },
+              {
+                "@Name": "5.3.23",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.3.23",
+                  "@ProductID": "FortiVoice-5.3.23"
+                }
+              },
+              {
+                "@Name": "5.3.22",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.3.22",
+                  "@ProductID": "FortiVoice-5.3.22"
+                }
+              },
+              {
+                "@Name": "5.3.21",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 5.3.21",
+                  "@ProductID": "FortiVoice-5.3.21"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiWAN",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "4.5.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.5.7",
+                  "@ProductID": "FortiWAN-4.5.7"
+                }
+              },
+              {
+                "@Name": "4.5.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.5.6",
+                  "@ProductID": "FortiWAN-4.5.6"
+                }
+              },
+              {
+                "@Name": "4.5.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.5.5",
+                  "@ProductID": "FortiWAN-4.5.5"
+                }
+              },
+              {
+                "@Name": "4.5.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.5.4",
+                  "@ProductID": "FortiWAN-4.5.4"
+                }
+              },
+              {
+                "@Name": "4.5.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.5.3",
+                  "@ProductID": "FortiWAN-4.5.3"
+                }
+              },
+              {
+                "@Name": "4.5.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.5.2",
+                  "@ProductID": "FortiWAN-4.5.2"
+                }
+              },
+              {
+                "@Name": "4.5.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.5.1",
+                  "@ProductID": "FortiWAN-4.5.1"
+                }
+              },
+              {
+                "@Name": "4.5.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.5.0",
+                  "@ProductID": "FortiWAN-4.5.0"
+                }
+              },
+              {
+                "@Name": "4.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWAN 4.4.1",
+                  "@ProductID": "FortiWAN-4.4.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiWAN-Manager",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "4.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWAN-Manager 4.5.1",
+                "@ProductID": "FortiWAN-Manager-4.5.1"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "AscenLink-7.2.23",
+            "FortiADC-5.3.1",
+            "FortiADC-5.2.4",
+            "FortiADC-5.1.6",
+            "FortiAP-6.0.5",
+            "FortiAP-U-5.4.6",
+            "FortiAP-U-5.4.5",
+            "FortiAP-U-5.4.4",
+            "FortiAP-U-5.4.3",
+            "FortiAP-U-5.4.0",
+            "FortiAP-W2-6.2.0",
+            "FortiAP-W2-6.0.6",
+            "FortiAP-W2-6.0.5",
+            "FortiAnalyzer-6.2.0",
+            "FortiAnalyzer-6.0.6",
+            "FortiAnalyzer-6.0.5",
+            "FortiAnalyzer-6.0.4",
+            "FortiAnalyzer-6.0.3",
+            "FortiAnalyzer-6.0.2",
+            "FortiAnalyzer-6.0.1",
+            "FortiAnalyzer-6.0.0",
+            "FortiAnalyzer-5.6.11",
+            "FortiAnalyzer-5.6.10",
+            "FortiAnalyzer-5.6.9",
+            "FortiAnalyzer-5.6.8",
+            "FortiAnalyzer-5.6.7",
+            "FortiAnalyzer-5.6.6",
+            "FortiAnalyzer-5.6.5",
+            "FortiAnalyzer-5.6.4",
+            "FortiAnalyzer-5.6.3",
+            "FortiAnalyzer-5.6.2",
+            "FortiAnalyzer-5.6.1",
+            "FortiAnalyzer-5.6.0",
+            "FortiAuthenticator-6.0.1",
+            "FortiMail-6.0.5",
+            "FortiMail-5.4.9",
+            "FortiManager-6.2.0",
+            "FortiManager-6.0.7",
+            "FortiManager-6.0.6",
+            "FortiManager-6.0.5",
+            "FortiPortal-5.2.3",
+            "FortiProxy-1.1.3",
+            "FortiRecorder-2.7.4",
+            "FortiSIEM-5.2.2",
+            "FortiSandbox-3.0.7",
+            "FortiSandbox-3.0.6",
+            "FortiSandbox-3.0.5",
+            "FortiSandbox-3.0.4",
+            "FortiSwitch-6.2.2",
+            "FortiSwitch-6.2.1",
+            "FortiSwitch-6.0.4",
+            "FortiSwitch-3.6.11",
+            "FortiSwitch-3.6.10",
+            "FortiVoice-5.3.26",
+            "FortiVoice-5.3.25",
+            "FortiVoice-5.3.24",
+            "FortiVoice-5.3.23",
+            "FortiVoice-5.3.22",
+            "FortiVoice-5.3.21",
+            "FortiWAN-4.5.7",
+            "FortiWAN-4.5.6",
+            "FortiWAN-4.5.5",
+            "FortiWAN-4.5.4",
+            "FortiWAN-4.5.3",
+            "FortiWAN-4.5.2",
+            "FortiWAN-4.5.1",
+            "FortiWAN-4.5.0",
+            "FortiWAN-4.4.1",
+            "FortiWAN-Manager-4.5.1"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "SACK Panic attack: CVE-2019-11477",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-180"
+          },
+          {
+            "Description": "https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md",
+            "URL": "https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md"
+          }
+        ]
+      },
+      "Title": "SACK Panic attack: CVE-2019-11477",
+      "cvrf:CVE": "CVE-2019-11477"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "CVE-2019-11477: The Linux kernel is vulnerable to an integer overflow in the 16 bit width of TCP_SKB_CB(skb)->tcp_gso_segs. A remote attacker could use this to cause a denial of service. CVE-2019-11478: The Linux kernel is vulnerable to a flaw that allows attackers to send a crafted sequence of SACKs which will fragment the TCP retransmission queue. An attacker might be able to further exploit the fragmented queue to cause an expensive linked-list walk for subsequent SACKs received for that same TCP connection. A remote attacker could use this to cause a denial of service. CVE-2019-11479: The Linux kernel is vulnerable to a flaw that allows attackers to send a crafted packets with low MSS values to trigger excessive resource consumption. An attacker can force the Linux kernel to segment its responses into multiple TCP segments, each of which contains only 8 bytes of data. This drastically increases the bandwidth required to deliver the same amount of data. This attack requires continued effort from the attacker and the impacts will end shortly after the attacker stops sending traffic. A remote attacker could use this to cause a denial of service.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following products are potentially impacted by CVE-2019-11477:FortiAnalyzerFortiAPFortiSiemFortiSwitchThe following products are potentially impacted by CVE-2019-11478:FortiGateFortiAnalyzerFortiAPFortiSwitchThe following products are potentially impacted by CVE-2019-11479:FortiGateFortiAnalyzerFortiAPFortiSwitch",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiAnalyzer: Please upgrade to 6.0.7 and above or 6.2.1 and above.FortiAP: Please upgrade to 6.0.6 and above or 6.2.1 and aboveFortiSiem: Please upgrade to 5.2.5 and above.Workaround:Workaround for FortiSwitch: The workaround for FortiSwitch is to block connections with low MSS values. The administrator can apply a higher or lower MSS limit as appropriate for their environment. Versions 3.6.11 and above; 6.0.5 and above and 6.2.2 and above support the following CLI commands that allow the administrator to configure a minimum MSS value:config system globalset tcp-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48))set tcp6-mss-min ( Minumum allowed TCP MSS value in bytes (48-10000, default=48))endWorkaround for FortiGate:The IPS signature Linux.Kernel.TCP.SACK.Panic.DoS (https://www.fortiguard.com/encyclopedia/ips/48103/linux-kernel-tcp-sack-panic-dos) can be used to block connections with small MSS values (By default smaller than 60 bytes). The MSS value can be changed by the customer to a value that is more appropriate for their environment. To do so, customers need to write their own IPS signature. In the GUI, it is under Security profiles --> Intrusion Prevention.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "SACK Panic attack: CVE-2019-11477",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-180"
+        },
+        {
+          "cvrf:Description": "https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md",
+          "cvrf:URL": "https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "SACK Panic attack: CVE-2019-11477",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-11-29T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-180"
+      },
+      "cvrf:InitialReleaseDate": "2019-11-29T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-11-29T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

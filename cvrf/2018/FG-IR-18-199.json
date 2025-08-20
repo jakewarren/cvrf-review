@@ -1,0 +1,409 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAP",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 6.0.6",
+                  "@ProductID": "FortiAP-6.0.6"
+                }
+              },
+              {
+                "@Name": "5.6.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP 5.6.5",
+                  "@ProductID": "FortiAP-5.6.5"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.4.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.11",
+                  "@ProductID": "FortiOS-6.4.11"
+                }
+              },
+              {
+                "@Name": "6.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.10",
+                  "@ProductID": "FortiOS-6.4.10"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.9",
+                  "@ProductID": "FortiOS-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.8",
+                  "@ProductID": "FortiOS-6.4.8"
+                }
+              },
+              {
+                "@Name": "6.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.7",
+                  "@ProductID": "FortiOS-6.4.7"
+                }
+              },
+              {
+                "@Name": "6.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.6",
+                  "@ProductID": "FortiOS-6.4.6"
+                }
+              },
+              {
+                "@Name": "6.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.5",
+                  "@ProductID": "FortiOS-6.4.5"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.4",
+                  "@ProductID": "FortiOS-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.3",
+                  "@ProductID": "FortiOS-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.2",
+                  "@ProductID": "FortiOS-6.4.2"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.1",
+                  "@ProductID": "FortiOS-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.0",
+                  "@ProductID": "FortiOS-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.0",
+                  "@ProductID": "FortiOS-6.2.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiWLC",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "8.5.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWLC 8.5.5",
+                  "@ProductID": "FortiWLC-8.5.5"
+                }
+              },
+              {
+                "@Name": "8.5.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWLC 8.5.4",
+                  "@ProductID": "FortiWLC-8.5.4"
+                }
+              },
+              {
+                "@Name": "8.5.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWLC 8.5.3",
+                  "@ProductID": "FortiWLC-8.5.3"
+                }
+              },
+              {
+                "@Name": "8.5.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWLC 8.5.2",
+                  "@ProductID": "FortiWLC-8.5.2"
+                }
+              },
+              {
+                "@Name": "8.5.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiWLC 8.5.1",
+                  "@ProductID": "FortiWLC-8.5.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "Meru AP",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "8.5.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru AP 8.5.5",
+                  "@ProductID": "Meru AP-8.5.5"
+                }
+              },
+              {
+                "@Name": "8.5.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru AP 8.5.4",
+                  "@ProductID": "Meru AP-8.5.4"
+                }
+              },
+              {
+                "@Name": "8.5.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru AP 8.5.3",
+                  "@ProductID": "Meru AP-8.5.3"
+                }
+              },
+              {
+                "@Name": "8.5.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru AP 8.5.2",
+                  "@ProductID": "Meru AP-8.5.2"
+                }
+              },
+              {
+                "@Name": "8.5.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru AP 8.5.1",
+                  "@ProductID": "Meru AP-8.5.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "Meru Controller",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "8.5.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru Controller 8.5.5",
+                  "@ProductID": "Meru Controller-8.5.5"
+                }
+              },
+              {
+                "@Name": "8.5.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru Controller 8.5.4",
+                  "@ProductID": "Meru Controller-8.5.4"
+                }
+              },
+              {
+                "@Name": "8.5.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru Controller 8.5.3",
+                  "@ProductID": "Meru Controller-8.5.3"
+                }
+              },
+              {
+                "@Name": "8.5.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru Controller 8.5.2",
+                  "@ProductID": "Meru Controller-8.5.2"
+                }
+              },
+              {
+                "@Name": "8.5.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "Meru Controller 8.5.1",
+                  "@ProductID": "Meru Controller-8.5.1"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAP-6.0.6",
+            "FortiAP-5.6.5",
+            "FortiOS-6.4.11",
+            "FortiOS-6.4.10",
+            "FortiOS-6.4.9",
+            "FortiOS-6.4.8",
+            "FortiOS-6.4.7",
+            "FortiOS-6.4.6",
+            "FortiOS-6.4.5",
+            "FortiOS-6.4.4",
+            "FortiOS-6.4.3",
+            "FortiOS-6.4.2",
+            "FortiOS-6.4.1",
+            "FortiOS-6.4.0",
+            "FortiOS-6.2.0",
+            "FortiWLC-8.5.5",
+            "FortiWLC-8.5.4",
+            "FortiWLC-8.5.3",
+            "FortiWLC-8.5.2",
+            "FortiWLC-8.5.1",
+            "Meru AP-8.5.5",
+            "Meru AP-8.5.4",
+            "Meru AP-8.5.3",
+            "Meru AP-8.5.2",
+            "Meru AP-8.5.1",
+            "Meru Controller-8.5.5",
+            "Meru Controller-8.5.4",
+            "Meru Controller-8.5.3",
+            "Meru Controller-8.5.2",
+            "Meru Controller-8.5.1"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "New WiFi hack against WPA/WPA2 when PMKID based roaming enabled",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-199"
+          },
+          {
+            "Description": "https://hashcat.net/forum/thread-7717.html",
+            "URL": "https://hashcat.net/forum/thread-7717.html"
+          }
+        ]
+      },
+      "Title": "New WiFi hack against WPA/WPA2 when PMKID based roaming enabled"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Makers of popular WiFi hacking tool hashcat have discovered a way to improve password brute-forcing of the WPA/WPA2 wifi network security standards. By leveraging the PMKID served by access points in WPA/WPA2 enabled WiFi networks, attackers gain knowledge of a pre-shared key hash, which can be used to brute-force the WPA/WPA2 password.This, however, requires a set of conditions to work:o WPA/WPA2 must be \"Personal security (Pre-shared Key)\". Other types (eg: Enterprise) are not vulnerableo The PMKID must be included in the first EAPOL message of the 4 way handshakeo 802.11r and PMKID caching must be enabled",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS supports WPA/WPA2 WiFi and is only affected under special configurations [1]FortiAP supports WPA/WPA2 WiFi and is only affected under special configurations [1][1] When 802.11r/fast-bss-transition is enabled and security is set to wpa2-only-personal.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Since this is a protocol level attack facilitating brute-force cracking, there exists mitigation to disable it altogether, or drastically lower its practical feasibility:1. When enabling the 801.11r/fast-bss-transition feature on FortiOS/FortiAP, avoid using wpa2-only-personal security, and use wpa2-only-enterprise instead. This effectively prevents the attack completely.2. If the above is not acceptable given the environment, a minimum of 12 high-entropy random ASCII characters should be used as the password (with 20 characters being preferable). This renders the attack unpractical in the current state of computing power available for brute-force cracking.Starting with FortiOS 6.2.1, the following CLI commands (for pre-shared key for WPA/WPA2-Personal SSID) will ask to input at least 12 bytes in length when editing the [vap-name] if the existing passphrase is shorter than 12 bytes:config wireless-controller vapedit [vap-name]set passphrase [psk] / minimum 12 bytes psk when wfa-compatibility is disabled [1] /nextend[1] To compatible with WPA3™-SAE Test Plan Version 1.0, a new CLI were introduced at same time to allow minimum 8 bytes pre-shared key which the default value is disabled (enable is not suggested in production environment).config wireless-controller setting set wfa-compatibility enable / disable is the default value /endStarting from FortiOS 6.2.3, the minimum psk length reverted back to 8 bytes to restore the usability. The wfa-compatibility CLI command will no longer control that size.Revision History:09-10-2018 Initial version06-18-2019 pre-shared key length for WPA/WPA2 personal SSID by default needs at least 12 bytes01-27-2020 Minimum pre-shared key length reverted back to 8 bytes start from FortiOS 6.2.3",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "New WiFi hack against WPA/WPA2 when PMKID based roaming enabled",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-199"
+        },
+        {
+          "cvrf:Description": "https://hashcat.net/forum/thread-7717.html",
+          "cvrf:URL": "https://hashcat.net/forum/thread-7717.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "New WiFi hack against WPA/WPA2 when PMKID based roaming enabled",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-01-27T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-199"
+      },
+      "cvrf:InitialReleaseDate": "2020-01-27T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-01-27T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

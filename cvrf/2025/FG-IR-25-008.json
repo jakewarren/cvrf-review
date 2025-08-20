@@ -1,0 +1,226 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiPAM",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "1.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.4.1",
+                  "@ProductID": "FortiPAM-1.4.1"
+                }
+              },
+              {
+                "@Name": "1.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.4.0",
+                  "@ProductID": "FortiPAM-1.4.0"
+                }
+              },
+              {
+                "@Name": "1.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.3.0",
+                  "@ProductID": "FortiPAM-1.3.0"
+                }
+              },
+              {
+                "@Name": "1.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.2.0",
+                  "@ProductID": "FortiPAM-1.2.0"
+                }
+              },
+              {
+                "@Name": "1.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.1.2",
+                  "@ProductID": "FortiPAM-1.1.2"
+                }
+              },
+              {
+                "@Name": "1.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.1.1",
+                  "@ProductID": "FortiPAM-1.1.1"
+                }
+              },
+              {
+                "@Name": "1.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.1.0",
+                  "@ProductID": "FortiPAM-1.1.0"
+                }
+              },
+              {
+                "@Name": "1.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.0.3",
+                  "@ProductID": "FortiPAM-1.0.3"
+                }
+              },
+              {
+                "@Name": "1.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.0.2",
+                  "@ProductID": "FortiPAM-1.0.2"
+                }
+              },
+              {
+                "@Name": "1.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.0.1",
+                  "@ProductID": "FortiPAM-1.0.1"
+                }
+              },
+              {
+                "@Name": "1.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM 1.0.0",
+                  "@ProductID": "FortiPAM-1.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSRA",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "1.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSRA 1.4.1",
+                  "@ProductID": "FortiSRA-1.4.1"
+                }
+              },
+              {
+                "@Name": "1.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSRA 1.4.0",
+                  "@ProductID": "FortiSRA-1.4.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.0",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiPAM-1.4.1",
+            "FortiPAM-1.4.0",
+            "FortiPAM-1.3.0",
+            "FortiPAM-1.2.0",
+            "FortiPAM-1.1.2",
+            "FortiPAM-1.1.1",
+            "FortiPAM-1.1.0",
+            "FortiPAM-1.0.3",
+            "FortiPAM-1.0.2",
+            "FortiPAM-1.0.1",
+            "FortiPAM-1.0.0",
+            "FortiSRA-1.4.1",
+            "FortiSRA-1.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Improper Handling of Insufficient Permissions or Privileges in GUI websocket",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-008"
+        }
+      },
+      "Title": "Improper Handling of Insufficient Permissions or Privileges in GUI websocket",
+      "cvrf:CVE": "CVE-2025-22256"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Handling of Insufficient Permissions or Privileges Vulnerability [CWE-280] in FortiPAM and FortiSRA GUI websocket could allow a low privileged user to access to a unauthorized resources via specially crafted http requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Improper Handling of Insufficient Permissions or Privileges in GUI websocket",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-06-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-008"
+      },
+      "cvrf:InitialReleaseDate": "2025-06-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-06-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

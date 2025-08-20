@@ -1,0 +1,336 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientLinux",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 7.0.2",
+                "@ProductID": "FortiClientLinux-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 7.0.1",
+                "@ProductID": "FortiClientLinux-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 7.0.0",
+                "@ProductID": "FortiClientLinux-7.0.0"
+              }
+            },
+            {
+              "@Name": "6.4.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.4.7",
+                "@ProductID": "FortiClientLinux-6.4.7"
+              }
+            },
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.4.4",
+                "@ProductID": "FortiClientLinux-6.4.4"
+              }
+            },
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.4.3",
+                "@ProductID": "FortiClientLinux-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.4.2",
+                "@ProductID": "FortiClientLinux-6.4.2"
+              }
+            },
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.4.1",
+                "@ProductID": "FortiClientLinux-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.4.0",
+                "@ProductID": "FortiClientLinux-6.4.0"
+              }
+            },
+            {
+              "@Name": "6.2.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.9",
+                "@ProductID": "FortiClientLinux-6.2.9"
+              }
+            },
+            {
+              "@Name": "6.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.8",
+                "@ProductID": "FortiClientLinux-6.2.8"
+              }
+            },
+            {
+              "@Name": "6.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.7",
+                "@ProductID": "FortiClientLinux-6.2.7"
+              }
+            },
+            {
+              "@Name": "6.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.6",
+                "@ProductID": "FortiClientLinux-6.2.6"
+              }
+            },
+            {
+              "@Name": "6.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.4",
+                "@ProductID": "FortiClientLinux-6.2.4"
+              }
+            },
+            {
+              "@Name": "6.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.3",
+                "@ProductID": "FortiClientLinux-6.2.3"
+              }
+            },
+            {
+              "@Name": "6.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.2",
+                "@ProductID": "FortiClientLinux-6.2.2"
+              }
+            },
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.1",
+                "@ProductID": "FortiClientLinux-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.2.0",
+                "@ProductID": "FortiClientLinux-6.2.0"
+              }
+            },
+            {
+              "@Name": "6.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.0.8",
+                "@ProductID": "FortiClientLinux-6.0.8"
+              }
+            },
+            {
+              "@Name": "6.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.0.6",
+                "@ProductID": "FortiClientLinux-6.0.6"
+              }
+            },
+            {
+              "@Name": "6.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.0.5",
+                "@ProductID": "FortiClientLinux-6.0.5"
+              }
+            },
+            {
+              "@Name": "6.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.0.4",
+                "@ProductID": "FortiClientLinux-6.0.4"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.0.3",
+                "@ProductID": "FortiClientLinux-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.0.2",
+                "@ProductID": "FortiClientLinux-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.0.1",
+                "@ProductID": "FortiClientLinux-6.0.1"
+              }
+            },
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientLinux 6.0.0",
+                "@ProductID": "FortiClientLinux-6.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.1",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N/E:U/RL:W/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientLinux-7.0.2",
+            "FortiClientLinux-7.0.1",
+            "FortiClientLinux-7.0.0",
+            "FortiClientLinux-6.4.7",
+            "FortiClientLinux-6.4.4",
+            "FortiClientLinux-6.4.3",
+            "FortiClientLinux-6.4.2",
+            "FortiClientLinux-6.4.1",
+            "FortiClientLinux-6.4.0",
+            "FortiClientLinux-6.2.9",
+            "FortiClientLinux-6.2.8",
+            "FortiClientLinux-6.2.7",
+            "FortiClientLinux-6.2.6",
+            "FortiClientLinux-6.2.4",
+            "FortiClientLinux-6.2.3",
+            "FortiClientLinux-6.2.2",
+            "FortiClientLinux-6.2.1",
+            "FortiClientLinux-6.2.0",
+            "FortiClientLinux-6.0.8",
+            "FortiClientLinux-6.0.6",
+            "FortiClientLinux-6.0.5",
+            "FortiClientLinux-6.0.4",
+            "FortiClientLinux-6.0.3",
+            "FortiClientLinux-6.0.2",
+            "FortiClientLinux-6.0.1",
+            "FortiClientLinux-6.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Improper directories permissions",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-232"
+        }
+      },
+      "Title": "Improper directories permissions",
+      "cvrf:CVE": "CVE-2021-44167"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An incorrect permission assignment for critical resource vulnerability [CWE-732] in FortiClient for Linux may allow an unauthenticated attacker to access sensitive information in log files and directories via symbolic links.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClientLinux version 6.0.0 through 6.0.8FortiClientLinux version 6.2.0 through 6.2.9FortiClientLinux version 6.4.0 through 6.4.7FortiClientLinux version 7.0.0 through 7.0.2",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiClientLinux version 7.0.3Please upgrade to FortiClientLinux version 6.4.8",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Improper directories permissions",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-04-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-232"
+      },
+      "cvrf:InitialReleaseDate": "2022-04-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-04-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

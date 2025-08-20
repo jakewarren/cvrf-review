@@ -1,0 +1,164 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSandbox",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "4.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.6",
+                "@ProductID": "FortiSandbox-4.4.6"
+              }
+            },
+            {
+              "@Name": "4.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.5",
+                "@ProductID": "FortiSandbox-4.4.5"
+              }
+            },
+            {
+              "@Name": "4.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.4",
+                "@ProductID": "FortiSandbox-4.4.4"
+              }
+            },
+            {
+              "@Name": "4.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.3",
+                "@ProductID": "FortiSandbox-4.4.3"
+              }
+            },
+            {
+              "@Name": "4.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.2",
+                "@ProductID": "FortiSandbox-4.4.2"
+              }
+            },
+            {
+              "@Name": "4.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.1",
+                "@ProductID": "FortiSandbox-4.4.1"
+              }
+            },
+            {
+              "@Name": "4.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.0",
+                "@ProductID": "FortiSandbox-4.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.1",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSandbox-4.4.6",
+            "FortiSandbox-4.4.5",
+            "FortiSandbox-4.4.4",
+            "FortiSandbox-4.4.3",
+            "FortiSandbox-4.4.2",
+            "FortiSandbox-4.4.1",
+            "FortiSandbox-4.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Incorrect authorization in GUI console",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-261"
+        }
+      },
+      "Title": "Incorrect authorization in GUI console",
+      "cvrf:CVE": "CVE-2024-45328"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Mister Thomas SAUTIER for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An incorrect authorization vulnerability [CWE-863] in FortiSandbox may allow a low priviledged administrator to execute elevated CLI commands via the GUI console menu.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Incorrect authorization in GUI console",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-03-11T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-261"
+      },
+      "cvrf:InitialReleaseDate": "2025-03-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-03-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

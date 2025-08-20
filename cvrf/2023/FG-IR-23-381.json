@@ -1,0 +1,1207 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiClientEMS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.2.1",
+                  "@ProductID": "FortiClientEMS-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.2.0",
+                  "@ProductID": "FortiClientEMS-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.10",
+                  "@ProductID": "FortiClientEMS-7.0.10"
+                }
+              },
+              {
+                "@Name": "7.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.9",
+                  "@ProductID": "FortiClientEMS-7.0.9"
+                }
+              },
+              {
+                "@Name": "7.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.8",
+                  "@ProductID": "FortiClientEMS-7.0.8"
+                }
+              },
+              {
+                "@Name": "7.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.7",
+                  "@ProductID": "FortiClientEMS-7.0.7"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.6",
+                  "@ProductID": "FortiClientEMS-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.5",
+                  "@ProductID": "FortiClientEMS-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.4",
+                  "@ProductID": "FortiClientEMS-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.3",
+                  "@ProductID": "FortiClientEMS-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.2",
+                  "@ProductID": "FortiClientEMS-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.1",
+                  "@ProductID": "FortiClientEMS-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 7.0.0",
+                  "@ProductID": "FortiClientEMS-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 6.4.9",
+                  "@ProductID": "FortiClientEMS-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 6.4.8",
+                  "@ProductID": "FortiClientEMS-6.4.8"
+                }
+              },
+              {
+                "@Name": "6.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 6.4.7",
+                  "@ProductID": "FortiClientEMS-6.4.7"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 6.4.4",
+                  "@ProductID": "FortiClientEMS-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 6.4.3",
+                  "@ProductID": "FortiClientEMS-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 6.4.2",
+                  "@ProductID": "FortiClientEMS-6.4.2"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 6.4.1",
+                  "@ProductID": "FortiClientEMS-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientEMS 6.4.0",
+                  "@ProductID": "FortiClientEMS-6.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiClientLinux",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.2.4",
+                  "@ProductID": "FortiClientLinux-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.2.3",
+                  "@ProductID": "FortiClientLinux-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.2.2",
+                  "@ProductID": "FortiClientLinux-7.2.2"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.2.1",
+                  "@ProductID": "FortiClientLinux-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.2.0",
+                  "@ProductID": "FortiClientLinux-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.13",
+                  "@ProductID": "FortiClientLinux-7.0.13"
+                }
+              },
+              {
+                "@Name": "7.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.12",
+                  "@ProductID": "FortiClientLinux-7.0.12"
+                }
+              },
+              {
+                "@Name": "7.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.11",
+                  "@ProductID": "FortiClientLinux-7.0.11"
+                }
+              },
+              {
+                "@Name": "7.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.10",
+                  "@ProductID": "FortiClientLinux-7.0.10"
+                }
+              },
+              {
+                "@Name": "7.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.9",
+                  "@ProductID": "FortiClientLinux-7.0.9"
+                }
+              },
+              {
+                "@Name": "7.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.8",
+                  "@ProductID": "FortiClientLinux-7.0.8"
+                }
+              },
+              {
+                "@Name": "7.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.7",
+                  "@ProductID": "FortiClientLinux-7.0.7"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.6",
+                  "@ProductID": "FortiClientLinux-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.5",
+                  "@ProductID": "FortiClientLinux-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.4",
+                  "@ProductID": "FortiClientLinux-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.3",
+                  "@ProductID": "FortiClientLinux-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.2",
+                  "@ProductID": "FortiClientLinux-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.1",
+                  "@ProductID": "FortiClientLinux-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 7.0.0",
+                  "@ProductID": "FortiClientLinux-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 6.4.9",
+                  "@ProductID": "FortiClientLinux-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 6.4.8",
+                  "@ProductID": "FortiClientLinux-6.4.8"
+                }
+              },
+              {
+                "@Name": "6.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 6.4.7",
+                  "@ProductID": "FortiClientLinux-6.4.7"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 6.4.4",
+                  "@ProductID": "FortiClientLinux-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 6.4.3",
+                  "@ProductID": "FortiClientLinux-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 6.4.2",
+                  "@ProductID": "FortiClientLinux-6.4.2"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 6.4.1",
+                  "@ProductID": "FortiClientLinux-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientLinux 6.4.0",
+                  "@ProductID": "FortiClientLinux-6.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiClientMac",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.4",
+                  "@ProductID": "FortiClientMac-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.3",
+                  "@ProductID": "FortiClientMac-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.2",
+                  "@ProductID": "FortiClientMac-7.2.2"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.1",
+                  "@ProductID": "FortiClientMac-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.0",
+                  "@ProductID": "FortiClientMac-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.14",
+                  "@ProductID": "FortiClientMac-7.0.14"
+                }
+              },
+              {
+                "@Name": "7.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.13",
+                  "@ProductID": "FortiClientMac-7.0.13"
+                }
+              },
+              {
+                "@Name": "7.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.12",
+                  "@ProductID": "FortiClientMac-7.0.12"
+                }
+              },
+              {
+                "@Name": "7.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.11",
+                  "@ProductID": "FortiClientMac-7.0.11"
+                }
+              },
+              {
+                "@Name": "7.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.10",
+                  "@ProductID": "FortiClientMac-7.0.10"
+                }
+              },
+              {
+                "@Name": "7.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.9",
+                  "@ProductID": "FortiClientMac-7.0.9"
+                }
+              },
+              {
+                "@Name": "7.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.8",
+                  "@ProductID": "FortiClientMac-7.0.8"
+                }
+              },
+              {
+                "@Name": "7.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.7",
+                  "@ProductID": "FortiClientMac-7.0.7"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.6",
+                  "@ProductID": "FortiClientMac-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.5",
+                  "@ProductID": "FortiClientMac-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.4",
+                  "@ProductID": "FortiClientMac-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.3",
+                  "@ProductID": "FortiClientMac-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.2",
+                  "@ProductID": "FortiClientMac-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.1",
+                  "@ProductID": "FortiClientMac-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.0",
+                  "@ProductID": "FortiClientMac-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.10",
+                  "@ProductID": "FortiClientMac-6.4.10"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.9",
+                  "@ProductID": "FortiClientMac-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.8",
+                  "@ProductID": "FortiClientMac-6.4.8"
+                }
+              },
+              {
+                "@Name": "6.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.7",
+                  "@ProductID": "FortiClientMac-6.4.7"
+                }
+              },
+              {
+                "@Name": "6.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.6",
+                  "@ProductID": "FortiClientMac-6.4.6"
+                }
+              },
+              {
+                "@Name": "6.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.5",
+                  "@ProductID": "FortiClientMac-6.4.5"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.4",
+                  "@ProductID": "FortiClientMac-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.3",
+                  "@ProductID": "FortiClientMac-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.2",
+                  "@ProductID": "FortiClientMac-6.4.2"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.1",
+                  "@ProductID": "FortiClientMac-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.4.0",
+                  "@ProductID": "FortiClientMac-6.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiClientWindows",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.2.2",
+                  "@ProductID": "FortiClientWindows-7.2.2"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.2.1",
+                  "@ProductID": "FortiClientWindows-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.2.0",
+                  "@ProductID": "FortiClientWindows-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.10",
+                  "@ProductID": "FortiClientWindows-7.0.10"
+                }
+              },
+              {
+                "@Name": "7.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.9",
+                  "@ProductID": "FortiClientWindows-7.0.9"
+                }
+              },
+              {
+                "@Name": "7.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.8",
+                  "@ProductID": "FortiClientWindows-7.0.8"
+                }
+              },
+              {
+                "@Name": "7.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.7",
+                  "@ProductID": "FortiClientWindows-7.0.7"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.6",
+                  "@ProductID": "FortiClientWindows-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.5",
+                  "@ProductID": "FortiClientWindows-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.4",
+                  "@ProductID": "FortiClientWindows-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.3",
+                  "@ProductID": "FortiClientWindows-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.2",
+                  "@ProductID": "FortiClientWindows-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.1",
+                  "@ProductID": "FortiClientWindows-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 7.0.0",
+                  "@ProductID": "FortiClientWindows-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.10",
+                  "@ProductID": "FortiClientWindows-6.4.10"
+                }
+              },
+              {
+                "@Name": "6.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.9",
+                  "@ProductID": "FortiClientWindows-6.4.9"
+                }
+              },
+              {
+                "@Name": "6.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.8",
+                  "@ProductID": "FortiClientWindows-6.4.8"
+                }
+              },
+              {
+                "@Name": "6.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.7",
+                  "@ProductID": "FortiClientWindows-6.4.7"
+                }
+              },
+              {
+                "@Name": "6.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.6",
+                  "@ProductID": "FortiClientWindows-6.4.6"
+                }
+              },
+              {
+                "@Name": "6.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.5",
+                  "@ProductID": "FortiClientWindows-6.4.5"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.4",
+                  "@ProductID": "FortiClientWindows-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.3",
+                  "@ProductID": "FortiClientWindows-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.2",
+                  "@ProductID": "FortiClientWindows-6.4.2"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.1",
+                  "@ProductID": "FortiClientWindows-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.4.0",
+                  "@ProductID": "FortiClientWindows-6.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSOAR",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.4.0",
+                  "@ProductID": "FortiSOAR-7.4.0"
+                }
+              },
+              {
+                "@Name": "7.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.3.1",
+                  "@ProductID": "FortiSOAR-7.3.1"
+                }
+              },
+              {
+                "@Name": "7.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.3.0",
+                  "@ProductID": "FortiSOAR-7.3.0"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.2.1",
+                  "@ProductID": "FortiSOAR-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.2.0",
+                  "@ProductID": "FortiSOAR-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.0.3",
+                  "@ProductID": "FortiSOAR-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.0.2",
+                  "@ProductID": "FortiSOAR-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.0.1",
+                  "@ProductID": "FortiSOAR-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 7.0.0",
+                  "@ProductID": "FortiSOAR-7.0.0"
+                }
+              },
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 6.4.4",
+                  "@ProductID": "FortiSOAR-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 6.4.3",
+                  "@ProductID": "FortiSOAR-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 6.4.1",
+                  "@ProductID": "FortiSOAR-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR 6.4.0",
+                  "@ProductID": "FortiSOAR-6.4.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientEMS-7.2.1",
+            "FortiClientEMS-7.2.0",
+            "FortiClientEMS-7.0.10",
+            "FortiClientEMS-7.0.9",
+            "FortiClientEMS-7.0.8",
+            "FortiClientEMS-7.0.7",
+            "FortiClientEMS-7.0.6",
+            "FortiClientEMS-7.0.5",
+            "FortiClientEMS-7.0.4",
+            "FortiClientEMS-7.0.3",
+            "FortiClientEMS-7.0.2",
+            "FortiClientEMS-7.0.1",
+            "FortiClientEMS-7.0.0",
+            "FortiClientEMS-6.4.9",
+            "FortiClientEMS-6.4.8",
+            "FortiClientEMS-6.4.7",
+            "FortiClientEMS-6.4.4",
+            "FortiClientEMS-6.4.3",
+            "FortiClientEMS-6.4.2",
+            "FortiClientEMS-6.4.1",
+            "FortiClientEMS-6.4.0",
+            "FortiClientLinux-7.2.4",
+            "FortiClientLinux-7.2.3",
+            "FortiClientLinux-7.2.2",
+            "FortiClientLinux-7.2.1",
+            "FortiClientLinux-7.2.0",
+            "FortiClientLinux-7.0.13",
+            "FortiClientLinux-7.0.12",
+            "FortiClientLinux-7.0.11",
+            "FortiClientLinux-7.0.10",
+            "FortiClientLinux-7.0.9",
+            "FortiClientLinux-7.0.8",
+            "FortiClientLinux-7.0.7",
+            "FortiClientLinux-7.0.6",
+            "FortiClientLinux-7.0.5",
+            "FortiClientLinux-7.0.4",
+            "FortiClientLinux-7.0.3",
+            "FortiClientLinux-7.0.2",
+            "FortiClientLinux-7.0.1",
+            "FortiClientLinux-7.0.0",
+            "FortiClientLinux-6.4.9",
+            "FortiClientLinux-6.4.8",
+            "FortiClientLinux-6.4.7",
+            "FortiClientLinux-6.4.4",
+            "FortiClientLinux-6.4.3",
+            "FortiClientLinux-6.4.2",
+            "FortiClientLinux-6.4.1",
+            "FortiClientLinux-6.4.0",
+            "FortiClientMac-7.2.4",
+            "FortiClientMac-7.2.3",
+            "FortiClientMac-7.2.2",
+            "FortiClientMac-7.2.1",
+            "FortiClientMac-7.2.0",
+            "FortiClientMac-7.0.14",
+            "FortiClientMac-7.0.13",
+            "FortiClientMac-7.0.12",
+            "FortiClientMac-7.0.11",
+            "FortiClientMac-7.0.10",
+            "FortiClientMac-7.0.9",
+            "FortiClientMac-7.0.8",
+            "FortiClientMac-7.0.7",
+            "FortiClientMac-7.0.6",
+            "FortiClientMac-7.0.5",
+            "FortiClientMac-7.0.4",
+            "FortiClientMac-7.0.3",
+            "FortiClientMac-7.0.2",
+            "FortiClientMac-7.0.1",
+            "FortiClientMac-7.0.0",
+            "FortiClientMac-6.4.10",
+            "FortiClientMac-6.4.9",
+            "FortiClientMac-6.4.8",
+            "FortiClientMac-6.4.7",
+            "FortiClientMac-6.4.6",
+            "FortiClientMac-6.4.5",
+            "FortiClientMac-6.4.4",
+            "FortiClientMac-6.4.3",
+            "FortiClientMac-6.4.2",
+            "FortiClientMac-6.4.1",
+            "FortiClientMac-6.4.0",
+            "FortiClientWindows-7.2.2",
+            "FortiClientWindows-7.2.1",
+            "FortiClientWindows-7.2.0",
+            "FortiClientWindows-7.0.10",
+            "FortiClientWindows-7.0.9",
+            "FortiClientWindows-7.0.8",
+            "FortiClientWindows-7.0.7",
+            "FortiClientWindows-7.0.6",
+            "FortiClientWindows-7.0.5",
+            "FortiClientWindows-7.0.4",
+            "FortiClientWindows-7.0.3",
+            "FortiClientWindows-7.0.2",
+            "FortiClientWindows-7.0.1",
+            "FortiClientWindows-7.0.0",
+            "FortiClientWindows-6.4.10",
+            "FortiClientWindows-6.4.9",
+            "FortiClientWindows-6.4.8",
+            "FortiClientWindows-6.4.7",
+            "FortiClientWindows-6.4.6",
+            "FortiClientWindows-6.4.5",
+            "FortiClientWindows-6.4.4",
+            "FortiClientWindows-6.4.3",
+            "FortiClientWindows-6.4.2",
+            "FortiClientWindows-6.4.1",
+            "FortiClientWindows-6.4.0",
+            "FortiSOAR-7.4.0",
+            "FortiSOAR-7.3.1",
+            "FortiSOAR-7.3.0",
+            "FortiSOAR-7.2.1",
+            "FortiSOAR-7.2.0",
+            "FortiSOAR-7.0.3",
+            "FortiSOAR-7.0.2",
+            "FortiSOAR-7.0.1",
+            "FortiSOAR-7.0.0",
+            "FortiSOAR-6.4.4",
+            "FortiSOAR-6.4.3",
+            "FortiSOAR-6.4.1",
+            "FortiSOAR-6.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "CVE-2023-4863 - Heap overflow in Chrome/libwebp",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-381"
+          },
+          {
+            "Description": "[1] https://nvd.nist.gov/vuln/detail/CVE-2023-4863",
+            "URL": "[1] https://nvd.nist.gov/vuln/detail/CVE-2023-4863"
+          },
+          {
+            "Description": "[2] https://www.wiz.io/blog/cve-2023-4863-and-cve-2023-5217-exploited-in-the-wild",
+            "URL": "[2] https://www.wiz.io/blog/cve-2023-4863-and-cve-2023-5217-exploited-in-the-wild"
+          }
+        ]
+      },
+      "Title": "CVE-2023-4863 - Heap overflow in Chrome/libwebp",
+      "cvrf:CVE": "CVE-2023-4863"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Fortinet Product Security team has evaluated the impact of the vulnerablity affecting Google Chrome library listed below:CVE-2023-4863: severity HIGHHeap buffer overflow in libwebp in Google Chrome prior to 116.0.5845.187 and libwebp 1.3.2 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page.https://nvd.nist.gov/vuln/detail/CVE-2023-4863FortiClient and FortiClientEMS applications have embedded Chrome browser (for SAML authentication and administrative console application.)FortiSOAR is using Chrome to render reports on the backend.Libwepb is the library which renders \".webp\" images into chrome browser.When a malicious image is displayed in chrome (with data overflow), program execution might be modified by the attacker. The attacker will need to escape google chrome sandboxing environment to perform additional damages.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClientEMS 7.4 all versions are not affectedFortiClientEMS version 7.2.0 through 7.2.1FortiClientEMS version 7.0.0 through 7.0.10FortiClientEMS 6.4 all versionsFortiSOAR 7.6 all versions are not affectedFortiSOAR 7.5 all versions are not affectedFortiSOAR version 7.4.0FortiSOAR version 7.3.0 through 7.3.1FortiSOAR version 7.2.0 through 7.2.1FortiSOAR 7.0 all versionsFortiSOAR 6.4 all versionsFortiClientWindows 7.4 all versions are not affectedFortiClientWindows version 7.2.0 through 7.2.2FortiClientWindows version 7.0.0 through 7.0.10FortiClientWindows 6.4 all versionsFortiClientMac 7.4 all versions are not affectedFortiClientMac version 7.2.0 through 7.2.4FortiClientMac 7.0 all versionsFortiClientMac 6.4 all versionsFortiClientLinux 7.4 all versions are not affectedFortiClientLinux version 7.2.0 through 7.2.4FortiClientLinux 7.0 all versionsFortiClientLinux 6.4 all versions",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiClientWindows version 7.2.3 or abovePlease upgrade to FortiClientWindows version 7.0.10 or abovePlease upgrade to FortiClientLinux version 7.4.0 or abovePlease upgrade to FortiClientLinux version 7.2.5 or abovePlease upgrade to FortiClientMac version 7.4.0 or abovePlease upgrade to FortiClientMac version 7.2.5 or abovePlease upgrade to FortiClientEMS version 7.2.2 or abovePlease upgrade to FortiClientEMS version 7.0.10 or abovePlease upgrade to FortiSOAR version 7.4.1 Security Patch 3 or above Please upgrade to FortiSOAR version 7.3.2 Security Patch 4 or abovePlease upgrade to FortiSOAR version 7.2.2 Security Patch 9 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "CVE-2023-4863 - Heap overflow in Chrome/libwebp",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-381"
+        },
+        {
+          "cvrf:Description": "[1] https://nvd.nist.gov/vuln/detail/CVE-2023-4863",
+          "cvrf:URL": "[1] https://nvd.nist.gov/vuln/detail/CVE-2023-4863"
+        },
+        {
+          "cvrf:Description": "[2] https://www.wiz.io/blog/cve-2023-4863-and-cve-2023-5217-exploited-in-the-wild",
+          "cvrf:URL": "[2] https://www.wiz.io/blog/cve-2023-4863-and-cve-2023-5217-exploited-in-the-wild"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "CVE-2023-4863 - Heap overflow in Chrome/libwebp",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-01-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-381"
+      },
+      "cvrf:InitialReleaseDate": "2025-01-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-01-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

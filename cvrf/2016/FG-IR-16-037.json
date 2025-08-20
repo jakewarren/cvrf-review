@@ -1,0 +1,150 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiDDoS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "4.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDDoS 4.2.2",
+                "@ProductID": "FortiDDoS-4.2.2"
+              }
+            },
+            {
+              "@Name": "4.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDDoS 4.2.1",
+                "@ProductID": "FortiDDoS-4.2.1"
+              }
+            },
+            {
+              "@Name": "4.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDDoS 4.2.0",
+                "@ProductID": "FortiDDoS-4.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiDDoS-4.2.2",
+            "FortiDDoS-4.2.1",
+            "FortiDDoS-4.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiDDoS Multiple OS command injection",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-037"
+          },
+          {
+            "Description": "<p>-</p>",
+            "URL": "<p>-</p>"
+          }
+        ]
+      },
+      "Title": "FortiDDoS Multiple OS command injection"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Juan Pablo Lopez Yacubian for reporting this vulnerability under responsible disclosure"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A vulnerability in FortiDDoS allows escalation of privilege via remote OS injection through crafted URLs sent to the GUI. The user is required to be logged in for an exploit to work.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiDDoS (Series B models only) versions below and including 4.2.2",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to versions 4.2.3",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiDDoS Multiple OS command injection",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-037"
+        },
+        {
+          "cvrf:Description": "<p>-</p>",
+          "cvrf:URL": "<p>-</p>"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiDDoS Multiple OS command injection",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-09-28T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-037"
+      },
+      "cvrf:InitialReleaseDate": "2016-09-28T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-09-28T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,1264 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiDDoS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.4.0",
+                  "@ProductID": "FortiDDoS-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.3.2",
+                  "@ProductID": "FortiDDoS-5.3.2"
+                }
+              },
+              {
+                "@Name": "5.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.3.1",
+                  "@ProductID": "FortiDDoS-5.3.1"
+                }
+              },
+              {
+                "@Name": "5.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.3.0",
+                  "@ProductID": "FortiDDoS-5.3.0"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.2.0",
+                  "@ProductID": "FortiDDoS-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.1.0",
+                  "@ProductID": "FortiDDoS-5.1.0"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 5.0.0",
+                  "@ProductID": "FortiDDoS-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.7.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.7.0",
+                  "@ProductID": "FortiDDoS-4.7.0"
+                }
+              },
+              {
+                "@Name": "4.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.6.0",
+                  "@ProductID": "FortiDDoS-4.6.0"
+                }
+              },
+              {
+                "@Name": "4.5.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.5.0",
+                  "@ProductID": "FortiDDoS-4.5.0"
+                }
+              },
+              {
+                "@Name": "4.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.4.2",
+                  "@ProductID": "FortiDDoS-4.4.2"
+                }
+              },
+              {
+                "@Name": "4.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.4.1",
+                  "@ProductID": "FortiDDoS-4.4.1"
+                }
+              },
+              {
+                "@Name": "4.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS 4.4.0",
+                  "@ProductID": "FortiDDoS-4.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiDDoS-CM",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-CM 5.3.0",
+                  "@ProductID": "FortiDDoS-CM-5.3.0"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-CM 5.2.0",
+                  "@ProductID": "FortiDDoS-CM-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-CM 5.1.0",
+                  "@ProductID": "FortiDDoS-CM-5.1.0"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-CM 5.0.0",
+                  "@ProductID": "FortiDDoS-CM-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.7.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-CM 4.7.0",
+                  "@ProductID": "FortiDDoS-CM-4.7.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiMail",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.4.1",
+                  "@ProductID": "FortiMail-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.4.0",
+                  "@ProductID": "FortiMail-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.2.4",
+                  "@ProductID": "FortiMail-6.2.4"
+                }
+              },
+              {
+                "@Name": "6.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.2.3",
+                  "@ProductID": "FortiMail-6.2.3"
+                }
+              },
+              {
+                "@Name": "6.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.2.2",
+                  "@ProductID": "FortiMail-6.2.2"
+                }
+              },
+              {
+                "@Name": "6.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.2.1",
+                  "@ProductID": "FortiMail-6.2.1"
+                }
+              },
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.2.0",
+                  "@ProductID": "FortiMail-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.9",
+                  "@ProductID": "FortiMail-6.0.9"
+                }
+              },
+              {
+                "@Name": "6.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.8",
+                  "@ProductID": "FortiMail-6.0.8"
+                }
+              },
+              {
+                "@Name": "6.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.7",
+                  "@ProductID": "FortiMail-6.0.7"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.6",
+                  "@ProductID": "FortiMail-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.5",
+                  "@ProductID": "FortiMail-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.4",
+                  "@ProductID": "FortiMail-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.3",
+                  "@ProductID": "FortiMail-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.2",
+                  "@ProductID": "FortiMail-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.1",
+                  "@ProductID": "FortiMail-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.0",
+                  "@ProductID": "FortiMail-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.4.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.12",
+                  "@ProductID": "FortiMail-5.4.12"
+                }
+              },
+              {
+                "@Name": "5.4.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.11",
+                  "@ProductID": "FortiMail-5.4.11"
+                }
+              },
+              {
+                "@Name": "5.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.10",
+                  "@ProductID": "FortiMail-5.4.10"
+                }
+              },
+              {
+                "@Name": "5.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.9",
+                  "@ProductID": "FortiMail-5.4.9"
+                }
+              },
+              {
+                "@Name": "5.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.8",
+                  "@ProductID": "FortiMail-5.4.8"
+                }
+              },
+              {
+                "@Name": "5.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.7",
+                  "@ProductID": "FortiMail-5.4.7"
+                }
+              },
+              {
+                "@Name": "5.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.6",
+                  "@ProductID": "FortiMail-5.4.6"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.5",
+                  "@ProductID": "FortiMail-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.4",
+                  "@ProductID": "FortiMail-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.3",
+                  "@ProductID": "FortiMail-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.2",
+                  "@ProductID": "FortiMail-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.1",
+                  "@ProductID": "FortiMail-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.0",
+                  "@ProductID": "FortiMail-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.3.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.13",
+                  "@ProductID": "FortiMail-5.3.13"
+                }
+              },
+              {
+                "@Name": "5.3.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.12",
+                  "@ProductID": "FortiMail-5.3.12"
+                }
+              },
+              {
+                "@Name": "5.3.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.10",
+                  "@ProductID": "FortiMail-5.3.10"
+                }
+              },
+              {
+                "@Name": "5.3.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.9",
+                  "@ProductID": "FortiMail-5.3.9"
+                }
+              },
+              {
+                "@Name": "5.3.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.8",
+                  "@ProductID": "FortiMail-5.3.8"
+                }
+              },
+              {
+                "@Name": "5.3.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.7",
+                  "@ProductID": "FortiMail-5.3.7"
+                }
+              },
+              {
+                "@Name": "5.3.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.6",
+                  "@ProductID": "FortiMail-5.3.6"
+                }
+              },
+              {
+                "@Name": "5.3.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.5",
+                  "@ProductID": "FortiMail-5.3.5"
+                }
+              },
+              {
+                "@Name": "5.3.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.4",
+                  "@ProductID": "FortiMail-5.3.4"
+                }
+              },
+              {
+                "@Name": "5.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.3",
+                  "@ProductID": "FortiMail-5.3.3"
+                }
+              },
+              {
+                "@Name": "5.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.2",
+                  "@ProductID": "FortiMail-5.3.2"
+                }
+              },
+              {
+                "@Name": "5.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.1",
+                  "@ProductID": "FortiMail-5.3.1"
+                }
+              },
+              {
+                "@Name": "5.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.0",
+                  "@ProductID": "FortiMail-5.3.0"
+                }
+              },
+              {
+                "@Name": "5.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.10",
+                  "@ProductID": "FortiMail-5.2.10"
+                }
+              },
+              {
+                "@Name": "5.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.9",
+                  "@ProductID": "FortiMail-5.2.9"
+                }
+              },
+              {
+                "@Name": "5.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.8",
+                  "@ProductID": "FortiMail-5.2.8"
+                }
+              },
+              {
+                "@Name": "5.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.7",
+                  "@ProductID": "FortiMail-5.2.7"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.6",
+                  "@ProductID": "FortiMail-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.5",
+                  "@ProductID": "FortiMail-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.4",
+                  "@ProductID": "FortiMail-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.3",
+                  "@ProductID": "FortiMail-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.2",
+                  "@ProductID": "FortiMail-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.1",
+                  "@ProductID": "FortiMail-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.0",
+                  "@ProductID": "FortiMail-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.1.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.7",
+                  "@ProductID": "FortiMail-5.1.7"
+                }
+              },
+              {
+                "@Name": "5.1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.6",
+                  "@ProductID": "FortiMail-5.1.6"
+                }
+              },
+              {
+                "@Name": "5.1.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.5",
+                  "@ProductID": "FortiMail-5.1.5"
+                }
+              },
+              {
+                "@Name": "5.1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.4",
+                  "@ProductID": "FortiMail-5.1.4"
+                }
+              },
+              {
+                "@Name": "5.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.3",
+                  "@ProductID": "FortiMail-5.1.3"
+                }
+              },
+              {
+                "@Name": "5.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.2",
+                  "@ProductID": "FortiMail-5.1.2"
+                }
+              },
+              {
+                "@Name": "5.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.1",
+                  "@ProductID": "FortiMail-5.1.1"
+                }
+              },
+              {
+                "@Name": "5.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.0",
+                  "@ProductID": "FortiMail-5.1.0"
+                }
+              },
+              {
+                "@Name": "5.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.11",
+                  "@ProductID": "FortiMail-5.0.11"
+                }
+              },
+              {
+                "@Name": "5.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.10",
+                  "@ProductID": "FortiMail-5.0.10"
+                }
+              },
+              {
+                "@Name": "5.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.9",
+                  "@ProductID": "FortiMail-5.0.9"
+                }
+              },
+              {
+                "@Name": "5.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.8",
+                  "@ProductID": "FortiMail-5.0.8"
+                }
+              },
+              {
+                "@Name": "5.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.7",
+                  "@ProductID": "FortiMail-5.0.7"
+                }
+              },
+              {
+                "@Name": "5.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.6",
+                  "@ProductID": "FortiMail-5.0.6"
+                }
+              },
+              {
+                "@Name": "5.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.5",
+                  "@ProductID": "FortiMail-5.0.5"
+                }
+              },
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.4",
+                  "@ProductID": "FortiMail-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.3",
+                  "@ProductID": "FortiMail-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.2",
+                  "@ProductID": "FortiMail-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.1",
+                  "@ProductID": "FortiMail-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.0",
+                  "@ProductID": "FortiMail-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.3.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.9",
+                  "@ProductID": "FortiMail-4.3.9"
+                }
+              },
+              {
+                "@Name": "4.3.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.8",
+                  "@ProductID": "FortiMail-4.3.8"
+                }
+              },
+              {
+                "@Name": "4.3.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.7",
+                  "@ProductID": "FortiMail-4.3.7"
+                }
+              },
+              {
+                "@Name": "4.3.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.6",
+                  "@ProductID": "FortiMail-4.3.6"
+                }
+              },
+              {
+                "@Name": "4.3.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.5",
+                  "@ProductID": "FortiMail-4.3.5"
+                }
+              },
+              {
+                "@Name": "4.3.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.4",
+                  "@ProductID": "FortiMail-4.3.4"
+                }
+              },
+              {
+                "@Name": "4.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.3",
+                  "@ProductID": "FortiMail-4.3.3"
+                }
+              },
+              {
+                "@Name": "4.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.2",
+                  "@ProductID": "FortiMail-4.3.2"
+                }
+              },
+              {
+                "@Name": "4.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.1",
+                  "@ProductID": "FortiMail-4.3.1"
+                }
+              },
+              {
+                "@Name": "4.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.0",
+                  "@ProductID": "FortiMail-4.3.0"
+                }
+              },
+              {
+                "@Name": "4.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.4",
+                  "@ProductID": "FortiMail-4.2.4"
+                }
+              },
+              {
+                "@Name": "4.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.3",
+                  "@ProductID": "FortiMail-4.2.3"
+                }
+              },
+              {
+                "@Name": "4.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.2",
+                  "@ProductID": "FortiMail-4.2.2"
+                }
+              },
+              {
+                "@Name": "4.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.1",
+                  "@ProductID": "FortiMail-4.2.1"
+                }
+              },
+              {
+                "@Name": "4.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.0",
+                  "@ProductID": "FortiMail-4.2.0"
+                }
+              },
+              {
+                "@Name": "4.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.1.3",
+                  "@ProductID": "FortiMail-4.1.3"
+                }
+              },
+              {
+                "@Name": "4.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.1.2",
+                  "@ProductID": "FortiMail-4.1.2"
+                }
+              },
+              {
+                "@Name": "4.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.1.1",
+                  "@ProductID": "FortiMail-4.1.1"
+                }
+              },
+              {
+                "@Name": "4.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.1.0",
+                  "@ProductID": "FortiMail-4.1.0"
+                }
+              },
+              {
+                "@Name": "4.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.5",
+                  "@ProductID": "FortiMail-4.0.5"
+                }
+              },
+              {
+                "@Name": "4.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.4",
+                  "@ProductID": "FortiMail-4.0.4"
+                }
+              },
+              {
+                "@Name": "4.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.3",
+                  "@ProductID": "FortiMail-4.0.3"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.1",
+                  "@ProductID": "FortiMail-4.0.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiRecorder",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 6.0.3",
+                  "@ProductID": "FortiRecorder-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 6.0.2",
+                  "@ProductID": "FortiRecorder-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 6.0.1",
+                  "@ProductID": "FortiRecorder-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiRecorder 6.0.0",
+                  "@ProductID": "FortiRecorder-6.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiVoice",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.6",
+                  "@ProductID": "FortiVoice-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.5",
+                  "@ProductID": "FortiVoice-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.4",
+                  "@ProductID": "FortiVoice-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.3",
+                  "@ProductID": "FortiVoice-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.2",
+                  "@ProductID": "FortiVoice-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.1",
+                  "@ProductID": "FortiVoice-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.0",
+                  "@ProductID": "FortiVoice-6.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiDDoS-5.4.0",
+            "FortiDDoS-5.3.2",
+            "FortiDDoS-5.3.1",
+            "FortiDDoS-5.3.0",
+            "FortiDDoS-5.2.0",
+            "FortiDDoS-5.1.0",
+            "FortiDDoS-5.0.0",
+            "FortiDDoS-4.7.0",
+            "FortiDDoS-4.6.0",
+            "FortiDDoS-4.5.0",
+            "FortiDDoS-4.4.2",
+            "FortiDDoS-4.4.1",
+            "FortiDDoS-4.4.0",
+            "FortiDDoS-CM-5.3.0",
+            "FortiDDoS-CM-5.2.0",
+            "FortiDDoS-CM-5.1.0",
+            "FortiDDoS-CM-5.0.0",
+            "FortiDDoS-CM-4.7.0",
+            "FortiMail-6.4.1",
+            "FortiMail-6.4.0",
+            "FortiMail-6.2.4",
+            "FortiMail-6.2.3",
+            "FortiMail-6.2.2",
+            "FortiMail-6.2.1",
+            "FortiMail-6.2.0",
+            "FortiMail-6.0.9",
+            "FortiMail-6.0.8",
+            "FortiMail-6.0.7",
+            "FortiMail-6.0.6",
+            "FortiMail-6.0.5",
+            "FortiMail-6.0.4",
+            "FortiMail-6.0.3",
+            "FortiMail-6.0.2",
+            "FortiMail-6.0.1",
+            "FortiMail-6.0.0",
+            "FortiMail-5.4.12",
+            "FortiMail-5.4.11",
+            "FortiMail-5.4.10",
+            "FortiMail-5.4.9",
+            "FortiMail-5.4.8",
+            "FortiMail-5.4.7",
+            "FortiMail-5.4.6",
+            "FortiMail-5.4.5",
+            "FortiMail-5.4.4",
+            "FortiMail-5.4.3",
+            "FortiMail-5.4.2",
+            "FortiMail-5.4.1",
+            "FortiMail-5.4.0",
+            "FortiMail-5.3.13",
+            "FortiMail-5.3.12",
+            "FortiMail-5.3.10",
+            "FortiMail-5.3.9",
+            "FortiMail-5.3.8",
+            "FortiMail-5.3.7",
+            "FortiMail-5.3.6",
+            "FortiMail-5.3.5",
+            "FortiMail-5.3.4",
+            "FortiMail-5.3.3",
+            "FortiMail-5.3.2",
+            "FortiMail-5.3.1",
+            "FortiMail-5.3.0",
+            "FortiMail-5.2.10",
+            "FortiMail-5.2.9",
+            "FortiMail-5.2.8",
+            "FortiMail-5.2.7",
+            "FortiMail-5.2.6",
+            "FortiMail-5.2.5",
+            "FortiMail-5.2.4",
+            "FortiMail-5.2.3",
+            "FortiMail-5.2.2",
+            "FortiMail-5.2.1",
+            "FortiMail-5.2.0",
+            "FortiMail-5.1.7",
+            "FortiMail-5.1.6",
+            "FortiMail-5.1.5",
+            "FortiMail-5.1.4",
+            "FortiMail-5.1.3",
+            "FortiMail-5.1.2",
+            "FortiMail-5.1.1",
+            "FortiMail-5.1.0",
+            "FortiMail-5.0.11",
+            "FortiMail-5.0.10",
+            "FortiMail-5.0.9",
+            "FortiMail-5.0.8",
+            "FortiMail-5.0.7",
+            "FortiMail-5.0.6",
+            "FortiMail-5.0.5",
+            "FortiMail-5.0.4",
+            "FortiMail-5.0.3",
+            "FortiMail-5.0.2",
+            "FortiMail-5.0.1",
+            "FortiMail-5.0.0",
+            "FortiMail-4.3.9",
+            "FortiMail-4.3.8",
+            "FortiMail-4.3.7",
+            "FortiMail-4.3.6",
+            "FortiMail-4.3.5",
+            "FortiMail-4.3.4",
+            "FortiMail-4.3.3",
+            "FortiMail-4.3.2",
+            "FortiMail-4.3.1",
+            "FortiMail-4.3.0",
+            "FortiMail-4.2.4",
+            "FortiMail-4.2.3",
+            "FortiMail-4.2.2",
+            "FortiMail-4.2.1",
+            "FortiMail-4.2.0",
+            "FortiMail-4.1.3",
+            "FortiMail-4.1.2",
+            "FortiMail-4.1.1",
+            "FortiMail-4.1.0",
+            "FortiMail-4.0.5",
+            "FortiMail-4.0.4",
+            "FortiMail-4.0.3",
+            "FortiMail-4.0.1",
+            "FortiRecorder-6.0.3",
+            "FortiRecorder-6.0.2",
+            "FortiRecorder-6.0.1",
+            "FortiRecorder-6.0.0",
+            "FortiVoice-6.0.6",
+            "FortiVoice-6.0.5",
+            "FortiVoice-6.0.4",
+            "FortiVoice-6.0.3",
+            "FortiVoice-6.0.2",
+            "FortiVoice-6.0.1",
+            "FortiVoice-6.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Unauthenticated user can determine software-version information",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-105"
+        }
+      },
+      "Title": "Unauthenticated user can determine software-version information",
+      "cvrf:CVE": [
+        "CVE-2020-15933",
+        "CVE-2021-24008"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Patrick Schmid from Redguard for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An exposure of sensitive system information to an unauthorized control sphere vulnerability [CWE-497] in FortiMail may allow a remote, unauthenticated attacker to obtain potentially sensitive software-version information by reading a JavaScript file.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiMail versions 6.0.9 and below.FortiMail versions 6.2.4 and belowFortiMail versions 6.4.1 and below.FortiDDoS version 5.4.0.FortiDDoS version 5.3.2 and below.FortiDDoS version 5.2.0.FortiDDoS version 5.1.0.FortiDDoS version 5.0.0.FortiDDoS version 4.7.0.FortiDDoS version 4.6.0.FortiDDoS version 4.5.0.FortiDDoS version 4.4.2 and below.FortiDDoS-CM version 5.3.0.FortiDDoS-CM version 5.2.0.FortiDDoS-CM version 5.1.0.FortiDDoS-CM version 5.0.0.FortiDDoS-CM version 4.7.0.FortiVoice version 6.0.6 and below.FortiRecorder version 6.0.3 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiMail versions 6.0.10 or above.Please upgrade to FortiMail versions 6.2.5 or above.Please upgrade to FortiMail versions 6.4.2 or above.Please upgrade to FortiDDoS versions 5.5.0 or above.Please upgrade to FortiDDoS versions 5.4.3 or above.Please upgrade to FortiDDoS-CM versions 5.4.1 or above.Please upgrade to FortiVoice versions 6.4.0 or above.Please upgrade to FortiVoice versions 6.0.7 or above.Please upgrade to FortiRecorder versions 6.0.4 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Unauthenticated user can determine software-version information",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-03-28T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-105"
+      },
+      "cvrf:InitialReleaseDate": "2020-11-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-11-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiConnect",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "15.10.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiConnect 15.10.8",
+                "@ProductID": "FortiConnect-15.10.8"
+              }
+            },
+            {
+              "@Name": "15.10.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiConnect 15.10.6",
+                "@ProductID": "FortiConnect-15.10.6"
+              }
+            },
+            {
+              "@Name": "15.10.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiConnect 15.10.5",
+                "@ProductID": "FortiConnect-15.10.5"
+              }
+            },
+            {
+              "@Name": "15.10.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiConnect 15.10.4",
+                "@ProductID": "FortiConnect-15.10.4"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:L/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiConnect-15.10.8",
+            "FortiConnect-15.10.6",
+            "FortiConnect-15.10.5",
+            "FortiConnect-15.10.4"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Fortinet Connect admin able to gain root access",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-080"
+        }
+      },
+      "Title": "Fortinet Connect admin able to gain root access",
+      "cvrf:CVE": "CVE-2016-8494"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Spencer Lowe for reporting this vulnerability under responsible disclosure"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A webui administrator may create a new theme that performs arbitrary code execution on the system.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "Fortinet Connect 14.2, 14.10, 15.10 and 16.7",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "A patch is available for the following Fortinet Connect versions: * 16.7.0.1 * 15.10.0.3 * 14.10.0.5 * 14.2.0.12 Please contact Fortinet TAC support to have access to the patches.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Fortinet Connect admin able to gain root access",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-02-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-080"
+      },
+      "cvrf:InitialReleaseDate": "2017-02-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-02-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

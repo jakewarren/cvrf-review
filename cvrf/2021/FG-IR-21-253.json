@@ -1,0 +1,89 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "9.0",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Multiple Apache Vulnerabilities fixed in 2.4.52",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-253"
+          },
+          {
+            "Description": "https://httpd.apache.org/security/vulnerabilities_24.html",
+            "URL": "https://httpd.apache.org/security/vulnerabilities_24.html"
+          }
+        ]
+      },
+      "Title": "Multiple Apache Vulnerabilities fixed in 2.4.52",
+      "cvrf:CVE": "CVE-2021-44790"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The Apache project released an advisory, describing the following vulnerabilities:1) CVE-2021-44790A carefully crafted request body can cause a buffer overflow in the mod_lua multipart parser (r:parsebody() called from Lua scripts). The Apache httpd team is not aware of an exploit for the vulnerabilty though it might be possible to craft one. This issue affects Apache HTTP Server 2.4.51 and earlier.2) CVE-2021-44224A crafted URI sent to httpd configured as a forward proxy (ProxyRequests on) can cause a crash (NULL pointer dereference) or, for configurations mixing forward and reverse proxy declarations, can allow for requests to be directed to a declared Unix Domain Socket endpoint (Server Side Request Forgery). This issue affects Apache HTTP Server 2.4.7 up to 2.4.51 (included).",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following products are NOT impacted:FortiOSFortiManagerFortiAnalyzerFortiAuthenticatorFortiIsolatorFortiProxyFortiSandboxFortiWLMFortiMailFortiAPFortiDeceptorFortiRecorderFortiWebFortiWLCFortiPortalFortiSIEMFortiSwitchFortiClientEMSFortiVoiceEnterpriseFortiPentestFortiNDRFortiNACFortiAnalyzer-BD",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Multiple Apache Vulnerabilities fixed in 2.4.52",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-253"
+        },
+        {
+          "cvrf:Description": "https://httpd.apache.org/security/vulnerabilities_24.html",
+          "cvrf:URL": "https://httpd.apache.org/security/vulnerabilities_24.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Multiple Apache Vulnerabilities fixed in 2.4.52",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-12-28T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-253"
+      },
+      "cvrf:InitialReleaseDate": "2021-12-28T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-12-28T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

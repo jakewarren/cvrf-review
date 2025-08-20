@@ -1,0 +1,109 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.5",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:X/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Security Best Practice: [Apache Vulnerabilities] Apache version 2.4.46 provides a fix for CVE-2020-9490, CVE-2020-11984, and CVE-2020-11993",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-128"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2020-9490",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2020-9490"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2020-11984",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2020-11984"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2020-11993",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2020-11993"
+          }
+        ]
+      },
+      "Title": "Security Best Practice: [Apache Vulnerabilities] Apache version 2.4.46 provides a fix for CVE-2020-9490, CVE-2020-11984, and CVE-2020-11993",
+      "cvrf:CVE": [
+        "CVE-2020-11984",
+        "CVE-2020-11993",
+        "CVE-2020-9490"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The Apache project released an advisory on August 7th 2020, which describes the following vulnerabilities:1) CVE-2020-9490Apache HTTP Server versions 2.4.20 to 2.4.43. A specially crafted value for the 'Cache-Digest' header in a HTTP/2 request would result in a crash when the server actually tries to HTTP/2 PUSH a resource afterwards. Configuring the HTTP/2 feature via \"H2Push off\" will mitigate this vulnerability for unpatched servers.2) CVE-2020-11984Apache HTTP server 2.4.32 to 2.4.44 mod_proxy_uwsgi info disclosure and possible RCE.3) CVE-2020-11993Apache HTTP Server versions 2.4.20 to 2.4.43 When trace/debug was enabled for the HTTP/2 module and on certain traffic edge patterns, logging statements were made on the wrong connection, causing concurrent use of memory pools. Configuring the LogLevel of mod_http2 above \"info\" will mitigate this vulnerability for unpatched servers.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "Products FortiGate, FortiManager, FortiAnalyzer, FortiSwitch, FortiAP are not impacted by the concerned CVE's.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Security Best Practice: [Apache Vulnerabilities] Apache version 2.4.46 provides a fix for CVE-2020-9490, CVE-2020-11984, and CVE-2020-11993",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-128"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2020-9490",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2020-9490"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2020-11984",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2020-11984"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2020-11993",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2020-11993"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Security Best Practice: [Apache Vulnerabilities] Apache version 2.4.46 provides a fix for CVE-2020-9490, CVE-2020-11984, and CVE-2020-11993",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-10-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-128"
+      },
+      "cvrf:InitialReleaseDate": "2020-10-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-10-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

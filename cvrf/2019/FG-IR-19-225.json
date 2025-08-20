@@ -1,0 +1,97 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "HTTP/2 Multiple DoS Attacks (VU#605641)",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-225"
+          },
+          {
+            "Description": "https://kb.cert.org/vuls/id/605641/",
+            "URL": "https://kb.cert.org/vuls/id/605641/"
+          }
+        ]
+      },
+      "Title": "HTTP/2 Multiple DoS Attacks (VU#605641)",
+      "cvrf:CVE": [
+        "CVE-2019-9511",
+        "CVE-2019-9512",
+        "CVE-2019-9513",
+        "CVE-2019-9514",
+        "CVE-2019-9515",
+        "CVE-2019-9516",
+        "CVE-2019-9517",
+        "CVE-2019-9518"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Improper implementations of the HTTP/2 protocol can lead to a variety denial-of-service (DoS) attacks.The related CVEs are:CVE-2019-9511, also known as Data DribbleCVE-2019-9512, also known as Ping FloodCVE-2019-9513, also known as Resource LoopCVE-2019-9514, also known as Reset FloodCVE-2019-9515, also known as Settings FloodCVE-2019-9516, also known as 0-Length Headers LeakCVE-2019-9517, also known as Internal Data BufferingCVE-2019-9518, also known as Empty Frame Flooding",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following products have been confirmed to NOT be vulnerable to any of the above:FortiOSFortiAPFortiSwitchFortiAnalyzerFortiWebFortiManagerFortiMail",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "HTTP/2 Multiple DoS Attacks (VU#605641)",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-225"
+        },
+        {
+          "cvrf:Description": "https://kb.cert.org/vuls/id/605641/",
+          "cvrf:URL": "https://kb.cert.org/vuls/id/605641/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "HTTP/2 Multiple DoS Attacks (VU#605641)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-09-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-225"
+      },
+      "cvrf:InitialReleaseDate": "2019-09-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-09-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiFone",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "3.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.11",
+                  "@ProductID": "FortiFone-3.0.11"
+                }
+              },
+              {
+                "@Name": "3.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.10",
+                  "@ProductID": "FortiFone-3.0.10"
+                }
+              },
+              {
+                "@Name": "3.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.9",
+                  "@ProductID": "FortiFone-3.0.9"
+                }
+              },
+              {
+                "@Name": "3.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.8",
+                  "@ProductID": "FortiFone-3.0.8"
+                }
+              },
+              {
+                "@Name": "3.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.7",
+                  "@ProductID": "FortiFone-3.0.7"
+                }
+              },
+              {
+                "@Name": "3.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.6",
+                  "@ProductID": "FortiFone-3.0.6"
+                }
+              },
+              {
+                "@Name": "3.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.5",
+                  "@ProductID": "FortiFone-3.0.5"
+                }
+              },
+              {
+                "@Name": "3.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.4",
+                  "@ProductID": "FortiFone-3.0.4"
+                }
+              },
+              {
+                "@Name": "3.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.3",
+                  "@ProductID": "FortiFone-3.0.3"
+                }
+              },
+              {
+                "@Name": "3.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.2",
+                  "@ProductID": "FortiFone-3.0.2"
+                }
+              },
+              {
+                "@Name": "3.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.1",
+                  "@ProductID": "FortiFone-3.0.1"
+                }
+              },
+              {
+                "@Name": "3.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiFone 3.0.0",
+                  "@ProductID": "FortiFone-3.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiVoice",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.4.4",
+                  "@ProductID": "FortiVoice-6.4.4"
+                }
+              },
+              {
+                "@Name": "6.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.4.3",
+                  "@ProductID": "FortiVoice-6.4.3"
+                }
+              },
+              {
+                "@Name": "6.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.4.2",
+                  "@ProductID": "FortiVoice-6.4.2"
+                }
+              },
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.4.1",
+                  "@ProductID": "FortiVoice-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.4.0",
+                  "@ProductID": "FortiVoice-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.10",
+                  "@ProductID": "FortiVoice-6.0.10"
+                }
+              },
+              {
+                "@Name": "6.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.9",
+                  "@ProductID": "FortiVoice-6.0.9"
+                }
+              },
+              {
+                "@Name": "6.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.8",
+                  "@ProductID": "FortiVoice-6.0.8"
+                }
+              },
+              {
+                "@Name": "6.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.7",
+                  "@ProductID": "FortiVoice-6.0.7"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.6",
+                  "@ProductID": "FortiVoice-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.5",
+                  "@ProductID": "FortiVoice-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.4",
+                  "@ProductID": "FortiVoice-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.3",
+                  "@ProductID": "FortiVoice-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.2",
+                  "@ProductID": "FortiVoice-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.1",
+                  "@ProductID": "FortiVoice-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 6.0.0",
+                  "@ProductID": "FortiVoice-6.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "9.0",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiFone-3.0.11",
+            "FortiFone-3.0.10",
+            "FortiFone-3.0.9",
+            "FortiFone-3.0.8",
+            "FortiFone-3.0.7",
+            "FortiFone-3.0.6",
+            "FortiFone-3.0.5",
+            "FortiFone-3.0.4",
+            "FortiFone-3.0.3",
+            "FortiFone-3.0.2",
+            "FortiFone-3.0.1",
+            "FortiFone-3.0.0",
+            "FortiVoice-6.4.4",
+            "FortiVoice-6.4.3",
+            "FortiVoice-6.4.2",
+            "FortiVoice-6.4.1",
+            "FortiVoice-6.4.0",
+            "FortiVoice-6.0.10",
+            "FortiVoice-6.0.9",
+            "FortiVoice-6.0.8",
+            "FortiVoice-6.0.7",
+            "FortiVoice-6.0.6",
+            "FortiVoice-6.0.5",
+            "FortiVoice-6.0.4",
+            "FortiVoice-6.0.3",
+            "FortiVoice-6.0.2",
+            "FortiVoice-6.0.1",
+            "FortiVoice-6.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Multiple vulnerabilities in PJSIP library",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-007"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-43845",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-43845"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-37706",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-37706"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-43804",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-43804"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-32686",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-32686"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-21375",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-21375"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2020-15260",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2020-15260"
+          }
+        ]
+      },
+      "Title": "Multiple vulnerabilities in PJSIP library",
+      "cvrf:CVE": "CVE-2021-37706"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Some advisories were released affecting the version of PJSIP library used in some Fortinet products:CVE-2021-43845:PJSIP is a free and open source multimedia communication library. In version 2.11.1 and prior, if incoming RTCP XR messagecontain block, the data field is not checked against the received packet size, potentially resulting in an out-of-bound read access.This affects all users that use PJMEDIA and RTCP XR. A malicious actor can send a RTCP XR message with an invalid packet size.CVE-2021-37706:PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocolssuch as SIP, SDP, RTP, STUN, TURN, and ICE. In affected versions if the incoming STUN message contains an ERROR-CODE attribute, the header length is not checked before performing a subtraction operation, potentially resulting in an integer underflow scenario. This issue affects all users that use STUN. A malicious actor located within the victims network may forge and send a specially crafted UDP (STUN) message that could remotely execute arbitrary code on the victims machine. Users are advised to upgrade as soon as possible. There are no known workarounds.CVE-2021-43804:PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In affected versions if the incoming RTCP BYE message contains a reason's length, this declared length is not checked against the actual received packet size, potentially resulting in an out-of-bound read access. This issue affects all users that use PJMEDIA and RTCP. A malicious actor can send a RTCP BYE message with an invalid reason length. Users are advised to upgrade as soon as possible. There are no known workarounds.CVE-2021-32686:PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In PJSIP before version 2.11.1, there are a couple of issues found in the SSL socket. First, a race condition between callback and destroy, due to the accepted socket having no group lock. Second, the SSL socket parent/listener may get destroyed during handshake. Both issues were reported to happen intermittently in heavy load TLS connections. They cause a crash, resulting in a denial of service. These are fixed in version 2.11.1.CVE-2021-21375:PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In PJSIP version 2.10 and earlier, after an initial INVITE has been sent, when two 183 responses are received, with the first one causing negotiation failure, a crash will occur. This results in a denial of service.CVE-2020-15260:PJSIP is a free and open source multimedia communication library written in C language implementing standard based protocols such as SIP, SDP, RTP, STUN, TURN, and ICE. In version 2.10 and earlier, PJSIP transport can be reused if they have the same IP address + port + protocol. However, this is insufficient for secure transport since it lacks remote hostname authentication. Suppose we have created a TLS connection to sip.foo.com, which has an IP address 100.1.1.1. If we want to create a TLS connection to another hostname, say sip.bar.com, which has the same IP address, then it will reuse that existing connection, even though 100.1.1.1 does not have certificate to authenticate as sip.bar.com. The vulnerability allows for an insecure interaction without user awareness. It affects users who need access to connections to different destinations that translate to the same address, and allows man-in-the-middle attack if attacker can route a connection to another destination such as in the case of DNS spoofing.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiFone versions 3.0.11 and below.The following product is NOT impacted:FortiVoiceEnterpriseOther Fortinet products do not use the PJSIP library.",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiFone version 3.0.12 or above.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Multiple vulnerabilities in PJSIP library",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-007"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-43845",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-43845"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-37706",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-37706"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-43804",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-43804"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-32686",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-32686"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2021-21375",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2021-21375"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2020-15260",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2020-15260"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Multiple vulnerabilities in PJSIP library",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-05-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-007"
+      },
+      "cvrf:InitialReleaseDate": "2022-05-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-05-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

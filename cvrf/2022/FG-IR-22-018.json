@@ -1,0 +1,137 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiEDR",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 5.0.2",
+                "@ProductID": "FortiEDR-5.0.2"
+              }
+            },
+            {
+              "@Name": "5.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 5.0.1",
+                "@ProductID": "FortiEDR-5.0.1"
+              }
+            },
+            {
+              "@Name": "5.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 5.0.0",
+                "@ProductID": "FortiEDR-5.0.0"
+              }
+            },
+            {
+              "@Name": "4.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR 4.0.0",
+                "@ProductID": "FortiEDR-4.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.6",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiEDR-5.0.2",
+            "FortiEDR-5.0.1",
+            "FortiEDR-5.0.0",
+            "FortiEDR-4.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiEDR - Hardcoded AES key allows for full Collector compromise",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-018"
+        }
+      },
+      "Title": "FortiEDR - Hardcoded AES key allows for full Collector compromise",
+      "cvrf:CVE": "CVE-2022-23440"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Giuseppe Cocomazzi of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A use of hard-coded cryptographic key vulnerability [CWE-321] in the registration mechanism of FortiEDR collectors may allow a local attacker to disable and uninstall the collectors from the end-points within the same deployment.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiEDR version 5.0.0 through 5.0.2FortiEDR 4.0 all versions",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiEDR version 5.0.3",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiEDR - Hardcoded AES key allows for full Collector compromise",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-04-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-018"
+      },
+      "cvrf:InitialReleaseDate": "2022-04-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-04-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

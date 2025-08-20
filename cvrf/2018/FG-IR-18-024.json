@@ -1,0 +1,181 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSandbox",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "2.5.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 2.5.2",
+                "@ProductID": "FortiSandbox-2.5.2"
+              }
+            },
+            {
+              "@Name": "2.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 2.5.1",
+                "@ProductID": "FortiSandbox-2.5.1"
+              }
+            },
+            {
+              "@Name": "2.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 2.5.0",
+                "@ProductID": "FortiSandbox-2.5.0"
+              }
+            },
+            {
+              "@Name": "2.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 2.4.1",
+                "@ProductID": "FortiSandbox-2.4.1"
+              }
+            },
+            {
+              "@Name": "2.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 2.4.0",
+                "@ProductID": "FortiSandbox-2.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSandbox-2.5.2",
+            "FortiSandbox-2.5.1",
+            "FortiSandbox-2.5.0",
+            "FortiSandbox-2.4.1",
+            "FortiSandbox-2.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiSandbox – Reflected XSS back url in file scan component",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-024"
+        }
+      },
+      "Title": "FortiSandbox – Reflected XSS back url in file scan component",
+      "cvrf:CVE": "CVE-2018-1356"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": [
+        {
+          "cvrf:Description": "Fortinet thanks Yasar Calay, Beyaz Bilgisayar Danmanlk, Hizmetleri Ltd.ti. for reporting this vulnerability."
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        }
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A reflected Cross-Site-Scripting (XSS) vulnerability in Fortinet FortiSandbox may allow an attacker to execute unauthorized code or commands via the back_url parameter in the file scan component.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiSandbox 2.4.0, 2.4.1, 2.5.0, 2.5.1, 2.5.2",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to 3.0.0 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiSandbox – Reflected XSS back url in file scan component",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-04-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-024"
+      },
+      "cvrf:InitialReleaseDate": "2019-04-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-04-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiADC-E remote network access vulnerability",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-032"
+        }
+      },
+      "Title": "FortiADC-E remote network access vulnerability"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Unprivileged network access",
+          "@Ordinal": "1",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "All FortiADC \"E\" models and all Coyote Point Equalizer models.Software releases between 3.1.1 and 4.0.4 (including both) for FortiADC and 10.2.0a for Coyote Point are vulnerable.",
+          "@Ordinal": "2",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to 4.0.5 (FortiADC-E only) or apply the patch provided on the Fortinet Support site. The patch and supporting documentation are available in the FortiADC-E and CoyotePoint firmware download directories, accessible from https://support.fortinet.com. The following files are available:For FortiADC-E hardware: FortiADC_4.0_build0027_upgrade_release.tar.gz FortiADC-E-4 0 4-GA-Release-Notes.pdfFor CoyotePoint hardware and Equalizer OnDemand: 10.3.0g-RELEASE.tgz 10.3.0g-250GX.tgz relnotes_10.3.0.pdfWorkaroundDisable administrative access on all interfaces connecting to insecure networks.From the GUI, navigate to that subnet's configuration page and disable the following flags: SSH, HTTP, HTTPS, SNMPFrom the CLI, enter the subnet context and execute \"services !ssl, !http, !https, !snmp\" follwed by \"commit\".",
+          "@Ordinal": "3",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiADC-E remote network access vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2014-10-21T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-14-032"
+      },
+      "cvrf:InitialReleaseDate": "2014-10-21T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2014-10-21T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

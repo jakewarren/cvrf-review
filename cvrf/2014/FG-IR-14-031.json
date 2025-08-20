@@ -1,0 +1,99 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "SSL v3 \"POODLE\" Vulnerability",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-031"
+          },
+          {
+            "Description": "http://blog.fortinet.com/post/poodle-faq",
+            "URL": "http://blog.fortinet.com/post/poodle-faq"
+          },
+          {
+            "Description": "http://googleonlinesecurity.blogspot.fr/2014/10/this-poodle-bites-exploiting-ssl-30.html  <br />",
+            "URL": "http://googleonlinesecurity.blogspot.fr/2014/10/this-poodle-bites-exploiting-ssl-30.html  <br />"
+          },
+          {
+            "Description": "https://www.openssl.org/~bodo/ssl-poodle.pdf",
+            "URL": "https://www.openssl.org/~bodo/ssl-poodle.pdf"
+          }
+        ]
+      },
+      "Title": "SSL v3 \"POODLE\" Vulnerability",
+      "cvrf:CVE": "CVE-2014-3566"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Secure Connection Hijacking",
+          "@Ordinal": "1",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate in its default configuration (GUI, and if enabled: VIP load-balance, SSL VPN, wanopt, SIP SSL)FortiMail in its default configuration (HTTPS GUI and all mail ssl services: SMTPS, IMAPS, POP3S)FortiAnalyzer and FortiManager FortiAnalyzer and FortiManager - version 5.0.9 and version 5.2.1 in their default configurationFortiAuthenticator - version 3.0 only; 3.1 and 3.2 are not affectedFortiCache - version 2.2 and 2.3, plus version 3.0 only in its default configurationFortiWeb FortiWeb - version 5.3.2 and 5.2.4 in their default configurationFortiDDoS FortiADC-D - All versions FortiADC-E - Cluster VIP (in its default configuration), and GUI, All versionsFortiClient - All versionsFortiVoice-Enterprise in its default configurationFortiRecorder in its default configurationFortiDB - All versionsFortiSwitchOS in its default configurationFortiSwitch ATCA - All versions",
+          "@Ordinal": "2",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Although FortiGates, FortiMail, FortiCache and FortiSwitchOS are vulnerable in their default configuration, there is a CLI setting which disables SSLv3 (see settings details below). As of this writing, the only reported compatibility issue that may ensue is with Internet Explorer 6. Thus a patch release will not be necessary for FortiGates, all versions (4.3.X, 5.0.X, 5.2.X), FortiMail (5.0.X and 5.2.X), FortiCache, FortiVoice-Enterprise, FortiRecorder and FortiSwitchOS. The status of other products within the Fortinet family is being reviewed, and this advisory will be updated accordingly. Alternatively, SSLv3 can be disabled in client browsers (refer to documentation for your browser, or to the FortiGuard FAQ on Poodle - see link in References below). FortiOS - Apply the settings: For the HTTPS GUI: config system global set strong-crypto enable end Other possibly enabled features: For the VIP load-balance: config firewall vip edit \"your_vip\" set ssl-min-version tls-1.0 end For SSL VPN: config vpn ssl settings set sslv3 disable (enabled per default) endFor wanopt: config wanopt ssl-server edit <profile> set ssl-min-version tls-1.0 endFor SIP SSL (not supported on low end units): config voip profile edit <profile> config sip set ssl-mode full set ssl-min-version tls-1.0 FortiMail - Apply the settings: config system global set strong-crypto enable endFortiCache 3.0 - Apply the settings:For the HTTPS GUI: config system global set strong-crypto enable endFor the HTTPS wan optimization: config wanopt ssl-server edit <profile> set ssl-min-version tls-1.0 endFortiADC-E - Apply the settings:For the Cluster VIP HTTPS:System->Load Balance->Clusters->Security->SSL: Remove checkbox \"Allow SSLv3\"FortiVoice-Enterprise - Apply the settings:config system globalset strong-crypto enableendFortiRecorder - Apply the settings:config system globalset strong-crypto enableendFortiSwitchOS - Apply the settings:config system globalset strong-crypto enableendFortiManager and FortiAnalyzer - Upgrade to 5.0.9 or 5.2.1 and apply the settings:config system globalset ssl-protocol tlsv1endFortiDDoS - Upgrade to 4.1.3FortiWeb - Upgrade to 5.3.2 or 5.2.4 and apply the settings:config system advancedset no-sslv3 enableendconfig system globalset no-sslv3 enableend",
+          "@Ordinal": "3",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "SSL v3 \"POODLE\" Vulnerability",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-031"
+        },
+        {
+          "cvrf:Description": "http://blog.fortinet.com/post/poodle-faq",
+          "cvrf:URL": "http://blog.fortinet.com/post/poodle-faq"
+        },
+        {
+          "cvrf:Description": "http://googleonlinesecurity.blogspot.fr/2014/10/this-poodle-bites-exploiting-ssl-30.html  <br />",
+          "cvrf:URL": "http://googleonlinesecurity.blogspot.fr/2014/10/this-poodle-bites-exploiting-ssl-30.html  <br />"
+        },
+        {
+          "cvrf:Description": "https://www.openssl.org/~bodo/ssl-poodle.pdf",
+          "cvrf:URL": "https://www.openssl.org/~bodo/ssl-poodle.pdf"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "SSL v3 \"POODLE\" Vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2014-10-15T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-14-031"
+      },
+      "cvrf:InitialReleaseDate": "2014-10-15T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2014-10-15T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

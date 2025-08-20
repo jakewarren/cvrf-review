@@ -1,0 +1,106 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSIEM",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "5.2.6",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiSIEM 5.2.6",
+              "@ProductID": "FortiSIEM-5.2.6"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "3.6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiSIEM-5.2.6"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiSiem] Hardcoded ssh credentials allow access to Supervisor as tunneluser",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-296"
+        }
+      },
+      "Title": "[FortiSiem] Hardcoded ssh credentials allow access to Supervisor as tunneluser",
+      "cvrf:CVE": "CVE-2019-17659"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Andrew Klaus for bringing this issue to our attention."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A use of hard-coded cryptographic key vulnerability in FortiSIEM may allow a remote unauthenticated attacker to obtain SSH access to the supervisor as the restricted user \"tunneluser\" by leveraging knowledge of the private key from another installation or a firmware image.Note: Restricted user \"tunneluser\" runs in a restricted shell that lets only that user create tunnel connections from the supervisor to the originating IP (i.e. enabling reverse-shell connections to the IP that initiated the connection). This is a feature that exists to enable connecting to collectors from the supervisor when there is a firewall between the collector and the supervisor.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiSIEM version 5.2.6 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiSIEM version 5.2.7 and above where this issue is resolved. Workaround (for FortiSIEM version 5.2.6 and lower): Customers who are not using the reverse tunnel feature are advised to disable SSH service on port 19999 by following the steps below :1. SSH to the Supervisor node as the root user.2. Remove tunneluser SSH configuration file to disable listening on port 19999:rm -f /etc/ssh/sshd_config.tunneluserecho rm -f /etc/ssh/sshd_config.tunneluser >> /etc/init.d/phProvision.sh3. Then terminate sshd running on TCP Port 19999 as follows:pkill -f /usr/sbin/sshd -p 199994.Additional steps can be performed on Supervisor to remove the keys associated with tunneluser account:rm -f /opt/phoenix/deployment/id_rsa.pub.tunneluserrm -f /home/tunneluser/.ssh/authorized_keysrm -f /opt/phoenix/id_rsa.tunneluser ~admin/.ssh/id_rsaCustomers are also advised to disable \"tunneluser\" SSH access on port 22 by following the steps bwlow:1. SSH to the Supervisor node as the root user.2. Add/edit the following line in sshd_config file: echo DenyUsers tunneluser >> /etc/ssh/sshd_config3. service sshd restart",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiSiem] Hardcoded ssh credentials allow access to Supervisor as tunneluser",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-01-15T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-296"
+      },
+      "cvrf:InitialReleaseDate": "2020-01-15T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-01-15T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

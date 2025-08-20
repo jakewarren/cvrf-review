@@ -1,0 +1,92 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Apache Struts Vulnerability (Tier1/2 Focus)",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-205"
+          },
+          {
+            "Description": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/",
+            "URL": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/"
+          }
+        ]
+      },
+      "Title": "Apache Struts Vulnerability (Tier1/2 Focus)",
+      "cvrf:CVE": [
+        "CVE-2017-9793",
+        "CVE-2017-9804",
+        "CVE-2017-9805"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple Remote Code Execution vulnerabilities (CVE-2017-9805, CVE-2017-9804, CVE-2017-9793) are affecting Apache Struts.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following Fortinet products are NOT affected:FortiOS FortiAPFortiSwitchFortiAnalyzerCurrently all above products not using Apache Struts, so all current and future Apache Struts CVEs will not impact these products.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Apache Struts Vulnerability (Tier1/2 Focus)",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-205"
+        },
+        {
+          "cvrf:Description": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/",
+          "cvrf:URL": "https://www.imperva.com/blog/2017/09/cve-2017-9805-analysis-of-apache-struts-rce-vulnerability-in-rest-plugin/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Apache Struts Vulnerability (Tier1/2 Focus)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-09-29T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-205"
+      },
+      "cvrf:InitialReleaseDate": "2017-09-29T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-09-29T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

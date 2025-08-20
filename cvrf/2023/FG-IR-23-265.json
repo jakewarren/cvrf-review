@@ -1,0 +1,143 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWAN",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWAN 5.2.1",
+                "@ProductID": "FortiWAN-5.2.1"
+              }
+            },
+            {
+              "@Name": "5.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWAN 5.2.0",
+                "@ProductID": "FortiWAN-5.2.0"
+              }
+            },
+            {
+              "@Name": "5.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWAN 5.1.2",
+                "@ProductID": "FortiWAN-5.1.2"
+              }
+            },
+            {
+              "@Name": "5.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWAN 5.1.1",
+                "@ProductID": "FortiWAN-5.1.1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "8.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:H/E:F/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWAN-5.2.1",
+            "FortiWAN-5.2.0",
+            "FortiWAN-5.1.2",
+            "FortiWAN-5.1.1"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Path traversal vulnerability",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-265"
+        }
+      },
+      "Title": "Path traversal vulnerability",
+      "cvrf:CVE": "CVE-2023-44251"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Idan Cohen from Cyberillium for bringing this issue to our attention under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "PRODUCT OUT OF SUPPORTA improper limitation of a pathname to a restricted directory ('path traversal') vulnerability [CWE-22] in FortiWAN may allow an authenticated attacker to read and delete arbitrary file of the system via crafted HTTP or HTTPs requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWAN version 5.2.0 through 5.2.1FortiWAN version 5.1.1 through 5.1.2",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "This product is end of life and no longer supported. Please consider replacing with an equivalent FortiGate appliance as approriate.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Path traversal vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-11-02T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-265"
+      },
+      "cvrf:InitialReleaseDate": "2023-11-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-11-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

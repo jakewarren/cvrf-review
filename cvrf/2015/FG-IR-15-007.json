@@ -1,0 +1,89 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "TLS FREAK Attack",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-007"
+          },
+          {
+            "Description": "https://freakattack.com/",
+            "URL": "https://freakattack.com/"
+          }
+        ]
+      },
+      "Title": "TLS FREAK Attack",
+      "cvrf:CVE": "CVE-2015-0204"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FREAK is an attack on SSL/TLS, which allows \"Man in the Middle\" attackers to decipher and alter HTTPS connections between a server supporting \"export-grade\" cipher suites and a vulnerable client. It consists in downgrading the connection's encryption from \"strong\" RSA to \"export-grade\" RSA, by leveraging a vulnerability (CVE-2015-0204) on the client side.The \"export-grade\" encryption is weak enough to be broken by the attacker, who can then decipher and alter the connection.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "Affected products:FortiOS 5.2.2 and earlier allow SSL connections that pass-through the SSLVPN web-mode feature with export-grade ciphers if remote HTTPS end servers are vulnerable to FREAK.Other FortiOS features are not affected by TLS FREAK.FortiMail all versions, in its default configuration (see solutions below).Products confirmed not affected:AscenLinkFortiADCFortiAnalyzerFortiAuthenticatorFortiCacheFortiClientFortiDBFortiDDoSFortiManagerFortiSandboxFortiVoiceFortiWeb",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGateUpgrade to FortiOS 5.2.3 / 5.0.11For FortiOS 4.3.x, 5.0.x, 5.2.0 and 5.2.1, a full workaround consists in enabling strong-crypto:config system global set strong-crypto enable end For FortiOS 5.2.2, a workaround for customers using the FortiGate SSL-VPN portal web mode feature should verify the HTTPS websites that are allowed through the bookmarks and connection info widgets.Verification steps:Bookmarks: Go to VPN > SSL > Portal menu and check HTTPS bookmarks in SSLVPN profiles that offer web mode.Connection info: Review the destination addresses included in the firewall policies with an SSL-VPN portal in web mode assigned.If one or more HTTPS websites are not patched against the FREAK vulnerability, Fortinet PSIRT advise customers to disable bookmark or restrict the allowed destination addresses in order to remove access to vulnerable remote web servers.FortiGate IPS signatureFortiGate can protect SSL connections against the downgrade attack.Make sure the IPS signature called SSL.RSA.Temporary.Key.Security.Bypass is enabled. It is available in IPS update 5.619.FortiMailThe following command must be set to prevent weak ciphers to be negotiated on FortiMail with default configuration:config system globalset strong-crypto enableend",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "TLS FREAK Attack",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-007"
+        },
+        {
+          "cvrf:Description": "https://freakattack.com/",
+          "cvrf:URL": "https://freakattack.com/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "TLS FREAK Attack",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-03-04T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-007"
+      },
+      "cvrf:InitialReleaseDate": "2015-03-04T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-03-04T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientEMS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.4.1",
+                "@ProductID": "FortiClientEMS-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.4.0",
+                "@ProductID": "FortiClientEMS-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.2.6",
+                "@ProductID": "FortiClientEMS-7.2.6"
+              }
+            },
+            {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.2.5",
+                "@ProductID": "FortiClientEMS-7.2.5"
+              }
+            },
+            {
+              "@Name": "7.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.2.4",
+                "@ProductID": "FortiClientEMS-7.2.4"
+              }
+            },
+            {
+              "@Name": "7.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.2.3",
+                "@ProductID": "FortiClientEMS-7.2.3"
+              }
+            },
+            {
+              "@Name": "7.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.2.2",
+                "@ProductID": "FortiClientEMS-7.2.2"
+              }
+            },
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.2.1",
+                "@ProductID": "FortiClientEMS-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.2.0",
+                "@ProductID": "FortiClientEMS-7.2.0"
+              }
+            },
+            {
+              "@Name": "7.0.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.13",
+                "@ProductID": "FortiClientEMS-7.0.13"
+              }
+            },
+            {
+              "@Name": "7.0.12",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.12",
+                "@ProductID": "FortiClientEMS-7.0.12"
+              }
+            },
+            {
+              "@Name": "7.0.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.11",
+                "@ProductID": "FortiClientEMS-7.0.11"
+              }
+            },
+            {
+              "@Name": "7.0.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.10",
+                "@ProductID": "FortiClientEMS-7.0.10"
+              }
+            },
+            {
+              "@Name": "7.0.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.9",
+                "@ProductID": "FortiClientEMS-7.0.9"
+              }
+            },
+            {
+              "@Name": "7.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.8",
+                "@ProductID": "FortiClientEMS-7.0.8"
+              }
+            },
+            {
+              "@Name": "7.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.7",
+                "@ProductID": "FortiClientEMS-7.0.7"
+              }
+            },
+            {
+              "@Name": "7.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.6",
+                "@ProductID": "FortiClientEMS-7.0.6"
+              }
+            },
+            {
+              "@Name": "7.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.5",
+                "@ProductID": "FortiClientEMS-7.0.5"
+              }
+            },
+            {
+              "@Name": "7.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.4",
+                "@ProductID": "FortiClientEMS-7.0.4"
+              }
+            },
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.3",
+                "@ProductID": "FortiClientEMS-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.2",
+                "@ProductID": "FortiClientEMS-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.1",
+                "@ProductID": "FortiClientEMS-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 7.0.0",
+                "@ProductID": "FortiClientEMS-7.0.0"
+              }
+            },
+            {
+              "@Name": "6.4.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 6.4.9",
+                "@ProductID": "FortiClientEMS-6.4.9"
+              }
+            },
+            {
+              "@Name": "6.4.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 6.4.8",
+                "@ProductID": "FortiClientEMS-6.4.8"
+              }
+            },
+            {
+              "@Name": "6.4.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 6.4.7",
+                "@ProductID": "FortiClientEMS-6.4.7"
+              }
+            },
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 6.4.4",
+                "@ProductID": "FortiClientEMS-6.4.4"
+              }
+            },
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 6.4.3",
+                "@ProductID": "FortiClientEMS-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 6.4.2",
+                "@ProductID": "FortiClientEMS-6.4.2"
+              }
+            },
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 6.4.1",
+                "@ProductID": "FortiClientEMS-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientEMS 6.4.0",
+                "@ProductID": "FortiClientEMS-6.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N/E:P/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientEMS-7.4.1",
+            "FortiClientEMS-7.4.0",
+            "FortiClientEMS-7.2.6",
+            "FortiClientEMS-7.2.5",
+            "FortiClientEMS-7.2.4",
+            "FortiClientEMS-7.2.3",
+            "FortiClientEMS-7.2.2",
+            "FortiClientEMS-7.2.1",
+            "FortiClientEMS-7.2.0",
+            "FortiClientEMS-7.0.13",
+            "FortiClientEMS-7.0.12",
+            "FortiClientEMS-7.0.11",
+            "FortiClientEMS-7.0.10",
+            "FortiClientEMS-7.0.9",
+            "FortiClientEMS-7.0.8",
+            "FortiClientEMS-7.0.7",
+            "FortiClientEMS-7.0.6",
+            "FortiClientEMS-7.0.5",
+            "FortiClientEMS-7.0.4",
+            "FortiClientEMS-7.0.3",
+            "FortiClientEMS-7.0.2",
+            "FortiClientEMS-7.0.1",
+            "FortiClientEMS-7.0.0",
+            "FortiClientEMS-6.4.9",
+            "FortiClientEMS-6.4.8",
+            "FortiClientEMS-6.4.7",
+            "FortiClientEMS-6.4.4",
+            "FortiClientEMS-6.4.3",
+            "FortiClientEMS-6.4.2",
+            "FortiClientEMS-6.4.1",
+            "FortiClientEMS-6.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Blind SSRF in API",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-342"
+        }
+      },
+      "Title": "Blind SSRF in API",
+      "cvrf:CVE": "CVE-2023-48786"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A server-side request forgery vulnerability [CWE-918] in FortiClientEMS may allow an authenticated attacker to perform internal requests via crafted HTTP or HTTPS requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Blind SSRF in API",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-06-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-342"
+      },
+      "cvrf:InitialReleaseDate": "2025-06-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-06-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

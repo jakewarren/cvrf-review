@@ -1,0 +1,108 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSOAR",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.3.1",
+                "@ProductID": "FortiSOAR-7.3.1"
+              }
+            },
+            {
+              "@Name": "7.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.3.0",
+                "@ProductID": "FortiSOAR-7.3.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.5",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSOAR-7.3.1",
+            "FortiSOAR-7.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Improper Authorization in request headers",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-050"
+        }
+      },
+      "Title": "Improper Authorization in request headers",
+      "cvrf:CVE": "CVE-2023-25605"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper access control vulnerability [CWE-284] in FortiSOAR's playbook component may allow an attacker authenticated on the administrative interface to perform unauthorized actions via crafted HTTP requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Improper Authorization in request headers",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-03-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-050"
+      },
+      "cvrf:InitialReleaseDate": "2023-03-07T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-03-07T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

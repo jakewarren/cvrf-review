@@ -1,0 +1,92 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "OpenSSL Advisory - January 2016",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-012"
+          },
+          {
+            "Description": "https://www.openssl.org/news/secadv/20160128.txt",
+            "URL": "https://www.openssl.org/news/secadv/20160128.txt"
+          }
+        ]
+      },
+      "Title": "OpenSSL Advisory - January 2016",
+      "cvrf:CVE": [
+        "CVE-2016-0701",
+        "CVE-2015-3197"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "OpenSSL released an update in January 2016 to address one high and one low severity vulnerabilities.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information Disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following products are confirmed to be not vulnerable: Ã‚Â * FortiAnalyzer * FortiAP * FortiGate * FortiSwitch Ã‚Â Please contact Fortinet's Technical Assistance Center (TAC) for others products impact.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Fortinet is not aware of any public exploit of the vulnerabilities that are described in this advisory. For more information please contact Fortinet's Technical Assistance Center (TAC).",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "OpenSSL Advisory - January 2016",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-012"
+        },
+        {
+          "cvrf:Description": "https://www.openssl.org/news/secadv/20160128.txt",
+          "cvrf:URL": "https://www.openssl.org/news/secadv/20160128.txt"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "OpenSSL Advisory - January 2016",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-07-12T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-012"
+      },
+      "cvrf:InitialReleaseDate": "2016-07-12T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-07-12T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

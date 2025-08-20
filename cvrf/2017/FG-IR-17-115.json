@@ -1,0 +1,118 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWLM",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "8.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.3.0",
+                "@ProductID": "FortiWLM-8.3.0"
+              }
+            },
+            {
+              "@Name": "8.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.2.2",
+                "@ProductID": "FortiWLM-8.2.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWLM-8.3.0",
+            "FortiWLM-8.2.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "CVE-2017-7336 WLM hardcoded account named upgrade",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-115"
+        }
+      },
+      "Title": "CVE-2017-7336 WLM hardcoded account named upgrade",
+      "cvrf:CVE": "CVE-2017-7336"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Adam Piekarzewski, University of Toronto for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiWLM has a hard-coded password for its \"upgrade\" user account, which it uses to transfer files to and from the FortiWLC controller. Having the upgrade account credentials would allow an attacker to transfer files to any attached or previously attached controllers as an admin user, thus raising potential further security issues.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWLM version 8.3.0 and lower.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiWLM version 8.3.1",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "CVE-2017-7336 WLM hardcoded account named upgrade",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-06-30T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-115"
+      },
+      "cvrf:InitialReleaseDate": "2017-06-30T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-06-30T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

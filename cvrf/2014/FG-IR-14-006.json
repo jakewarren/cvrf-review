@@ -1,0 +1,79 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiGate Vulnerabilities in FortiManager Service",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-006"
+        }
+      },
+      "Title": "FortiGate Vulnerabilities in FortiManager Service",
+      "cvrf:CVE": [
+        "CVE-2014-0351",
+        "CVE-2014-0352"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Gregor Kopf (Recurity Labs)"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A temporary denial of service condition can be created using a specially crafted request sent to the FortiManager protocol service in FortiOS version 5.0.0 to 5.0.7 and FortiOS version 4.3.15 and lower. Code execution has not been demonstrated, but may be possible under certain conditions. (CVE-2014-0352) In addition, an attacker in a privileged network position may be able to perform a man-in-the-middle attack on FortiManager protocol communications through the use of an anonymous cipher suite. (CVE-2014-0351) 2014-08-19, Version 1: Initial Advisory for CVE-2014-2216. 2014-09-08, Version 2: Added CVE-2014-0351. CVE-2014-2216 has been renumbered to CVE-2014-0352 to match CERT-CC advisory.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of Service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS 5.0.0 to 5.0.7, FortiOS 4.3.15 and lower.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiOS 4.3.16, 5.0.8, or 5.2.0.These vulnerabilities can also be mitigated by disabling FGFM-Access on the interface, or blocking traffic for TCP port 541 with a local-in policy.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiGate Vulnerabilities in FortiManager Service",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2014-08-19T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-14-006"
+      },
+      "cvrf:InitialReleaseDate": "2014-08-19T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2014-08-19T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

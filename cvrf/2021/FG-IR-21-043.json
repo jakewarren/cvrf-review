@@ -1,0 +1,120 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiManager",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiManager 6.4.5",
+                "@ProductID": "FortiManager-6.4.5"
+              }
+            },
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiManager 6.4.4",
+                "@ProductID": "FortiManager-6.4.4"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L/E:H/RL:W/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiManager-6.4.5",
+            "FortiManager-6.4.4"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Improper Inter ADOM access control",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-043"
+        }
+      },
+      "Title": "Improper Inter ADOM access control",
+      "cvrf:CVE": "CVE-2021-26107"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper access control vulnerability [CWE-284] in FortiManager may allow an authenticated attacker with a restricted user profile to modify the VPN tunnel status of other VDOMs using VPN Manager.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiManager version 6.4.4 and 6.4.5 .Please note that FortiManager version 6.4.3 and below are NOT impacted by this issue.",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiManager version 6.4.6 or above.Please upgrade to FortiManager version 7.0.0 or above.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Improper Inter ADOM access control",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-11-02T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-043"
+      },
+      "cvrf:InitialReleaseDate": "2021-11-02T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-11-02T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
