@@ -1,4 +1,4 @@
-name: update-cvrf
+name: update-fortinet-cvrf
 
 on:
   schedule:
@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  update:
+  update-fortinet:
     runs-on: ubuntu-latest
     steps:
       - name: Harden Runner
@@ -24,10 +24,10 @@ jobs:
           python-version: '3.x'
       - name: Install dependencies
         run: pip install requests xmltodict
-      - name: Update CVRF data
+      - name: Update Fortinet CVRF data
         run: python scripts/update_cvrf.py
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@778341af668090896ca464160c2def5d1d1a3eb0 # v6.0.1
         with:
-           commit_message: "chore: update CVRF data"
-           file_pattern: "cvrf/**"
+           commit_message: "chore: update Fortinet CVRF data"
+           file_pattern: "cvrf/fortinet/**"
