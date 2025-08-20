@@ -1,0 +1,505 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiClientMac",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.4.2",
+                  "@ProductID": "FortiClientMac-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.4.1",
+                  "@ProductID": "FortiClientMac-7.4.1"
+                }
+              },
+              {
+                "@Name": "7.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.4.0",
+                  "@ProductID": "FortiClientMac-7.4.0"
+                }
+              },
+              {
+                "@Name": "7.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.8",
+                  "@ProductID": "FortiClientMac-7.2.8"
+                }
+              },
+              {
+                "@Name": "7.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.7",
+                  "@ProductID": "FortiClientMac-7.2.7"
+                }
+              },
+              {
+                "@Name": "7.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.6",
+                  "@ProductID": "FortiClientMac-7.2.6"
+                }
+              },
+              {
+                "@Name": "7.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.5",
+                  "@ProductID": "FortiClientMac-7.2.5"
+                }
+              },
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.4",
+                  "@ProductID": "FortiClientMac-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.3",
+                  "@ProductID": "FortiClientMac-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.2",
+                  "@ProductID": "FortiClientMac-7.2.2"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.1",
+                  "@ProductID": "FortiClientMac-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.2.0",
+                  "@ProductID": "FortiClientMac-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.14",
+                  "@ProductID": "FortiClientMac-7.0.14"
+                }
+              },
+              {
+                "@Name": "7.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.13",
+                  "@ProductID": "FortiClientMac-7.0.13"
+                }
+              },
+              {
+                "@Name": "7.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.12",
+                  "@ProductID": "FortiClientMac-7.0.12"
+                }
+              },
+              {
+                "@Name": "7.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.11",
+                  "@ProductID": "FortiClientMac-7.0.11"
+                }
+              },
+              {
+                "@Name": "7.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.10",
+                  "@ProductID": "FortiClientMac-7.0.10"
+                }
+              },
+              {
+                "@Name": "7.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.9",
+                  "@ProductID": "FortiClientMac-7.0.9"
+                }
+              },
+              {
+                "@Name": "7.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.8",
+                  "@ProductID": "FortiClientMac-7.0.8"
+                }
+              },
+              {
+                "@Name": "7.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.7",
+                  "@ProductID": "FortiClientMac-7.0.7"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.6",
+                  "@ProductID": "FortiClientMac-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.5",
+                  "@ProductID": "FortiClientMac-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.4",
+                  "@ProductID": "FortiClientMac-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.3",
+                  "@ProductID": "FortiClientMac-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.2",
+                  "@ProductID": "FortiClientMac-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.1",
+                  "@ProductID": "FortiClientMac-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 7.0.0",
+                  "@ProductID": "FortiClientMac-7.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiVoiceUCDesktop",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "3.0.16",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.16",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.16"
+                }
+              },
+              {
+                "@Name": "3.0.15",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.15",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.15"
+                }
+              },
+              {
+                "@Name": "3.0.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.14",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.14"
+                }
+              },
+              {
+                "@Name": "3.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.13",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.13"
+                }
+              },
+              {
+                "@Name": "3.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.12",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.12"
+                }
+              },
+              {
+                "@Name": "3.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.11",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.11"
+                }
+              },
+              {
+                "@Name": "3.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.10",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.10"
+                }
+              },
+              {
+                "@Name": "3.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.9",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.9"
+                }
+              },
+              {
+                "@Name": "3.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.8",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.8"
+                }
+              },
+              {
+                "@Name": "3.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.7",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.7"
+                }
+              },
+              {
+                "@Name": "3.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.6",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.6"
+                }
+              },
+              {
+                "@Name": "3.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.5",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.5"
+                }
+              },
+              {
+                "@Name": "3.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.4",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.4"
+                }
+              },
+              {
+                "@Name": "3.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.3",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.3"
+                }
+              },
+              {
+                "@Name": "3.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.2",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.2"
+                }
+              },
+              {
+                "@Name": "3.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.1",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.1"
+                }
+              },
+              {
+                "@Name": "3.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoiceUCDesktop 3.0.0",
+                  "@ProductID": "FortiVoiceUCDesktop-3.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "2.3",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientMac-7.4.2",
+            "FortiClientMac-7.4.1",
+            "FortiClientMac-7.4.0",
+            "FortiClientMac-7.2.8",
+            "FortiClientMac-7.2.7",
+            "FortiClientMac-7.2.6",
+            "FortiClientMac-7.2.5",
+            "FortiClientMac-7.2.4",
+            "FortiClientMac-7.2.3",
+            "FortiClientMac-7.2.2",
+            "FortiClientMac-7.2.1",
+            "FortiClientMac-7.2.0",
+            "FortiClientMac-7.0.14",
+            "FortiClientMac-7.0.13",
+            "FortiClientMac-7.0.12",
+            "FortiClientMac-7.0.11",
+            "FortiClientMac-7.0.10",
+            "FortiClientMac-7.0.9",
+            "FortiClientMac-7.0.8",
+            "FortiClientMac-7.0.7",
+            "FortiClientMac-7.0.6",
+            "FortiClientMac-7.0.5",
+            "FortiClientMac-7.0.4",
+            "FortiClientMac-7.0.3",
+            "FortiClientMac-7.0.2",
+            "FortiClientMac-7.0.1",
+            "FortiClientMac-7.0.0",
+            "FortiVoiceUCDesktop-3.0.16",
+            "FortiVoiceUCDesktop-3.0.15",
+            "FortiVoiceUCDesktop-3.0.14",
+            "FortiVoiceUCDesktop-3.0.13",
+            "FortiVoiceUCDesktop-3.0.12",
+            "FortiVoiceUCDesktop-3.0.11",
+            "FortiVoiceUCDesktop-3.0.10",
+            "FortiVoiceUCDesktop-3.0.9",
+            "FortiVoiceUCDesktop-3.0.8",
+            "FortiVoiceUCDesktop-3.0.7",
+            "FortiVoiceUCDesktop-3.0.6",
+            "FortiVoiceUCDesktop-3.0.5",
+            "FortiVoiceUCDesktop-3.0.4",
+            "FortiVoiceUCDesktop-3.0.3",
+            "FortiVoiceUCDesktop-3.0.2",
+            "FortiVoiceUCDesktop-3.0.1",
+            "FortiVoiceUCDesktop-3.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Code Execution due to Node.JS Environment Variable",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-025"
+        }
+      },
+      "Title": "Code Execution due to Node.JS Environment Variable",
+      "cvrf:CVE": "CVE-2024-35281"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank YoKo Kho and Fahad Alamri from HakTrak Cybersecurity Squad, Mykola Grymalyuk, Roberto \"espret0\" Soares from Hakai Security, Kahabordee Pinjai and Kusol Watchara-ApanukornCompany from Sec Strike Research team and Nissana Sirijirakal from SnoopBees Co., Ltd. for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper isolation or compartmentalization vulnerability [CWE-653] in FortiClient MacOS and FortiVoiceUC desktop application may allow an authenticated attacker to inject code via Electron environment variables.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Code Execution due to Node.JS Environment Variable",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-05-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-025"
+      },
+      "cvrf:InitialReleaseDate": "2025-05-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-05-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

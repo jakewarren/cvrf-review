@@ -1,0 +1,106 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientMac",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "6.4.3",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiClientMac 6.4.3",
+              "@ProductID": "FortiClientMac-6.4.3"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.3",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiClientMac-6.4.3"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiClientMac] Privilege escalation using installer/uninstaller binaries (Improper Symlink following)",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-022"
+        }
+      },
+      "Title": "[FortiClientMac] Privilege escalation using installer/uninstaller binaries (Improper Symlink following)",
+      "cvrf:CVE": "CVE-2021-26089"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Csaba Fitzl and Trend Micro Zero Day Initiative for bringing this issue to our attention under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A UNIX symbolic link (Symlink) Following (CWE-61) vulnerability in FortiClient for MacOS may allow a local and unprivileged user to overwrite privileged shell scripts executed during the installation phase via escalating their privileges to root.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClient for MacOS versions 6.4.3 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiClient for MacOS version 6.4.4 or above.Please upgrade to FortiClient for MacOS version 7.0.0 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiClientMac] Privilege escalation using installer/uninstaller binaries (Improper Symlink following)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-07-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-022"
+      },
+      "cvrf:InitialReleaseDate": "2021-07-07T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-07-07T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

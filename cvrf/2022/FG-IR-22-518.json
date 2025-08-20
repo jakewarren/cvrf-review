@@ -1,0 +1,188 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiADC",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 7.1.1",
+                  "@ProductID": "FortiADC-7.1.1"
+                }
+              },
+              {
+                "@Name": "7.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiADC 7.1.0",
+                  "@ProductID": "FortiADC-7.1.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiDDoS-F",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.4.1",
+                  "@ProductID": "FortiDDoS-F-6.4.1"
+                }
+              },
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.4.0",
+                  "@ProductID": "FortiDDoS-F-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.3.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.5",
+                  "@ProductID": "FortiDDoS-F-6.3.5"
+                }
+              },
+              {
+                "@Name": "6.3.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.4",
+                  "@ProductID": "FortiDDoS-F-6.3.4"
+                }
+              },
+              {
+                "@Name": "6.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.3",
+                  "@ProductID": "FortiDDoS-F-6.3.3"
+                }
+              },
+              {
+                "@Name": "6.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.2",
+                  "@ProductID": "FortiDDoS-F-6.3.2"
+                }
+              },
+              {
+                "@Name": "6.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.1",
+                  "@ProductID": "FortiDDoS-F-6.3.1"
+                }
+              },
+              {
+                "@Name": "6.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiDDoS-F 6.3.0",
+                  "@ProductID": "FortiDDoS-F-6.3.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.4",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiADC-7.1.1",
+            "FortiADC-7.1.0",
+            "FortiDDoS-F-6.4.1",
+            "FortiDDoS-F-6.4.0",
+            "FortiDDoS-F-6.3.5",
+            "FortiDDoS-F-6.3.4",
+            "FortiDDoS-F-6.3.3",
+            "FortiDDoS-F-6.3.2",
+            "FortiDDoS-F-6.3.1",
+            "FortiDDoS-F-6.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "CORS: arbitrary origin trusted",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-518"
+        }
+      },
+      "Title": "CORS: arbitrary origin trusted",
+      "cvrf:CVE": "CVE-2023-25603"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A permissive cross-domain policy with untrusted domains (CWE-942) vulnerability in the API of FortiADC / FortiDDoS-F may allow an unauthorized attacker to carry out privileged actions and retrieve sensitive information via crafted web requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "CORS: arbitrary origin trusted",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-10-17T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-518"
+      },
+      "cvrf:InitialReleaseDate": "2023-11-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-11-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

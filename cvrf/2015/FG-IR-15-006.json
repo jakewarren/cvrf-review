@@ -1,0 +1,94 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FSSO stack-based buffer overflow",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-006"
+          },
+          {
+            "Description": "http://www.coresecurity.com/advisories/fortinet-single-sign-on-stack-overflow",
+            "URL": "http://www.coresecurity.com/advisories/fortinet-single-sign-on-stack-overflow"
+          }
+        ]
+      },
+      "Title": "FSSO stack-based buffer overflow",
+      "cvrf:CVE": "CVE-2015-2281"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Thank you to Enrique Nissim from CoreSecurity exploit writing Team for responsibly disclosing this vulnerability to Fortinet."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Prior to build 237, the Windows version of FSSO can be remotely exploited to run arbitrary code over the TCP/8000 port without being authenticated.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Remote code execution",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FSSO",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FSSO build 237 or above.32 bits and 64 bits respectively named FSSO_Setup_5.0.0237.exe and FSSO_Setup_5.0.0237_x64.exe are available in the / FortiGate/ v5.00/ 5.2/ 5.2.3/ FSSO/ directory from support download website.FSSO build 237 is compatible with all FortiOS versions.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FSSO stack-based buffer overflow",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-006"
+        },
+        {
+          "cvrf:Description": "http://www.coresecurity.com/advisories/fortinet-single-sign-on-stack-overflow",
+          "cvrf:URL": "http://www.coresecurity.com/advisories/fortinet-single-sign-on-stack-overflow"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FSSO stack-based buffer overflow",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-02-27T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-006"
+      },
+      "cvrf:InitialReleaseDate": "2015-02-27T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-02-27T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

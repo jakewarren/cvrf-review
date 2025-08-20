@@ -1,0 +1,209 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSIEM",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.2.5",
+                "@ProductID": "FortiSIEM-5.2.5"
+              }
+            },
+            {
+              "@Name": "5.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.2.2",
+                "@ProductID": "FortiSIEM-5.2.2"
+              }
+            },
+            {
+              "@Name": "5.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.2.1",
+                "@ProductID": "FortiSIEM-5.2.1"
+              }
+            },
+            {
+              "@Name": "5.1.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.1.3",
+                "@ProductID": "FortiSIEM-5.1.3"
+              }
+            },
+            {
+              "@Name": "5.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.1.2",
+                "@ProductID": "FortiSIEM-5.1.2"
+              }
+            },
+            {
+              "@Name": "5.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.1.1",
+                "@ProductID": "FortiSIEM-5.1.1"
+              }
+            },
+            {
+              "@Name": "5.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.1.0",
+                "@ProductID": "FortiSIEM-5.1.0"
+              }
+            },
+            {
+              "@Name": "5.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.0.1",
+                "@ProductID": "FortiSIEM-5.0.1"
+              }
+            },
+            {
+              "@Name": "5.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 5.0.0",
+                "@ProductID": "FortiSIEM-5.0.0"
+              }
+            },
+            {
+              "@Name": "4.10.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 4.10.0",
+                "@ProductID": "FortiSIEM-4.10.0"
+              }
+            },
+            {
+              "@Name": "4.9.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 4.9.0",
+                "@ProductID": "FortiSIEM-4.9.0"
+              }
+            },
+            {
+              "@Name": "4.7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 4.7.2",
+                "@ProductID": "FortiSIEM-4.7.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSIEM-5.2.5",
+            "FortiSIEM-5.2.2",
+            "FortiSIEM-5.2.1",
+            "FortiSIEM-5.1.3",
+            "FortiSIEM-5.1.2",
+            "FortiSIEM-5.1.1",
+            "FortiSIEM-5.1.0",
+            "FortiSIEM-5.0.1",
+            "FortiSIEM-5.0.0",
+            "FortiSIEM-4.10.0",
+            "FortiSIEM-4.9.0",
+            "FortiSIEM-4.7.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiSIEM PostgreSQL hardcoded Credentials",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-195"
+        }
+      },
+      "Title": "FortiSIEM PostgreSQL hardcoded Credentials",
+      "cvrf:CVE": "CVE-2019-16153"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank \"Independent security researcher Srour Ganoush\", \"CERT CYBERPROTECT\" and \"Chris Armstrong from CSCI, Inc\" for reporting this vulnerability under responsible disclosure, as well as the FortiGuard team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A hard-coded password vulnerability in the FortiSIEM database component may allow attackers to access the device database via the use of static credentials.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiSIEM 5.2.5 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiSIEM 5.2.6 or above",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiSIEM PostgreSQL hardcoded Credentials",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-01-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-195"
+      },
+      "cvrf:InitialReleaseDate": "2020-01-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-01-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

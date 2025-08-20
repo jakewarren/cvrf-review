@@ -1,0 +1,254 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.4",
+                "@ProductID": "FortiOS-7.4.4"
+              }
+            },
+            {
+              "@Name": "7.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.3",
+                "@ProductID": "FortiOS-7.4.3"
+              }
+            },
+            {
+              "@Name": "7.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.2",
+                "@ProductID": "FortiOS-7.4.2"
+              }
+            },
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.1",
+                "@ProductID": "FortiOS-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.4.0",
+                "@ProductID": "FortiOS-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.11",
+                "@ProductID": "FortiOS-7.2.11"
+              }
+            },
+            {
+              "@Name": "7.2.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.10",
+                "@ProductID": "FortiOS-7.2.10"
+              }
+            },
+            {
+              "@Name": "7.2.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.9",
+                "@ProductID": "FortiOS-7.2.9"
+              }
+            },
+            {
+              "@Name": "7.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.8",
+                "@ProductID": "FortiOS-7.2.8"
+              }
+            },
+            {
+              "@Name": "7.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.7",
+                "@ProductID": "FortiOS-7.2.7"
+              }
+            },
+            {
+              "@Name": "7.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.6",
+                "@ProductID": "FortiOS-7.2.6"
+              }
+            },
+            {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.5",
+                "@ProductID": "FortiOS-7.2.5"
+              }
+            },
+            {
+              "@Name": "7.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.4",
+                "@ProductID": "FortiOS-7.2.4"
+              }
+            },
+            {
+              "@Name": "7.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.3",
+                "@ProductID": "FortiOS-7.2.3"
+              }
+            },
+            {
+              "@Name": "7.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.2",
+                "@ProductID": "FortiOS-7.2.2"
+              }
+            },
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.1",
+                "@ProductID": "FortiOS-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 7.2.0",
+                "@ProductID": "FortiOS-7.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "3.2",
+          "VectorV3": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-7.4.4",
+            "FortiOS-7.4.3",
+            "FortiOS-7.4.2",
+            "FortiOS-7.4.1",
+            "FortiOS-7.4.0",
+            "FortiOS-7.2.11",
+            "FortiOS-7.2.10",
+            "FortiOS-7.2.9",
+            "FortiOS-7.2.8",
+            "FortiOS-7.2.7",
+            "FortiOS-7.2.6",
+            "FortiOS-7.2.5",
+            "FortiOS-7.2.4",
+            "FortiOS-7.2.3",
+            "FortiOS-7.2.2",
+            "FortiOS-7.2.1",
+            "FortiOS-7.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Integer Overflow in ipsec ike",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-267"
+        }
+      },
+      "Title": "Integer Overflow in ipsec ike",
+      "cvrf:CVE": "CVE-2024-46669"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Vang3lis and N3vv from VARAS@IIE for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Integer Overflow or Wraparound vulnerability [CWE-190] in FortiOS and FortiSASE FortiOS tenant IPsec IKEv1 service may allow an authenticated attacker to crash the IPsec tunnel via crafted requests, resulting in potential denial of service.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Integer Overflow in ipsec ike",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-05-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-267"
+      },
+      "cvrf:InitialReleaseDate": "2025-01-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-01-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

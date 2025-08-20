@@ -1,0 +1,106 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiAuthenticator",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "6.0.0",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiAuthenticator 6.0.0",
+              "@ProductID": "FortiAuthenticator-6.0.0"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiAuthenticator-6.0.0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FAC OWA injection vulnerability on login page",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-104"
+        }
+      },
+      "Title": "FAC OWA injection vulnerability on login page",
+      "cvrf:CVE": "CVE-2019-16154"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Konstantinos Kanavidis from DEVOQ Technology for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of input during web page generation in FortiAuthenticator Agent for Outlook Web Access may allow an unauthenticated user to perform a cross-site scripting attack (XSS) via a parameter of the logon page.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiAuthenticator Agent for Outlook Web Access v1.5 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade the FortiAuthenticator Agent for Outlook Web Access on your Microsoft Exchange servers to v1.6. The installer is available for download from within the administrative web interface of FortiAuthenticator 6.0.1 or greater; however it is not necessary to upgrade your FortiAuthenticator to resolve this issue.Customers who do not want to upgrade their FortiAuthenticator appliance or who do not have a spare lab unit are advised to contact their Fortinet support engineer in order to obtain the FortiAuthenticator Agent for Outlook Web Access v1.6 installer.To contact Fortinet support team please follow this link:https://www.fortinet.com/support/contact.html",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FAC OWA injection vulnerability on login page",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-01-06T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-104"
+      },
+      "cvrf:InitialReleaseDate": "2020-01-06T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-01-06T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

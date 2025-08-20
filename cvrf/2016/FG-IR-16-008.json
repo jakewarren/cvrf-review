@@ -1,0 +1,89 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "RSA-CRT key leak under certain conditions",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-008"
+          },
+          {
+            "Description": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf",
+            "URL": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf"
+          }
+        ]
+      },
+      "Title": "RSA-CRT key leak under certain conditions",
+      "cvrf:CVE": "CVE-2015-5738"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiOS now includes for all SSL libraries a countermeasure against Lenstra's fault attack on RSA-CRT optimization when a RSA signature is corrupted.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Man in the middle",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate with the SSLVPN web portal feature configured.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiOS 5.0.13 / 5.2.6 / 5.4.0 Ã‚Â As a workaround the SSLVPN web portal can be disabled",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "RSA-CRT key leak under certain conditions",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-008"
+        },
+        {
+          "cvrf:Description": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf",
+          "cvrf:URL": "https://people.redhat.com/~fweimer/rsa-crt-leaks.pdf"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "RSA-CRT key leak under certain conditions",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-05-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-008"
+      },
+      "cvrf:InitialReleaseDate": "2016-05-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-05-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

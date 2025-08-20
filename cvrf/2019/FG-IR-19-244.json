@@ -1,0 +1,128 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiADCManager",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADCManager 5.3.0",
+                "@ProductID": "FortiADCManager-5.3.0"
+              }
+            },
+            {
+              "@Name": "5.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADCManager 5.2.1",
+                "@ProductID": "FortiADCManager-5.2.1"
+              }
+            },
+            {
+              "@Name": "5.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADCManager 5.2.0",
+                "@ProductID": "FortiADCManager-5.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiADCManager-5.3.0",
+            "FortiADCManager-5.2.1",
+            "FortiADCManager-5.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiADCManager - plain text password in a log file when an admin user create a new user",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-244"
+        }
+      },
+      "Title": "FortiADCManager - plain text password in a log file when an admin user create a new user",
+      "cvrf:CVE": "CVE-2021-24024"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Danilo Costa from PBI Dynamic IT Security for reporting this vulnerability under responsible disclosure"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A clear text storage of sensitive information into log file vulnerability in FortiADCManager and FortiADC may allow a remote authenticated attacker to read other local users' password in log files.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiADCManager versions 5.3.0 and below.FortiADCManager versions 5.2.1 and below.FortiADC versions 5.3.7 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiADCManager versions 5.4.0 or above.Please upgrade to FortiADC versions 5.4.0 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiADCManager - plain text password in a log file when an admin user create a new user",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-04-06T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-244"
+      },
+      "cvrf:InitialReleaseDate": "2021-04-06T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-04-06T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

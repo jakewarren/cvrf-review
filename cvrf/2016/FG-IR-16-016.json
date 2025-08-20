@@ -1,0 +1,82 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiManager and FortiAnalyzer Persistent XSS vulnerability",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-016"
+        }
+      },
+      "Title": "FortiManager and FortiAnalyzer Persistent XSS vulnerability",
+      "cvrf:CVE": "CVE-2016-3193"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Vulnerability Lab for reporting a FortiManager/FortiAnalyzer vulnerability under responsible disclosure. Ã‚Â"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An XSS vulnerablity in FortiManager/FortiAnalyzer could allow privileged guest user accounts and restricted user accounts to inject malicious script to the application-side or client-side of the appliance web-application; this potentially enables XSS attacks.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "An XSS vulnerablity in FortiManager/FortiAnalyzer could allow privileged guest user accounts and restricted user accounts to inject malicious script to the application-side or client-side of the appliance web-application; this potentially enables XSS attacks.",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "XSS attacks",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiManager: 5.0.0 - 5.0.11, 5.2.0 - 5.2.5, 5.4.0FortiAnalyzer: 5.0.0 - 5.0.12, 5.2.0 - 5.2.5, 5.4.0",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to:FortiManagerÃ‚Â 5.4.1 and above5.2.6 and above5.0.12 and aboveFortiAnalyzerÃ‚Â 5.4.1 and above5.2.6 and above5.0.13 and above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiManager and FortiAnalyzer Persistent XSS vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-08-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-016"
+      },
+      "cvrf:InitialReleaseDate": "2016-08-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-08-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

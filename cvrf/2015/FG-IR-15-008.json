@@ -1,0 +1,103 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "OpenSSL vulnerabilities - March 2015",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-008"
+          },
+          {
+            "Description": "https://www.openssl.org/news/secadv_20150319.txt",
+            "URL": "https://www.openssl.org/news/secadv_20150319.txt"
+          }
+        ]
+      },
+      "Title": "OpenSSL vulnerabilities - March 2015",
+      "cvrf:CVE": [
+        "CVE-2015-0291",
+        "CVE-2015-0290",
+        "CVE-2015-0207",
+        "CVE-2015-0286",
+        "CVE-2015-0208",
+        "CVE-2015-0287",
+        "CVE-2015-0289",
+        "CVE-2015-0292",
+        "CVE-2015-0293",
+        "CVE-2015-1787",
+        "CVE-2015-0285",
+        "CVE-2015-0209",
+        "CVE-2015-0288"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "OpenSSL released a security advisory in March 2015 to announce multiple security vulnerabilities.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service and memory corruption",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiADC may be impacted by CVE-2015-0285 and CVE-2015-0291.FortiOS 5.0.11 and 5.2.3 may be impacted by CVE-2015-0286 when the SSLVPN feature with a PKI user and client certificate is used.FortiClient may be impacted by CVE-2015-289 and CVE-2015-0292.Products that allows PKC#12 certificate to be imported by an administrator user may be impacted by CVE-2015-289.Additionally:CVE-2015-0207: no product impactedCVE-2015-0208: no product impactedCVE-2015-0209: no product impactedCVE-2015-0287: no product impactedCVE-2015-0288: no product impactedCVE-2015-0290: no product impactedCVE-2015-0293: no product impactedCVE-2015-1787: no product impacted",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Regardless the exploitability (or lack thereof), all products embedding a vulnerable version of OpenSSL will be updated. The following list includes the products version that will embed a patched OpenSSL release:FortiOS: 5.0.12 / 5.2.4 or aboveFortiManager: 5.0.11 / 5.2.2 or aboveFortiAnalyzer: 5.0.11 / 5.2.2 or aboveFortiMail: 4.3.10 / 5.0.9 / 5.1.6 / 5.2.4 or aboveFortiWeb: 5.3.5 or aboveFortiAuthenticator: 3.3.1 / 4.0 or aboveFortiClient: Windows/MAC 5.2.4, Android 5.2.6, iOS 5.2.1 or aboveFortiRecorder: 2.0.1 / 2.1.1 or aboveFortiVoice Enterprise: 3.0.6 / 4.0.1 / 4.1.0 or aboveAscenLink: 7.2.3 or aboveFortiADC: 4.2.2 or aboveFortiAP: 5.2.4 or aboveFor all products, contact Fortinet TAC support to know the patched release current ETA.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "OpenSSL vulnerabilities - March 2015",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-008"
+        },
+        {
+          "cvrf:Description": "https://www.openssl.org/news/secadv_20150319.txt",
+          "cvrf:URL": "https://www.openssl.org/news/secadv_20150319.txt"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "OpenSSL vulnerabilities - March 2015",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-03-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-008"
+      },
+      "cvrf:InitialReleaseDate": "2015-03-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-03-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWeb",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "6.0.0",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiWeb 6.0.0",
+              "@ProductID": "FortiWeb-6.0.0"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiWeb-6.0.0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiWeb Recursive URL Decoding by default disabled causing WAF bypass",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-058"
+          },
+          {
+            "Description": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm",
+            "URL": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm"
+          }
+        ]
+      },
+      "Title": "FortiWeb Recursive URL Decoding by default disabled causing WAF bypass"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank independent security researcher SecuNinja (http://twitter.com/secuninja) for reporting this FortiWeb operational risk under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiWeb's \"Recursive URL Decoding\" feature can detect URL-based attacks (among which XSS and SQL injection attempts) even when the malicious URL is recursively encoded. However, this feature is not enabled by default in FortiWeb's system settings for FortiWeb version 6.0.0 and below.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWeb 6.0.0 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiWeb 6.0.1 or newer versions or use workaround.WorkaroundFor FortiWeb 6.0.0 and below, manually enabling this feature is recommended.From the FortiWeb GUI, it can be enabled under ystem > Config > Advanced in the \"Recursive URL Decoding\" (refer to: http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm for more info).From the FortiWeb CLI, it can be enabled with the following commands:config system advancedset circulate-url-decode enableendUpdate History05-16-2018 Initial version.08-23-2018 Default secure setting supported in 6.0.1",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiWeb Recursive URL Decoding by default disabled causing WAF bypass",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-058"
+        },
+        {
+          "cvrf:Description": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm",
+          "cvrf:URL": "http://help.fortinet.com/fweb/571/Content/FortiWeb/fortiweb-admin/advanced_settings.htm"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiWeb Recursive URL Decoding by default disabled causing WAF bypass",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-08-23T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-058"
+      },
+      "cvrf:InitialReleaseDate": "2018-08-23T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-08-23T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

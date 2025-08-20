@@ -1,0 +1,575 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiADC",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.3",
+                "@ProductID": "FortiADC-6.2.3"
+              }
+            },
+            {
+              "@Name": "6.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.2",
+                "@ProductID": "FortiADC-6.2.2"
+              }
+            },
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.1",
+                "@ProductID": "FortiADC-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.2.0",
+                "@ProductID": "FortiADC-6.2.0"
+              }
+            },
+            {
+              "@Name": "6.1.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.1.6",
+                "@ProductID": "FortiADC-6.1.6"
+              }
+            },
+            {
+              "@Name": "6.1.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.1.5",
+                "@ProductID": "FortiADC-6.1.5"
+              }
+            },
+            {
+              "@Name": "6.1.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.1.4",
+                "@ProductID": "FortiADC-6.1.4"
+              }
+            },
+            {
+              "@Name": "6.1.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.1.3",
+                "@ProductID": "FortiADC-6.1.3"
+              }
+            },
+            {
+              "@Name": "6.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.1.2",
+                "@ProductID": "FortiADC-6.1.2"
+              }
+            },
+            {
+              "@Name": "6.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.1.1",
+                "@ProductID": "FortiADC-6.1.1"
+              }
+            },
+            {
+              "@Name": "6.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.1.0",
+                "@ProductID": "FortiADC-6.1.0"
+              }
+            },
+            {
+              "@Name": "6.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.0.4",
+                "@ProductID": "FortiADC-6.0.4"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.0.3",
+                "@ProductID": "FortiADC-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.0.2",
+                "@ProductID": "FortiADC-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.0.1",
+                "@ProductID": "FortiADC-6.0.1"
+              }
+            },
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 6.0.0",
+                "@ProductID": "FortiADC-6.0.0"
+              }
+            },
+            {
+              "@Name": "5.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.4.5",
+                "@ProductID": "FortiADC-5.4.5"
+              }
+            },
+            {
+              "@Name": "5.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.4.4",
+                "@ProductID": "FortiADC-5.4.4"
+              }
+            },
+            {
+              "@Name": "5.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.4.3",
+                "@ProductID": "FortiADC-5.4.3"
+              }
+            },
+            {
+              "@Name": "5.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.4.2",
+                "@ProductID": "FortiADC-5.4.2"
+              }
+            },
+            {
+              "@Name": "5.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.4.1",
+                "@ProductID": "FortiADC-5.4.1"
+              }
+            },
+            {
+              "@Name": "5.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.4.0",
+                "@ProductID": "FortiADC-5.4.0"
+              }
+            },
+            {
+              "@Name": "5.3.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.3.7",
+                "@ProductID": "FortiADC-5.3.7"
+              }
+            },
+            {
+              "@Name": "5.3.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.3.6",
+                "@ProductID": "FortiADC-5.3.6"
+              }
+            },
+            {
+              "@Name": "5.3.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.3.5",
+                "@ProductID": "FortiADC-5.3.5"
+              }
+            },
+            {
+              "@Name": "5.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.3.4",
+                "@ProductID": "FortiADC-5.3.4"
+              }
+            },
+            {
+              "@Name": "5.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.3.3",
+                "@ProductID": "FortiADC-5.3.3"
+              }
+            },
+            {
+              "@Name": "5.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.3.2",
+                "@ProductID": "FortiADC-5.3.2"
+              }
+            },
+            {
+              "@Name": "5.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.3.1",
+                "@ProductID": "FortiADC-5.3.1"
+              }
+            },
+            {
+              "@Name": "5.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.3.0",
+                "@ProductID": "FortiADC-5.3.0"
+              }
+            },
+            {
+              "@Name": "5.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.8",
+                "@ProductID": "FortiADC-5.2.8"
+              }
+            },
+            {
+              "@Name": "5.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.7",
+                "@ProductID": "FortiADC-5.2.7"
+              }
+            },
+            {
+              "@Name": "5.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.6",
+                "@ProductID": "FortiADC-5.2.6"
+              }
+            },
+            {
+              "@Name": "5.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.5",
+                "@ProductID": "FortiADC-5.2.5"
+              }
+            },
+            {
+              "@Name": "5.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.4",
+                "@ProductID": "FortiADC-5.2.4"
+              }
+            },
+            {
+              "@Name": "5.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.3",
+                "@ProductID": "FortiADC-5.2.3"
+              }
+            },
+            {
+              "@Name": "5.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.2",
+                "@ProductID": "FortiADC-5.2.2"
+              }
+            },
+            {
+              "@Name": "5.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.1",
+                "@ProductID": "FortiADC-5.2.1"
+              }
+            },
+            {
+              "@Name": "5.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.2.0",
+                "@ProductID": "FortiADC-5.2.0"
+              }
+            },
+            {
+              "@Name": "5.1.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.1.7",
+                "@ProductID": "FortiADC-5.1.7"
+              }
+            },
+            {
+              "@Name": "5.1.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.1.6",
+                "@ProductID": "FortiADC-5.1.6"
+              }
+            },
+            {
+              "@Name": "5.1.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.1.5",
+                "@ProductID": "FortiADC-5.1.5"
+              }
+            },
+            {
+              "@Name": "5.1.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.1.4",
+                "@ProductID": "FortiADC-5.1.4"
+              }
+            },
+            {
+              "@Name": "5.1.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.1.3",
+                "@ProductID": "FortiADC-5.1.3"
+              }
+            },
+            {
+              "@Name": "5.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.1.2",
+                "@ProductID": "FortiADC-5.1.2"
+              }
+            },
+            {
+              "@Name": "5.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.1.1",
+                "@ProductID": "FortiADC-5.1.1"
+              }
+            },
+            {
+              "@Name": "5.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.1.0",
+                "@ProductID": "FortiADC-5.1.0"
+              }
+            },
+            {
+              "@Name": "5.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.0.4",
+                "@ProductID": "FortiADC-5.0.4"
+              }
+            },
+            {
+              "@Name": "5.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.0.3",
+                "@ProductID": "FortiADC-5.0.3"
+              }
+            },
+            {
+              "@Name": "5.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.0.2",
+                "@ProductID": "FortiADC-5.0.2"
+              }
+            },
+            {
+              "@Name": "5.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.0.1",
+                "@ProductID": "FortiADC-5.0.1"
+              }
+            },
+            {
+              "@Name": "5.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 5.0.0",
+                "@ProductID": "FortiADC-5.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiADC-6.2.3",
+            "FortiADC-6.2.2",
+            "FortiADC-6.2.1",
+            "FortiADC-6.2.0",
+            "FortiADC-6.1.6",
+            "FortiADC-6.1.5",
+            "FortiADC-6.1.4",
+            "FortiADC-6.1.3",
+            "FortiADC-6.1.2",
+            "FortiADC-6.1.1",
+            "FortiADC-6.1.0",
+            "FortiADC-6.0.4",
+            "FortiADC-6.0.3",
+            "FortiADC-6.0.2",
+            "FortiADC-6.0.1",
+            "FortiADC-6.0.0",
+            "FortiADC-5.4.5",
+            "FortiADC-5.4.4",
+            "FortiADC-5.4.3",
+            "FortiADC-5.4.2",
+            "FortiADC-5.4.1",
+            "FortiADC-5.4.0",
+            "FortiADC-5.3.7",
+            "FortiADC-5.3.6",
+            "FortiADC-5.3.5",
+            "FortiADC-5.3.4",
+            "FortiADC-5.3.3",
+            "FortiADC-5.3.2",
+            "FortiADC-5.3.1",
+            "FortiADC-5.3.0",
+            "FortiADC-5.2.8",
+            "FortiADC-5.2.7",
+            "FortiADC-5.2.6",
+            "FortiADC-5.2.5",
+            "FortiADC-5.2.4",
+            "FortiADC-5.2.3",
+            "FortiADC-5.2.2",
+            "FortiADC-5.2.1",
+            "FortiADC-5.2.0",
+            "FortiADC-5.1.7",
+            "FortiADC-5.1.6",
+            "FortiADC-5.1.5",
+            "FortiADC-5.1.4",
+            "FortiADC-5.1.3",
+            "FortiADC-5.1.2",
+            "FortiADC-5.1.1",
+            "FortiADC-5.1.0",
+            "FortiADC-5.0.4",
+            "FortiADC-5.0.3",
+            "FortiADC-5.0.2",
+            "FortiADC-5.0.1",
+            "FortiADC-5.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Unverified password change over the GUI",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-055"
+        }
+      },
+      "Title": "Unverified password change over the GUI",
+      "cvrf:CVE": "CVE-2022-27484"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Théo Leleu of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An unverified password change vulnerability [CWE-620] in FortiADC may allow an authenticated attacker to bypass the Old Password check in the password change form for the account the attacker is logged into or for others accounts except admin when the attacker has Read Write access on System via a crafted HTTP request .",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "At leastFortiADC 7.6 all versions are not affectedFortiADC 7.4 all versions are not affectedFortiADC 7.2 all versions are not affectedFortiADC 7.1 all versions are not affectedFortiADC 7.0 all versions are not affectedFortiADC version 6.2.0 through 6.2.3FortiADC 6.1 all versionsFortiADC 6.0 all versionsFortiADC 5.4 all versionsFortiADC 5.3 all versionsFortiADC 5.2 all versionsFortiADC 5.1 all versionsFortiADC 5.0 all versions",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiADC version 7.0.0 or above,Please upgrade to FortiADC version 6.2.4 or above.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Unverified password change over the GUI",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-08-02T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-055"
+      },
+      "cvrf:InitialReleaseDate": "2022-08-02T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-08-02T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

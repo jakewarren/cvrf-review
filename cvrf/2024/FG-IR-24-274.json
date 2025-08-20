@@ -1,0 +1,245 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiPortal",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.4.0",
+                "@ProductID": "FortiPortal-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.2.5",
+                "@ProductID": "FortiPortal-7.2.5"
+              }
+            },
+            {
+              "@Name": "7.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.2.4",
+                "@ProductID": "FortiPortal-7.2.4"
+              }
+            },
+            {
+              "@Name": "7.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.2.3",
+                "@ProductID": "FortiPortal-7.2.3"
+              }
+            },
+            {
+              "@Name": "7.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.2.2",
+                "@ProductID": "FortiPortal-7.2.2"
+              }
+            },
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.2.1",
+                "@ProductID": "FortiPortal-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.2.0",
+                "@ProductID": "FortiPortal-7.2.0"
+              }
+            },
+            {
+              "@Name": "7.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.8",
+                "@ProductID": "FortiPortal-7.0.8"
+              }
+            },
+            {
+              "@Name": "7.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.7",
+                "@ProductID": "FortiPortal-7.0.7"
+              }
+            },
+            {
+              "@Name": "7.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.6",
+                "@ProductID": "FortiPortal-7.0.6"
+              }
+            },
+            {
+              "@Name": "7.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.5",
+                "@ProductID": "FortiPortal-7.0.5"
+              }
+            },
+            {
+              "@Name": "7.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.4",
+                "@ProductID": "FortiPortal-7.0.4"
+              }
+            },
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.3",
+                "@ProductID": "FortiPortal-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.2",
+                "@ProductID": "FortiPortal-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.1",
+                "@ProductID": "FortiPortal-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.0.0",
+                "@ProductID": "FortiPortal-7.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "3.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiPortal-7.4.0",
+            "FortiPortal-7.2.5",
+            "FortiPortal-7.2.4",
+            "FortiPortal-7.2.3",
+            "FortiPortal-7.2.2",
+            "FortiPortal-7.2.1",
+            "FortiPortal-7.2.0",
+            "FortiPortal-7.0.8",
+            "FortiPortal-7.0.7",
+            "FortiPortal-7.0.6",
+            "FortiPortal-7.0.5",
+            "FortiPortal-7.0.4",
+            "FortiPortal-7.0.3",
+            "FortiPortal-7.0.2",
+            "FortiPortal-7.0.1",
+            "FortiPortal-7.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Insufficient Access Control Over API Endpoints",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-274"
+        }
+      },
+      "Title": "Insufficient Access Control Over API Endpoints",
+      "cvrf:CVE": "CVE-2024-45329"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Pablo Castillo Andreu and Antonio Moreno from Telefonica Tech for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An authorization bypass through user-controlled key vulnerability [CWE-639] in FortiPortal may allow an authenticated attacker to view unauthorized device information via key modification in API requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Insufficient Access Control Over API Endpoints",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-06-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-274"
+      },
+      "cvrf:InitialReleaseDate": "2025-06-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-06-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

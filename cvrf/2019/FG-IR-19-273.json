@@ -1,0 +1,254 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiExtender",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "4.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 4.1.1",
+                "@ProductID": "FortiExtender-4.1.1"
+              }
+            },
+            {
+              "@Name": "4.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 4.0.0",
+                "@ProductID": "FortiExtender-4.0.0"
+              }
+            },
+            {
+              "@Name": "3.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.3.3",
+                "@ProductID": "FortiExtender-3.3.3"
+              }
+            },
+            {
+              "@Name": "3.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.3.2",
+                "@ProductID": "FortiExtender-3.3.2"
+              }
+            },
+            {
+              "@Name": "3.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.3.1",
+                "@ProductID": "FortiExtender-3.3.1"
+              }
+            },
+            {
+              "@Name": "3.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.3.0",
+                "@ProductID": "FortiExtender-3.3.0"
+              }
+            },
+            {
+              "@Name": "3.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.2.4",
+                "@ProductID": "FortiExtender-3.2.4"
+              }
+            },
+            {
+              "@Name": "3.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.2.3",
+                "@ProductID": "FortiExtender-3.2.3"
+              }
+            },
+            {
+              "@Name": "3.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.2.2",
+                "@ProductID": "FortiExtender-3.2.2"
+              }
+            },
+            {
+              "@Name": "3.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.2.1",
+                "@ProductID": "FortiExtender-3.2.1"
+              }
+            },
+            {
+              "@Name": "3.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.1.2",
+                "@ProductID": "FortiExtender-3.1.2"
+              }
+            },
+            {
+              "@Name": "3.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.1.1",
+                "@ProductID": "FortiExtender-3.1.1"
+              }
+            },
+            {
+              "@Name": "3.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.1.0",
+                "@ProductID": "FortiExtender-3.1.0"
+              }
+            },
+            {
+              "@Name": "3.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.0.2",
+                "@ProductID": "FortiExtender-3.0.2"
+              }
+            },
+            {
+              "@Name": "3.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.0.1",
+                "@ProductID": "FortiExtender-3.0.1"
+              }
+            },
+            {
+              "@Name": "3.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 3.0.0",
+                "@ProductID": "FortiExtender-3.0.0"
+              }
+            },
+            {
+              "@Name": "0.4.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 0.4.10",
+                "@ProductID": "FortiExtender-0.4.10"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiExtender-4.1.1",
+            "FortiExtender-4.0.0",
+            "FortiExtender-3.3.3",
+            "FortiExtender-3.3.2",
+            "FortiExtender-3.3.1",
+            "FortiExtender-3.3.0",
+            "FortiExtender-3.2.4",
+            "FortiExtender-3.2.3",
+            "FortiExtender-3.2.2",
+            "FortiExtender-3.2.1",
+            "FortiExtender-3.1.2",
+            "FortiExtender-3.1.1",
+            "FortiExtender-3.1.0",
+            "FortiExtender-3.0.2",
+            "FortiExtender-3.0.1",
+            "FortiExtender-3.0.0",
+            "FortiExtender-0.4.10"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiExtender os command injection through execute date CLI command",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-273"
+        }
+      },
+      "Title": "FortiExtender os command injection through execute date CLI command",
+      "cvrf:CVE": "CVE-2019-15710"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank \"NYC Cyber Command\" for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An OS command injection vulnerability in FortiExtender CLI admin console may allow unauthorized administrators to run arbitrary system level commands via specially crafted \"execute date\" commands.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiExtender 4.1.0 to 4.1.1, 4.0.0 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiExtender 4.0.1 or 4.1.2Revision History:2019-10-28 Initial version2019-11-01 Add 4.0 branch fix information.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiExtender os command injection through execute date CLI command",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-11-01T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-273"
+      },
+      "cvrf:InitialReleaseDate": "2019-11-01T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-11-01T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

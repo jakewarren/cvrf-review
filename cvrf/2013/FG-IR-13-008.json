@@ -1,0 +1,99 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Potential Man-In-The Middle Vulnerability in FortiClient VPN",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-13-008"
+          },
+          {
+            "Description": "<a href=\"http://archives.neohapsis.com/archives/fulldisclosure/2013-05/0001.html\">Neohapsis</a>",
+            "URL": "<a href=\"http://archives.neohapsis.com/archives/fulldisclosure/2013-05/0001.html\">Neohapsis</a>"
+          }
+        ]
+      },
+      "Title": "Potential Man-In-The Middle Vulnerability in FortiClient VPN"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Cédric Tissières and Philippe Oechslin, Objectif Sécurité"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Under certain conditions, FortiClient VPN may be susceptible to a certificate validation vulnerability which would allow an attacker to intercept user credentials in a man-in-the-middle attack.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Under certain conditions, FortiClient VPN may be susceptible to a certificate validation vulnerability which would allow an attacker to intercept user credentials in a man-in-the-middle attack.",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Critical",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClient Lite 4.3.3.445 for WindowsFortiClient 4.3.3.445 for WindowsFortiClient 4.0.2 for MacOSFortiClient SSL VPN 4.0.2012 for LinuxFortiClient Lite 2.0 for Android",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Solutions have been available since April 2012. It is recommended to update to a version greater or equal to the following affected product list:FortiClient Lite 4.3.4.461 for WindowsFortiClient 4.3.5.472 for WindowsFortiClient 4.0.3.134 for MacOSFortiClient SSL VPN 4.0.2258 for LinuxFortiClient 4.0 for Android (Replaces FortiClient Lite 2.0)",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Potential Man-In-The Middle Vulnerability in FortiClient VPN",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-13-008"
+        },
+        {
+          "cvrf:Description": "<a href=\"http://archives.neohapsis.com/archives/fulldisclosure/2013-05/0001.html\">Neohapsis</a>",
+          "cvrf:URL": "<a href=\"http://archives.neohapsis.com/archives/fulldisclosure/2013-05/0001.html\">Neohapsis</a>"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Potential Man-In-The Middle Vulnerability in FortiClient VPN",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2013-05-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-13-008"
+      },
+      "cvrf:InitialReleaseDate": "2013-05-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2013-05-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

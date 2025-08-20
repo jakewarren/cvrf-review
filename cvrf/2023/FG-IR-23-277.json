@@ -1,0 +1,121 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.1",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "CPU Downfall and Zenbleed class attacks",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-277"
+          },
+          {
+            "Description": "https://downfall.page/",
+            "URL": "https://downfall.page/"
+          },
+          {
+            "Description": "https://lock.cmpxchg8b.com/zenbleed.html",
+            "URL": "https://lock.cmpxchg8b.com/zenbleed.html"
+          },
+          {
+            "Description": "https://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html",
+            "URL": "https://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html"
+          },
+          {
+            "Description": "https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+            "URL": "https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html"
+          }
+        ]
+      },
+      "Title": "CPU Downfall and Zenbleed class attacks",
+      "cvrf:CVE": [
+        "CVE-2022-40982",
+        "CVE-2023-20593"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Two side channel hardware vulnerabilities named Downfall (CVE-2022-40982) and Zenbleed (CVE-2023-20593) impact Intel and AMD processors.\"Downfall attacks target a critical weakness found in billions of modern processors used in personal and cloud computers. This vulnerability, identified as CVE-2022-40982, enables a user to access and steal data from other users who share the same computer. For instance, a malicious app obtained from an app store could use the Downfall attack to steal sensitive information like passwords, encryption keys, and private data such as banking details, personal emails, and messages.\" [1] \"The vulnerability is caused by memory optimization features in Intel processors that unintentionally reveal internal hardware registers to software. \" [1] \"Zenbleed, affecting AMD CPUs, shows that incorrectly implemented speculative execution of the SIMD Zeroupper instruction leaks stale data from physical hardware registers to software registers. Zeroupper instructions should clear the data in the upper-half of SIMD registers (e.g., 256-bit register YMM) which on Zen2 processors is done by just setting a flag that marks the upper half of the register as zero. However, if on the same cycle as a register to register move the Zeroupper instruction is mis-speculated, the zero flag doesnt get rolled back properly, leading to the upper-half of the YMM register to hold stale data rather than the value of zero. Similar to Downfall, leaking stale data from physical hardware registers expose the data from other users who share the same CPU core and its internal physical registers.\" [2] These vulnerabilities may allow a local attacker to potentially access sensitive information, entire XMM/YMM/ZMM register (Downfall) and upper-half of 256-bit YMM Registers (Zenbleed).Zenbleed is impacting all Zen 2 class processors : AMD Ryzen 3000 Series ProcessorsAMD Ryzen PRO 3000 Series ProcessorsAMD Ryzen Threadripper 3000 Series ProcessorsAMD Ryzen 4000 Series Processors with Radeon GraphicsAMD Ryzen PRO 4000 Series ProcessorsAMD Ryzen 5000 Series Processors with Radeon GraphicsAMD Ryzen 7020 Series Processors with Radeon GraphicsAMD EPYC “Rome” ProcessorsDownfall is impacting Intel processor (6th Skylake to (including) the 11th Tiger Lake generation).[1] https://downfall.page/[2] https://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "CPU Downfall and Zenbleed class attacks",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-277"
+        },
+        {
+          "cvrf:Description": "https://downfall.page/",
+          "cvrf:URL": "https://downfall.page/"
+        },
+        {
+          "cvrf:Description": "https://lock.cmpxchg8b.com/zenbleed.html",
+          "cvrf:URL": "https://lock.cmpxchg8b.com/zenbleed.html"
+        },
+        {
+          "cvrf:Description": "https://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html",
+          "cvrf:URL": "https://security.googleblog.com/2023/08/downfall-and-zenbleed-googlers-helping.html"
+        },
+        {
+          "cvrf:Description": "https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html",
+          "cvrf:URL": "https://www.intel.com/content/www/us/en/developer/topic-technology/software-security-guidance/processors-affected-consolidated-product-cpu-model.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "CPU Downfall and Zenbleed class attacks",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-10-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-277"
+      },
+      "cvrf:InitialReleaseDate": "2023-10-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-10-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

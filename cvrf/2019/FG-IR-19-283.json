@@ -1,0 +1,545 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.4.0",
+                  "@ProductID": "FortiOS-6.4.0"
+                }
+              },
+              {
+                "@Name": "6.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.3",
+                  "@ProductID": "FortiOS-6.2.3"
+                }
+              },
+              {
+                "@Name": "6.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.2",
+                  "@ProductID": "FortiOS-6.2.2"
+                }
+              },
+              {
+                "@Name": "6.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.1",
+                  "@ProductID": "FortiOS-6.2.1"
+                }
+              },
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.2.0",
+                  "@ProductID": "FortiOS-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.9",
+                  "@ProductID": "FortiOS-6.0.9"
+                }
+              },
+              {
+                "@Name": "6.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.8",
+                  "@ProductID": "FortiOS-6.0.8"
+                }
+              },
+              {
+                "@Name": "6.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.7",
+                  "@ProductID": "FortiOS-6.0.7"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.6",
+                  "@ProductID": "FortiOS-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.5",
+                  "@ProductID": "FortiOS-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.4",
+                  "@ProductID": "FortiOS-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.3",
+                  "@ProductID": "FortiOS-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.2",
+                  "@ProductID": "FortiOS-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.1",
+                  "@ProductID": "FortiOS-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.0",
+                  "@ProductID": "FortiOS-6.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiProxy",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "2.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.4",
+                  "@ProductID": "FortiProxy-2.0.4"
+                }
+              },
+              {
+                "@Name": "2.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.3",
+                  "@ProductID": "FortiProxy-2.0.3"
+                }
+              },
+              {
+                "@Name": "2.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.2",
+                  "@ProductID": "FortiProxy-2.0.2"
+                }
+              },
+              {
+                "@Name": "2.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.1",
+                  "@ProductID": "FortiProxy-2.0.1"
+                }
+              },
+              {
+                "@Name": "2.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 2.0.0",
+                  "@ProductID": "FortiProxy-2.0.0"
+                }
+              },
+              {
+                "@Name": "1.2.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.11",
+                  "@ProductID": "FortiProxy-1.2.11"
+                }
+              },
+              {
+                "@Name": "1.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.10",
+                  "@ProductID": "FortiProxy-1.2.10"
+                }
+              },
+              {
+                "@Name": "1.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.9",
+                  "@ProductID": "FortiProxy-1.2.9"
+                }
+              },
+              {
+                "@Name": "1.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.8",
+                  "@ProductID": "FortiProxy-1.2.8"
+                }
+              },
+              {
+                "@Name": "1.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.7",
+                  "@ProductID": "FortiProxy-1.2.7"
+                }
+              },
+              {
+                "@Name": "1.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.6",
+                  "@ProductID": "FortiProxy-1.2.6"
+                }
+              },
+              {
+                "@Name": "1.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.5",
+                  "@ProductID": "FortiProxy-1.2.5"
+                }
+              },
+              {
+                "@Name": "1.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.4",
+                  "@ProductID": "FortiProxy-1.2.4"
+                }
+              },
+              {
+                "@Name": "1.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.3",
+                  "@ProductID": "FortiProxy-1.2.3"
+                }
+              },
+              {
+                "@Name": "1.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.2",
+                  "@ProductID": "FortiProxy-1.2.2"
+                }
+              },
+              {
+                "@Name": "1.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.1",
+                  "@ProductID": "FortiProxy-1.2.1"
+                }
+              },
+              {
+                "@Name": "1.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.2.0",
+                  "@ProductID": "FortiProxy-1.2.0"
+                }
+              },
+              {
+                "@Name": "1.1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.1.6",
+                  "@ProductID": "FortiProxy-1.1.6"
+                }
+              },
+              {
+                "@Name": "1.1.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.1.5",
+                  "@ProductID": "FortiProxy-1.1.5"
+                }
+              },
+              {
+                "@Name": "1.1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.1.4",
+                  "@ProductID": "FortiProxy-1.1.4"
+                }
+              },
+              {
+                "@Name": "1.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.1.3",
+                  "@ProductID": "FortiProxy-1.1.3"
+                }
+              },
+              {
+                "@Name": "1.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.1.2",
+                  "@ProductID": "FortiProxy-1.1.2"
+                }
+              },
+              {
+                "@Name": "1.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.1.1",
+                  "@ProductID": "FortiProxy-1.1.1"
+                }
+              },
+              {
+                "@Name": "1.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.1.0",
+                  "@ProductID": "FortiProxy-1.1.0"
+                }
+              },
+              {
+                "@Name": "1.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.0.7",
+                  "@ProductID": "FortiProxy-1.0.7"
+                }
+              },
+              {
+                "@Name": "1.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.0.6",
+                  "@ProductID": "FortiProxy-1.0.6"
+                }
+              },
+              {
+                "@Name": "1.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.0.5",
+                  "@ProductID": "FortiProxy-1.0.5"
+                }
+              },
+              {
+                "@Name": "1.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.0.4",
+                  "@ProductID": "FortiProxy-1.0.4"
+                }
+              },
+              {
+                "@Name": "1.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.0.3",
+                  "@ProductID": "FortiProxy-1.0.3"
+                }
+              },
+              {
+                "@Name": "1.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.0.2",
+                  "@ProductID": "FortiProxy-1.0.2"
+                }
+              },
+              {
+                "@Name": "1.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.0.1",
+                  "@ProductID": "FortiProxy-1.0.1"
+                }
+              },
+              {
+                "@Name": "1.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 1.0.0",
+                  "@ProductID": "FortiProxy-1.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-6.4.0",
+            "FortiOS-6.2.3",
+            "FortiOS-6.2.2",
+            "FortiOS-6.2.1",
+            "FortiOS-6.2.0",
+            "FortiOS-6.0.9",
+            "FortiOS-6.0.8",
+            "FortiOS-6.0.7",
+            "FortiOS-6.0.6",
+            "FortiOS-6.0.5",
+            "FortiOS-6.0.4",
+            "FortiOS-6.0.3",
+            "FortiOS-6.0.2",
+            "FortiOS-6.0.1",
+            "FortiOS-6.0.0",
+            "FortiProxy-2.0.4",
+            "FortiProxy-2.0.3",
+            "FortiProxy-2.0.2",
+            "FortiProxy-2.0.1",
+            "FortiProxy-2.0.0",
+            "FortiProxy-1.2.11",
+            "FortiProxy-1.2.10",
+            "FortiProxy-1.2.9",
+            "FortiProxy-1.2.8",
+            "FortiProxy-1.2.7",
+            "FortiProxy-1.2.6",
+            "FortiProxy-1.2.5",
+            "FortiProxy-1.2.4",
+            "FortiProxy-1.2.3",
+            "FortiProxy-1.2.2",
+            "FortiProxy-1.2.1",
+            "FortiProxy-1.2.0",
+            "FortiProxy-1.1.6",
+            "FortiProxy-1.1.5",
+            "FortiProxy-1.1.4",
+            "FortiProxy-1.1.3",
+            "FortiProxy-1.1.2",
+            "FortiProxy-1.1.1",
+            "FortiProxy-1.1.0",
+            "FortiProxy-1.0.7",
+            "FortiProxy-1.0.6",
+            "FortiProxy-1.0.5",
+            "FortiProxy-1.0.4",
+            "FortiProxy-1.0.3",
+            "FortiProxy-1.0.2",
+            "FortiProxy-1.0.1",
+            "FortiProxy-1.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiOS MFA bypass by changing username case",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-283"
+          },
+          {
+            "Description": "https://kb.fortinet.com/kb/documentLink.do?externalID=FD37033",
+            "URL": "https://kb.fortinet.com/kb/documentLink.do?externalID=FD37033"
+          }
+        ]
+      },
+      "Title": "FortiOS MFA bypass by changing username case",
+      "cvrf:CVE": "CVE-2020-12812"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper authentication vulnerability in SSL VPN in FortiOS may result in a user being able to log in successfully without being prompted for the second factor of authentication (FortiToken) if they changed the case of their username.This happens when two-factor authentication is enabled in the \"user local\" setting, and that user authentication type is set to a remote authentication method (eg: ldap).The issue exists because of inconsistent case sensitive matching among the local and remote authentication.A new CLI attribute called \"username-case-sensitivity\" was added in \"user local\" CLI settings, and is now available when remote and two-factor authentication are both enabled:config user localedit [name]set type ldap / ldap as remote authentication /set two-factor fortitoken / fortitoken as 2FA auth method /set username-case-sensitivity enable|disable / newly added, set to 'enable' by default */nextusername-case-sensitivity is enabled by default; this is consistent with the default behavior on previous versions (local and remote username case must match). To avoid the second factor of authentication bypass issue, administrators must manually disable username-case-sensitivity.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS 6.4.0, 6.2.0 to 6.2.3, 6.0.9 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to the following FortiOS version:6.4.1 or later 6.2.4 or later 6.0.10 or later",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiOS MFA bypass by changing username case",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-283"
+        },
+        {
+          "cvrf:Description": "https://kb.fortinet.com/kb/documentLink.do?externalID=FD37033",
+          "cvrf:URL": "https://kb.fortinet.com/kb/documentLink.do?externalID=FD37033"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiOS MFA bypass by changing username case",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-07-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-283"
+      },
+      "cvrf:InitialReleaseDate": "2020-07-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-07-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

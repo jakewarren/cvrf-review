@@ -1,0 +1,80 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Multiple XSS vulnerabilities in FortiManager and FortiAnalyzer Web UI",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-033"
+        }
+      },
+      "Title": "Multiple XSS vulnerabilities in FortiManager and FortiAnalyzer Web UI",
+      "cvrf:CVE": [
+        "CVE-2014-2334",
+        "CVE-2014-2335",
+        "CVE-2014-2336"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Oded Vanunu & Adi Volkovitz, Check Point Security Research Team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Prior to version 5.0.7, the Web User Interface of FortiManager and FortiAnalyzer is vulnerable to multiple reflected Cross-Site Scripting vulnerabilities.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Cross-Site Scripting (reflected)",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiManager and FortiAnalyzer < version 5.0.7",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to 5.0.7 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Multiple XSS vulnerabilities in FortiManager and FortiAnalyzer Web UI",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2014-10-30T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-14-033"
+      },
+      "cvrf:InitialReleaseDate": "2014-10-30T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2014-10-30T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

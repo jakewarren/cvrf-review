@@ -1,0 +1,119 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat (HTTPS)",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-302"
+          },
+          {
+            "Description": "https://robotattack.org/",
+            "URL": "https://robotattack.org/"
+          },
+          {
+            "Description": "https://www.kb.cert.org/vuls/id/144389",
+            "URL": "https://www.kb.cert.org/vuls/id/144389"
+          }
+        ]
+      },
+      "Title": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat (HTTPS)",
+      "cvrf:CVE": [
+        "CVE-2018-9192",
+        "CVE-2018-9194"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": [
+        {
+          "cvrf:Description": "Fortinet is pleased to thank \"Adam Kavan of Professional Research Consultants\" report CVE-2018-9192 under responsible disclosure."
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": "Fortinet is pleased to thank \"Lars Müller of BTC AG\" report CVE-2018-9194 under responsible disclosure."
+        }
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A plaintext recovery of encrypted messages or a Man-in-the-middle (MiTM) attack on RSA PKCS #1 v1.5 encryption may be possible without knowledge of the server's private key. FortiOS are affected by the following two CVEs: CVE-2018-9192: ROBOT vulnerability reported under SSL Deep Inspection when CPx being used CVE-2018-9194: ROBOT attack under VIP SSL offloading when CPx being used   FortiOS for admin port 443 is NOT vulnerable to the ROBOT attack.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS CVE-2018-9192: 5.2 branch: not vulnerable 5.4 branch: 5.4.6 to 5.4.9 5.6 branch: not vulnerable 6.0 branch: 6.0.0 to 6.0.1 CVE-2018-9194: 5.2 branch: not vulnerable 5.4 branch: 5.4.6 to 5.4.9 5.6 branch: not vulnerable 6.0 branch: 6.0.0 to 6.0.1 The following Fortinet products are NOT affected: FortiSwitch FortiAP FortiAnalyzer FortiMail fortiManager FortiWeb Details: CVE-2018-9192 - only when all of the conditions below are met: 1. The model supports content processor (CPx) and KXP traffic acceleration is enabled (enabled is the default value) 2. SSL Deep Inspection UTM profile is used CVE-2018-9194 - only when all of the conditions below are met: 1. The FortiGate model supports content processor (CPx) and KXP traffic acceleration is enabled (enabled is the default value) 2. VIP SSL offloading is used [1] [1] A typical VIP SSL offloading CLI config (only shows key CLI configs): config firewall vip edit [vip-name] set type server-load-balance set server-type https next end config firewall policy edit [policy-id] set dstaddr [vip-name] set utm-status enable set ssl-ssh-profile [profile-name] next end",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiOS 6.0.2 and above in branch 6.0, or to 5.4.10 and above in branch 5.4 (FortiOS 5.2 and 5.6 branches not impacted).Workarounds:For CVE-2018-9192, only one workaround is available:A working workaround consists in disabling KXP traffic acceleration:config system globalset proxy-kxp-hardware-acceleration disableendFor CVE-2018-9194, three types of workaround are available:One workaround consists in disabling KXP traffic acceleration:config system globalset proxy-kxp-hardware-acceleration disableendAlso user can avoid such attack by disabling RSA ciphersuites in TLS protocol, by perform one of the following two CLI settings: By ensure only using PFS (Perfect Forward Secrecy) ciphers:config firewall vipedit [vip-name]set type server-load-balanceset server-type httpsset ssl-pfs require (only using PFS ciphers)nextend By only specific custom ciphers without using RSA:config firewall vipedit [vip-name]set type server-load-balanceset server-type httpsconfig ssl-cipher-suiteseditset cipher (ciphers not include TLS-RSA-xxx)nextendnextendEdited on: 13-10-2022",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat (HTTPS)",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-302"
+        },
+        {
+          "cvrf:Description": "https://robotattack.org/",
+          "cvrf:URL": "https://robotattack.org/"
+        },
+        {
+          "cvrf:Description": "https://www.kb.cert.org/vuls/id/144389",
+          "cvrf:URL": "https://www.kb.cert.org/vuls/id/144389"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "The ROBOT Attack - Return of Bleichenbacher's Oracle Threat (HTTPS)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-08-27T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-302"
+      },
+      "cvrf:InitialReleaseDate": "2018-08-27T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-08-27T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

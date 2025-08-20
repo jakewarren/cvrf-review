@@ -1,0 +1,569 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.0.0",
+                "@ProductID": "FortiOS-6.0.0"
+              }
+            },
+            {
+              "@Name": "5.6.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.5",
+                "@ProductID": "FortiOS-5.6.5"
+              }
+            },
+            {
+              "@Name": "5.6.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.4",
+                "@ProductID": "FortiOS-5.6.4"
+              }
+            },
+            {
+              "@Name": "5.6.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.3",
+                "@ProductID": "FortiOS-5.6.3"
+              }
+            },
+            {
+              "@Name": "5.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.2",
+                "@ProductID": "FortiOS-5.6.2"
+              }
+            },
+            {
+              "@Name": "5.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.1",
+                "@ProductID": "FortiOS-5.6.1"
+              }
+            },
+            {
+              "@Name": "5.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.0",
+                "@ProductID": "FortiOS-5.6.0"
+              }
+            },
+            {
+              "@Name": "5.4.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.13",
+                "@ProductID": "FortiOS-5.4.13"
+              }
+            },
+            {
+              "@Name": "5.4.12",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.12",
+                "@ProductID": "FortiOS-5.4.12"
+              }
+            },
+            {
+              "@Name": "5.4.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.11",
+                "@ProductID": "FortiOS-5.4.11"
+              }
+            },
+            {
+              "@Name": "5.4.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.10",
+                "@ProductID": "FortiOS-5.4.10"
+              }
+            },
+            {
+              "@Name": "5.4.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.9",
+                "@ProductID": "FortiOS-5.4.9"
+              }
+            },
+            {
+              "@Name": "5.4.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.8",
+                "@ProductID": "FortiOS-5.4.8"
+              }
+            },
+            {
+              "@Name": "5.4.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.7",
+                "@ProductID": "FortiOS-5.4.7"
+              }
+            },
+            {
+              "@Name": "5.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.6",
+                "@ProductID": "FortiOS-5.4.6"
+              }
+            },
+            {
+              "@Name": "5.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.5",
+                "@ProductID": "FortiOS-5.4.5"
+              }
+            },
+            {
+              "@Name": "5.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.4",
+                "@ProductID": "FortiOS-5.4.4"
+              }
+            },
+            {
+              "@Name": "5.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.3",
+                "@ProductID": "FortiOS-5.4.3"
+              }
+            },
+            {
+              "@Name": "5.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.2",
+                "@ProductID": "FortiOS-5.4.2"
+              }
+            },
+            {
+              "@Name": "5.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.1",
+                "@ProductID": "FortiOS-5.4.1"
+              }
+            },
+            {
+              "@Name": "5.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.4.0",
+                "@ProductID": "FortiOS-5.4.0"
+              }
+            },
+            {
+              "@Name": "5.2.15",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.15",
+                "@ProductID": "FortiOS-5.2.15"
+              }
+            },
+            {
+              "@Name": "5.2.14",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.14",
+                "@ProductID": "FortiOS-5.2.14"
+              }
+            },
+            {
+              "@Name": "5.2.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.13",
+                "@ProductID": "FortiOS-5.2.13"
+              }
+            },
+            {
+              "@Name": "5.2.12",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.12",
+                "@ProductID": "FortiOS-5.2.12"
+              }
+            },
+            {
+              "@Name": "5.2.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.11",
+                "@ProductID": "FortiOS-5.2.11"
+              }
+            },
+            {
+              "@Name": "5.2.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.10",
+                "@ProductID": "FortiOS-5.2.10"
+              }
+            },
+            {
+              "@Name": "5.2.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.9",
+                "@ProductID": "FortiOS-5.2.9"
+              }
+            },
+            {
+              "@Name": "5.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.8",
+                "@ProductID": "FortiOS-5.2.8"
+              }
+            },
+            {
+              "@Name": "5.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.7",
+                "@ProductID": "FortiOS-5.2.7"
+              }
+            },
+            {
+              "@Name": "5.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.6",
+                "@ProductID": "FortiOS-5.2.6"
+              }
+            },
+            {
+              "@Name": "5.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.5",
+                "@ProductID": "FortiOS-5.2.5"
+              }
+            },
+            {
+              "@Name": "5.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.4",
+                "@ProductID": "FortiOS-5.2.4"
+              }
+            },
+            {
+              "@Name": "5.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.3",
+                "@ProductID": "FortiOS-5.2.3"
+              }
+            },
+            {
+              "@Name": "5.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.2",
+                "@ProductID": "FortiOS-5.2.2"
+              }
+            },
+            {
+              "@Name": "5.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.1",
+                "@ProductID": "FortiOS-5.2.1"
+              }
+            },
+            {
+              "@Name": "5.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.2.0",
+                "@ProductID": "FortiOS-5.2.0"
+              }
+            },
+            {
+              "@Name": "5.0.14",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.14",
+                "@ProductID": "FortiOS-5.0.14"
+              }
+            },
+            {
+              "@Name": "5.0.13",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.13",
+                "@ProductID": "FortiOS-5.0.13"
+              }
+            },
+            {
+              "@Name": "5.0.12",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.12",
+                "@ProductID": "FortiOS-5.0.12"
+              }
+            },
+            {
+              "@Name": "5.0.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.11",
+                "@ProductID": "FortiOS-5.0.11"
+              }
+            },
+            {
+              "@Name": "5.0.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.10",
+                "@ProductID": "FortiOS-5.0.10"
+              }
+            },
+            {
+              "@Name": "5.0.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.9",
+                "@ProductID": "FortiOS-5.0.9"
+              }
+            },
+            {
+              "@Name": "5.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.8",
+                "@ProductID": "FortiOS-5.0.8"
+              }
+            },
+            {
+              "@Name": "5.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.7",
+                "@ProductID": "FortiOS-5.0.7"
+              }
+            },
+            {
+              "@Name": "5.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.6",
+                "@ProductID": "FortiOS-5.0.6"
+              }
+            },
+            {
+              "@Name": "5.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.5",
+                "@ProductID": "FortiOS-5.0.5"
+              }
+            },
+            {
+              "@Name": "5.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.4",
+                "@ProductID": "FortiOS-5.0.4"
+              }
+            },
+            {
+              "@Name": "5.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.3",
+                "@ProductID": "FortiOS-5.0.3"
+              }
+            },
+            {
+              "@Name": "5.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.2",
+                "@ProductID": "FortiOS-5.0.2"
+              }
+            },
+            {
+              "@Name": "5.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.1",
+                "@ProductID": "FortiOS-5.0.1"
+              }
+            },
+            {
+              "@Name": "5.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.0.0",
+                "@ProductID": "FortiOS-5.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-6.0.0",
+            "FortiOS-5.6.5",
+            "FortiOS-5.6.4",
+            "FortiOS-5.6.3",
+            "FortiOS-5.6.2",
+            "FortiOS-5.6.1",
+            "FortiOS-5.6.0",
+            "FortiOS-5.4.13",
+            "FortiOS-5.4.12",
+            "FortiOS-5.4.11",
+            "FortiOS-5.4.10",
+            "FortiOS-5.4.9",
+            "FortiOS-5.4.8",
+            "FortiOS-5.4.7",
+            "FortiOS-5.4.6",
+            "FortiOS-5.4.5",
+            "FortiOS-5.4.4",
+            "FortiOS-5.4.3",
+            "FortiOS-5.4.2",
+            "FortiOS-5.4.1",
+            "FortiOS-5.4.0",
+            "FortiOS-5.2.15",
+            "FortiOS-5.2.14",
+            "FortiOS-5.2.13",
+            "FortiOS-5.2.12",
+            "FortiOS-5.2.11",
+            "FortiOS-5.2.10",
+            "FortiOS-5.2.9",
+            "FortiOS-5.2.8",
+            "FortiOS-5.2.7",
+            "FortiOS-5.2.6",
+            "FortiOS-5.2.5",
+            "FortiOS-5.2.4",
+            "FortiOS-5.2.3",
+            "FortiOS-5.2.2",
+            "FortiOS-5.2.1",
+            "FortiOS-5.2.0",
+            "FortiOS-5.0.14",
+            "FortiOS-5.0.13",
+            "FortiOS-5.0.12",
+            "FortiOS-5.0.11",
+            "FortiOS-5.0.10",
+            "FortiOS-5.0.9",
+            "FortiOS-5.0.8",
+            "FortiOS-5.0.7",
+            "FortiOS-5.0.6",
+            "FortiOS-5.0.5",
+            "FortiOS-5.0.4",
+            "FortiOS-5.0.3",
+            "FortiOS-5.0.2",
+            "FortiOS-5.0.1",
+            "FortiOS-5.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Password is sent to Client side",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-027"
+        }
+      },
+      "Title": "Password is sent to Client side",
+      "cvrf:CVE": "CVE-2018-9185"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Stephan Neidhardt - link protect GmbH reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An information disclosure vulnerability exists in the SSL-VPN webportal of FortiOS: when pages bookmarked in the webportal use the Single sign-on (SSO) feature, the user's webportal's login and password are included in a javascript file sent client-side.The leaked credential may potentially be captured by an attacker if additional session handling, access control or cross-site scripting vulnerabilities were to be discovered in the SSL-VPN webportal, or in the applications within (or in case of client-side vulnerabilities, in the user's browser).",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS 6.0.0 and below versions",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiOS 5.6.6, 6.0.1 or versions after 6.0.1 Workaround: Avoid using the SSO feature in FortiOS SSL VPN bookmarks, especially if the applications inside the SSL VPN webportal are untrusted.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Password is sent to Client side",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-06-22T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-027"
+      },
+      "cvrf:InitialReleaseDate": "2018-06-22T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-06-22T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

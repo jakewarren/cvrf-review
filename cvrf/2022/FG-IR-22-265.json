@@ -1,0 +1,88 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.4",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:U/RC:C"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Weak password storage",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-265"
+        }
+      },
+      "Title": "Weak password storage",
+      "cvrf:CVE": "CVE-2022-40678"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered by Gwendal Guégniaud from Fortinet Product Security Team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An insufficiently protected credentials vulnerability [CWE-522] in FortiNAC may allow an attacker with access to the database to perform attacks to recover the passwords.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiNAC version 9.4.0FortiNAC version 9.2.0 through 9.2.5FortiNAC version 9.1.0 through 9.1.7FortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versionsFortiNAC 8.5 all versionsFortiNAC 8.3 all versionsFortiNAC 7.2 all versions are not affected",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiNAC-F version 7.2.0 or abovePlease upgrade to FortiNAC version 9.4.1 or abovePlease upgrade to FortiNAC version 9.2.6 or abovePlease upgrade to FortiNAC version 9.1.8 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Weak password storage",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-02-16T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-265"
+      },
+      "cvrf:InitialReleaseDate": "2023-02-16T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-02-16T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

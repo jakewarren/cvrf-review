@@ -1,0 +1,209 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiMail",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.4.4",
+                "@ProductID": "FortiMail-6.4.4"
+              }
+            },
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.4.3",
+                "@ProductID": "FortiMail-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.4.2",
+                "@ProductID": "FortiMail-6.4.2"
+              }
+            },
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.4.1",
+                "@ProductID": "FortiMail-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.4.0",
+                "@ProductID": "FortiMail-6.4.0"
+              }
+            },
+            {
+              "@Name": "6.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.6",
+                "@ProductID": "FortiMail-6.2.6"
+              }
+            },
+            {
+              "@Name": "6.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.5",
+                "@ProductID": "FortiMail-6.2.5"
+              }
+            },
+            {
+              "@Name": "6.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.4",
+                "@ProductID": "FortiMail-6.2.4"
+              }
+            },
+            {
+              "@Name": "6.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.3",
+                "@ProductID": "FortiMail-6.2.3"
+              }
+            },
+            {
+              "@Name": "6.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.2",
+                "@ProductID": "FortiMail-6.2.2"
+              }
+            },
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.1",
+                "@ProductID": "FortiMail-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiMail 6.2.0",
+                "@ProductID": "FortiMail-6.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiMail-6.4.4",
+            "FortiMail-6.4.3",
+            "FortiMail-6.4.2",
+            "FortiMail-6.4.1",
+            "FortiMail-6.4.0",
+            "FortiMail-6.2.6",
+            "FortiMail-6.2.5",
+            "FortiMail-6.2.4",
+            "FortiMail-6.2.3",
+            "FortiMail-6.2.2",
+            "FortiMail-6.2.1",
+            "FortiMail-6.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Improper cryptographic operations in cookie encryption leading to forgery",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-019"
+        }
+      },
+      "Title": "Improper cryptographic operations in cookie encryption leading to forgery",
+      "cvrf:CVE": "CVE-2021-26095"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Giuseppe Cocomazzi of the Fortinet PSIRT Team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The combination of various cryptographic issues in the session management of FortiMail, including the encryption construction of the session cookie, may allow a remote attacker already in possession of a cookie to possibly reveal and alter or forge its content, thereby escalating privileges.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiMail 6.4.4 and below.FortiMail 6.2.6 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiMail 7.0.0.Upgrade to FortiMail 6.4.5.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Improper cryptographic operations in cookie encryption leading to forgery",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-07-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-019"
+      },
+      "cvrf:InitialReleaseDate": "2021-07-07T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-07-07T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

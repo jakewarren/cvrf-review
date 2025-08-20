@@ -1,0 +1,407 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWeb",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.6.2",
+                "@ProductID": "FortiWeb-7.6.2"
+              }
+            },
+            {
+              "@Name": "7.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.6.1",
+                "@ProductID": "FortiWeb-7.6.1"
+              }
+            },
+            {
+              "@Name": "7.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.6.0",
+                "@ProductID": "FortiWeb-7.6.0"
+              }
+            },
+            {
+              "@Name": "7.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.4.6",
+                "@ProductID": "FortiWeb-7.4.6"
+              }
+            },
+            {
+              "@Name": "7.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.4.5",
+                "@ProductID": "FortiWeb-7.4.5"
+              }
+            },
+            {
+              "@Name": "7.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.4.4",
+                "@ProductID": "FortiWeb-7.4.4"
+              }
+            },
+            {
+              "@Name": "7.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.4.3",
+                "@ProductID": "FortiWeb-7.4.3"
+              }
+            },
+            {
+              "@Name": "7.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.4.2",
+                "@ProductID": "FortiWeb-7.4.2"
+              }
+            },
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.4.1",
+                "@ProductID": "FortiWeb-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.4.0",
+                "@ProductID": "FortiWeb-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.11",
+                "@ProductID": "FortiWeb-7.2.11"
+              }
+            },
+            {
+              "@Name": "7.2.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.10",
+                "@ProductID": "FortiWeb-7.2.10"
+              }
+            },
+            {
+              "@Name": "7.2.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.9",
+                "@ProductID": "FortiWeb-7.2.9"
+              }
+            },
+            {
+              "@Name": "7.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.8",
+                "@ProductID": "FortiWeb-7.2.8"
+              }
+            },
+            {
+              "@Name": "7.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.7",
+                "@ProductID": "FortiWeb-7.2.7"
+              }
+            },
+            {
+              "@Name": "7.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.6",
+                "@ProductID": "FortiWeb-7.2.6"
+              }
+            },
+            {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.5",
+                "@ProductID": "FortiWeb-7.2.5"
+              }
+            },
+            {
+              "@Name": "7.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.4",
+                "@ProductID": "FortiWeb-7.2.4"
+              }
+            },
+            {
+              "@Name": "7.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.3",
+                "@ProductID": "FortiWeb-7.2.3"
+              }
+            },
+            {
+              "@Name": "7.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.2",
+                "@ProductID": "FortiWeb-7.2.2"
+              }
+            },
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.1",
+                "@ProductID": "FortiWeb-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.2.0",
+                "@ProductID": "FortiWeb-7.2.0"
+              }
+            },
+            {
+              "@Name": "7.0.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.11",
+                "@ProductID": "FortiWeb-7.0.11"
+              }
+            },
+            {
+              "@Name": "7.0.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.10",
+                "@ProductID": "FortiWeb-7.0.10"
+              }
+            },
+            {
+              "@Name": "7.0.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.9",
+                "@ProductID": "FortiWeb-7.0.9"
+              }
+            },
+            {
+              "@Name": "7.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.8",
+                "@ProductID": "FortiWeb-7.0.8"
+              }
+            },
+            {
+              "@Name": "7.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.7",
+                "@ProductID": "FortiWeb-7.0.7"
+              }
+            },
+            {
+              "@Name": "7.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.6",
+                "@ProductID": "FortiWeb-7.0.6"
+              }
+            },
+            {
+              "@Name": "7.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.5",
+                "@ProductID": "FortiWeb-7.0.5"
+              }
+            },
+            {
+              "@Name": "7.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.4",
+                "@ProductID": "FortiWeb-7.0.4"
+              }
+            },
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.3",
+                "@ProductID": "FortiWeb-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.2",
+                "@ProductID": "FortiWeb-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.1",
+                "@ProductID": "FortiWeb-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 7.0.0",
+                "@ProductID": "FortiWeb-7.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWeb-7.6.2",
+            "FortiWeb-7.6.1",
+            "FortiWeb-7.6.0",
+            "FortiWeb-7.4.6",
+            "FortiWeb-7.4.5",
+            "FortiWeb-7.4.4",
+            "FortiWeb-7.4.3",
+            "FortiWeb-7.4.2",
+            "FortiWeb-7.4.1",
+            "FortiWeb-7.4.0",
+            "FortiWeb-7.2.11",
+            "FortiWeb-7.2.10",
+            "FortiWeb-7.2.9",
+            "FortiWeb-7.2.8",
+            "FortiWeb-7.2.7",
+            "FortiWeb-7.2.6",
+            "FortiWeb-7.2.5",
+            "FortiWeb-7.2.4",
+            "FortiWeb-7.2.3",
+            "FortiWeb-7.2.2",
+            "FortiWeb-7.2.1",
+            "FortiWeb-7.2.0",
+            "FortiWeb-7.0.11",
+            "FortiWeb-7.0.10",
+            "FortiWeb-7.0.9",
+            "FortiWeb-7.0.8",
+            "FortiWeb-7.0.7",
+            "FortiWeb-7.0.6",
+            "FortiWeb-7.0.5",
+            "FortiWeb-7.0.4",
+            "FortiWeb-7.0.3",
+            "FortiWeb-7.0.2",
+            "FortiWeb-7.0.1",
+            "FortiWeb-7.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Directory Traversal",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-474"
+        }
+      },
+      "Title": "Directory Traversal",
+      "cvrf:CVE": "CVE-2025-25254"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Kentaro Kawane of GMO Cybersecurity by Ierae working with Trend Micro Zero Day Initiative for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability [CWE-22] in FortiWeb endpoint may allow an authenticated admin to access and modify the filesystem via crafted requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Directory Traversal",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-04-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-474"
+      },
+      "cvrf:InitialReleaseDate": "2025-04-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-04-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

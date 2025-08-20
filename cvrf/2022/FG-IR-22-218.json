@@ -1,0 +1,152 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiEDR CollectorWindows",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR CollectorWindows 5.2.0",
+                "@ProductID": "FortiEDR CollectorWindows-5.2.0"
+              }
+            },
+            {
+              "@Name": "5.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR CollectorWindows 5.1.0",
+                "@ProductID": "FortiEDR CollectorWindows-5.1.0"
+              }
+            },
+            {
+              "@Name": "5.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR CollectorWindows 5.0.2",
+                "@ProductID": "FortiEDR CollectorWindows-5.0.2"
+              }
+            },
+            {
+              "@Name": "5.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR CollectorWindows 5.0.1",
+                "@ProductID": "FortiEDR CollectorWindows-5.0.1"
+              }
+            },
+            {
+              "@Name": "5.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiEDR CollectorWindows 5.0.0",
+                "@ProductID": "FortiEDR CollectorWindows-5.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.0",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H/E:P/RL:U/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiEDR CollectorWindows-5.2.0",
+            "FortiEDR CollectorWindows-5.1.0",
+            "FortiEDR CollectorWindows-5.0.2",
+            "FortiEDR CollectorWindows-5.0.1",
+            "FortiEDR CollectorWindows-5.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Protection bypass by killing the process with special tools",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-218"
+        }
+      },
+      "Title": "Protection bypass by killing the process with special tools",
+      "cvrf:CVE": "CVE-2022-39949"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Tomasz Niewdana from Fortinet for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper control of a resource through its lifetime vulnerability [CWE-664] in FortiEDR CollectorWindows may allow a privileged user to terminate the FortiEDR processes with special tools and bypass the EDR protection.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiEDR CollectorWindows version 5.2.0FortiEDR CollectorWindows 5.1 all versionsFortiEDR CollectorWindows version 5.0.0 through 5.0.2",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiEDR CollectorWindows version 5.0.3.912 or abovePlease upgrade to FortiEDR CollectorWindows version 5.2.0.2288 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Protection bypass by killing the process with special tools",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-11-01T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-218"
+      },
+      "cvrf:InitialReleaseDate": "2022-11-01T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-11-01T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

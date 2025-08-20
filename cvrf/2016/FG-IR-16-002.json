@@ -1,0 +1,71 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Glibc getaddrinfo() stack-overflow",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-002"
+        }
+      },
+      "Title": "Glibc getaddrinfo() stack-overflow",
+      "cvrf:CVE": "CVE-2015-7547"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Since glibc 2.9, the glibc DNS client side resolver is vulnerable to a stack-based buffer overflow when the getaddrinfo() library function is used.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Software using this function may be exploited with attacker-controlled domain names, attacker-controlled DNS servers, or through a man-in-the-middle attack.",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following products are confirmed to be not affected: FortiOS FortiSwitch FortiAnalyzer FortiManager FortiMail Fortibridge FortiAuthenticator Meru FortiMom FortiDirector FortiPrivateCloud FortiCache FortiClient FortiRecorder FortiCore Other products are in the course of being investigated.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "N/A",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Glibc getaddrinfo() stack-overflow",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-02-25T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-002"
+      },
+      "cvrf:InitialReleaseDate": "2016-02-25T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-02-25T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

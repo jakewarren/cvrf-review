@@ -1,0 +1,218 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSOAR",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.6.0",
+                "@ProductID": "FortiSOAR-7.6.0"
+              }
+            },
+            {
+              "@Name": "7.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.5.1",
+                "@ProductID": "FortiSOAR-7.5.1"
+              }
+            },
+            {
+              "@Name": "7.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.5.0",
+                "@ProductID": "FortiSOAR-7.5.0"
+              }
+            },
+            {
+              "@Name": "7.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.4.5",
+                "@ProductID": "FortiSOAR-7.4.5"
+              }
+            },
+            {
+              "@Name": "7.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.4.4",
+                "@ProductID": "FortiSOAR-7.4.4"
+              }
+            },
+            {
+              "@Name": "7.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.4.3",
+                "@ProductID": "FortiSOAR-7.4.3"
+              }
+            },
+            {
+              "@Name": "7.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.4.2",
+                "@ProductID": "FortiSOAR-7.4.2"
+              }
+            },
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.4.1",
+                "@ProductID": "FortiSOAR-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.4.0",
+                "@ProductID": "FortiSOAR-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.3.3",
+                "@ProductID": "FortiSOAR-7.3.3"
+              }
+            },
+            {
+              "@Name": "7.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.3.2",
+                "@ProductID": "FortiSOAR-7.3.2"
+              }
+            },
+            {
+              "@Name": "7.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.3.1",
+                "@ProductID": "FortiSOAR-7.3.1"
+              }
+            },
+            {
+              "@Name": "7.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.3.0",
+                "@ProductID": "FortiSOAR-7.3.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.4",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:N/A:N/E:P/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSOAR-7.6.0",
+            "FortiSOAR-7.5.1",
+            "FortiSOAR-7.5.0",
+            "FortiSOAR-7.4.5",
+            "FortiSOAR-7.4.4",
+            "FortiSOAR-7.4.3",
+            "FortiSOAR-7.4.2",
+            "FortiSOAR-7.4.1",
+            "FortiSOAR-7.4.0",
+            "FortiSOAR-7.3.3",
+            "FortiSOAR-7.3.2",
+            "FortiSOAR-7.3.1",
+            "FortiSOAR-7.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Path traversal in Solution Pack upload",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-421"
+        }
+      },
+      "Title": "Path traversal in Solution Pack upload",
+      "cvrf:CVE": "CVE-2024-48892"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Lexfo company for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A relative path traversal vulnerability [CWE-23] in FortiSOAR may allow an authenticated attacker to read arbitrary files via uploading a malicious solution pack.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Path traversal in Solution Pack upload",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-08-12T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-421"
+      },
+      "cvrf:InitialReleaseDate": "2025-08-12T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-08-12T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

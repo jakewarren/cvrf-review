@@ -1,0 +1,97 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiAnalyzer Cross Site Request Forgery Vulnerability",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-13-018"
+          },
+          {
+            "Description": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-6826",
+            "URL": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-6826"
+          },
+          {
+            "Description": "http://www.securityfocus.com/bid/63663",
+            "URL": "http://www.securityfocus.com/bid/63663"
+          }
+        ]
+      },
+      "Title": "FortiAnalyzer Cross Site Request Forgery Vulnerability",
+      "cvrf:CVE": "CVE-2013-6826"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple CSRF vulnerabilities exist in the FortiAnalyzer web administration console due to an error in CSRF token validation. This could allow remote attackers to perform administrative actions under specific conditions.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Security Bypass",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiAnalyzer 4.x prior to version 4.3.7,FortiAnalyzer 5.x prior to version 5.0.5.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiAnalyzer 4.3.7 or FortiAnalyzer 5.0.5.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiAnalyzer Cross Site Request Forgery Vulnerability",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-13-018"
+        },
+        {
+          "cvrf:Description": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-6826",
+          "cvrf:URL": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-6826"
+        },
+        {
+          "cvrf:Description": "http://www.securityfocus.com/bid/63663",
+          "cvrf:URL": "http://www.securityfocus.com/bid/63663"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiAnalyzer Cross Site Request Forgery Vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2013-11-22T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-13-018"
+      },
+      "cvrf:InitialReleaseDate": "2013-11-22T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2013-11-22T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

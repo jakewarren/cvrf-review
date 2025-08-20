@@ -1,0 +1,280 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.1",
+                  "@ProductID": "FortiOS-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.2.0",
+                  "@ProductID": "FortiOS-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.6",
+                  "@ProductID": "FortiOS-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.5",
+                  "@ProductID": "FortiOS-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.4",
+                  "@ProductID": "FortiOS-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.3",
+                  "@ProductID": "FortiOS-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.2",
+                  "@ProductID": "FortiOS-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.1",
+                  "@ProductID": "FortiOS-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 7.0.0",
+                  "@ProductID": "FortiOS-7.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiProxy",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.2.0",
+                  "@ProductID": "FortiProxy-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.6",
+                  "@ProductID": "FortiProxy-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.5",
+                  "@ProductID": "FortiProxy-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.4",
+                  "@ProductID": "FortiProxy-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.3",
+                  "@ProductID": "FortiProxy-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.2",
+                  "@ProductID": "FortiProxy-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.1",
+                  "@ProductID": "FortiProxy-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy 7.0.0",
+                  "@ProductID": "FortiProxy-7.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSwitchManager",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitchManager 7.2.0",
+                  "@ProductID": "FortiSwitchManager-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitchManager 7.0.0",
+                  "@ProductID": "FortiSwitchManager-7.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "9.6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-7.2.1",
+            "FortiOS-7.2.0",
+            "FortiOS-7.0.6",
+            "FortiOS-7.0.5",
+            "FortiOS-7.0.4",
+            "FortiOS-7.0.3",
+            "FortiOS-7.0.2",
+            "FortiOS-7.0.1",
+            "FortiOS-7.0.0",
+            "FortiProxy-7.2.0",
+            "FortiProxy-7.0.6",
+            "FortiProxy-7.0.5",
+            "FortiProxy-7.0.4",
+            "FortiProxy-7.0.3",
+            "FortiProxy-7.0.2",
+            "FortiProxy-7.0.1",
+            "FortiProxy-7.0.0",
+            "FortiSwitchManager-7.2.0",
+            "FortiSwitchManager-7.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Authentication bypass in administrative interface",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-377"
+        }
+      },
+      "Title": "Authentication bypass in administrative interface",
+      "cvrf:CVE": "CVE-2022-40684"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An authentication bypass using an alternate path or channel vulnerability [CWE-288] in FortiOS, FortiProxy and FortiSwitchManager may allow an unauthenticated attacker to perform operations on the administrative interface via specially crafted HTTP or HTTPS requests.Exploitation Status:Fortinet is aware of an instance where this vulnerability was exploited, and recommends immediately validating your systems against the following indicator of compromise in the device's logs:user=Local_Process_AccessPlease contact customer support for assistance.UPDATE:Fortinet is aware of instances where this vulnerability was exploited to download the config file from the targeted devices, and to add a malicious super_admin account called 'fortigate-tech-support':# show system adminedit fortigate-tech-supportset accprofile super_adminset vdom rootset password ENC [...]nextPlease contact customer support for assistance.Workaround:FortiOS:Disable HTTP/HTTPS administrative interfaceORLimit IP addresses that can reach the administrative interface:config firewall addressedit my_allowed_addressesset subnet <MY IP> <MY SUBNET>endThen create an Address Group:config firewall addrgrpedit MGMT_IPsset member my_allowed_addressesendCreate the Local in Policy to restrict access only to the predefined group on management interface (here: port1):config firewall local-in-policyedit 1set intf port1set srcaddr MGMT_IPsset dstaddr allset action acceptset service HTTPS HTTPset schedule alwaysset status enablenextedit 2set intf anyset srcaddr allset dstaddr allset action denyset service HTTPS HTTPset schedule alwaysset status enableendIf using non default ports, create appropriate service object for GUI administrative access:config firewall service customedit GUI_HTTPSset tcp-portrange admin-sportnextedit GUI_HTTPset tcp-portrange admin-portendUse these objects instead of 'HTTPS HTTP' in the local-in policy 1 and 2 below.UPDATE: When using an HA reserved management interface, the local in policy needs to be configured slightly differently - please see: https://community.fortinet.com/t5/FortiGate/Technical-Tip-How-to-configure-a-local-in-policy-on-a-HA/ta-p/222005https://community.fortinet.com/t5/FortiGate/Technical-Tip-How-to-configure-a-local-in-policy-on-a-HA/ta-p/222005Please contact customer support for assistance.FortiProxy:Disable HTTP/HTTPS administrative interfaceORFor FortiProxy VM all versions or FortiProxy appliance 7.0.6:Limit IP addresses that can reach the administrative interface (here: port1):config system interfaceedit port1set dedicated-to managementset trust-ip-1 <MY IP> <MY SUBNET>endPlease contact customer support for assistance.FortiSwitchManager:DIsable HTTP/HTTPS administrative interfacePlease contact customer support for assistance.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Authentication bypass in administrative interface",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-10-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-377"
+      },
+      "cvrf:InitialReleaseDate": "2022-10-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-10-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

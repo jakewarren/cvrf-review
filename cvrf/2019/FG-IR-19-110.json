@@ -1,0 +1,94 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4",
+          "VectorV3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:U/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Multiple VPN applications insecurely store session cookies",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-110"
+          },
+          {
+            "Description": "https://www.kb.cert.org/vuls/id/192371/",
+            "URL": "https://www.kb.cert.org/vuls/id/192371/"
+          }
+        ]
+      },
+      "Title": "Multiple VPN applications insecurely store session cookies"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The Missing Encryption Of Sensitive Data vulnerability in FortiClient may allow an attacker to access VPN session cookie from an endpoint device running FortiClient. The attacker can steal the cookies only if endpoint device has been compromised in such a way that the attacker has access to FortiClient's debug logs or memory space. Furthermore, practical use of the stolen cookie requires the attacker to spoof the endpoint's IP address.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClient for Windows (6.2.0 and earlier)FortiClient for Mac OSX (6.2.0 and earlier)",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Fortigate by default mitigates the session cookie misuse exploits mentioned above by verifying the source IP of client's request. As a precautionary measure, please upgrade to upcoming:FortiClient for Windows 6.2.2FortiClient for Mac OSX 6.2.2",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Multiple VPN applications insecurely store session cookies",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-110"
+        },
+        {
+          "cvrf:Description": "https://www.kb.cert.org/vuls/id/192371/",
+          "cvrf:URL": "https://www.kb.cert.org/vuls/id/192371/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Multiple VPN applications insecurely store session cookies",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-04-23T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-110"
+      },
+      "cvrf:InitialReleaseDate": "2019-04-23T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-04-23T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSOAR",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.0.3",
+                "@ProductID": "FortiSOAR-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.0.2",
+                "@ProductID": "FortiSOAR-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.0.1",
+                "@ProductID": "FortiSOAR-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.0.0",
+                "@ProductID": "FortiSOAR-7.0.0"
+              }
+            },
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 6.4.4",
+                "@ProductID": "FortiSOAR-6.4.4"
+              }
+            },
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 6.4.3",
+                "@ProductID": "FortiSOAR-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 6.4.1",
+                "@ProductID": "FortiSOAR-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 6.4.0",
+                "@ProductID": "FortiSOAR-6.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "9.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSOAR-7.0.3",
+            "FortiSOAR-7.0.2",
+            "FortiSOAR-7.0.1",
+            "FortiSOAR-7.0.0",
+            "FortiSOAR-6.4.4",
+            "FortiSOAR-6.4.3",
+            "FortiSOAR-6.4.1",
+            "FortiSOAR-6.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "CVE-2022-22965 and CVE-2022-22963 vulnerabilities",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-072"
+        }
+      },
+      "Title": "CVE-2022-22965 and CVE-2022-22963 vulnerabilities",
+      "cvrf:CVE": [
+        "CVE-2022-22963",
+        "CVE-2022-22965"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Two distinct spring project vulnerabilities where released recently with critical CVSS score and classified as zero-Day attacks.The two vulnerabilities are currently known as :CVE-2022-22965 or Spring4Shell:A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires the application to run on Tomcat as a WAR deployment. If the application is deployed as a Spring Boot executable jar, i.e. the default, it is not vulnerable to the exploit. However, the nature of the vulnerability is more general, and there may be other ways to exploit it.https://tanzu.vmware.com/security/cve-2022-22965https://www.cyberkendra.com/2022/03/springshell-rce-0-day-vulnerability.html?fbclid=IwAR2fXxKQjG9vnJiOaXyZ1N_Ypx91TOzO6f48qGZRfKRzinYtD5nUCIptIjg&m=1 CVE-2022-22963: In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in access to local resources. https://tanzu.vmware.com/security/cve-2022-22963",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiSOAR version 6.4.0 through 6.4.4FortiSOAR version 7.0.0 through 7.0.2The following products are NOT impacted.FortiOSFortiManagerFortiAnalyzerFortiIsolatorFortiMailFortiNDRFortiClientWindowsFortiClientLinuxFortiClientMacFortiClientEMSFortiClientAndroidFortiADCFortiAuthenticatorFortiAPFortiAP-CFortiAP-SFortiAP-UFortiAP-W2FortiDeceptorFortiDDoSFortiDDoS-FFortiExtenderFortiRecorderFortiSandboxFortiSIEMFortiTesterFortiSwitchFortiVoiceEnterpriseFortiWebFortiWLCFortiWLMForticonnectFortiConverterFortiInsightFortiPentestFortiPlannerFortiPresenceFortiLANCloudFortiNACFortiPortalFortiAIOpsFortiPolicyFortiAnalyzer-BigDataFortiEdgeFortiCASBFortiEDR",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade FortiSOAR to version 7.2.0 or aboveORPlease apply the patch provided at [1] for the FortiSOAR product.[1] https://community.fortinet.com/t5/FortiSOAR/Technical-Tip-FortiSOAR-CVE-2022-22965-and-CVE-2022-22963/ta-p/209240",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "CVE-2022-22965 and CVE-2022-22963 vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-04-01T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-072"
+      },
+      "cvrf:InitialReleaseDate": "2022-04-01T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-04-01T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

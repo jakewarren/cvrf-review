@@ -1,0 +1,105 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiSwitch rest_admin account exposed under specific conditions",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-011"
+          },
+          {
+            "Description": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573",
+            "URL": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573"
+          }
+        ]
+      },
+      "Title": "FortiSwitch rest_admin account exposed under specific conditions",
+      "cvrf:CVE": "CVE-2016-4573"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": [
+        {
+          "cvrf:Description": "Fortinet is pleased to thanks Emma Ferguson of The Missing Link Security for reporting a FortiSwitch vulnerability under"
+        },
+        {
+          "cvrf:Description": "responsible disclosure."
+        },
+        {
+          "cvrf:Description": null
+        },
+        {
+          "cvrf:Description": null
+        }
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "During an upgrade to version 3.4.1, a FortiSwitch device may let an attacker log in the rest_admin account without a password, if all the conditions below are met: Ã‚Â * The FortiSwitch device is in FortiLink managed mode (not the default mode) * The FortiSwitch device does not have a management FortiGate, or is not authorized on its management FortiGate, or cannot reach its management FortiGate (network connectivity issue) * The FortiSwicth device was updated to 3.4.1 * The FortiSwitch device was rebooted at least a second time after having been upgradedÃ‚Â Note that as soon as a connection between the FortiSwitch and its management FortiGate is established/authorized, the issue is not present. Ã‚Â Note that the issue persists if the device is downgraded after having been upgraded to 3.4.1 (under the conditions above).",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Remote administrative access",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following FortiSwitch models may be affected, after an upgrade to 3.4.1: Ã‚Â FSW-108D-POE,FSW-124D,FSW-124D-POE FSW-224D-POE,FSW-224D-FPOE,FSW-248D-POE,FSW-248D-FPOE FSW-424D,FSW-424D-POE,FSW-424D-FPOE,FSW-448D,FSW-448D-POE,FSW-448D-FPOE FSW-524D,FSW-524D-FPOE,FSW-548D,FSW-548D-FPOE FSW-1024D,FSW-1048D FSW-3032D FSW-R-112D-POE",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "* FortiSwitch 3.4.1 must be upgraded to 3.4.2. Ã‚Â Note: For Customers that have no formal support contract and require access to updated firmware, please contact Customer Services at cs@fortinet.com in the first instance.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiSwitch rest_admin account exposed under specific conditions",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-011"
+        },
+        {
+          "cvrf:Description": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573",
+          "cvrf:URL": "https://www.themissinglink.com.au/security/advisories/cve-2016-4573"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiSwitch rest_admin account exposed under specific conditions",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-07-11T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-011"
+      },
+      "cvrf:InitialReleaseDate": "2016-07-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-07-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

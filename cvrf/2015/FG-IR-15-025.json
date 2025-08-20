@@ -1,0 +1,81 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Mulitple Vulnerabilities in FortiClient",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-025"
+        }
+      },
+      "Title": "Mulitple Vulnerabilities in FortiClient",
+      "cvrf:CVE": [
+        "CVE-2015-4077",
+        "CVE-2015-5735",
+        "CVE-2015-5736",
+        "CVE-2015-5737"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Thanks to Enrique Nissim and JoaquÃƒÂ­n RodrÃƒÂ­guez Varela from Core Security for responsibly disclosing these issues to Fortinet."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiClient drivers expose IOCTL that may allow an unprivileged user to get system-level privileges.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Escalation of Privilege",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClient v5.2.3 and earlier.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiClient v5.2.4.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Mulitple Vulnerabilities in FortiClient",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-09-01T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-025"
+      },
+      "cvrf:InitialReleaseDate": "2015-09-01T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-09-01T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

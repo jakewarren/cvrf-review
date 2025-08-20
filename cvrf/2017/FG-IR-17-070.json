@@ -1,0 +1,146 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientWindows",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.6.0",
+                "@ProductID": "FortiClientWindows-5.6.0"
+              }
+            },
+            {
+              "@Name": "5.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.3",
+                "@ProductID": "FortiClientWindows-5.4.3"
+              }
+            },
+            {
+              "@Name": "5.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.2",
+                "@ProductID": "FortiClientWindows-5.4.2"
+              }
+            },
+            {
+              "@Name": "5.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.1",
+                "@ProductID": "FortiClientWindows-5.4.1"
+              }
+            },
+            {
+              "@Name": "5.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.0",
+                "@ProductID": "FortiClientWindows-5.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.1",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientWindows-5.6.0",
+            "FortiClientWindows-5.4.3",
+            "FortiClientWindows-5.4.2",
+            "FortiClientWindows-5.4.1",
+            "FortiClientWindows-5.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Gain Windows privileges with FortiClient vpn before logon and untrusted certificate",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-070"
+        }
+      },
+      "Title": "Gain Windows privileges with FortiClient vpn before logon and untrusted certificate",
+      "cvrf:CVE": "CVE-2017-7344"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Clement NOTIN of INTRINSEC for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "When the \"VPN before logon\" feature of FortiClient Windows is enabled (disabled by default), and when the server certificate is not valid, it is possible for an attacker without a user account on the targeted Windows workstation to obtain SYSTEM level privileges, via exploiting the Windows \"security alert\" dialog thereby popping up. This may be achieved locally or remotely (for instance through RDP, if the logon screen is exposed).",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClient Windows 5.6.0 FortiClient Windows 5.4.3 and earlier",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "The remediation of the vulnerability is possible using three different solutions: * Configure The VPN server (FortiGate) to serve a valid SSL certificate chain or * The VPN user has configured the \"Do Not Warn Invalid Server Certificate\" option in FortiClient or * Upgrade to FortiClient Windows 5.4.4 or 5.6.1",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Gain Windows privileges with FortiClient vpn before logon and untrusted certificate",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-12-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-070"
+      },
+      "cvrf:InitialReleaseDate": "2017-12-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-12-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

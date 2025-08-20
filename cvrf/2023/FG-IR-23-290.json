@@ -1,0 +1,170 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSIEM",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 7.0.0",
+                "@ProductID": "FortiSIEM-7.0.0"
+              }
+            },
+            {
+              "@Name": "6.7.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.5",
+                "@ProductID": "FortiSIEM-6.7.5"
+              }
+            },
+            {
+              "@Name": "6.7.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.4",
+                "@ProductID": "FortiSIEM-6.7.4"
+              }
+            },
+            {
+              "@Name": "6.7.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.3",
+                "@ProductID": "FortiSIEM-6.7.3"
+              }
+            },
+            {
+              "@Name": "6.7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.2",
+                "@ProductID": "FortiSIEM-6.7.2"
+              }
+            },
+            {
+              "@Name": "6.7.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.1",
+                "@ProductID": "FortiSIEM-6.7.1"
+              }
+            },
+            {
+              "@Name": "6.7.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.0",
+                "@ProductID": "FortiSIEM-6.7.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSIEM-7.0.0",
+            "FortiSIEM-6.7.5",
+            "FortiSIEM-6.7.4",
+            "FortiSIEM-6.7.3",
+            "FortiSIEM-6.7.2",
+            "FortiSIEM-6.7.1",
+            "FortiSIEM-6.7.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Windows agent password is visible in the logs",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-290"
+        }
+      },
+      "Title": "Windows agent password is visible in the logs",
+      "cvrf:CVE": "CVE-2023-41676"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Darren Hart from FortiSIEMCloud development team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An exposure of sensitive information to an unauthorized actor [CWE-200] in FortiSIEM may allow an attacker with access to windows agent logs to obtain the windows agent password via searching through the logs.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiSIEM 7.1 all versions are not affectedFortiSIEM version 7.0.0FortiSIEM version 6.7.0 through 6.7.5FortiSIEM 6.6 all versions are not affectedFortiSIEM 6.5 all versions are not affectedFortiSIEM 6.4 all versions are not affectedFortiSIEM 6.3 all versions are not affectedFortiSIEM 6.2 all versions are not affectedFortiSIEM 6.1 all versions are not affectedFortiSIEM 5.4 all versions are not affectedFortiSIEM 5.3 all versions are not affected",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiSIEM version 7.1.0 or abovePlease upgrade to FortiSIEM version 7.0.1 or abovePlease upgrade to FortiSIEM version 6.7.6 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Windows agent password is visible in the logs",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-11-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-290"
+      },
+      "cvrf:InitialReleaseDate": "2023-11-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-11-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

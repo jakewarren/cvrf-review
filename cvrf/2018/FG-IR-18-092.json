@@ -1,0 +1,613 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientWindows",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.2",
+                "@ProductID": "FortiClientWindows-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.1",
+                "@ProductID": "FortiClientWindows-6.0.1"
+              }
+            },
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.0",
+                "@ProductID": "FortiClientWindows-6.0.0"
+              }
+            },
+            {
+              "@Name": "5.6.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.6.6",
+                "@ProductID": "FortiClientWindows-5.6.6"
+              }
+            },
+            {
+              "@Name": "5.6.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.6.5",
+                "@ProductID": "FortiClientWindows-5.6.5"
+              }
+            },
+            {
+              "@Name": "5.6.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.6.4",
+                "@ProductID": "FortiClientWindows-5.6.4"
+              }
+            },
+            {
+              "@Name": "5.6.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.6.3",
+                "@ProductID": "FortiClientWindows-5.6.3"
+              }
+            },
+            {
+              "@Name": "5.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.6.2",
+                "@ProductID": "FortiClientWindows-5.6.2"
+              }
+            },
+            {
+              "@Name": "5.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.6.1",
+                "@ProductID": "FortiClientWindows-5.6.1"
+              }
+            },
+            {
+              "@Name": "5.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.6.0",
+                "@ProductID": "FortiClientWindows-5.6.0"
+              }
+            },
+            {
+              "@Name": "5.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.5",
+                "@ProductID": "FortiClientWindows-5.4.5"
+              }
+            },
+            {
+              "@Name": "5.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.4",
+                "@ProductID": "FortiClientWindows-5.4.4"
+              }
+            },
+            {
+              "@Name": "5.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.3",
+                "@ProductID": "FortiClientWindows-5.4.3"
+              }
+            },
+            {
+              "@Name": "5.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.2",
+                "@ProductID": "FortiClientWindows-5.4.2"
+              }
+            },
+            {
+              "@Name": "5.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.1",
+                "@ProductID": "FortiClientWindows-5.4.1"
+              }
+            },
+            {
+              "@Name": "5.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.4.0",
+                "@ProductID": "FortiClientWindows-5.4.0"
+              }
+            },
+            {
+              "@Name": "5.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.2.6",
+                "@ProductID": "FortiClientWindows-5.2.6"
+              }
+            },
+            {
+              "@Name": "5.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.2.5",
+                "@ProductID": "FortiClientWindows-5.2.5"
+              }
+            },
+            {
+              "@Name": "5.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.2.4",
+                "@ProductID": "FortiClientWindows-5.2.4"
+              }
+            },
+            {
+              "@Name": "5.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.2.3",
+                "@ProductID": "FortiClientWindows-5.2.3"
+              }
+            },
+            {
+              "@Name": "5.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.2.2",
+                "@ProductID": "FortiClientWindows-5.2.2"
+              }
+            },
+            {
+              "@Name": "5.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.2.1",
+                "@ProductID": "FortiClientWindows-5.2.1"
+              }
+            },
+            {
+              "@Name": "5.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.2.0",
+                "@ProductID": "FortiClientWindows-5.2.0"
+              }
+            },
+            {
+              "@Name": "5.0.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.11",
+                "@ProductID": "FortiClientWindows-5.0.11"
+              }
+            },
+            {
+              "@Name": "5.0.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.10",
+                "@ProductID": "FortiClientWindows-5.0.10"
+              }
+            },
+            {
+              "@Name": "5.0.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.9",
+                "@ProductID": "FortiClientWindows-5.0.9"
+              }
+            },
+            {
+              "@Name": "5.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.8",
+                "@ProductID": "FortiClientWindows-5.0.8"
+              }
+            },
+            {
+              "@Name": "5.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.7",
+                "@ProductID": "FortiClientWindows-5.0.7"
+              }
+            },
+            {
+              "@Name": "5.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.6",
+                "@ProductID": "FortiClientWindows-5.0.6"
+              }
+            },
+            {
+              "@Name": "5.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.5",
+                "@ProductID": "FortiClientWindows-5.0.5"
+              }
+            },
+            {
+              "@Name": "5.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.4",
+                "@ProductID": "FortiClientWindows-5.0.4"
+              }
+            },
+            {
+              "@Name": "5.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.3",
+                "@ProductID": "FortiClientWindows-5.0.3"
+              }
+            },
+            {
+              "@Name": "5.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.2",
+                "@ProductID": "FortiClientWindows-5.0.2"
+              }
+            },
+            {
+              "@Name": "5.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.1",
+                "@ProductID": "FortiClientWindows-5.0.1"
+              }
+            },
+            {
+              "@Name": "5.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 5.0.0",
+                "@ProductID": "FortiClientWindows-5.0.0"
+              }
+            },
+            {
+              "@Name": "4.3.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.3.5",
+                "@ProductID": "FortiClientWindows-4.3.5"
+              }
+            },
+            {
+              "@Name": "4.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.3.4",
+                "@ProductID": "FortiClientWindows-4.3.4"
+              }
+            },
+            {
+              "@Name": "4.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.3.3",
+                "@ProductID": "FortiClientWindows-4.3.3"
+              }
+            },
+            {
+              "@Name": "4.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.3.2",
+                "@ProductID": "FortiClientWindows-4.3.2"
+              }
+            },
+            {
+              "@Name": "4.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.3.1",
+                "@ProductID": "FortiClientWindows-4.3.1"
+              }
+            },
+            {
+              "@Name": "4.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.3.0",
+                "@ProductID": "FortiClientWindows-4.3.0"
+              }
+            },
+            {
+              "@Name": "4.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.2.7",
+                "@ProductID": "FortiClientWindows-4.2.7"
+              }
+            },
+            {
+              "@Name": "4.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.2.6",
+                "@ProductID": "FortiClientWindows-4.2.6"
+              }
+            },
+            {
+              "@Name": "4.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.2.5",
+                "@ProductID": "FortiClientWindows-4.2.5"
+              }
+            },
+            {
+              "@Name": "4.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.2.4",
+                "@ProductID": "FortiClientWindows-4.2.4"
+              }
+            },
+            {
+              "@Name": "4.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.2.3",
+                "@ProductID": "FortiClientWindows-4.2.3"
+              }
+            },
+            {
+              "@Name": "4.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.2.2",
+                "@ProductID": "FortiClientWindows-4.2.2"
+              }
+            },
+            {
+              "@Name": "4.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.2.1",
+                "@ProductID": "FortiClientWindows-4.2.1"
+              }
+            },
+            {
+              "@Name": "4.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.2.0",
+                "@ProductID": "FortiClientWindows-4.2.0"
+              }
+            },
+            {
+              "@Name": "4.1.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.1.3",
+                "@ProductID": "FortiClientWindows-4.1.3"
+              }
+            },
+            {
+              "@Name": "4.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.1.2",
+                "@ProductID": "FortiClientWindows-4.1.2"
+              }
+            },
+            {
+              "@Name": "4.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.1.1",
+                "@ProductID": "FortiClientWindows-4.1.1"
+              }
+            },
+            {
+              "@Name": "4.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.1.0",
+                "@ProductID": "FortiClientWindows-4.1.0"
+              }
+            },
+            {
+              "@Name": "4.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.0.4",
+                "@ProductID": "FortiClientWindows-4.0.4"
+              }
+            },
+            {
+              "@Name": "4.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.0.3",
+                "@ProductID": "FortiClientWindows-4.0.3"
+              }
+            },
+            {
+              "@Name": "4.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.0.2",
+                "@ProductID": "FortiClientWindows-4.0.2"
+              }
+            },
+            {
+              "@Name": "4.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 4.0.1",
+                "@ProductID": "FortiClientWindows-4.0.1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientWindows-6.0.2",
+            "FortiClientWindows-6.0.1",
+            "FortiClientWindows-6.0.0",
+            "FortiClientWindows-5.6.6",
+            "FortiClientWindows-5.6.5",
+            "FortiClientWindows-5.6.4",
+            "FortiClientWindows-5.6.3",
+            "FortiClientWindows-5.6.2",
+            "FortiClientWindows-5.6.1",
+            "FortiClientWindows-5.6.0",
+            "FortiClientWindows-5.4.5",
+            "FortiClientWindows-5.4.4",
+            "FortiClientWindows-5.4.3",
+            "FortiClientWindows-5.4.2",
+            "FortiClientWindows-5.4.1",
+            "FortiClientWindows-5.4.0",
+            "FortiClientWindows-5.2.6",
+            "FortiClientWindows-5.2.5",
+            "FortiClientWindows-5.2.4",
+            "FortiClientWindows-5.2.3",
+            "FortiClientWindows-5.2.2",
+            "FortiClientWindows-5.2.1",
+            "FortiClientWindows-5.2.0",
+            "FortiClientWindows-5.0.11",
+            "FortiClientWindows-5.0.10",
+            "FortiClientWindows-5.0.9",
+            "FortiClientWindows-5.0.8",
+            "FortiClientWindows-5.0.7",
+            "FortiClientWindows-5.0.6",
+            "FortiClientWindows-5.0.5",
+            "FortiClientWindows-5.0.4",
+            "FortiClientWindows-5.0.3",
+            "FortiClientWindows-5.0.2",
+            "FortiClientWindows-5.0.1",
+            "FortiClientWindows-5.0.0",
+            "FortiClientWindows-4.3.5",
+            "FortiClientWindows-4.3.4",
+            "FortiClientWindows-4.3.3",
+            "FortiClientWindows-4.3.2",
+            "FortiClientWindows-4.3.1",
+            "FortiClientWindows-4.3.0",
+            "FortiClientWindows-4.2.7",
+            "FortiClientWindows-4.2.6",
+            "FortiClientWindows-4.2.5",
+            "FortiClientWindows-4.2.4",
+            "FortiClientWindows-4.2.3",
+            "FortiClientWindows-4.2.2",
+            "FortiClientWindows-4.2.1",
+            "FortiClientWindows-4.2.0",
+            "FortiClientWindows-4.1.3",
+            "FortiClientWindows-4.1.2",
+            "FortiClientWindows-4.1.1",
+            "FortiClientWindows-4.1.0",
+            "FortiClientWindows-4.0.4",
+            "FortiClientWindows-4.0.3",
+            "FortiClientWindows-4.0.2",
+            "FortiClientWindows-4.0.1"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiClient NDIS Miniport Driver Null Pointer Dereference",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-092"
+        }
+      },
+      "Title": "FortiClient NDIS Miniport Driver Null Pointer Dereference",
+      "cvrf:CVE": "CVE-2018-9190"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet thanks Enrique Nissim, Senior Security Consultant at IOActive for reporting this vulnerability."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "There is a Null pointer dereference in the NDIS Miniport drivers in FortiClient on Windows, which may be leveraged by an unprivileged user to cause a Denial of Service (BSOD).",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClientWindows 6.0.2 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiClientWindows 6.0.3 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiClient NDIS Miniport Driver Null Pointer Dereference",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-01-11T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-092"
+      },
+      "cvrf:InitialReleaseDate": "2019-01-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-01-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

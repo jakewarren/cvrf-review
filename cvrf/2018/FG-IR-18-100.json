@@ -1,0 +1,3770 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiClientMac",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.2.0",
+                  "@ProductID": "FortiClientMac-6.2.0"
+                }
+              },
+              {
+                "@Name": "6.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.10",
+                  "@ProductID": "FortiClientMac-6.0.10"
+                }
+              },
+              {
+                "@Name": "6.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.9",
+                  "@ProductID": "FortiClientMac-6.0.9"
+                }
+              },
+              {
+                "@Name": "6.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.8",
+                  "@ProductID": "FortiClientMac-6.0.8"
+                }
+              },
+              {
+                "@Name": "6.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.7",
+                  "@ProductID": "FortiClientMac-6.0.7"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.6",
+                  "@ProductID": "FortiClientMac-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.5",
+                  "@ProductID": "FortiClientMac-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.4",
+                  "@ProductID": "FortiClientMac-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.3",
+                  "@ProductID": "FortiClientMac-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.2",
+                  "@ProductID": "FortiClientMac-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 6.0.1",
+                  "@ProductID": "FortiClientMac-6.0.1"
+                }
+              },
+              {
+                "@Name": "5.6.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.6.6",
+                  "@ProductID": "FortiClientMac-5.6.6"
+                }
+              },
+              {
+                "@Name": "5.6.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.6.5",
+                  "@ProductID": "FortiClientMac-5.6.5"
+                }
+              },
+              {
+                "@Name": "5.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.6.3",
+                  "@ProductID": "FortiClientMac-5.6.3"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.6.1",
+                  "@ProductID": "FortiClientMac-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.6.0",
+                  "@ProductID": "FortiClientMac-5.6.0"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.4.4",
+                  "@ProductID": "FortiClientMac-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.4.3",
+                  "@ProductID": "FortiClientMac-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.4.2",
+                  "@ProductID": "FortiClientMac-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.4.1",
+                  "@ProductID": "FortiClientMac-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.4.0",
+                  "@ProductID": "FortiClientMac-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.2.6",
+                  "@ProductID": "FortiClientMac-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.2.5",
+                  "@ProductID": "FortiClientMac-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.2.4",
+                  "@ProductID": "FortiClientMac-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.2.3",
+                  "@ProductID": "FortiClientMac-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.2.2",
+                  "@ProductID": "FortiClientMac-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.2.1",
+                  "@ProductID": "FortiClientMac-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.2.0",
+                  "@ProductID": "FortiClientMac-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.10",
+                  "@ProductID": "FortiClientMac-5.0.10"
+                }
+              },
+              {
+                "@Name": "5.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.9",
+                  "@ProductID": "FortiClientMac-5.0.9"
+                }
+              },
+              {
+                "@Name": "5.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.8",
+                  "@ProductID": "FortiClientMac-5.0.8"
+                }
+              },
+              {
+                "@Name": "5.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.7",
+                  "@ProductID": "FortiClientMac-5.0.7"
+                }
+              },
+              {
+                "@Name": "5.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.6",
+                  "@ProductID": "FortiClientMac-5.0.6"
+                }
+              },
+              {
+                "@Name": "5.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.5",
+                  "@ProductID": "FortiClientMac-5.0.5"
+                }
+              },
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.4",
+                  "@ProductID": "FortiClientMac-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.3",
+                  "@ProductID": "FortiClientMac-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.2",
+                  "@ProductID": "FortiClientMac-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.1",
+                  "@ProductID": "FortiClientMac-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 5.0.0",
+                  "@ProductID": "FortiClientMac-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 4.0.3",
+                  "@ProductID": "FortiClientMac-4.0.3"
+                }
+              },
+              {
+                "@Name": "4.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 4.0.2",
+                  "@ProductID": "FortiClientMac-4.0.2"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 4.0.1",
+                  "@ProductID": "FortiClientMac-4.0.1"
+                }
+              },
+              {
+                "@Name": "4.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientMac 4.0.0",
+                  "@ProductID": "FortiClientMac-4.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiClientWindows",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.0.6",
+                  "@ProductID": "FortiClientWindows-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.0.5",
+                  "@ProductID": "FortiClientWindows-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.0.4",
+                  "@ProductID": "FortiClientWindows-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.0.3",
+                  "@ProductID": "FortiClientWindows-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.0.2",
+                  "@ProductID": "FortiClientWindows-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.0.1",
+                  "@ProductID": "FortiClientWindows-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 6.0.0",
+                  "@ProductID": "FortiClientWindows-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.6.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.6.6",
+                  "@ProductID": "FortiClientWindows-5.6.6"
+                }
+              },
+              {
+                "@Name": "5.6.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.6.5",
+                  "@ProductID": "FortiClientWindows-5.6.5"
+                }
+              },
+              {
+                "@Name": "5.6.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.6.4",
+                  "@ProductID": "FortiClientWindows-5.6.4"
+                }
+              },
+              {
+                "@Name": "5.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.6.3",
+                  "@ProductID": "FortiClientWindows-5.6.3"
+                }
+              },
+              {
+                "@Name": "5.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.6.2",
+                  "@ProductID": "FortiClientWindows-5.6.2"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.6.1",
+                  "@ProductID": "FortiClientWindows-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.6.0",
+                  "@ProductID": "FortiClientWindows-5.6.0"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.4.5",
+                  "@ProductID": "FortiClientWindows-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.4.4",
+                  "@ProductID": "FortiClientWindows-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.4.3",
+                  "@ProductID": "FortiClientWindows-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.4.2",
+                  "@ProductID": "FortiClientWindows-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.4.1",
+                  "@ProductID": "FortiClientWindows-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.4.0",
+                  "@ProductID": "FortiClientWindows-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.2.6",
+                  "@ProductID": "FortiClientWindows-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.2.5",
+                  "@ProductID": "FortiClientWindows-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.2.4",
+                  "@ProductID": "FortiClientWindows-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.2.3",
+                  "@ProductID": "FortiClientWindows-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.2.2",
+                  "@ProductID": "FortiClientWindows-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.2.1",
+                  "@ProductID": "FortiClientWindows-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.2.0",
+                  "@ProductID": "FortiClientWindows-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.11",
+                  "@ProductID": "FortiClientWindows-5.0.11"
+                }
+              },
+              {
+                "@Name": "5.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.10",
+                  "@ProductID": "FortiClientWindows-5.0.10"
+                }
+              },
+              {
+                "@Name": "5.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.9",
+                  "@ProductID": "FortiClientWindows-5.0.9"
+                }
+              },
+              {
+                "@Name": "5.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.8",
+                  "@ProductID": "FortiClientWindows-5.0.8"
+                }
+              },
+              {
+                "@Name": "5.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.7",
+                  "@ProductID": "FortiClientWindows-5.0.7"
+                }
+              },
+              {
+                "@Name": "5.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.6",
+                  "@ProductID": "FortiClientWindows-5.0.6"
+                }
+              },
+              {
+                "@Name": "5.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.5",
+                  "@ProductID": "FortiClientWindows-5.0.5"
+                }
+              },
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.4",
+                  "@ProductID": "FortiClientWindows-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.3",
+                  "@ProductID": "FortiClientWindows-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.2",
+                  "@ProductID": "FortiClientWindows-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.1",
+                  "@ProductID": "FortiClientWindows-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.0.0",
+                  "@ProductID": "FortiClientWindows-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.3.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.3.5",
+                  "@ProductID": "FortiClientWindows-4.3.5"
+                }
+              },
+              {
+                "@Name": "4.3.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.3.4",
+                  "@ProductID": "FortiClientWindows-4.3.4"
+                }
+              },
+              {
+                "@Name": "4.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.3.3",
+                  "@ProductID": "FortiClientWindows-4.3.3"
+                }
+              },
+              {
+                "@Name": "4.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.3.2",
+                  "@ProductID": "FortiClientWindows-4.3.2"
+                }
+              },
+              {
+                "@Name": "4.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.3.1",
+                  "@ProductID": "FortiClientWindows-4.3.1"
+                }
+              },
+              {
+                "@Name": "4.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.3.0",
+                  "@ProductID": "FortiClientWindows-4.3.0"
+                }
+              },
+              {
+                "@Name": "4.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.2.7",
+                  "@ProductID": "FortiClientWindows-4.2.7"
+                }
+              },
+              {
+                "@Name": "4.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.2.6",
+                  "@ProductID": "FortiClientWindows-4.2.6"
+                }
+              },
+              {
+                "@Name": "4.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.2.5",
+                  "@ProductID": "FortiClientWindows-4.2.5"
+                }
+              },
+              {
+                "@Name": "4.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.2.4",
+                  "@ProductID": "FortiClientWindows-4.2.4"
+                }
+              },
+              {
+                "@Name": "4.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.2.3",
+                  "@ProductID": "FortiClientWindows-4.2.3"
+                }
+              },
+              {
+                "@Name": "4.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.2.2",
+                  "@ProductID": "FortiClientWindows-4.2.2"
+                }
+              },
+              {
+                "@Name": "4.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.2.1",
+                  "@ProductID": "FortiClientWindows-4.2.1"
+                }
+              },
+              {
+                "@Name": "4.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.2.0",
+                  "@ProductID": "FortiClientWindows-4.2.0"
+                }
+              },
+              {
+                "@Name": "4.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.1.3",
+                  "@ProductID": "FortiClientWindows-4.1.3"
+                }
+              },
+              {
+                "@Name": "4.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.1.2",
+                  "@ProductID": "FortiClientWindows-4.1.2"
+                }
+              },
+              {
+                "@Name": "4.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.1.1",
+                  "@ProductID": "FortiClientWindows-4.1.1"
+                }
+              },
+              {
+                "@Name": "4.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.1.0",
+                  "@ProductID": "FortiClientWindows-4.1.0"
+                }
+              },
+              {
+                "@Name": "4.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.0.4",
+                  "@ProductID": "FortiClientWindows-4.0.4"
+                }
+              },
+              {
+                "@Name": "4.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.0.3",
+                  "@ProductID": "FortiClientWindows-4.0.3"
+                }
+              },
+              {
+                "@Name": "4.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.0.2",
+                  "@ProductID": "FortiClientWindows-4.0.2"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 4.0.1",
+                  "@ProductID": "FortiClientWindows-4.0.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiClientiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 6.0.1",
+                  "@ProductID": "FortiClientiOS-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 6.0.0",
+                  "@ProductID": "FortiClientiOS-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.6.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.6.6",
+                  "@ProductID": "FortiClientiOS-5.6.6"
+                }
+              },
+              {
+                "@Name": "5.6.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.6.5",
+                  "@ProductID": "FortiClientiOS-5.6.5"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.6.1",
+                  "@ProductID": "FortiClientiOS-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.6.0",
+                  "@ProductID": "FortiClientiOS-5.6.0"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.4.4",
+                  "@ProductID": "FortiClientiOS-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.4.3",
+                  "@ProductID": "FortiClientiOS-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.4.1",
+                  "@ProductID": "FortiClientiOS-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.4.0",
+                  "@ProductID": "FortiClientiOS-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.2.3",
+                  "@ProductID": "FortiClientiOS-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.2.2",
+                  "@ProductID": "FortiClientiOS-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.2.1",
+                  "@ProductID": "FortiClientiOS-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.2.0",
+                  "@ProductID": "FortiClientiOS-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.0.3",
+                  "@ProductID": "FortiClientiOS-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.0.2",
+                  "@ProductID": "FortiClientiOS-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.0.1",
+                  "@ProductID": "FortiClientiOS-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 5.0.0",
+                  "@ProductID": "FortiClientiOS-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 4.0.2",
+                  "@ProductID": "FortiClientiOS-4.0.2"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 4.0.1",
+                  "@ProductID": "FortiClientiOS-4.0.1"
+                }
+              },
+              {
+                "@Name": "4.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 4.0.0",
+                  "@ProductID": "FortiClientiOS-4.0.0"
+                }
+              },
+              {
+                "@Name": "2.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 2.0.1",
+                  "@ProductID": "FortiClientiOS-2.0.1"
+                }
+              },
+              {
+                "@Name": "2.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientiOS 2.0.0",
+                  "@ProductID": "FortiClientiOS-2.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiGuard",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "6.6.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiGuard 6.6.7",
+                "@ProductID": "FortiGuard-6.6.7"
+              }
+            }
+          },
+          {
+            "@Name": "FortiMail",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.12",
+                  "@ProductID": "FortiMail-6.0.12"
+                }
+              },
+              {
+                "@Name": "6.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.11",
+                  "@ProductID": "FortiMail-6.0.11"
+                }
+              },
+              {
+                "@Name": "6.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.10",
+                  "@ProductID": "FortiMail-6.0.10"
+                }
+              },
+              {
+                "@Name": "6.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.9",
+                  "@ProductID": "FortiMail-6.0.9"
+                }
+              },
+              {
+                "@Name": "6.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.8",
+                  "@ProductID": "FortiMail-6.0.8"
+                }
+              },
+              {
+                "@Name": "6.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.7",
+                  "@ProductID": "FortiMail-6.0.7"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.6",
+                  "@ProductID": "FortiMail-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.5",
+                  "@ProductID": "FortiMail-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.4",
+                  "@ProductID": "FortiMail-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.3",
+                  "@ProductID": "FortiMail-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.2",
+                  "@ProductID": "FortiMail-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.1",
+                  "@ProductID": "FortiMail-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 6.0.0",
+                  "@ProductID": "FortiMail-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.4.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.12",
+                  "@ProductID": "FortiMail-5.4.12"
+                }
+              },
+              {
+                "@Name": "5.4.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.11",
+                  "@ProductID": "FortiMail-5.4.11"
+                }
+              },
+              {
+                "@Name": "5.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.10",
+                  "@ProductID": "FortiMail-5.4.10"
+                }
+              },
+              {
+                "@Name": "5.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.9",
+                  "@ProductID": "FortiMail-5.4.9"
+                }
+              },
+              {
+                "@Name": "5.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.8",
+                  "@ProductID": "FortiMail-5.4.8"
+                }
+              },
+              {
+                "@Name": "5.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.7",
+                  "@ProductID": "FortiMail-5.4.7"
+                }
+              },
+              {
+                "@Name": "5.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.6",
+                  "@ProductID": "FortiMail-5.4.6"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.5",
+                  "@ProductID": "FortiMail-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.4",
+                  "@ProductID": "FortiMail-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.3",
+                  "@ProductID": "FortiMail-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.2",
+                  "@ProductID": "FortiMail-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.1",
+                  "@ProductID": "FortiMail-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.4.0",
+                  "@ProductID": "FortiMail-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.3.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.13",
+                  "@ProductID": "FortiMail-5.3.13"
+                }
+              },
+              {
+                "@Name": "5.3.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.12",
+                  "@ProductID": "FortiMail-5.3.12"
+                }
+              },
+              {
+                "@Name": "5.3.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.10",
+                  "@ProductID": "FortiMail-5.3.10"
+                }
+              },
+              {
+                "@Name": "5.3.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.9",
+                  "@ProductID": "FortiMail-5.3.9"
+                }
+              },
+              {
+                "@Name": "5.3.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.8",
+                  "@ProductID": "FortiMail-5.3.8"
+                }
+              },
+              {
+                "@Name": "5.3.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.7",
+                  "@ProductID": "FortiMail-5.3.7"
+                }
+              },
+              {
+                "@Name": "5.3.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.6",
+                  "@ProductID": "FortiMail-5.3.6"
+                }
+              },
+              {
+                "@Name": "5.3.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.5",
+                  "@ProductID": "FortiMail-5.3.5"
+                }
+              },
+              {
+                "@Name": "5.3.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.4",
+                  "@ProductID": "FortiMail-5.3.4"
+                }
+              },
+              {
+                "@Name": "5.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.3",
+                  "@ProductID": "FortiMail-5.3.3"
+                }
+              },
+              {
+                "@Name": "5.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.2",
+                  "@ProductID": "FortiMail-5.3.2"
+                }
+              },
+              {
+                "@Name": "5.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.1",
+                  "@ProductID": "FortiMail-5.3.1"
+                }
+              },
+              {
+                "@Name": "5.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.3.0",
+                  "@ProductID": "FortiMail-5.3.0"
+                }
+              },
+              {
+                "@Name": "5.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.10",
+                  "@ProductID": "FortiMail-5.2.10"
+                }
+              },
+              {
+                "@Name": "5.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.9",
+                  "@ProductID": "FortiMail-5.2.9"
+                }
+              },
+              {
+                "@Name": "5.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.8",
+                  "@ProductID": "FortiMail-5.2.8"
+                }
+              },
+              {
+                "@Name": "5.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.7",
+                  "@ProductID": "FortiMail-5.2.7"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.6",
+                  "@ProductID": "FortiMail-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.5",
+                  "@ProductID": "FortiMail-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.4",
+                  "@ProductID": "FortiMail-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.3",
+                  "@ProductID": "FortiMail-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.2",
+                  "@ProductID": "FortiMail-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.1",
+                  "@ProductID": "FortiMail-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.2.0",
+                  "@ProductID": "FortiMail-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.1.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.7",
+                  "@ProductID": "FortiMail-5.1.7"
+                }
+              },
+              {
+                "@Name": "5.1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.6",
+                  "@ProductID": "FortiMail-5.1.6"
+                }
+              },
+              {
+                "@Name": "5.1.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.5",
+                  "@ProductID": "FortiMail-5.1.5"
+                }
+              },
+              {
+                "@Name": "5.1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.4",
+                  "@ProductID": "FortiMail-5.1.4"
+                }
+              },
+              {
+                "@Name": "5.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.3",
+                  "@ProductID": "FortiMail-5.1.3"
+                }
+              },
+              {
+                "@Name": "5.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.2",
+                  "@ProductID": "FortiMail-5.1.2"
+                }
+              },
+              {
+                "@Name": "5.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.1",
+                  "@ProductID": "FortiMail-5.1.1"
+                }
+              },
+              {
+                "@Name": "5.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.1.0",
+                  "@ProductID": "FortiMail-5.1.0"
+                }
+              },
+              {
+                "@Name": "5.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.11",
+                  "@ProductID": "FortiMail-5.0.11"
+                }
+              },
+              {
+                "@Name": "5.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.10",
+                  "@ProductID": "FortiMail-5.0.10"
+                }
+              },
+              {
+                "@Name": "5.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.9",
+                  "@ProductID": "FortiMail-5.0.9"
+                }
+              },
+              {
+                "@Name": "5.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.8",
+                  "@ProductID": "FortiMail-5.0.8"
+                }
+              },
+              {
+                "@Name": "5.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.7",
+                  "@ProductID": "FortiMail-5.0.7"
+                }
+              },
+              {
+                "@Name": "5.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.6",
+                  "@ProductID": "FortiMail-5.0.6"
+                }
+              },
+              {
+                "@Name": "5.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.5",
+                  "@ProductID": "FortiMail-5.0.5"
+                }
+              },
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.4",
+                  "@ProductID": "FortiMail-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.3",
+                  "@ProductID": "FortiMail-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.2",
+                  "@ProductID": "FortiMail-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.1",
+                  "@ProductID": "FortiMail-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 5.0.0",
+                  "@ProductID": "FortiMail-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.3.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.9",
+                  "@ProductID": "FortiMail-4.3.9"
+                }
+              },
+              {
+                "@Name": "4.3.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.8",
+                  "@ProductID": "FortiMail-4.3.8"
+                }
+              },
+              {
+                "@Name": "4.3.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.7",
+                  "@ProductID": "FortiMail-4.3.7"
+                }
+              },
+              {
+                "@Name": "4.3.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.6",
+                  "@ProductID": "FortiMail-4.3.6"
+                }
+              },
+              {
+                "@Name": "4.3.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.5",
+                  "@ProductID": "FortiMail-4.3.5"
+                }
+              },
+              {
+                "@Name": "4.3.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.4",
+                  "@ProductID": "FortiMail-4.3.4"
+                }
+              },
+              {
+                "@Name": "4.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.3",
+                  "@ProductID": "FortiMail-4.3.3"
+                }
+              },
+              {
+                "@Name": "4.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.2",
+                  "@ProductID": "FortiMail-4.3.2"
+                }
+              },
+              {
+                "@Name": "4.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.1",
+                  "@ProductID": "FortiMail-4.3.1"
+                }
+              },
+              {
+                "@Name": "4.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.3.0",
+                  "@ProductID": "FortiMail-4.3.0"
+                }
+              },
+              {
+                "@Name": "4.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.4",
+                  "@ProductID": "FortiMail-4.2.4"
+                }
+              },
+              {
+                "@Name": "4.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.3",
+                  "@ProductID": "FortiMail-4.2.3"
+                }
+              },
+              {
+                "@Name": "4.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.2",
+                  "@ProductID": "FortiMail-4.2.2"
+                }
+              },
+              {
+                "@Name": "4.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.1",
+                  "@ProductID": "FortiMail-4.2.1"
+                }
+              },
+              {
+                "@Name": "4.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.2.0",
+                  "@ProductID": "FortiMail-4.2.0"
+                }
+              },
+              {
+                "@Name": "4.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.1.3",
+                  "@ProductID": "FortiMail-4.1.3"
+                }
+              },
+              {
+                "@Name": "4.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.1.2",
+                  "@ProductID": "FortiMail-4.1.2"
+                }
+              },
+              {
+                "@Name": "4.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.1.1",
+                  "@ProductID": "FortiMail-4.1.1"
+                }
+              },
+              {
+                "@Name": "4.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.1.0",
+                  "@ProductID": "FortiMail-4.1.0"
+                }
+              },
+              {
+                "@Name": "4.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.5",
+                  "@ProductID": "FortiMail-4.0.5"
+                }
+              },
+              {
+                "@Name": "4.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.4",
+                  "@ProductID": "FortiMail-4.0.4"
+                }
+              },
+              {
+                "@Name": "4.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.3",
+                  "@ProductID": "FortiMail-4.0.3"
+                }
+              },
+              {
+                "@Name": "4.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.2",
+                  "@ProductID": "FortiMail-4.0.2"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 4.0.1",
+                  "@ProductID": "FortiMail-4.0.1"
+                }
+              },
+              {
+                "@Name": "2.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiMail 2.0.1",
+                  "@ProductID": "FortiMail-2.0.1"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiManager",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.0.4",
+                  "@ProductID": "FortiManager-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.0.3",
+                  "@ProductID": "FortiManager-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.0.2",
+                  "@ProductID": "FortiManager-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.0.1",
+                  "@ProductID": "FortiManager-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 6.0.0",
+                  "@ProductID": "FortiManager-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.6.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.11",
+                  "@ProductID": "FortiManager-5.6.11"
+                }
+              },
+              {
+                "@Name": "5.6.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.10",
+                  "@ProductID": "FortiManager-5.6.10"
+                }
+              },
+              {
+                "@Name": "5.6.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.9",
+                  "@ProductID": "FortiManager-5.6.9"
+                }
+              },
+              {
+                "@Name": "5.6.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.8",
+                  "@ProductID": "FortiManager-5.6.8"
+                }
+              },
+              {
+                "@Name": "5.6.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.7",
+                  "@ProductID": "FortiManager-5.6.7"
+                }
+              },
+              {
+                "@Name": "5.6.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.6",
+                  "@ProductID": "FortiManager-5.6.6"
+                }
+              },
+              {
+                "@Name": "5.6.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.5",
+                  "@ProductID": "FortiManager-5.6.5"
+                }
+              },
+              {
+                "@Name": "5.6.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.4",
+                  "@ProductID": "FortiManager-5.6.4"
+                }
+              },
+              {
+                "@Name": "5.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.3",
+                  "@ProductID": "FortiManager-5.6.3"
+                }
+              },
+              {
+                "@Name": "5.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.2",
+                  "@ProductID": "FortiManager-5.6.2"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.1",
+                  "@ProductID": "FortiManager-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.6.0",
+                  "@ProductID": "FortiManager-5.6.0"
+                }
+              },
+              {
+                "@Name": "5.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.4.7",
+                  "@ProductID": "FortiManager-5.4.7"
+                }
+              },
+              {
+                "@Name": "5.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.4.6",
+                  "@ProductID": "FortiManager-5.4.6"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.4.5",
+                  "@ProductID": "FortiManager-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.4.4",
+                  "@ProductID": "FortiManager-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.4.3",
+                  "@ProductID": "FortiManager-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.4.2",
+                  "@ProductID": "FortiManager-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.4.1",
+                  "@ProductID": "FortiManager-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager 5.4.0",
+                  "@ProductID": "FortiManager-5.4.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.7",
+                  "@ProductID": "FortiOS-6.0.7"
+                }
+              },
+              {
+                "@Name": "6.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.6",
+                  "@ProductID": "FortiOS-6.0.6"
+                }
+              },
+              {
+                "@Name": "6.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.5",
+                  "@ProductID": "FortiOS-6.0.5"
+                }
+              },
+              {
+                "@Name": "6.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.4",
+                  "@ProductID": "FortiOS-6.0.4"
+                }
+              },
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.3",
+                  "@ProductID": "FortiOS-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.2",
+                  "@ProductID": "FortiOS-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.1",
+                  "@ProductID": "FortiOS-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 6.0.0",
+                  "@ProductID": "FortiOS-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.6.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.11",
+                  "@ProductID": "FortiOS-5.6.11"
+                }
+              },
+              {
+                "@Name": "5.6.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.10",
+                  "@ProductID": "FortiOS-5.6.10"
+                }
+              },
+              {
+                "@Name": "5.6.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.9",
+                  "@ProductID": "FortiOS-5.6.9"
+                }
+              },
+              {
+                "@Name": "5.6.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.8",
+                  "@ProductID": "FortiOS-5.6.8"
+                }
+              },
+              {
+                "@Name": "5.6.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.7",
+                  "@ProductID": "FortiOS-5.6.7"
+                }
+              },
+              {
+                "@Name": "5.6.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.6",
+                  "@ProductID": "FortiOS-5.6.6"
+                }
+              },
+              {
+                "@Name": "5.6.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.5",
+                  "@ProductID": "FortiOS-5.6.5"
+                }
+              },
+              {
+                "@Name": "5.6.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.4",
+                  "@ProductID": "FortiOS-5.6.4"
+                }
+              },
+              {
+                "@Name": "5.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.3",
+                  "@ProductID": "FortiOS-5.6.3"
+                }
+              },
+              {
+                "@Name": "5.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.2",
+                  "@ProductID": "FortiOS-5.6.2"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.1",
+                  "@ProductID": "FortiOS-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.6.0",
+                  "@ProductID": "FortiOS-5.6.0"
+                }
+              },
+              {
+                "@Name": "5.4.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.13",
+                  "@ProductID": "FortiOS-5.4.13"
+                }
+              },
+              {
+                "@Name": "5.4.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.12",
+                  "@ProductID": "FortiOS-5.4.12"
+                }
+              },
+              {
+                "@Name": "5.4.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.11",
+                  "@ProductID": "FortiOS-5.4.11"
+                }
+              },
+              {
+                "@Name": "5.4.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.10",
+                  "@ProductID": "FortiOS-5.4.10"
+                }
+              },
+              {
+                "@Name": "5.4.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.9",
+                  "@ProductID": "FortiOS-5.4.9"
+                }
+              },
+              {
+                "@Name": "5.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.8",
+                  "@ProductID": "FortiOS-5.4.8"
+                }
+              },
+              {
+                "@Name": "5.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.7",
+                  "@ProductID": "FortiOS-5.4.7"
+                }
+              },
+              {
+                "@Name": "5.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.6",
+                  "@ProductID": "FortiOS-5.4.6"
+                }
+              },
+              {
+                "@Name": "5.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.5",
+                  "@ProductID": "FortiOS-5.4.5"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.4",
+                  "@ProductID": "FortiOS-5.4.4"
+                }
+              },
+              {
+                "@Name": "5.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.3",
+                  "@ProductID": "FortiOS-5.4.3"
+                }
+              },
+              {
+                "@Name": "5.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.2",
+                  "@ProductID": "FortiOS-5.4.2"
+                }
+              },
+              {
+                "@Name": "5.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.1",
+                  "@ProductID": "FortiOS-5.4.1"
+                }
+              },
+              {
+                "@Name": "5.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.4.0",
+                  "@ProductID": "FortiOS-5.4.0"
+                }
+              },
+              {
+                "@Name": "5.2.15",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.15",
+                  "@ProductID": "FortiOS-5.2.15"
+                }
+              },
+              {
+                "@Name": "5.2.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.14",
+                  "@ProductID": "FortiOS-5.2.14"
+                }
+              },
+              {
+                "@Name": "5.2.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.13",
+                  "@ProductID": "FortiOS-5.2.13"
+                }
+              },
+              {
+                "@Name": "5.2.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.12",
+                  "@ProductID": "FortiOS-5.2.12"
+                }
+              },
+              {
+                "@Name": "5.2.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.11",
+                  "@ProductID": "FortiOS-5.2.11"
+                }
+              },
+              {
+                "@Name": "5.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.10",
+                  "@ProductID": "FortiOS-5.2.10"
+                }
+              },
+              {
+                "@Name": "5.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.9",
+                  "@ProductID": "FortiOS-5.2.9"
+                }
+              },
+              {
+                "@Name": "5.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.8",
+                  "@ProductID": "FortiOS-5.2.8"
+                }
+              },
+              {
+                "@Name": "5.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.7",
+                  "@ProductID": "FortiOS-5.2.7"
+                }
+              },
+              {
+                "@Name": "5.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.6",
+                  "@ProductID": "FortiOS-5.2.6"
+                }
+              },
+              {
+                "@Name": "5.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.5",
+                  "@ProductID": "FortiOS-5.2.5"
+                }
+              },
+              {
+                "@Name": "5.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.4",
+                  "@ProductID": "FortiOS-5.2.4"
+                }
+              },
+              {
+                "@Name": "5.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.3",
+                  "@ProductID": "FortiOS-5.2.3"
+                }
+              },
+              {
+                "@Name": "5.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.2",
+                  "@ProductID": "FortiOS-5.2.2"
+                }
+              },
+              {
+                "@Name": "5.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.1",
+                  "@ProductID": "FortiOS-5.2.1"
+                }
+              },
+              {
+                "@Name": "5.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.2.0",
+                  "@ProductID": "FortiOS-5.2.0"
+                }
+              },
+              {
+                "@Name": "5.0.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.14",
+                  "@ProductID": "FortiOS-5.0.14"
+                }
+              },
+              {
+                "@Name": "5.0.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.13",
+                  "@ProductID": "FortiOS-5.0.13"
+                }
+              },
+              {
+                "@Name": "5.0.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.12",
+                  "@ProductID": "FortiOS-5.0.12"
+                }
+              },
+              {
+                "@Name": "5.0.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.11",
+                  "@ProductID": "FortiOS-5.0.11"
+                }
+              },
+              {
+                "@Name": "5.0.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.10",
+                  "@ProductID": "FortiOS-5.0.10"
+                }
+              },
+              {
+                "@Name": "5.0.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.9",
+                  "@ProductID": "FortiOS-5.0.9"
+                }
+              },
+              {
+                "@Name": "5.0.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.8",
+                  "@ProductID": "FortiOS-5.0.8"
+                }
+              },
+              {
+                "@Name": "5.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.7",
+                  "@ProductID": "FortiOS-5.0.7"
+                }
+              },
+              {
+                "@Name": "5.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.6",
+                  "@ProductID": "FortiOS-5.0.6"
+                }
+              },
+              {
+                "@Name": "5.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.5",
+                  "@ProductID": "FortiOS-5.0.5"
+                }
+              },
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.4",
+                  "@ProductID": "FortiOS-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.3",
+                  "@ProductID": "FortiOS-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.2",
+                  "@ProductID": "FortiOS-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.1",
+                  "@ProductID": "FortiOS-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 5.0.0",
+                  "@ProductID": "FortiOS-5.0.0"
+                }
+              },
+              {
+                "@Name": "4.3.19",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.19",
+                  "@ProductID": "FortiOS-4.3.19"
+                }
+              },
+              {
+                "@Name": "4.3.18",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.18",
+                  "@ProductID": "FortiOS-4.3.18"
+                }
+              },
+              {
+                "@Name": "4.3.17",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.17",
+                  "@ProductID": "FortiOS-4.3.17"
+                }
+              },
+              {
+                "@Name": "4.3.16",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.16",
+                  "@ProductID": "FortiOS-4.3.16"
+                }
+              },
+              {
+                "@Name": "4.3.15",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.15",
+                  "@ProductID": "FortiOS-4.3.15"
+                }
+              },
+              {
+                "@Name": "4.3.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.14",
+                  "@ProductID": "FortiOS-4.3.14"
+                }
+              },
+              {
+                "@Name": "4.3.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.13",
+                  "@ProductID": "FortiOS-4.3.13"
+                }
+              },
+              {
+                "@Name": "4.3.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.12",
+                  "@ProductID": "FortiOS-4.3.12"
+                }
+              },
+              {
+                "@Name": "4.3.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.11",
+                  "@ProductID": "FortiOS-4.3.11"
+                }
+              },
+              {
+                "@Name": "4.3.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.10",
+                  "@ProductID": "FortiOS-4.3.10"
+                }
+              },
+              {
+                "@Name": "4.3.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.9",
+                  "@ProductID": "FortiOS-4.3.9"
+                }
+              },
+              {
+                "@Name": "4.3.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.8",
+                  "@ProductID": "FortiOS-4.3.8"
+                }
+              },
+              {
+                "@Name": "4.3.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.7",
+                  "@ProductID": "FortiOS-4.3.7"
+                }
+              },
+              {
+                "@Name": "4.3.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.6",
+                  "@ProductID": "FortiOS-4.3.6"
+                }
+              },
+              {
+                "@Name": "4.3.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.5",
+                  "@ProductID": "FortiOS-4.3.5"
+                }
+              },
+              {
+                "@Name": "4.3.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.4",
+                  "@ProductID": "FortiOS-4.3.4"
+                }
+              },
+              {
+                "@Name": "4.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.3",
+                  "@ProductID": "FortiOS-4.3.3"
+                }
+              },
+              {
+                "@Name": "4.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.2",
+                  "@ProductID": "FortiOS-4.3.2"
+                }
+              },
+              {
+                "@Name": "4.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.1",
+                  "@ProductID": "FortiOS-4.3.1"
+                }
+              },
+              {
+                "@Name": "4.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.3.0",
+                  "@ProductID": "FortiOS-4.3.0"
+                }
+              },
+              {
+                "@Name": "4.2.16",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.16",
+                  "@ProductID": "FortiOS-4.2.16"
+                }
+              },
+              {
+                "@Name": "4.2.15",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.15",
+                  "@ProductID": "FortiOS-4.2.15"
+                }
+              },
+              {
+                "@Name": "4.2.14",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.14",
+                  "@ProductID": "FortiOS-4.2.14"
+                }
+              },
+              {
+                "@Name": "4.2.13",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.13",
+                  "@ProductID": "FortiOS-4.2.13"
+                }
+              },
+              {
+                "@Name": "4.2.12",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.12",
+                  "@ProductID": "FortiOS-4.2.12"
+                }
+              },
+              {
+                "@Name": "4.2.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.11",
+                  "@ProductID": "FortiOS-4.2.11"
+                }
+              },
+              {
+                "@Name": "4.2.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.10",
+                  "@ProductID": "FortiOS-4.2.10"
+                }
+              },
+              {
+                "@Name": "4.2.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.9",
+                  "@ProductID": "FortiOS-4.2.9"
+                }
+              },
+              {
+                "@Name": "4.2.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.8",
+                  "@ProductID": "FortiOS-4.2.8"
+                }
+              },
+              {
+                "@Name": "4.2.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.7",
+                  "@ProductID": "FortiOS-4.2.7"
+                }
+              },
+              {
+                "@Name": "4.2.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.6",
+                  "@ProductID": "FortiOS-4.2.6"
+                }
+              },
+              {
+                "@Name": "4.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.5",
+                  "@ProductID": "FortiOS-4.2.5"
+                }
+              },
+              {
+                "@Name": "4.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.4",
+                  "@ProductID": "FortiOS-4.2.4"
+                }
+              },
+              {
+                "@Name": "4.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.3",
+                  "@ProductID": "FortiOS-4.2.3"
+                }
+              },
+              {
+                "@Name": "4.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.2",
+                  "@ProductID": "FortiOS-4.2.2"
+                }
+              },
+              {
+                "@Name": "4.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.1",
+                  "@ProductID": "FortiOS-4.2.1"
+                }
+              },
+              {
+                "@Name": "4.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.2.0",
+                  "@ProductID": "FortiOS-4.2.0"
+                }
+              },
+              {
+                "@Name": "4.1.11",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.11",
+                  "@ProductID": "FortiOS-4.1.11"
+                }
+              },
+              {
+                "@Name": "4.1.10",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.10",
+                  "@ProductID": "FortiOS-4.1.10"
+                }
+              },
+              {
+                "@Name": "4.1.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.9",
+                  "@ProductID": "FortiOS-4.1.9"
+                }
+              },
+              {
+                "@Name": "4.1.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.8",
+                  "@ProductID": "FortiOS-4.1.8"
+                }
+              },
+              {
+                "@Name": "4.1.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.7",
+                  "@ProductID": "FortiOS-4.1.7"
+                }
+              },
+              {
+                "@Name": "4.1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.6",
+                  "@ProductID": "FortiOS-4.1.6"
+                }
+              },
+              {
+                "@Name": "4.1.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.5",
+                  "@ProductID": "FortiOS-4.1.5"
+                }
+              },
+              {
+                "@Name": "4.1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.4",
+                  "@ProductID": "FortiOS-4.1.4"
+                }
+              },
+              {
+                "@Name": "4.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.3",
+                  "@ProductID": "FortiOS-4.1.3"
+                }
+              },
+              {
+                "@Name": "4.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.2",
+                  "@ProductID": "FortiOS-4.1.2"
+                }
+              },
+              {
+                "@Name": "4.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.1.1",
+                  "@ProductID": "FortiOS-4.1.1"
+                }
+              },
+              {
+                "@Name": "4.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.0.4",
+                  "@ProductID": "FortiOS-4.0.4"
+                }
+              },
+              {
+                "@Name": "4.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.0.3",
+                  "@ProductID": "FortiOS-4.0.3"
+                }
+              },
+              {
+                "@Name": "4.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.0.2",
+                  "@ProductID": "FortiOS-4.0.2"
+                }
+              },
+              {
+                "@Name": "4.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.0.1",
+                  "@ProductID": "FortiOS-4.0.1"
+                }
+              },
+              {
+                "@Name": "4.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS 4.0.0",
+                  "@ProductID": "FortiOS-4.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSandbox",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "3.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.1.0",
+                  "@ProductID": "FortiSandbox-3.1.0"
+                }
+              },
+              {
+                "@Name": "3.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.7",
+                  "@ProductID": "FortiSandbox-3.0.7"
+                }
+              },
+              {
+                "@Name": "3.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.6",
+                  "@ProductID": "FortiSandbox-3.0.6"
+                }
+              },
+              {
+                "@Name": "3.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.5",
+                  "@ProductID": "FortiSandbox-3.0.5"
+                }
+              },
+              {
+                "@Name": "3.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.4",
+                  "@ProductID": "FortiSandbox-3.0.4"
+                }
+              },
+              {
+                "@Name": "3.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.3",
+                  "@ProductID": "FortiSandbox-3.0.3"
+                }
+              },
+              {
+                "@Name": "3.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.2",
+                  "@ProductID": "FortiSandbox-3.0.2"
+                }
+              },
+              {
+                "@Name": "3.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.1",
+                  "@ProductID": "FortiSandbox-3.0.1"
+                }
+              },
+              {
+                "@Name": "3.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.0.0",
+                  "@ProductID": "FortiSandbox-3.0.0"
+                }
+              },
+              {
+                "@Name": "2.5.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.5.2",
+                  "@ProductID": "FortiSandbox-2.5.2"
+                }
+              },
+              {
+                "@Name": "2.5.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.5.1",
+                  "@ProductID": "FortiSandbox-2.5.1"
+                }
+              },
+              {
+                "@Name": "2.5.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.5.0",
+                  "@ProductID": "FortiSandbox-2.5.0"
+                }
+              },
+              {
+                "@Name": "2.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.4.1",
+                  "@ProductID": "FortiSandbox-2.4.1"
+                }
+              },
+              {
+                "@Name": "2.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.4.0",
+                  "@ProductID": "FortiSandbox-2.4.0"
+                }
+              },
+              {
+                "@Name": "2.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.3.3",
+                  "@ProductID": "FortiSandbox-2.3.3"
+                }
+              },
+              {
+                "@Name": "2.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.3.2",
+                  "@ProductID": "FortiSandbox-2.3.2"
+                }
+              },
+              {
+                "@Name": "2.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.3.1",
+                  "@ProductID": "FortiSandbox-2.3.1"
+                }
+              },
+              {
+                "@Name": "2.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.3.0",
+                  "@ProductID": "FortiSandbox-2.3.0"
+                }
+              },
+              {
+                "@Name": "2.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.2.2",
+                  "@ProductID": "FortiSandbox-2.2.2"
+                }
+              },
+              {
+                "@Name": "2.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.2.1",
+                  "@ProductID": "FortiSandbox-2.2.1"
+                }
+              },
+              {
+                "@Name": "2.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.2.0",
+                  "@ProductID": "FortiSandbox-2.2.0"
+                }
+              },
+              {
+                "@Name": "2.1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.1.3",
+                  "@ProductID": "FortiSandbox-2.1.3"
+                }
+              },
+              {
+                "@Name": "2.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.1.2",
+                  "@ProductID": "FortiSandbox-2.1.2"
+                }
+              },
+              {
+                "@Name": "2.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.1.1",
+                  "@ProductID": "FortiSandbox-2.1.1"
+                }
+              },
+              {
+                "@Name": "2.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.1.0",
+                  "@ProductID": "FortiSandbox-2.1.0"
+                }
+              },
+              {
+                "@Name": "2.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.0.3",
+                  "@ProductID": "FortiSandbox-2.0.3"
+                }
+              },
+              {
+                "@Name": "2.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.0.2",
+                  "@ProductID": "FortiSandbox-2.0.2"
+                }
+              },
+              {
+                "@Name": "2.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.0.1",
+                  "@ProductID": "FortiSandbox-2.0.1"
+                }
+              },
+              {
+                "@Name": "2.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 2.0.0",
+                  "@ProductID": "FortiSandbox-2.0.0"
+                }
+              },
+              {
+                "@Name": "1.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 1.4.3",
+                  "@ProductID": "FortiSandbox-1.4.3"
+                }
+              },
+              {
+                "@Name": "1.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 1.4.2",
+                  "@ProductID": "FortiSandbox-1.4.2"
+                }
+              },
+              {
+                "@Name": "1.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 1.4.1",
+                  "@ProductID": "FortiSandbox-1.4.1"
+                }
+              },
+              {
+                "@Name": "1.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 1.4.0",
+                  "@ProductID": "FortiSandbox-1.4.0"
+                }
+              },
+              {
+                "@Name": "1.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 1.3.0",
+                  "@ProductID": "FortiSandbox-1.3.0"
+                }
+              },
+              {
+                "@Name": "1.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 1.2.3",
+                  "@ProductID": "FortiSandbox-1.2.3"
+                }
+              },
+              {
+                "@Name": "1.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 1.2.0",
+                  "@ProductID": "FortiSandbox-1.2.0"
+                }
+              },
+              {
+                "@Name": "1.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 1.1.0",
+                  "@ProductID": "FortiSandbox-1.1.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.2",
+          "VectorV3": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientMac-6.2.0",
+            "FortiClientMac-6.0.10",
+            "FortiClientMac-6.0.9",
+            "FortiClientMac-6.0.8",
+            "FortiClientMac-6.0.7",
+            "FortiClientMac-6.0.6",
+            "FortiClientMac-6.0.5",
+            "FortiClientMac-6.0.4",
+            "FortiClientMac-6.0.3",
+            "FortiClientMac-6.0.2",
+            "FortiClientMac-6.0.1",
+            "FortiClientMac-5.6.6",
+            "FortiClientMac-5.6.5",
+            "FortiClientMac-5.6.3",
+            "FortiClientMac-5.6.1",
+            "FortiClientMac-5.6.0",
+            "FortiClientMac-5.4.4",
+            "FortiClientMac-5.4.3",
+            "FortiClientMac-5.4.2",
+            "FortiClientMac-5.4.1",
+            "FortiClientMac-5.4.0",
+            "FortiClientMac-5.2.6",
+            "FortiClientMac-5.2.5",
+            "FortiClientMac-5.2.4",
+            "FortiClientMac-5.2.3",
+            "FortiClientMac-5.2.2",
+            "FortiClientMac-5.2.1",
+            "FortiClientMac-5.2.0",
+            "FortiClientMac-5.0.10",
+            "FortiClientMac-5.0.9",
+            "FortiClientMac-5.0.8",
+            "FortiClientMac-5.0.7",
+            "FortiClientMac-5.0.6",
+            "FortiClientMac-5.0.5",
+            "FortiClientMac-5.0.4",
+            "FortiClientMac-5.0.3",
+            "FortiClientMac-5.0.2",
+            "FortiClientMac-5.0.1",
+            "FortiClientMac-5.0.0",
+            "FortiClientMac-4.0.3",
+            "FortiClientMac-4.0.2",
+            "FortiClientMac-4.0.1",
+            "FortiClientMac-4.0.0",
+            "FortiClientWindows-6.0.6",
+            "FortiClientWindows-6.0.5",
+            "FortiClientWindows-6.0.4",
+            "FortiClientWindows-6.0.3",
+            "FortiClientWindows-6.0.2",
+            "FortiClientWindows-6.0.1",
+            "FortiClientWindows-6.0.0",
+            "FortiClientWindows-5.6.6",
+            "FortiClientWindows-5.6.5",
+            "FortiClientWindows-5.6.4",
+            "FortiClientWindows-5.6.3",
+            "FortiClientWindows-5.6.2",
+            "FortiClientWindows-5.6.1",
+            "FortiClientWindows-5.6.0",
+            "FortiClientWindows-5.4.5",
+            "FortiClientWindows-5.4.4",
+            "FortiClientWindows-5.4.3",
+            "FortiClientWindows-5.4.2",
+            "FortiClientWindows-5.4.1",
+            "FortiClientWindows-5.4.0",
+            "FortiClientWindows-5.2.6",
+            "FortiClientWindows-5.2.5",
+            "FortiClientWindows-5.2.4",
+            "FortiClientWindows-5.2.3",
+            "FortiClientWindows-5.2.2",
+            "FortiClientWindows-5.2.1",
+            "FortiClientWindows-5.2.0",
+            "FortiClientWindows-5.0.11",
+            "FortiClientWindows-5.0.10",
+            "FortiClientWindows-5.0.9",
+            "FortiClientWindows-5.0.8",
+            "FortiClientWindows-5.0.7",
+            "FortiClientWindows-5.0.6",
+            "FortiClientWindows-5.0.5",
+            "FortiClientWindows-5.0.4",
+            "FortiClientWindows-5.0.3",
+            "FortiClientWindows-5.0.2",
+            "FortiClientWindows-5.0.1",
+            "FortiClientWindows-5.0.0",
+            "FortiClientWindows-4.3.5",
+            "FortiClientWindows-4.3.4",
+            "FortiClientWindows-4.3.3",
+            "FortiClientWindows-4.3.2",
+            "FortiClientWindows-4.3.1",
+            "FortiClientWindows-4.3.0",
+            "FortiClientWindows-4.2.7",
+            "FortiClientWindows-4.2.6",
+            "FortiClientWindows-4.2.5",
+            "FortiClientWindows-4.2.4",
+            "FortiClientWindows-4.2.3",
+            "FortiClientWindows-4.2.2",
+            "FortiClientWindows-4.2.1",
+            "FortiClientWindows-4.2.0",
+            "FortiClientWindows-4.1.3",
+            "FortiClientWindows-4.1.2",
+            "FortiClientWindows-4.1.1",
+            "FortiClientWindows-4.1.0",
+            "FortiClientWindows-4.0.4",
+            "FortiClientWindows-4.0.3",
+            "FortiClientWindows-4.0.2",
+            "FortiClientWindows-4.0.1",
+            "FortiClientiOS-6.0.1",
+            "FortiClientiOS-6.0.0",
+            "FortiClientiOS-5.6.6",
+            "FortiClientiOS-5.6.5",
+            "FortiClientiOS-5.6.1",
+            "FortiClientiOS-5.6.0",
+            "FortiClientiOS-5.4.4",
+            "FortiClientiOS-5.4.3",
+            "FortiClientiOS-5.4.1",
+            "FortiClientiOS-5.4.0",
+            "FortiClientiOS-5.2.3",
+            "FortiClientiOS-5.2.2",
+            "FortiClientiOS-5.2.1",
+            "FortiClientiOS-5.2.0",
+            "FortiClientiOS-5.0.3",
+            "FortiClientiOS-5.0.2",
+            "FortiClientiOS-5.0.1",
+            "FortiClientiOS-5.0.0",
+            "FortiClientiOS-4.0.2",
+            "FortiClientiOS-4.0.1",
+            "FortiClientiOS-4.0.0",
+            "FortiClientiOS-2.0.1",
+            "FortiClientiOS-2.0.0",
+            "FortiGuard-6.6.7",
+            "FortiMail-6.0.12",
+            "FortiMail-6.0.11",
+            "FortiMail-6.0.10",
+            "FortiMail-6.0.9",
+            "FortiMail-6.0.8",
+            "FortiMail-6.0.7",
+            "FortiMail-6.0.6",
+            "FortiMail-6.0.5",
+            "FortiMail-6.0.4",
+            "FortiMail-6.0.3",
+            "FortiMail-6.0.2",
+            "FortiMail-6.0.1",
+            "FortiMail-6.0.0",
+            "FortiMail-5.4.12",
+            "FortiMail-5.4.11",
+            "FortiMail-5.4.10",
+            "FortiMail-5.4.9",
+            "FortiMail-5.4.8",
+            "FortiMail-5.4.7",
+            "FortiMail-5.4.6",
+            "FortiMail-5.4.5",
+            "FortiMail-5.4.4",
+            "FortiMail-5.4.3",
+            "FortiMail-5.4.2",
+            "FortiMail-5.4.1",
+            "FortiMail-5.4.0",
+            "FortiMail-5.3.13",
+            "FortiMail-5.3.12",
+            "FortiMail-5.3.10",
+            "FortiMail-5.3.9",
+            "FortiMail-5.3.8",
+            "FortiMail-5.3.7",
+            "FortiMail-5.3.6",
+            "FortiMail-5.3.5",
+            "FortiMail-5.3.4",
+            "FortiMail-5.3.3",
+            "FortiMail-5.3.2",
+            "FortiMail-5.3.1",
+            "FortiMail-5.3.0",
+            "FortiMail-5.2.10",
+            "FortiMail-5.2.9",
+            "FortiMail-5.2.8",
+            "FortiMail-5.2.7",
+            "FortiMail-5.2.6",
+            "FortiMail-5.2.5",
+            "FortiMail-5.2.4",
+            "FortiMail-5.2.3",
+            "FortiMail-5.2.2",
+            "FortiMail-5.2.1",
+            "FortiMail-5.2.0",
+            "FortiMail-5.1.7",
+            "FortiMail-5.1.6",
+            "FortiMail-5.1.5",
+            "FortiMail-5.1.4",
+            "FortiMail-5.1.3",
+            "FortiMail-5.1.2",
+            "FortiMail-5.1.1",
+            "FortiMail-5.1.0",
+            "FortiMail-5.0.11",
+            "FortiMail-5.0.10",
+            "FortiMail-5.0.9",
+            "FortiMail-5.0.8",
+            "FortiMail-5.0.7",
+            "FortiMail-5.0.6",
+            "FortiMail-5.0.5",
+            "FortiMail-5.0.4",
+            "FortiMail-5.0.3",
+            "FortiMail-5.0.2",
+            "FortiMail-5.0.1",
+            "FortiMail-5.0.0",
+            "FortiMail-4.3.9",
+            "FortiMail-4.3.8",
+            "FortiMail-4.3.7",
+            "FortiMail-4.3.6",
+            "FortiMail-4.3.5",
+            "FortiMail-4.3.4",
+            "FortiMail-4.3.3",
+            "FortiMail-4.3.2",
+            "FortiMail-4.3.1",
+            "FortiMail-4.3.0",
+            "FortiMail-4.2.4",
+            "FortiMail-4.2.3",
+            "FortiMail-4.2.2",
+            "FortiMail-4.2.1",
+            "FortiMail-4.2.0",
+            "FortiMail-4.1.3",
+            "FortiMail-4.1.2",
+            "FortiMail-4.1.1",
+            "FortiMail-4.1.0",
+            "FortiMail-4.0.5",
+            "FortiMail-4.0.4",
+            "FortiMail-4.0.3",
+            "FortiMail-4.0.2",
+            "FortiMail-4.0.1",
+            "FortiMail-2.0.1",
+            "FortiManager-6.0.4",
+            "FortiManager-6.0.3",
+            "FortiManager-6.0.2",
+            "FortiManager-6.0.1",
+            "FortiManager-6.0.0",
+            "FortiManager-5.6.11",
+            "FortiManager-5.6.10",
+            "FortiManager-5.6.9",
+            "FortiManager-5.6.8",
+            "FortiManager-5.6.7",
+            "FortiManager-5.6.6",
+            "FortiManager-5.6.5",
+            "FortiManager-5.6.4",
+            "FortiManager-5.6.3",
+            "FortiManager-5.6.2",
+            "FortiManager-5.6.1",
+            "FortiManager-5.6.0",
+            "FortiManager-5.4.7",
+            "FortiManager-5.4.6",
+            "FortiManager-5.4.5",
+            "FortiManager-5.4.4",
+            "FortiManager-5.4.3",
+            "FortiManager-5.4.2",
+            "FortiManager-5.4.1",
+            "FortiManager-5.4.0",
+            "FortiOS-6.0.7",
+            "FortiOS-6.0.6",
+            "FortiOS-6.0.5",
+            "FortiOS-6.0.4",
+            "FortiOS-6.0.3",
+            "FortiOS-6.0.2",
+            "FortiOS-6.0.1",
+            "FortiOS-6.0.0",
+            "FortiOS-5.6.11",
+            "FortiOS-5.6.10",
+            "FortiOS-5.6.9",
+            "FortiOS-5.6.8",
+            "FortiOS-5.6.7",
+            "FortiOS-5.6.6",
+            "FortiOS-5.6.5",
+            "FortiOS-5.6.4",
+            "FortiOS-5.6.3",
+            "FortiOS-5.6.2",
+            "FortiOS-5.6.1",
+            "FortiOS-5.6.0",
+            "FortiOS-5.4.13",
+            "FortiOS-5.4.12",
+            "FortiOS-5.4.11",
+            "FortiOS-5.4.10",
+            "FortiOS-5.4.9",
+            "FortiOS-5.4.8",
+            "FortiOS-5.4.7",
+            "FortiOS-5.4.6",
+            "FortiOS-5.4.5",
+            "FortiOS-5.4.4",
+            "FortiOS-5.4.3",
+            "FortiOS-5.4.2",
+            "FortiOS-5.4.1",
+            "FortiOS-5.4.0",
+            "FortiOS-5.2.15",
+            "FortiOS-5.2.14",
+            "FortiOS-5.2.13",
+            "FortiOS-5.2.12",
+            "FortiOS-5.2.11",
+            "FortiOS-5.2.10",
+            "FortiOS-5.2.9",
+            "FortiOS-5.2.8",
+            "FortiOS-5.2.7",
+            "FortiOS-5.2.6",
+            "FortiOS-5.2.5",
+            "FortiOS-5.2.4",
+            "FortiOS-5.2.3",
+            "FortiOS-5.2.2",
+            "FortiOS-5.2.1",
+            "FortiOS-5.2.0",
+            "FortiOS-5.0.14",
+            "FortiOS-5.0.13",
+            "FortiOS-5.0.12",
+            "FortiOS-5.0.11",
+            "FortiOS-5.0.10",
+            "FortiOS-5.0.9",
+            "FortiOS-5.0.8",
+            "FortiOS-5.0.7",
+            "FortiOS-5.0.6",
+            "FortiOS-5.0.5",
+            "FortiOS-5.0.4",
+            "FortiOS-5.0.3",
+            "FortiOS-5.0.2",
+            "FortiOS-5.0.1",
+            "FortiOS-5.0.0",
+            "FortiOS-4.3.19",
+            "FortiOS-4.3.18",
+            "FortiOS-4.3.17",
+            "FortiOS-4.3.16",
+            "FortiOS-4.3.15",
+            "FortiOS-4.3.14",
+            "FortiOS-4.3.13",
+            "FortiOS-4.3.12",
+            "FortiOS-4.3.11",
+            "FortiOS-4.3.10",
+            "FortiOS-4.3.9",
+            "FortiOS-4.3.8",
+            "FortiOS-4.3.7",
+            "FortiOS-4.3.6",
+            "FortiOS-4.3.5",
+            "FortiOS-4.3.4",
+            "FortiOS-4.3.3",
+            "FortiOS-4.3.2",
+            "FortiOS-4.3.1",
+            "FortiOS-4.3.0",
+            "FortiOS-4.2.16",
+            "FortiOS-4.2.15",
+            "FortiOS-4.2.14",
+            "FortiOS-4.2.13",
+            "FortiOS-4.2.12",
+            "FortiOS-4.2.11",
+            "FortiOS-4.2.10",
+            "FortiOS-4.2.9",
+            "FortiOS-4.2.8",
+            "FortiOS-4.2.7",
+            "FortiOS-4.2.6",
+            "FortiOS-4.2.5",
+            "FortiOS-4.2.4",
+            "FortiOS-4.2.3",
+            "FortiOS-4.2.2",
+            "FortiOS-4.2.1",
+            "FortiOS-4.2.0",
+            "FortiOS-4.1.11",
+            "FortiOS-4.1.10",
+            "FortiOS-4.1.9",
+            "FortiOS-4.1.8",
+            "FortiOS-4.1.7",
+            "FortiOS-4.1.6",
+            "FortiOS-4.1.5",
+            "FortiOS-4.1.4",
+            "FortiOS-4.1.3",
+            "FortiOS-4.1.2",
+            "FortiOS-4.1.1",
+            "FortiOS-4.0.4",
+            "FortiOS-4.0.3",
+            "FortiOS-4.0.2",
+            "FortiOS-4.0.1",
+            "FortiOS-4.0.0",
+            "FortiSandbox-3.1.0",
+            "FortiSandbox-3.0.7",
+            "FortiSandbox-3.0.6",
+            "FortiSandbox-3.0.5",
+            "FortiSandbox-3.0.4",
+            "FortiSandbox-3.0.3",
+            "FortiSandbox-3.0.2",
+            "FortiSandbox-3.0.1",
+            "FortiSandbox-3.0.0",
+            "FortiSandbox-2.5.2",
+            "FortiSandbox-2.5.1",
+            "FortiSandbox-2.5.0",
+            "FortiSandbox-2.4.1",
+            "FortiSandbox-2.4.0",
+            "FortiSandbox-2.3.3",
+            "FortiSandbox-2.3.2",
+            "FortiSandbox-2.3.1",
+            "FortiSandbox-2.3.0",
+            "FortiSandbox-2.2.2",
+            "FortiSandbox-2.2.1",
+            "FortiSandbox-2.2.0",
+            "FortiSandbox-2.1.3",
+            "FortiSandbox-2.1.2",
+            "FortiSandbox-2.1.1",
+            "FortiSandbox-2.1.0",
+            "FortiSandbox-2.0.3",
+            "FortiSandbox-2.0.2",
+            "FortiSandbox-2.0.1",
+            "FortiSandbox-2.0.0",
+            "FortiSandbox-1.4.3",
+            "FortiSandbox-1.4.2",
+            "FortiSandbox-1.4.1",
+            "FortiSandbox-1.4.0",
+            "FortiSandbox-1.3.0",
+            "FortiSandbox-1.2.3",
+            "FortiSandbox-1.2.0",
+            "FortiSandbox-1.1.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "3rd party component upgrade required for security reasons: FortiGuard XOR Encryption",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-100"
+        }
+      },
+      "Title": "3rd party component upgrade required for security reasons: FortiGuard XOR Encryption",
+      "cvrf:CVE": "CVE-2018-9195"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Stefan Viehböck - SEC Consult Vulnerability Lab for reporting this under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Use of a hardcoded cryptographic key in the FortiGuard services communication protocol may allow a Man in the middle with knowledge of the key to eavesdrop on and modify information (URL/SPAM services in FortiOS 5.6, and URL/SPAM/AV services in FortiOS 6.0.; URL rating in FortiClient) sent and received from Fortiguard servers by decrypting these messages.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "All versions below FortiOS 6.0.8All versions below FortiOS 5.6.12All versions below FortiClientWindows 6.2.0All versions below FortiClientMac 6.2.2",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiOS 6.0.8 and upper version or 5.6.12 then manually change the configuration to use TLS as communication protocol with FortiGuard servers after upgrade (see https://docs.fortinet.com/document/fortigate/6.0.8/fortios-release-notes/901852/fortiguard-protocol-and-port-number) or do a fresh install to get the new default which is the TLS based system.For AV communication exposure on FortiOS 6.0 and above; the only impact is if outbreak protection is enabled in the antivirus profile settings. This is the only part of AV which makes a real-time FortiGuard request.Upgrade to FortiClientWindows 6.2.0 or FortiClientMac 6.2.2 then change EMS configuration in the Endpoint Profile to use \"FortiGuard Anycast\". The new option is provided for Web Filter tab, as well as System Settings tab.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "3rd party component upgrade required for security reasons: FortiGuard XOR Encryption",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-12-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-100"
+      },
+      "cvrf:InitialReleaseDate": "2019-12-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-12-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

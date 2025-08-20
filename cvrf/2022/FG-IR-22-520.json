@@ -1,0 +1,494 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiNAC",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "9.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.4.2",
+                "@ProductID": "FortiNAC-9.4.2"
+              }
+            },
+            {
+              "@Name": "9.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.4.1",
+                "@ProductID": "FortiNAC-9.4.1"
+              }
+            },
+            {
+              "@Name": "9.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.4.0",
+                "@ProductID": "FortiNAC-9.4.0"
+              }
+            },
+            {
+              "@Name": "9.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.8",
+                "@ProductID": "FortiNAC-9.2.8"
+              }
+            },
+            {
+              "@Name": "9.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.7",
+                "@ProductID": "FortiNAC-9.2.7"
+              }
+            },
+            {
+              "@Name": "9.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.6",
+                "@ProductID": "FortiNAC-9.2.6"
+              }
+            },
+            {
+              "@Name": "9.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.5",
+                "@ProductID": "FortiNAC-9.2.5"
+              }
+            },
+            {
+              "@Name": "9.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.4",
+                "@ProductID": "FortiNAC-9.2.4"
+              }
+            },
+            {
+              "@Name": "9.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.3",
+                "@ProductID": "FortiNAC-9.2.3"
+              }
+            },
+            {
+              "@Name": "9.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.2",
+                "@ProductID": "FortiNAC-9.2.2"
+              }
+            },
+            {
+              "@Name": "9.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.1",
+                "@ProductID": "FortiNAC-9.2.1"
+              }
+            },
+            {
+              "@Name": "9.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.2.0",
+                "@ProductID": "FortiNAC-9.2.0"
+              }
+            },
+            {
+              "@Name": "9.1.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.10",
+                "@ProductID": "FortiNAC-9.1.10"
+              }
+            },
+            {
+              "@Name": "9.1.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.9",
+                "@ProductID": "FortiNAC-9.1.9"
+              }
+            },
+            {
+              "@Name": "9.1.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.8",
+                "@ProductID": "FortiNAC-9.1.8"
+              }
+            },
+            {
+              "@Name": "9.1.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.7",
+                "@ProductID": "FortiNAC-9.1.7"
+              }
+            },
+            {
+              "@Name": "9.1.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.6",
+                "@ProductID": "FortiNAC-9.1.6"
+              }
+            },
+            {
+              "@Name": "9.1.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.5",
+                "@ProductID": "FortiNAC-9.1.5"
+              }
+            },
+            {
+              "@Name": "9.1.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.4",
+                "@ProductID": "FortiNAC-9.1.4"
+              }
+            },
+            {
+              "@Name": "9.1.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.3",
+                "@ProductID": "FortiNAC-9.1.3"
+              }
+            },
+            {
+              "@Name": "9.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.2",
+                "@ProductID": "FortiNAC-9.1.2"
+              }
+            },
+            {
+              "@Name": "9.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.1",
+                "@ProductID": "FortiNAC-9.1.1"
+              }
+            },
+            {
+              "@Name": "9.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.1.0",
+                "@ProductID": "FortiNAC-9.1.0"
+              }
+            },
+            {
+              "@Name": "8.8.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.11",
+                "@ProductID": "FortiNAC-8.8.11"
+              }
+            },
+            {
+              "@Name": "8.8.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.10",
+                "@ProductID": "FortiNAC-8.8.10"
+              }
+            },
+            {
+              "@Name": "8.8.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.9",
+                "@ProductID": "FortiNAC-8.8.9"
+              }
+            },
+            {
+              "@Name": "8.8.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.8",
+                "@ProductID": "FortiNAC-8.8.8"
+              }
+            },
+            {
+              "@Name": "8.8.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.7",
+                "@ProductID": "FortiNAC-8.8.7"
+              }
+            },
+            {
+              "@Name": "8.8.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.6",
+                "@ProductID": "FortiNAC-8.8.6"
+              }
+            },
+            {
+              "@Name": "8.8.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.5",
+                "@ProductID": "FortiNAC-8.8.5"
+              }
+            },
+            {
+              "@Name": "8.8.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.4",
+                "@ProductID": "FortiNAC-8.8.4"
+              }
+            },
+            {
+              "@Name": "8.8.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.3",
+                "@ProductID": "FortiNAC-8.8.3"
+              }
+            },
+            {
+              "@Name": "8.8.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.2",
+                "@ProductID": "FortiNAC-8.8.2"
+              }
+            },
+            {
+              "@Name": "8.8.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.1",
+                "@ProductID": "FortiNAC-8.8.1"
+              }
+            },
+            {
+              "@Name": "8.8.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.8.0",
+                "@ProductID": "FortiNAC-8.8.0"
+              }
+            },
+            {
+              "@Name": "8.7.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.7.6",
+                "@ProductID": "FortiNAC-8.7.6"
+              }
+            },
+            {
+              "@Name": "8.7.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.7.5",
+                "@ProductID": "FortiNAC-8.7.5"
+              }
+            },
+            {
+              "@Name": "8.7.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.7.4",
+                "@ProductID": "FortiNAC-8.7.4"
+              }
+            },
+            {
+              "@Name": "8.7.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.7.3",
+                "@ProductID": "FortiNAC-8.7.3"
+              }
+            },
+            {
+              "@Name": "8.7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.7.2",
+                "@ProductID": "FortiNAC-8.7.2"
+              }
+            },
+            {
+              "@Name": "8.7.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.7.1",
+                "@ProductID": "FortiNAC-8.7.1"
+              }
+            },
+            {
+              "@Name": "8.7.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 8.7.0",
+                "@ProductID": "FortiNAC-8.7.0"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 7.2.0",
+                "@ProductID": "FortiNAC-7.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.1",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiNAC-9.4.2",
+            "FortiNAC-9.4.1",
+            "FortiNAC-9.4.0",
+            "FortiNAC-9.2.8",
+            "FortiNAC-9.2.7",
+            "FortiNAC-9.2.6",
+            "FortiNAC-9.2.5",
+            "FortiNAC-9.2.4",
+            "FortiNAC-9.2.3",
+            "FortiNAC-9.2.2",
+            "FortiNAC-9.2.1",
+            "FortiNAC-9.2.0",
+            "FortiNAC-9.1.10",
+            "FortiNAC-9.1.9",
+            "FortiNAC-9.1.8",
+            "FortiNAC-9.1.7",
+            "FortiNAC-9.1.6",
+            "FortiNAC-9.1.5",
+            "FortiNAC-9.1.4",
+            "FortiNAC-9.1.3",
+            "FortiNAC-9.1.2",
+            "FortiNAC-9.1.1",
+            "FortiNAC-9.1.0",
+            "FortiNAC-8.8.11",
+            "FortiNAC-8.8.10",
+            "FortiNAC-8.8.9",
+            "FortiNAC-8.8.8",
+            "FortiNAC-8.8.7",
+            "FortiNAC-8.8.6",
+            "FortiNAC-8.8.5",
+            "FortiNAC-8.8.4",
+            "FortiNAC-8.8.3",
+            "FortiNAC-8.8.2",
+            "FortiNAC-8.8.1",
+            "FortiNAC-8.8.0",
+            "FortiNAC-8.7.6",
+            "FortiNAC-8.7.5",
+            "FortiNAC-8.7.4",
+            "FortiNAC-8.7.3",
+            "FortiNAC-8.7.2",
+            "FortiNAC-8.7.1",
+            "FortiNAC-8.7.0",
+            "FortiNAC-7.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiNAC - database harcoded credentials",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-520"
+        }
+      },
+      "Title": "FortiNAC - database harcoded credentials",
+      "cvrf:CVE": "CVE-2023-26203"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank KPN for bringing this issue to our attention under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A use of hard-coded credentials vulnerability [CWE-798] in FortiNAC may allow an authenticated attacker to access to the database via shell commands.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "At leastFortiNAC version 9.4.0 through 9.4.2FortiNAC 9.2 all versionsFortiNAC 9.1 all versionsFortiNAC 8.8 all versionsFortiNAC 8.7 all versionsFortiNAC 8.6 all versions are not affectedFortiNAC 8.5 all versions are not affectedFortiNAC version 7.2.0",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiNAC version 9.4.3 or abovePlease upgrade to FortiNAC-F version 7.2.1 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiNAC - database harcoded credentials",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-05-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-520"
+      },
+      "cvrf:InitialReleaseDate": "2023-05-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-05-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

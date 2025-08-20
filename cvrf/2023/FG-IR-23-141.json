@@ -1,0 +1,205 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWLM",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "8.6.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.6.5",
+                "@ProductID": "FortiWLM-8.6.5"
+              }
+            },
+            {
+              "@Name": "8.6.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.6.4",
+                "@ProductID": "FortiWLM-8.6.4"
+              }
+            },
+            {
+              "@Name": "8.6.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.6.3",
+                "@ProductID": "FortiWLM-8.6.3"
+              }
+            },
+            {
+              "@Name": "8.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.6.2",
+                "@ProductID": "FortiWLM-8.6.2"
+              }
+            },
+            {
+              "@Name": "8.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.6.1",
+                "@ProductID": "FortiWLM-8.6.1"
+              }
+            },
+            {
+              "@Name": "8.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.6.0",
+                "@ProductID": "FortiWLM-8.6.0"
+              }
+            },
+            {
+              "@Name": "8.5.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.5.4",
+                "@ProductID": "FortiWLM-8.5.4"
+              }
+            },
+            {
+              "@Name": "8.5.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.5.3",
+                "@ProductID": "FortiWLM-8.5.3"
+              }
+            },
+            {
+              "@Name": "8.5.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.5.2",
+                "@ProductID": "FortiWLM-8.5.2"
+              }
+            },
+            {
+              "@Name": "8.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.5.1",
+                "@ProductID": "FortiWLM-8.5.1"
+              }
+            },
+            {
+              "@Name": "8.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLM 8.5.0",
+                "@ProductID": "FortiWLM-8.5.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "8.6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWLM-8.6.5",
+            "FortiWLM-8.6.4",
+            "FortiWLM-8.6.3",
+            "FortiWLM-8.6.2",
+            "FortiWLM-8.6.1",
+            "FortiWLM-8.6.0",
+            "FortiWLM-8.5.4",
+            "FortiWLM-8.5.3",
+            "FortiWLM-8.5.2",
+            "FortiWLM-8.5.1",
+            "FortiWLM-8.5.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Authenticated command injection vulnerability",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-141"
+        }
+      },
+      "Title": "Authenticated command injection vulnerability",
+      "cvrf:CVE": [
+        "CVE-2023-34985",
+        "CVE-2023-34986",
+        "CVE-2023-34987",
+        "CVE-2023-34988",
+        "CVE-2023-34989"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Adham El karn of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple Improper neutralization of special elements used in an os command vulnerabilities [CWE-78] in FortiWLM may allow a remote authenticated attacker with low privilege to execute unauthorized commands via specifically crafted http get request parameters.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Authenticated command injection vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-10-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-141"
+      },
+      "cvrf:InitialReleaseDate": "2023-10-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-10-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

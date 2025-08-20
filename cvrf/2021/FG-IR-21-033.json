@@ -1,0 +1,141 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiNDR",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "1.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNDR 1.4.0",
+                "@ProductID": "FortiNDR-1.4.0"
+              }
+            },
+            {
+              "@Name": "1.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNDR 1.3.1",
+                "@ProductID": "FortiNDR-1.3.1"
+              }
+            },
+            {
+              "@Name": "1.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNDR 1.3.0",
+                "@ProductID": "FortiNDR-1.3.0"
+              }
+            },
+            {
+              "@Name": "1.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNDR 1.2.0",
+                "@ProductID": "FortiNDR-1.2.0"
+              }
+            },
+            {
+              "@Name": "1.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNDR 1.1.0",
+                "@ProductID": "FortiNDR-1.1.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.4",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiNDR-1.4.0",
+            "FortiNDR-1.3.1",
+            "FortiNDR-1.3.0",
+            "FortiNDR-1.2.0",
+            "FortiNDR-1.1.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiNDR] OS command injection due to improper input sanitization",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-033"
+        }
+      },
+      "Title": "[FortiNDR] OS command injection due to improper input sanitization",
+      "cvrf:CVE": "CVE-2021-24023"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper input validation in FortiNDR v1.4.0 may allow an authenticated user to gain system shell access via a malicious payload in the \"diagnose\" command.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiNDR 1.4 all versionsFortiNDR 1.3 all versionsFortiNDR 1.2 all versionsFortiNDR 1.1 all versions",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade the FortiNDR firmware to any version greater than or equal to v1.5.0",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiNDR] OS command injection due to improper input sanitization",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-05-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-033"
+      },
+      "cvrf:InitialReleaseDate": "2021-05-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-05-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

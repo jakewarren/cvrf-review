@@ -1,0 +1,95 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Multiple CSRF Vulnerabilities in FortiGate",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-13-014"
+          },
+          {
+            "Description": "http://packetstormsecurity.com/files/122216/Fortigate-Firewall-Cross-Site-Request-Forgery.html",
+            "URL": "http://packetstormsecurity.com/files/122216/Fortigate-Firewall-Cross-Site-Request-Forgery.html"
+          }
+        ]
+      },
+      "Title": "Multiple CSRF Vulnerabilities in FortiGate",
+      "cvrf:CVE": "CVE-2013-1414"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "This field is not shown on advisory.The issue is tracked in Mantis 158276, 204901",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Multiple CSRF (Cross-Site Request Forgery) vulnerabilities exist in FortiGate because GUI pages are not protected by CSRF token. It could allow remote attackers to hijack the authentication of arbitrary users under certain conditions.",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Security Bypass",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGates running FortiOS 4.3.12 and prior versions, FortiGates running FortiOS 5.0.2 and prior versions",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade FortiGates to FortiOS version 4.3.13 or 5.0.3.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Multiple CSRF Vulnerabilities in FortiGate",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-13-014"
+        },
+        {
+          "cvrf:Description": "http://packetstormsecurity.com/files/122216/Fortigate-Firewall-Cross-Site-Request-Forgery.html",
+          "cvrf:URL": "http://packetstormsecurity.com/files/122216/Fortigate-Firewall-Cross-Site-Request-Forgery.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Multiple CSRF Vulnerabilities in FortiGate",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2013-07-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-13-014"
+      },
+      "cvrf:InitialReleaseDate": "2013-07-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2013-07-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

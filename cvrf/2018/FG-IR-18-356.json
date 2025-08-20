@@ -1,0 +1,266 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAP-W2",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.3",
+                  "@ProductID": "FortiAP-W2-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.2",
+                  "@ProductID": "FortiAP-W2-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.1",
+                  "@ProductID": "FortiAP-W2-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 6.0.0",
+                  "@ProductID": "FortiAP-W2-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 5.6.3",
+                  "@ProductID": "FortiAP-W2-5.6.3"
+                }
+              },
+              {
+                "@Name": "5.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 5.6.2",
+                  "@ProductID": "FortiAP-W2-5.6.2"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 5.6.1",
+                  "@ProductID": "FortiAP-W2-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-W2 5.6.0",
+                  "@ProductID": "FortiAP-W2-5.6.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiAP-S",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "6.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-S 6.0.3",
+                  "@ProductID": "FortiAP-S-6.0.3"
+                }
+              },
+              {
+                "@Name": "6.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-S 6.0.2",
+                  "@ProductID": "FortiAP-S-6.0.2"
+                }
+              },
+              {
+                "@Name": "6.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-S 6.0.1",
+                  "@ProductID": "FortiAP-S-6.0.1"
+                }
+              },
+              {
+                "@Name": "6.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-S 6.0.0",
+                  "@ProductID": "FortiAP-S-6.0.0"
+                }
+              },
+              {
+                "@Name": "5.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-S 5.6.3",
+                  "@ProductID": "FortiAP-S-5.6.3"
+                }
+              },
+              {
+                "@Name": "5.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-S 5.6.2",
+                  "@ProductID": "FortiAP-S-5.6.2"
+                }
+              },
+              {
+                "@Name": "5.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-S 5.6.1",
+                  "@ProductID": "FortiAP-S-5.6.1"
+                }
+              },
+              {
+                "@Name": "5.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAP-S 5.6.0",
+                  "@ProductID": "FortiAP-S-5.6.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAP-W2-6.0.3",
+            "FortiAP-W2-6.0.2",
+            "FortiAP-W2-6.0.1",
+            "FortiAP-W2-6.0.0",
+            "FortiAP-W2-5.6.3",
+            "FortiAP-W2-5.6.2",
+            "FortiAP-W2-5.6.1",
+            "FortiAP-W2-5.6.0",
+            "FortiAP-S-6.0.3",
+            "FortiAP-S-6.0.2",
+            "FortiAP-S-6.0.1",
+            "FortiAP-S-6.0.0",
+            "FortiAP-S-5.6.3",
+            "FortiAP-S-5.6.2",
+            "FortiAP-S-5.6.1",
+            "FortiAP-S-5.6.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Bleeding Bit Vulnerability",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-356"
+          },
+          {
+            "Description": "https://armis.com/bleedingbit/",
+            "URL": "https://armis.com/bleedingbit/"
+          }
+        ]
+      },
+      "Title": "Bleeding Bit Vulnerability",
+      "cvrf:CVE": "CVE-2018-16986"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Some FortiAP models are vulnerable to the Bleeding Bit Vulnerability (CVE-2018-16986) present in the Texas Instruments WiFi chips.CVE-2018-16986:Texas Instruments BLE-STACK v2.2.1 for SimpleLink CC2640 and CC2650 devices allows remote attackers to execute arbitrary code via a malformed packet that triggers a buffer overflow.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "Only the following FortiAP models are impacted:FortiAP-S: FAP_S221E and FAP_S223EFortiAP-W2: FAP_221E (Gen2), FAP_222E and FAP_223E (Gen2)Other FortiAP models (including FAP-U/FAP-W2/FAP-S series) are not impacted.MeruAP models are not impacted",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade the impacted FortiAP-S/W2 models to 5.6.4 or 6.0.4Workarounds:When the affected FortiAP-S/W2 models are managed by a FortiGate, enter the following CLI commands to disable the BLE scanning feature:config wireless-controller ble-profileedit [profile-name]set ble-scanning disable (*disable is the default value)nextendRevision History:2019-04-10 Initial Version2019-04-15 Corrected the FortiAP-W2 affected models.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Bleeding Bit Vulnerability",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-356"
+        },
+        {
+          "cvrf:Description": "https://armis.com/bleedingbit/",
+          "cvrf:URL": "https://armis.com/bleedingbit/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Bleeding Bit Vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-04-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-356"
+      },
+      "cvrf:InitialReleaseDate": "2019-04-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-04-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

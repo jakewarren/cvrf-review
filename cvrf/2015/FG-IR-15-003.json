@@ -1,0 +1,70 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiAuthenticator multiple vulnerabilities",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-003"
+        }
+      },
+      "Title": "FortiAuthenticator multiple vulnerabilities",
+      "cvrf:CVE": [
+        "CVE-2015-1455",
+        "CVE-2015-1456",
+        "CVE-2015-1457",
+        "CVE-2015-1459"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Local file disclosure, Local passwords disclosure, reflected XSS",
+          "@Ordinal": "1",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "Password disclosure and local file disclosure (CVE-2015-1456, CVE-2015-1455, CVE-2015-1457) affect FortiAuthenticator lower than 3.2.0Reflected XSS (CVE-2015-1459) affect FortiAuthenticator lower than 3.2.1",
+          "@Ordinal": "2",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiAuthenticator 3.2.1 or higher.",
+          "@Ordinal": "3",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiAuthenticator multiple vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-02-05T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-003"
+      },
+      "cvrf:InitialReleaseDate": "2015-02-05T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-02-05T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

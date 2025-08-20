@@ -1,0 +1,209 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiProxy",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "2.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 2.0.1",
+                "@ProductID": "FortiProxy-2.0.1"
+              }
+            },
+            {
+              "@Name": "2.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 2.0.0",
+                "@ProductID": "FortiProxy-2.0.0"
+              }
+            },
+            {
+              "@Name": "1.2.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.9",
+                "@ProductID": "FortiProxy-1.2.9"
+              }
+            },
+            {
+              "@Name": "1.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.8",
+                "@ProductID": "FortiProxy-1.2.8"
+              }
+            },
+            {
+              "@Name": "1.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.7",
+                "@ProductID": "FortiProxy-1.2.7"
+              }
+            },
+            {
+              "@Name": "1.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.6",
+                "@ProductID": "FortiProxy-1.2.6"
+              }
+            },
+            {
+              "@Name": "1.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.5",
+                "@ProductID": "FortiProxy-1.2.5"
+              }
+            },
+            {
+              "@Name": "1.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.4",
+                "@ProductID": "FortiProxy-1.2.4"
+              }
+            },
+            {
+              "@Name": "1.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.3",
+                "@ProductID": "FortiProxy-1.2.3"
+              }
+            },
+            {
+              "@Name": "1.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.2",
+                "@ProductID": "FortiProxy-1.2.2"
+              }
+            },
+            {
+              "@Name": "1.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.1",
+                "@ProductID": "FortiProxy-1.2.1"
+              }
+            },
+            {
+              "@Name": "1.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiProxy 1.2.0",
+                "@ProductID": "FortiProxy-1.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiProxy-2.0.1",
+            "FortiProxy-2.0.0",
+            "FortiProxy-1.2.9",
+            "FortiProxy-1.2.8",
+            "FortiProxy-1.2.7",
+            "FortiProxy-1.2.6",
+            "FortiProxy-1.2.5",
+            "FortiProxy-1.2.4",
+            "FortiProxy-1.2.3",
+            "FortiProxy-1.2.2",
+            "FortiProxy-1.2.1",
+            "FortiProxy-1.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[Fortiproxy] httpsd crashes when an authenticated user sends a malformed request",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-21-007"
+        }
+      },
+      "Title": "[Fortiproxy] httpsd crashes when an authenticated user sends a malformed request",
+      "cvrf:CVE": "CVE-2019-17656"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Cody Sixteen ( https://code610.blogspot.com/) for reporting this issue under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A stack-based buffer overflow vulnerability in the HTTPD daemon of FortiProxy may allow an authenticated remote attacker to crash the service by sending a malformed PUT request to the server.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiProxy versions 2.0.1 and below.FortiProxy versions 1.2.9 and below.FortiProxy versions 1.1.x.FortiProxy versions 1.0.x.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to Fortiproxy version 1.2.10 or above.Please upgrade to Fortiproxy version 2.0.2 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[Fortiproxy] httpsd crashes when an authenticated user sends a malformed request",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-04-06T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-21-007"
+      },
+      "cvrf:InitialReleaseDate": "2021-04-06T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-04-06T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

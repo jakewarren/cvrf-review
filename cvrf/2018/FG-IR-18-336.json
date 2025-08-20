@@ -1,0 +1,89 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.4",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N/E:F/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "CVE-2018-10933 libssh authentication bypass",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-336"
+          },
+          {
+            "Description": "1. https://www.libssh.org/security/advisories/CVE-2018-10933.txt",
+            "URL": "1. https://www.libssh.org/security/advisories/CVE-2018-10933.txt"
+          }
+        ]
+      },
+      "Title": "CVE-2018-10933 libssh authentication bypass",
+      "cvrf:CVE": "CVE-2018-10933"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "libssh versions 0.6 and above have an authentication bypass vulnerability inthe server code. By presenting the server an SSH2_MSG_USERAUTH_SUCCESS messagein place of the SSH2_MSG_USERAUTH_REQUEST message which the server would expectto initiate authentication, the attacker could successfully authenticatewithout any credentials. [1]",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiAP - not affectedFortiAnalyzer - not affectedFortiOS - not affectedFortiSwitch - not affectedFortiMail - not affected FortiManager - not affectedFortiWeb - not affected",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "CVE-2018-10933 libssh authentication bypass",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-336"
+        },
+        {
+          "cvrf:Description": "1. https://www.libssh.org/security/advisories/CVE-2018-10933.txt",
+          "cvrf:URL": "1. https://www.libssh.org/security/advisories/CVE-2018-10933.txt"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "CVE-2018-10933 libssh authentication bypass",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-11-21T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-336"
+      },
+      "cvrf:InitialReleaseDate": "2018-11-21T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-11-21T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

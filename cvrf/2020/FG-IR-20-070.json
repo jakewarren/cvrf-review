@@ -1,0 +1,125 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSandbox",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "3.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 3.2.1",
+                "@ProductID": "FortiSandbox-3.2.1"
+              }
+            },
+            {
+              "@Name": "3.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 3.2.0",
+                "@ProductID": "FortiSandbox-3.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.5",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSandbox-3.2.1",
+            "FortiSandbox-3.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiSandbox] fsuis token does not expire after logout",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-070"
+        }
+      },
+      "Title": "[FortiSandbox] fsuis token does not expire after logout",
+      "cvrf:CVE": "CVE-2020-29012"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Danilo Costa for reporting this vulnerability under responsible disclosure"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An insufficient session expiration vulnerability [CWE-613] in FortiSandbox may allow an attacker to reuse the unexpired admin user session IDs to gain information about other users configured on the device, should the attacker be able to obtain that session ID (via other, hypothetical attacks)",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiSandbox versions 3.2.1 and below.",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiSandbox version 3.2.2 or above.Please upgrade to FortiSandbox version 4.0.0.Workaround:1. Disable HTTP and enable HTTPS to prevent intercepting the token over the network.2. Clear the browser cache/cookies after logging out to prevent the token from being available on the local PC.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiSandbox] fsuis token does not expire after logout",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-09-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-070"
+      },
+      "cvrf:InitialReleaseDate": "2021-09-07T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-09-07T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

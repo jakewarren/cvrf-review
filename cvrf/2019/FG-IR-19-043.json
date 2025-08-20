@@ -1,0 +1,130 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.2.1",
+                "@ProductID": "FortiOS-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.0.3",
+                "@ProductID": "FortiOS-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 6.0.1",
+                "@ProductID": "FortiOS-6.0.1"
+              }
+            },
+            {
+              "@Name": "5.6.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiOS 5.6.5",
+                "@ProductID": "FortiOS-5.6.5"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-6.2.1",
+            "FortiOS-6.0.3",
+            "FortiOS-6.0.1",
+            "FortiOS-5.6.5"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "I know About your FortiGate",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-043"
+        }
+      },
+      "Title": "I know About your FortiGate"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple information exposure vulnerabilities in FortiOS may allow an unauthenticated attacker to perform some information gathering via parsing the HTTP headers, web portal certificate, and error messages. The exposed information includes the FortiGate's model, serial number and internal IP address.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "HTTP Server Header Information Disclosure: FortiOS all versions before 6.0.4 Admin web portal builtin certificate Information Disclosure:FortiOS all versions before 6.2.3 when using builtin certificate as admin web portal server certificate Application Control Violation error message Information Disclosure:FortiOS 6.0.1, 6.0.0, 5.6.6 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "HTTP Server Header Information Disclosure:Upgrade to FortiOS versions 6.0.4 or above. Admin web portal builtin certificate Information DisclosureUpgrade to FortiOS 6.2.3 or later versions [][] For hardware FortiOS models, When upgrading from older versions to FortiOS 6.2.3 and self-signed certificates are used, admins need to re-apply the self-signed certificates (choose another cert and change back to self-signed) after the upgrade. This upgrading issue does not impact FortiOS VM models and is addressed in FortiOS 6.2.4.To verify the operation succeeded, set self-sign as admin webUI server certificate and read the cert detail through the web browser - the CN should be \"FortiGate\" instead the SN of the FortiGate device. Application Control Violation error message Information Disclosure:Upgrade to FortiOS 5.6.6, 6.0.2 or later versionsWorkarounds: HTTP Server Header Information Disclosure:Limit admin web portal access to local network only. Admin web portal builtin certificate Information Disclosure:Upload and use a 3rd party signed certificate as admin web portal server certificate orLimit admin web portal access to local network only. * Application Control Violation error message Information Disclosure:Refer to https://fortiguard.com/psirt/FG-IR-18-085Revision History:2019-03-29 Initial release2019-10-17 Fix the admin webUI builtin certificate SN leak issue.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "I know About your FortiGate",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-10-18T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-043"
+      },
+      "cvrf:InitialReleaseDate": "2019-10-18T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-10-18T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

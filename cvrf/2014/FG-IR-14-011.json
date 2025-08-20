@@ -1,0 +1,105 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Information Disclosure Vulnerability in OpenSSL (Heartbleed)",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-011"
+          },
+          {
+            "Description": "<a href=\"http://heartbleed.com\">http://heartbleed.com</a><br />",
+            "URL": "<a href=\"http://heartbleed.com\">http://heartbleed.com</a><br />"
+          },
+          {
+            "Description": "<a href=\"https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0160\">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0160</a><br />",
+            "URL": "<a href=\"https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0160\">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0160</a><br />"
+          },
+          {
+            "Description": "<a href=\"http://www.us-cert.gov/ncas/alerts/TA14-098A\">http://www.us-cert.gov/ncas/alerts/TA14-098A</a><br />",
+            "URL": "<a href=\"http://www.us-cert.gov/ncas/alerts/TA14-098A\">http://www.us-cert.gov/ncas/alerts/TA14-098A</a><br />"
+          }
+        ]
+      },
+      "Title": "Information Disclosure Vulnerability in OpenSSL (Heartbleed)",
+      "cvrf:CVE": "CVE-2014-0160"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An information disclosure vulnerability has been discovered in OpenSSL versions 1.0.1 through 1.0.1f. This vulnerability may allow an attacker to access sensitive information from memory by sending specially-crafted TLS heartbeat requests.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information Disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate (FortiOS) 5.0.0 up to 5.0.6FortiAuthenticator 2.2 and 3.xFortiMail 4.3.x and 5.xFortiVoice models 200D, 200D-T and VMFortiRecorderFortiADC D-Series models 1500D, 2000D and 4000DFortiADC E-Series 3.xCoyote Point Equalizer GX / LX 10.xFortiDDoS B-seriesFortiDNSAscenLink v7.0 and v7.1-B5599",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiGate (FortiOS)A software update for FortiOS 5 is available for download on the Fortinet support site at http://support.fortinet.com. This vulnerability is fixed in FortiOS version 5.0.7. Please note that FortiOS 4.3 (4.0MR3) and lower are not affected by this vulnerability.FortiMailUpdated software is available for FortiMail 4.3 (4.0MR3), 5.0 and 5.1 (5.0MR1). This issue is fixed in versions 4.3.7, 5.0.5 and 5.1.2, which are available for download on the Fortinet support site.FortiAuthenticatorThis vulnerability is fixed in FortiAuthenticator version 3.0.2, which is available on the Fortinet support site. Customers running earlier versions of FortiAuthenticator are recommended to upgrade to version 3.0.2.FortiRecorderUpdate software is available on the Fortinet support site. This issue is fixed in FortiRecorder version 1.4.1.FortiVoiceUpdated software is available on the Fortinet support site under the FortiVoiceOS downloads. This vulnerability is fixed in version 3.0.1. Note that only FortiVoice 200D, 200D-T and VM products are affected.FortiADCUpdated software for the FortiADC D-series is avilable on the Fortinet support site. This issue is fixed in version 3.2.2.Updated software for the FortiADC E-series is also available on the Fortinet support site, under ForiADC-E downloads. This issue is fixed in version 3.2.3 of the E-series software.Information on software fixes for Coyote Point products can be found in the following advisory:http://www.coyotepoint.com/files/downloads/EqSecurityVulnerabilities.pdfFortiDDoSThis vulnerability is fixed in FortiDDoS B-series software version 4.0.1, which is available for download on the Fortinet support site. Note that FortiDDoS A-series appliances are not affected.AscenLinkA software fix for AscenLink is available in version 7.1-B5745, which is available on the Fortinet support site. For users with existing Xtera AscenLink systems still using firmware below V7.1 with Xtera Serial Numbers (AAAA-BBBB-CCCC-DDDD), or any issues accessing Fortinet Support, please contact ascenlink@fortinet.com.FortiClientFortiClient 5.x prior to 5.0.9 includes the affected OpenSSL libraries. While FortiClient does not respond to TLS heartbeats, Fortinet recommends that customers exercise caution and upgrade to FortiClient 5.0.9.WorkaroundsFortiGate customers may apply the IPS signature entitled \"OpenSSL.TLS.Heartbeat.Information.Disclosure\" to protect both FortiOS devices (via interface policies) and systems accessible through a FortiGate.Please be sure to read the release notes when performing any software upgrade. Firmware release dates for other products are pending. Last Updated: Monday April 21, 2:00PM Pacific Time",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Information Disclosure Vulnerability in OpenSSL (Heartbleed)",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-14-011"
+        },
+        {
+          "cvrf:Description": "<a href=\"http://heartbleed.com\">http://heartbleed.com</a><br />",
+          "cvrf:URL": "<a href=\"http://heartbleed.com\">http://heartbleed.com</a><br />"
+        },
+        {
+          "cvrf:Description": "<a href=\"https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0160\">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0160</a><br />",
+          "cvrf:URL": "<a href=\"https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0160\">https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0160</a><br />"
+        },
+        {
+          "cvrf:Description": "<a href=\"http://www.us-cert.gov/ncas/alerts/TA14-098A\">http://www.us-cert.gov/ncas/alerts/TA14-098A</a><br />",
+          "cvrf:URL": "<a href=\"http://www.us-cert.gov/ncas/alerts/TA14-098A\">http://www.us-cert.gov/ncas/alerts/TA14-098A</a><br />"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Information Disclosure Vulnerability in OpenSSL (Heartbleed)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2014-04-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-14-011"
+      },
+      "cvrf:InitialReleaseDate": "2014-04-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2014-04-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

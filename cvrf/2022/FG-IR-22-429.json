@@ -1,0 +1,485 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientWindows",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.2.0",
+                "@ProductID": "FortiClientWindows-7.2.0"
+              }
+            },
+            {
+              "@Name": "7.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.8",
+                "@ProductID": "FortiClientWindows-7.0.8"
+              }
+            },
+            {
+              "@Name": "7.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.7",
+                "@ProductID": "FortiClientWindows-7.0.7"
+              }
+            },
+            {
+              "@Name": "7.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.6",
+                "@ProductID": "FortiClientWindows-7.0.6"
+              }
+            },
+            {
+              "@Name": "7.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.5",
+                "@ProductID": "FortiClientWindows-7.0.5"
+              }
+            },
+            {
+              "@Name": "7.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.4",
+                "@ProductID": "FortiClientWindows-7.0.4"
+              }
+            },
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.3",
+                "@ProductID": "FortiClientWindows-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.2",
+                "@ProductID": "FortiClientWindows-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.1",
+                "@ProductID": "FortiClientWindows-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.0.0",
+                "@ProductID": "FortiClientWindows-7.0.0"
+              }
+            },
+            {
+              "@Name": "6.4.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.10",
+                "@ProductID": "FortiClientWindows-6.4.10"
+              }
+            },
+            {
+              "@Name": "6.4.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.9",
+                "@ProductID": "FortiClientWindows-6.4.9"
+              }
+            },
+            {
+              "@Name": "6.4.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.8",
+                "@ProductID": "FortiClientWindows-6.4.8"
+              }
+            },
+            {
+              "@Name": "6.4.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.7",
+                "@ProductID": "FortiClientWindows-6.4.7"
+              }
+            },
+            {
+              "@Name": "6.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.6",
+                "@ProductID": "FortiClientWindows-6.4.6"
+              }
+            },
+            {
+              "@Name": "6.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.5",
+                "@ProductID": "FortiClientWindows-6.4.5"
+              }
+            },
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.4",
+                "@ProductID": "FortiClientWindows-6.4.4"
+              }
+            },
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.3",
+                "@ProductID": "FortiClientWindows-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.2",
+                "@ProductID": "FortiClientWindows-6.4.2"
+              }
+            },
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.1",
+                "@ProductID": "FortiClientWindows-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.4.0",
+                "@ProductID": "FortiClientWindows-6.4.0"
+              }
+            },
+            {
+              "@Name": "6.2.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.9",
+                "@ProductID": "FortiClientWindows-6.2.9"
+              }
+            },
+            {
+              "@Name": "6.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.8",
+                "@ProductID": "FortiClientWindows-6.2.8"
+              }
+            },
+            {
+              "@Name": "6.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.7",
+                "@ProductID": "FortiClientWindows-6.2.7"
+              }
+            },
+            {
+              "@Name": "6.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.6",
+                "@ProductID": "FortiClientWindows-6.2.6"
+              }
+            },
+            {
+              "@Name": "6.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.5",
+                "@ProductID": "FortiClientWindows-6.2.5"
+              }
+            },
+            {
+              "@Name": "6.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.4",
+                "@ProductID": "FortiClientWindows-6.2.4"
+              }
+            },
+            {
+              "@Name": "6.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.3",
+                "@ProductID": "FortiClientWindows-6.2.3"
+              }
+            },
+            {
+              "@Name": "6.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.2",
+                "@ProductID": "FortiClientWindows-6.2.2"
+              }
+            },
+            {
+              "@Name": "6.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.1",
+                "@ProductID": "FortiClientWindows-6.2.1"
+              }
+            },
+            {
+              "@Name": "6.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.2.0",
+                "@ProductID": "FortiClientWindows-6.2.0"
+              }
+            },
+            {
+              "@Name": "6.0.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.10",
+                "@ProductID": "FortiClientWindows-6.0.10"
+              }
+            },
+            {
+              "@Name": "6.0.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.9",
+                "@ProductID": "FortiClientWindows-6.0.9"
+              }
+            },
+            {
+              "@Name": "6.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.8",
+                "@ProductID": "FortiClientWindows-6.0.8"
+              }
+            },
+            {
+              "@Name": "6.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.7",
+                "@ProductID": "FortiClientWindows-6.0.7"
+              }
+            },
+            {
+              "@Name": "6.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.6",
+                "@ProductID": "FortiClientWindows-6.0.6"
+              }
+            },
+            {
+              "@Name": "6.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.5",
+                "@ProductID": "FortiClientWindows-6.0.5"
+              }
+            },
+            {
+              "@Name": "6.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.4",
+                "@ProductID": "FortiClientWindows-6.0.4"
+              }
+            },
+            {
+              "@Name": "6.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.3",
+                "@ProductID": "FortiClientWindows-6.0.3"
+              }
+            },
+            {
+              "@Name": "6.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.2",
+                "@ProductID": "FortiClientWindows-6.0.2"
+              }
+            },
+            {
+              "@Name": "6.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.1",
+                "@ProductID": "FortiClientWindows-6.0.1"
+              }
+            },
+            {
+              "@Name": "6.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 6.0.0",
+                "@ProductID": "FortiClientWindows-6.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientWindows-7.2.0",
+            "FortiClientWindows-7.0.8",
+            "FortiClientWindows-7.0.7",
+            "FortiClientWindows-7.0.6",
+            "FortiClientWindows-7.0.5",
+            "FortiClientWindows-7.0.4",
+            "FortiClientWindows-7.0.3",
+            "FortiClientWindows-7.0.2",
+            "FortiClientWindows-7.0.1",
+            "FortiClientWindows-7.0.0",
+            "FortiClientWindows-6.4.10",
+            "FortiClientWindows-6.4.9",
+            "FortiClientWindows-6.4.8",
+            "FortiClientWindows-6.4.7",
+            "FortiClientWindows-6.4.6",
+            "FortiClientWindows-6.4.5",
+            "FortiClientWindows-6.4.4",
+            "FortiClientWindows-6.4.3",
+            "FortiClientWindows-6.4.2",
+            "FortiClientWindows-6.4.1",
+            "FortiClientWindows-6.4.0",
+            "FortiClientWindows-6.2.9",
+            "FortiClientWindows-6.2.8",
+            "FortiClientWindows-6.2.7",
+            "FortiClientWindows-6.2.6",
+            "FortiClientWindows-6.2.5",
+            "FortiClientWindows-6.2.4",
+            "FortiClientWindows-6.2.3",
+            "FortiClientWindows-6.2.2",
+            "FortiClientWindows-6.2.1",
+            "FortiClientWindows-6.2.0",
+            "FortiClientWindows-6.0.10",
+            "FortiClientWindows-6.0.9",
+            "FortiClientWindows-6.0.8",
+            "FortiClientWindows-6.0.7",
+            "FortiClientWindows-6.0.6",
+            "FortiClientWindows-6.0.5",
+            "FortiClientWindows-6.0.4",
+            "FortiClientWindows-6.0.3",
+            "FortiClientWindows-6.0.2",
+            "FortiClientWindows-6.0.1",
+            "FortiClientWindows-6.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Improper write access over FortiClient pipe object",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-429"
+        }
+      },
+      "Title": "Improper write access over FortiClient pipe object",
+      "cvrf:CVE": "CVE-2022-43946"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thanks Ting working with the Zero Day Initiative for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Multiple vulnerabilities including an incorrect permission assignment for critical resource [CWE-732] vulnerability and a time-of-check time-of-use (TOCTOU) race condition [CWE-367] vulnerability in FortiClientWindows may allow an attacker on the same file sharing network to execute commands via writing data into a windows pipe.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiClientWindows version 7.2.0FortiClientWindows version 7.0.0 through 7.0.8FortiClientWindows 6.4 all versionsFortiClientWindows 6.2 all versionsFortiClientWindows 6.0 all versions",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiClientWindows version 7.2.1 or abovePlease upgrade to FortiClientWindows version 7.0.9 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Improper write access over FortiClient pipe object",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-04-11T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-429"
+      },
+      "cvrf:InitialReleaseDate": "2023-04-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-04-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "OpenSSL Advisory - December 2015",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-023"
+          },
+          {
+            "Description": "https://www.openssl.org/news/secadv/20151203.txt",
+            "URL": "https://www.openssl.org/news/secadv/20151203.txt"
+          }
+        ]
+      },
+      "Title": "OpenSSL Advisory - December 2015",
+      "cvrf:CVE": [
+        "CVE-2015-3193",
+        "CVE-2015-3194",
+        "CVE-2015-3195",
+        "CVE-2015-3196",
+        "CVE-2015-1794"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "None",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "OpenSSL released an update in December 2015 to address a small number of vulnerability issues.",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of Service, Information Disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "In regards to the recent OpenSSL updates to address CVE-2015-3193, CVE-2015-3194, CVE-2015-3195, CVE-2015-3196 and CVE-2015-1794. Fortinet will update OpenSSL in the following releases: FortiOS 5.2.6 and 5.4.0 FortiManager 5.2.5 and 5.4.1 FortiMail 5.3.1 (already fixed in 5.0.9, 5.1.6 and 5.2.7) FortiAuthenticator 4.1 FortiAnalyzer 5.2.5 and 5.4.1 FortiWAN 4.1.2 FortiADC 4.4.0 FortiClient Mac 5.4.1 FortiClient Android 5.2.8 FortiClient iOS 5.2.3 FortiClient 5.4.1 FortiAP 5.4 FortiExtender 2.0.3 and 3.0.0 FortiSwitch-EFX 3.4.0 FortiSwitch 3.4.0 FortiCache 5.2.6 FortiDDoS 4.1.11 and 4.2 FortiRecorder 2.3 FortiDB 5.2 FortiExplorer 2.7.0 FortiSandbox 2.2 FortiWeb 5.5.2 FortiVoice 5.2.1.82 Other products not listed are as of this writing determined to not be vulnerable. Fortinet believes the exploitability and risk in these vulnerability issues are low or non-existent. For more information please contact Fortinet's Technical Assistance Center (TAC).",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "OpenSSL Advisory - December 2015",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-023"
+        },
+        {
+          "cvrf:Description": "https://www.openssl.org/news/secadv/20151203.txt",
+          "cvrf:URL": "https://www.openssl.org/news/secadv/20151203.txt"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "OpenSSL Advisory - December 2015",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-12-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-023"
+      },
+      "cvrf:InitialReleaseDate": "2015-12-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-12-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Wind River VxWorks IPnet TCP/IP Stack Vulnerabilities (aka. URGENT/11)",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-222"
+          },
+          {
+            "Description": "https://armis.com/urgent11/",
+            "URL": "https://armis.com/urgent11/"
+          }
+        ]
+      },
+      "Title": "Wind River VxWorks IPnet TCP/IP Stack Vulnerabilities (aka. URGENT/11)",
+      "cvrf:CVE": [
+        "CVE-2019-12255",
+        "CVE-2019-12256",
+        "CVE-2019-12257",
+        "CVE-2019-12258",
+        "CVE-2019-12259",
+        "CVE-2019-12260",
+        "CVE-2019-12261",
+        "CVE-2019-12262",
+        "CVE-2019-12263",
+        "CVE-2019-12264",
+        "CVE-2019-12265"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "11 zero day vulnerabilities (aka. URGENT/11) were disclosed in VxWorks® TCP/IP stack (IPnet):CVE-2019-12255 - TCP Urgent Pointer = 0 leads to integer underflow.CVE-2019-12256 - Stack overflow in the parsing of IPv4 packets’ IP options.CVE-2019-12257 - Heap overflow in DHCP Offer/Ack parsing inside ipdhcpc.CVE-2019-12258 - DoS of TCP connection via malformed TCP options.CVE-2019-12259 - DoS via NULL dereference in IGMP parsing.CVE-2019-12260 - TCP Urgent Pointer state confusion caused by malformed TCP AO option.CVE-2019-12261 - TCP Urgent Pointer state confusion during connect() to a remote host.CVE-2019-12262 - Handling of unsolicited Reverse ARP replies (logic flaw).CVE-2019-12263 - TCP Urgent Pointer state confusion due to a race condition.CVE-2019-12264 - Logic flaw in IPv4 assignment by ipdhcpc DHCP client.CVE-2019-12265 - IGMP information leak via IGMPv3 specific membership report.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following Fortinet products are NOT affected:FortiOS FortiAPFortiSwitchFortiAnalyzerFortiMailFortiManagerFortiWebNone of the products above are using or based on VxWorks operating system.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Wind River VxWorks IPnet TCP/IP Stack Vulnerabilities (aka. URGENT/11)",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-222"
+        },
+        {
+          "cvrf:Description": "https://armis.com/urgent11/",
+          "cvrf:URL": "https://armis.com/urgent11/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Wind River VxWorks IPnet TCP/IP Stack Vulnerabilities (aka. URGENT/11)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-08-26T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-222"
+      },
+      "cvrf:InitialReleaseDate": "2019-08-26T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-08-26T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

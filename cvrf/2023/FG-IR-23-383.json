@@ -1,0 +1,129 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.0",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N/E:P/RL:X/RC:C"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "TunnelCrack VPN vulnerabilities",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-383"
+          },
+          {
+            "Description": "[1] Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables",
+            "URL": "[1] Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables"
+          },
+          {
+            "Description": "https://papers.mathyvanhoef.com/usenix2023-tunnelcrack.pdf",
+            "URL": "https://papers.mathyvanhoef.com/usenix2023-tunnelcrack.pdf"
+          },
+          {
+            "Description": "[2] TunnelCrack by KU Leuven, NYU, and NYU Abu Dhabi",
+            "URL": "[2] TunnelCrack by KU Leuven, NYU, and NYU Abu Dhabi"
+          },
+          {
+            "Description": "https://tunnelcrack.mathyvanhoef.com/",
+            "URL": "https://tunnelcrack.mathyvanhoef.com/"
+          }
+        ]
+      },
+      "Title": "TunnelCrack VPN vulnerabilities",
+      "cvrf:CVE": "CVE-2023-36671"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thanks Mathy Vanhoef from imec-DistriNet, KU Leuven, Nian Xue from New York University and Yashaswi Malla, Zihang Xia and Christina Popper from New York University Abu Dhabi for their research."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Fortinet is aware of a research article named TunnelCrack, published at Usenix [1], which describe the LocalNet and ServerIP attacks.These attacks aim to leak VPN client traffic outside of the protected VPN tunnel when clients connect via untrusted networks, such as rogue Wi-Fi access points. The LocalNet attack allows an attacker to force the usage of local network access features of the VPN to access unencrypted traffic.The ServerIP attack allows an attacker to intercept traffic sent to a spoofed VPN gateway via DNS spoofing attacks.These attacks do not enable the attacker to decrypt the encrypted traffic but rather will try to redirect the traffic through attacker controlled channels before the traffic is encrypted by the VPN.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "LocalNet attack With default configuration, the VPN client allows reaching the local network without going through the VPN tunnel.If the attacker does control the DNS (or is able to perform DNS spoofing attacks), he may attempt to redirect the remote traffic to a local IP.The usage of HTTPS and certificate validation will raise alerts and prevent connections to malicious spoofed hosts. SSLVPN: To prevent it on non-https websites, users can enable \"exclusive-routing\" to make an SSL VPN Full Tunnel. https://community.fortinet.com/t5/FortiGate/Technical-Tip-Enabling-SSL-VPN-Full-Tunnel/ta-p/191848 IPsec: The configuration where all the traffic goes inside the tunnel is not being affected by the LocalNet attack. https://community.fortinet.com/t5/FortiGate/Technical-Tip-IPSec-dial-up-full-tunnel-with-FortiClient/ta-p/189452 https://community.fortinet.com/t5/FortiGate/Technical-Tip-Impossible-to-access-local-area-network-of-the/ta-p/244482 ServerIP attack SSL VPN: By default, HTTPS certificate check is done by FortiClient. It will detect DNS spoofing attempts and display a \"Security Alert\" pop up. Only if \"Do not alert when the certificate is invalid\" is checked in the FortiClient parameters, the VPN user is at risk of the ServerIP attack. IPsec: The IPsec protocol performs mutual authentication to avoid spoofing of the gateway IP. (with the use of pre-shared key or certificate X.509)",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "TunnelCrack VPN vulnerabilities",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-383"
+        },
+        {
+          "cvrf:Description": "[1] Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables",
+          "cvrf:URL": "[1] Bypassing Tunnels: Leaking VPN Client Traffic by Abusing Routing Tables"
+        },
+        {
+          "cvrf:Description": "https://papers.mathyvanhoef.com/usenix2023-tunnelcrack.pdf",
+          "cvrf:URL": "https://papers.mathyvanhoef.com/usenix2023-tunnelcrack.pdf"
+        },
+        {
+          "cvrf:Description": "[2] TunnelCrack by KU Leuven, NYU, and NYU Abu Dhabi",
+          "cvrf:URL": "[2] TunnelCrack by KU Leuven, NYU, and NYU Abu Dhabi"
+        },
+        {
+          "cvrf:Description": "https://tunnelcrack.mathyvanhoef.com/",
+          "cvrf:URL": "https://tunnelcrack.mathyvanhoef.com/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "TunnelCrack VPN vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-11-02T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-383"
+      },
+      "cvrf:InitialReleaseDate": "2023-11-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-11-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

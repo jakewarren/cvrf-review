@@ -1,0 +1,109 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "9.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Ripple20",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-104"
+          },
+          {
+            "Description": "https://www.jsof-tech.com/ripple20/",
+            "URL": "https://www.jsof-tech.com/ripple20/"
+          }
+        ]
+      },
+      "Title": "Ripple20",
+      "cvrf:CVE": [
+        "CVE-2020-11896",
+        "CVE-2020-11897",
+        "CVE-2020-11898",
+        "CVE-2020-11899",
+        "CVE-2020-11900",
+        "CVE-2020-11901",
+        "CVE-2020-11902",
+        "CVE-2020-11903",
+        "CVE-2020-11904",
+        "CVE-2020-11905",
+        "CVE-2020-11906",
+        "CVE-2020-11907",
+        "CVE-2020-11908",
+        "CVE-2020-11909",
+        "CVE-2020-11910",
+        "CVE-2020-11911",
+        "CVE-2020-11912",
+        "CVE-2020-11913",
+        "CVE-2020-11914"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "On June 16, 2020, cybersecurity researchers from JSOF published a set of 19 vulnerabilities, dubbed Ripple20 that are impacting the TCP/IP stack developed by Treck. A remote attacker can exploit some of these vulnerabilities to take control of an affected system.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "Fortinet products do not use the low-level TCP/IP software library developed by Treck, Inc and are therefore not impacted by these vulnerabilities.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Ripple20",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-104"
+        },
+        {
+          "cvrf:Description": "https://www.jsof-tech.com/ripple20/",
+          "cvrf:URL": "https://www.jsof-tech.com/ripple20/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Ripple20",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2020-07-30T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-104"
+      },
+      "cvrf:InitialReleaseDate": "2020-07-30T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2020-07-30T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

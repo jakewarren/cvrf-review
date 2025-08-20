@@ -1,0 +1,100 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "FortiWAN Multiple Vulnerabilities",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-045"
+          },
+          {
+            "Description": "http://www.kb.cert.org/vuls/id/724487",
+            "URL": "http://www.kb.cert.org/vuls/id/724487"
+          }
+        ]
+      },
+      "Title": "FortiWAN Multiple Vulnerabilities",
+      "cvrf:CVE": [
+        "CVE-2016-4965",
+        "CVE-2016-4966",
+        "CVE-2016-4967",
+        "CVE-2016-4968",
+        "CVE-2016-4969"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Reported by CERT/CC"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortWan 4.2.4 and below is exposed to cross site scripting, information leak and escalation of privilege vulnerabilities.CVE-2016-4965: Non-administrative authenticated user having access privileges to the nslookup functionality can perform OS command injection in the root user contextCVE-2016-4966: Non-administrative authenticated userÃ‚Â having access privileges to change the HTTP Get param \"UserName\" to \"Administrator\" may access PCAP filesCVE-2016-4967: Non-administrative authenticated user may access configuration information and/or PCAP files via specific URLsCVE-2016-4968: Non-administrative authenticated user may obtain administrator cookie via specific GET requestsCVE-2016-4969: Persistent XSS",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "XSS, information leak, escalation of privilege",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWan 4.2.4 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to 4.2.5 or above",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "FortiWAN Multiple Vulnerabilities",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-045"
+        },
+        {
+          "cvrf:Description": "http://www.kb.cert.org/vuls/id/724487",
+          "cvrf:URL": "http://www.kb.cert.org/vuls/id/724487"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "FortiWAN Multiple Vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-09-07T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-045"
+      },
+      "cvrf:InitialReleaseDate": "2016-09-07T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-09-07T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

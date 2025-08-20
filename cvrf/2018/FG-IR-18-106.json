@@ -1,0 +1,101 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "VPNFilter botnet",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-106"
+          },
+          {
+            "Description": "[1] https://blog.talosintelligence.com/2018/05/VPNFilter.html",
+            "URL": "[1] https://blog.talosintelligence.com/2018/05/VPNFilter.html"
+          },
+          {
+            "Description": "[2] https://www.fortinet.com/blog/threat-research/defending-against-the-new-vpnfilter-botnet.html",
+            "URL": "[2] https://www.fortinet.com/blog/threat-research/defending-against-the-new-vpnfilter-botnet.html"
+          }
+        ]
+      },
+      "Title": "VPNFilter botnet"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "On May 23, 2018, Talos disclosed in a blog post the discovery of a modular malware system they deemed \"VPNFilter\", affecting multiple network devices wordwide, and embedding Botnet capabilities.As described in Talos' blog post, the devices known to be affected by VPNFilter are Linksys, MikroTik, NETGEAR and TP-Link networking equipment in the small and home office (SOHO) space, as well at QNAP network-attached storage (NAS) devices.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "To the best of our knowledge, no Fortinet device has been infected.As the blog post points out, \"we do not have definitive proof on how the threat actor is exploiting the affected devices\". Therefore potential exploitability (or lack thereof) of Fortinet products by the threat actor is not possible to disprove.However, all of the affected makes/models listed in the post had \"well-known, public vulnerabilities\". This is hardly the case of Fortinet products in general, let alone when running a recent OS version.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "To make sure your Fortinet device is clean: Based on the blog post [1], affected devices have the following folders: /var/run/vpnfilterw /var/run/tor /var/run/torrc /var/run/tord Admins can use the system admin tools of the Fortinet device to confirm the non-existence of these folders. To lower the chances of infection: Talos reports that the malware system scans TCP ports 23, 80, 2000 and 8080, as a way to discover new potential targets. Thus closing those ports on the Fortinet device, via the system configuration, will render the device \"invisible\" to the current variant of the malware piece. As always, we recommend to upgrade Fortinet devices to the latest versions available, which include fixes for all known issues, thereby reducing the potential attack surface in general. Fortinet FortiGuard SE Team provided a general analysis of the malware piece, along with recommendations [2] Fortinet PSIRT will continue to monitor the situation, and update the advisory in case of further findings and developments.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "VPNFilter botnet",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-106"
+        },
+        {
+          "cvrf:Description": "[1] https://blog.talosintelligence.com/2018/05/VPNFilter.html",
+          "cvrf:URL": "[1] https://blog.talosintelligence.com/2018/05/VPNFilter.html"
+        },
+        {
+          "cvrf:Description": "[2] https://www.fortinet.com/blog/threat-research/defending-against-the-new-vpnfilter-botnet.html",
+          "cvrf:URL": "[2] https://www.fortinet.com/blog/threat-research/defending-against-the-new-vpnfilter-botnet.html"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "VPNFilter botnet",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-08-27T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-106"
+      },
+      "cvrf:InitialReleaseDate": "2018-08-27T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-08-27T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

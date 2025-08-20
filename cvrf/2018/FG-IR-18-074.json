@@ -1,0 +1,154 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiCloud",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "3.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.2.2",
+                "@ProductID": "FortiCloud-3.2.2"
+              }
+            },
+            {
+              "@Name": "3.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.2.1",
+                "@ProductID": "FortiCloud-3.2.1"
+              }
+            },
+            {
+              "@Name": "3.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.2.0",
+                "@ProductID": "FortiCloud-3.2.0"
+              }
+            },
+            {
+              "@Name": "3.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.1.2",
+                "@ProductID": "FortiCloud-3.1.2"
+              }
+            },
+            {
+              "@Name": "3.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.1.0",
+                "@ProductID": "FortiCloud-3.1.0"
+              }
+            },
+            {
+              "@Name": "3.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiCloud 3.0.0",
+                "@ProductID": "FortiCloud-3.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:L/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiCloud-3.2.2",
+            "FortiCloud-3.2.1",
+            "FortiCloud-3.2.0",
+            "FortiCloud-3.1.2",
+            "FortiCloud-3.1.0",
+            "FortiCloud-3.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Forgot password link doesn't expire after use",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-074"
+        }
+      },
+      "Title": "Forgot password link doesn't expire after use"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Nikhil Kumar (https://www.linkedin.com/in/nikhil73/) from Adayptus Security Team (https://adayptus.com/) for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiCloud password reset link requested by the user takes one hour to expire even after password was changed successfully, thus allowing attackers to take over user's account if they somehow gain access to the reset link for the user's password.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiCloud 3.2.1 and below (before August, 2018)",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiCloud 3.3.0 (online since August, 2018)",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Forgot password link doesn't expire after use",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2018-08-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-074"
+      },
+      "cvrf:InitialReleaseDate": "2018-08-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2018-08-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

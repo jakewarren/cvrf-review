@@ -1,0 +1,105 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiOS",
+          "@Type": "Product Name",
+          "Branch": {
+            "@Name": "6.2.0",
+            "@Type": "Product Version",
+            "FullProductName": {
+              "#text": "FortiOS 6.2.0",
+              "@ProductID": "FortiOS-6.2.0"
+            }
+          }
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": "FortiOS-6.2.0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiOS webfilter does not block malformed http or https traffic",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-19-111"
+        }
+      },
+      "Title": "FortiOS webfilter does not block malformed http or https traffic"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet thank security research company Praetorian bringing this attention to us with certain proofs."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiOS Explicit Web Proxy by default allows non-standard HTTP traffic. FortiOS SSL/SSH Inspection Profile by default allows non-standard SSL/TLS traffic.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "By default, this possible operational risk is applicable to all FortiOS versions.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Non standard HTTP traffic can be disallowed with the following CLI commands:config web-proxy global set tunnel-non-http disable (default value \"enable\")end Non standard SSL/TLS traffic can be disallowed with the following CLI commands:config firewall ssl-ssh-profile edit [profile-name] config [protocols]set ports [port]set unsupported-ssl block (default value \"bypass\")end endStarting from 6.2.1, FortiOS allows administrators to disallow both via the admin WebUI as well:For Explicit Web Proxy: Network -> Explicit Proxy -> Protocol Enforcement (default is off)For SSL/SSH Inspection: Security Profiles -> SSL/SSH Inspection ->Enforce SSL Protocol Compliance (default is off)",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiOS webfilter does not block malformed http or https traffic",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-07-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-19-111"
+      },
+      "cvrf:InitialReleaseDate": "2019-07-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-07-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

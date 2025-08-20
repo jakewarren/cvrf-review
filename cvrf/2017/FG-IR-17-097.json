@@ -1,0 +1,199 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWLC",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "8.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.2.7",
+                "@ProductID": "FortiWLC-8.2.7"
+              }
+            },
+            {
+              "@Name": "8.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.2.6",
+                "@ProductID": "FortiWLC-8.2.6"
+              }
+            },
+            {
+              "@Name": "8.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.2.5",
+                "@ProductID": "FortiWLC-8.2.5"
+              }
+            },
+            {
+              "@Name": "8.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.2.4",
+                "@ProductID": "FortiWLC-8.2.4"
+              }
+            },
+            {
+              "@Name": "8.1.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.1.3",
+                "@ProductID": "FortiWLC-8.1.3"
+              }
+            },
+            {
+              "@Name": "8.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.1.2",
+                "@ProductID": "FortiWLC-8.1.2"
+              }
+            },
+            {
+              "@Name": "8.0.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.0.6",
+                "@ProductID": "FortiWLC-8.0.6"
+              }
+            },
+            {
+              "@Name": "8.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.0.5",
+                "@ProductID": "FortiWLC-8.0.5"
+              }
+            },
+            {
+              "@Name": "7.0.11",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 7.0.11",
+                "@ProductID": "FortiWLC-7.0.11"
+              }
+            },
+            {
+              "@Name": "7.0.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 7.0.10",
+                "@ProductID": "FortiWLC-7.0.10"
+              }
+            },
+            {
+              "@Name": "7.0.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 7.0.9",
+                "@ProductID": "FortiWLC-7.0.9"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWLC-8.2.7",
+            "FortiWLC-8.2.6",
+            "FortiWLC-8.2.5",
+            "FortiWLC-8.2.4",
+            "FortiWLC-8.1.3",
+            "FortiWLC-8.1.2",
+            "FortiWLC-8.0.6",
+            "FortiWLC-8.0.5",
+            "FortiWLC-7.0.11",
+            "FortiWLC-7.0.10",
+            "FortiWLC-7.0.9"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiWLC-SD Privilege escalation vulnerability (root access) using copy running-config",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-097"
+        }
+      },
+      "Title": "FortiWLC-SD Privilege escalation vulnerability (root access) using copy running-config",
+      "cvrf:CVE": "CVE-2017-3134"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Tom Scholten of SolidBE for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The lack of input sanitisation for CLI command 'copy running-config' allows a user with 'admin' or 'superuser' privilege level to gain shell on the FortiWLC-SD with root privilege.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWLC-SD versions 8.2.4 and below",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiWLC-SD version 8.3.0",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiWLC-SD Privilege escalation vulnerability (root access) using copy running-config",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-04-12T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-097"
+      },
+      "cvrf:InitialReleaseDate": "2017-04-12T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-04-12T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

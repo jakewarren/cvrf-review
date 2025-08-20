@@ -1,0 +1,79 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Multiple XSS vulnerabilities in FortiManager GUI",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-15-022"
+        }
+      },
+      "Title": "Multiple XSS vulnerabilities in FortiManager GUI",
+      "cvrf:CVE": [
+        "CVE-2015-8037",
+        "CVE-2015-8038"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet PSIRT wishes to thank John Page for his commitment to Responsible Disclosure by responsibly disclosing these issues to Fortinet."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The Graphical User Interface (GUI) of FortiManager v5.2.2 is vulnerable to two reflected Cross-Site Scripting (XSS) vulnerabilities. 2 potential XSS vectors were identified: * XSS vulnerability in SOMVpnSSLPortalDialog. * XSS vulnerability in FGDMngUpdHistory. The Graphical User Interface (GUI) of FortiManager v5.2.3 is vulnerable to one reflected XSS vulnerability and one stored XSS vulnerability. 2 potential XSS vectors were identified: * XSS vulnerability in sharedjobmanager. * XSS vulnerability in SOMServiceObjDialog.",
+          "@Ordinal": "1",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "XSS",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "XSS items 1-2: FortiManager v5.2.2 or earlier. XSS items 3-4: FortiManager v5.2.3 or earlier.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Update to FortiManager v5.2.4. No workarounds are currently available.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Multiple XSS vulnerabilities in FortiManager GUI",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2015-09-24T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-15-022"
+      },
+      "cvrf:InitialReleaseDate": "2015-09-24T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2015-09-24T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

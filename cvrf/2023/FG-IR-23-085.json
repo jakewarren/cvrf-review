@@ -1,0 +1,233 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSIEM",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 7.0.0",
+                "@ProductID": "FortiSIEM-7.0.0"
+              }
+            },
+            {
+              "@Name": "6.7.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.3",
+                "@ProductID": "FortiSIEM-6.7.3"
+              }
+            },
+            {
+              "@Name": "6.7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.2",
+                "@ProductID": "FortiSIEM-6.7.2"
+              }
+            },
+            {
+              "@Name": "6.7.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.1",
+                "@ProductID": "FortiSIEM-6.7.1"
+              }
+            },
+            {
+              "@Name": "6.7.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.7.0",
+                "@ProductID": "FortiSIEM-6.7.0"
+              }
+            },
+            {
+              "@Name": "6.6.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.6.3",
+                "@ProductID": "FortiSIEM-6.6.3"
+              }
+            },
+            {
+              "@Name": "6.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.6.2",
+                "@ProductID": "FortiSIEM-6.6.2"
+              }
+            },
+            {
+              "@Name": "6.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.6.1",
+                "@ProductID": "FortiSIEM-6.6.1"
+              }
+            },
+            {
+              "@Name": "6.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.6.0",
+                "@ProductID": "FortiSIEM-6.6.0"
+              }
+            },
+            {
+              "@Name": "6.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.5.1",
+                "@ProductID": "FortiSIEM-6.5.1"
+              }
+            },
+            {
+              "@Name": "6.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.5.0",
+                "@ProductID": "FortiSIEM-6.5.0"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.4.2",
+                "@ProductID": "FortiSIEM-6.4.2"
+              }
+            },
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.4.1",
+                "@ProductID": "FortiSIEM-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 6.4.0",
+                "@ProductID": "FortiSIEM-6.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "9.7",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H/E:F/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSIEM-7.0.0",
+            "FortiSIEM-6.7.3",
+            "FortiSIEM-6.7.2",
+            "FortiSIEM-6.7.1",
+            "FortiSIEM-6.7.0",
+            "FortiSIEM-6.6.3",
+            "FortiSIEM-6.6.2",
+            "FortiSIEM-6.6.1",
+            "FortiSIEM-6.6.0",
+            "FortiSIEM-6.5.1",
+            "FortiSIEM-6.5.0",
+            "FortiSIEM-6.4.2",
+            "FortiSIEM-6.4.1",
+            "FortiSIEM-6.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Multiple path traversal vulnerabilities",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-085"
+        }
+      },
+      "Title": "Multiple path traversal vulnerabilities",
+      "cvrf:CVE": "CVE-2023-40714"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Lance Yeaw from ETAC team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A relative path traversal vulnerability [CWE-23] in FortiSIEM file upload components may allow an authenticated, low privileged user of the FortiSIEM GUI to escalate their privilege and replace arbitrary files on the underlying filesystem via specifically crafted HTTP requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiSIEM version 7.0.0FortiSIEM version 6.7.0 through 6.7.3FortiSIEM version 6.6.0 through 6.6.3FortiSIEM version 6.5.0 through 6.5.1FortiSIEM version 6.4.0 through 6.4.2FortiSIEM 6.3 all versions are not affectedFortiSIEM 6.2 all versions are not affectedFortiSIEM 6.1 all versions are not affectedFortiSIEM 5.4 all versions are not affectedFortiSIEM 5.3 all versions are not affected",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiSIEM version 7.0.1 or abovePlease upgrade to FortiSIEM version 6.7.4 or abovePlease upgrade to FortiSIEM version 6.6.4 or abovePlease upgrade to FortiSIEM version 6.5.2 or abovePlease upgrade to FortiSIEM version 6.4.3 or above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Multiple path traversal vulnerabilities",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-10-11T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-085"
+      },
+      "cvrf:InitialReleaseDate": "2023-10-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-10-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

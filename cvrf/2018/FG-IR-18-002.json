@@ -1,0 +1,219 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiSandbox",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "3.1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.1.2",
+                  "@ProductID": "FortiSandbox-3.1.2"
+                }
+              },
+              {
+                "@Name": "3.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.1.1",
+                  "@ProductID": "FortiSandbox-3.1.1"
+                }
+              },
+              {
+                "@Name": "3.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 3.1.0",
+                  "@ProductID": "FortiSandbox-3.1.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiClientWindows",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.6.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.6.4",
+                  "@ProductID": "FortiClientWindows-5.6.4"
+                }
+              },
+              {
+                "@Name": "5.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiClientWindows 5.4.4",
+                  "@ProductID": "FortiClientWindows-5.4.4"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSIEM",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "4.10.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 4.10.0",
+                "@ProductID": "FortiSIEM-4.10.0"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSandbox-3.1.2",
+            "FortiSandbox-3.1.1",
+            "FortiSandbox-3.1.0",
+            "FortiClientWindows-5.6.4",
+            "FortiClientWindows-5.4.4",
+            "FortiSIEM-4.10.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "CPU Meltdown and Spectre class attacks",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-002"
+          },
+          {
+            "Description": "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)",
+            "URL": "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)"
+          },
+          {
+            "Description": "https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)",
+            "URL": "https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)"
+          },
+          {
+            "Description": "https://foreshadowattack.eu/",
+            "URL": "https://foreshadowattack.eu/"
+          },
+          {
+            "Description": "https://zombieloadattack.com/",
+            "URL": "https://zombieloadattack.com/"
+          }
+        ]
+      },
+      "Title": "CPU Meltdown and Spectre class attacks",
+      "cvrf:CVE": [
+        "CVE-2017-5715",
+        "CVE-2017-5753",
+        "CVE-2017-5754",
+        "CVE-2018-12126",
+        "CVE-2018-12127",
+        "CVE-2018-12130",
+        "CVE-2018-3615",
+        "CVE-2018-3620",
+        "CVE-2018-3639",
+        "CVE-2018-3640",
+        "CVE-2018-3646",
+        "CVE-2018-3665",
+        "CVE-2018-3693",
+        "CVE-2019-11091",
+        "CVE-2019-1125"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "New types of side channel attacks impact most processors including Intel, AMD, ARM, etc. These attacks allow malicious userspace processes to read kernel memory, thus potentially causing kernel sensitive information to leak.These attacks are referred to as Meltdown and Spectre class vulnerabilities, and variants of them:o CVE-2017-5753 Variant 1, Bounds Check Bypass (Spectre BCB)o CVE-2017-5715 Variant 2, Branch Target Injection (Spectre BTI)o CVE-2017-5754 Variant 3, Rogue Data Cache Load (Meltdown RDCL)o CVE-2018-3640 Variant 3a, Rogue System Register Read (Spectre-NG RSRE)o CVE-2018-3639 Variant 4: Speculative Store Bypass (Spectre-NG SSB)o CVE-2018-3665 Lazy FP state restore (Spectre-NG LazyFP)o CVE-2018-3693 Spectre 1.1: Bounds Check Bypass Store (Spectre-NG BCBS)o CVE unknown: Spectre 1.2: Read-only Protection Bypass (RPB)o CVE unknown: Other Spectre-NG flaws (Spectre-NG)o CVE unknown: Attack against Return Stack Buffer (SpectreRSB)o CVE-2017-5753 Remote PoC attack on Spectre Variant 1 (NetSpecture)o CVE unknown: Attack against Branch Prediction Units (BranchScope)o CVE-2018-3615 L1 Terminal Fault: SGX (Foreshadow)o CVE-2018-3620 L1 Terminal Fault: OS/SMM (Foreshadow-NG)o CVE-2018-3646 L1 Terminal Fault: VMM (Foreshadow-NG)o CVE-2019-11091: Microarchitectural Data Sampling Uncacheable Memory (MDSUM) (ZombieLoad)o CVE-2018-12130: Microarchitectural Fill Buffer Data Sampling (MFBDS) (ZombieLoad)o CVE-2018-12127: Microarchitectural Load Port Data Sampling (MLPDS) (ZombieLoad)o CVE-2018-12126: Microarchitectural Store Buffer Data Sampling (MSBDS) (ZombieLoad)o CVE-2019-1125 SWAPGS Spectre Side-Channel Vulnerability (SWAPGS)",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following products run processors that may be affected by Meltdown/Spectre and variants; they are not, however, directly exploitable:FortiOSFortiAP FortiSwitchFortiAnalyzerIndeed Fortinet products are designed to not permit arbitrary code execution in the user space under regular conditions. Thus Meltdown/Spectre attacks and their variants are only possible if the attack is combined with an additional local or remote code execution vulnerability, unrelated to these two issues - Meltdown and Spectre can then aggravate the situation, if such vulnerabilities exist and are successfully exploited.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "To reduce the risk of being exposed to a Meltdown/Spectre class vulnerability and reduce the possibility of an \"already existing local or remote code execution vulnerability\", upgrading to our latest publicly available software version is recommended. Due to the fact the OS kernel patch, by nature, slows the performance down, and considering the low risk, OS kernel patches may be produced and update details, if have any, will be given in product release notes. Please note that in any case, any vulnerability (Local code execution or remote code execution) that would enable the exploitability of Spectre/Meltdown class vulnerabilities will always be treated as a high/critical severity vulnerability, and swiftly fixed. Mitigation Customers are suggested to upgrade to the following listed branches and versions (newer branches preferred): FortiOS upgrade to 5.6.3, 6.0.0 or newer versions FortiAP upgrade to 5.6.5, 6.0.2 or newer versions FortiSwitch upgrade to 3.6.3, 4.0.0 or newer versions FortiAnalyzer upgrade to 5.6.6, 6.0.2 or newer versions Update History 01-04-2018 Initial version. 01-18-2018 Final assessment. 05-22-2018 Remove other vendors (Microsoft Windows/VMware) patch info. 05-22-2018 Included variant v3a, v4 and Spectre-ng vulnerabilities. 07-12-2018 Included LazyFP, variant v1.1 and v1.2 08-01-2018 Included SpectreRSB and NetSpecture 08-16-2018 Included BranchScope, Foreshadow and Foreshadow-NG 11-22-2018 Added product mitigation suggestions. 05-24-2019 Included Intel ZombieLoad Side-Channel Attacks 08-26-2019 Included SWAPGS Spectre Side-Channel Vulnerability",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "CPU Meltdown and Spectre class attacks",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-18-002"
+        },
+        {
+          "cvrf:Description": "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)",
+          "cvrf:URL": "https://en.wikipedia.org/wiki/Meltdown_(security_vulnerability)"
+        },
+        {
+          "cvrf:Description": "https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)",
+          "cvrf:URL": "https://en.wikipedia.org/wiki/Spectre_(security_vulnerability)"
+        },
+        {
+          "cvrf:Description": "https://foreshadowattack.eu/",
+          "cvrf:URL": "https://foreshadowattack.eu/"
+        },
+        {
+          "cvrf:Description": "https://zombieloadattack.com/",
+          "cvrf:URL": "https://zombieloadattack.com/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "CPU Meltdown and Spectre class attacks",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2019-08-26T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-18-002"
+      },
+      "cvrf:InitialReleaseDate": "2019-08-26T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2019-08-26T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

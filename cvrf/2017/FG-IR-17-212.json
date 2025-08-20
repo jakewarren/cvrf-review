@@ -1,0 +1,105 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "3rd party component upgrade required for security reasons: BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-212"
+          },
+          {
+            "Description": "http://www.kb.cert.org/vuls/id/240311",
+            "URL": "http://www.kb.cert.org/vuls/id/240311"
+          },
+          {
+            "Description": "https://www.armis.com/blueborne/",
+            "URL": "https://www.armis.com/blueborne/"
+          }
+        ]
+      },
+      "Title": "3rd party component upgrade required for security reasons: BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
+      "cvrf:CVE": [
+        "CVE-2017-0781",
+        "CVE-2017-0782",
+        "CVE-2017-0783",
+        "CVE-2017-0785",
+        "CVE-2017-1000250",
+        "CVE-2017-1000251",
+        "CVE-2017-14315",
+        "CVE-2017-8628"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A collection of Bluetooth implementation vulnerabilities known as \"BlueBorne\" has been released. These vulnerabilities collectively affect Windows, iOS, and Linux-kernel-based operating systems including Android and Tizen, and may in the worst case allow an unauthenticated attacker to perform unauthorized commands on the device.The related CVEs are:1. Linux Kernel Remote Denial of Service in Bluetooth subsystem - CVE-2017-10002512. Linux Bluetooth stack (BlueZ) information Leak vulnerability - CVE-2017-10002503. Android information Leak vulnerability - CVE-2017-07854. Android RCE vulnerability 1 - CVE-2017-07815. Android RCE vulnerability 0000002 - CVE-2017-07826. The Bluetooth Pineapple in Android - Logical Flaw CVE-2017-07837. The Bluetooth Pineapple in Windows - Logical Flaw CVE-2017-86288. Apple Low Energy Audio Protocol RCE vulnerability - CVE-2017-14315",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following Fortinet products are NOT affected: FortiOSFortiAPFortiSwitchFortiAnalyzerFortiMailFortiManagerFortiWebMeru AP",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "3rd party component upgrade required for security reasons: BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-212"
+        },
+        {
+          "cvrf:Description": "http://www.kb.cert.org/vuls/id/240311",
+          "cvrf:URL": "http://www.kb.cert.org/vuls/id/240311"
+        },
+        {
+          "cvrf:Description": "https://www.armis.com/blueborne/",
+          "cvrf:URL": "https://www.armis.com/blueborne/"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "3rd party component upgrade required for security reasons: BlueBorne vulnerabilities and security flaws in Bluetooth stacks",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-11-03T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-212"
+      },
+      "cvrf:InitialReleaseDate": "2017-11-03T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-11-03T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

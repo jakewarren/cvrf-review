@@ -1,0 +1,239 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSandbox",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "4.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.3",
+                "@ProductID": "FortiSandbox-4.4.3"
+              }
+            },
+            {
+              "@Name": "4.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.2",
+                "@ProductID": "FortiSandbox-4.4.2"
+              }
+            },
+            {
+              "@Name": "4.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.1",
+                "@ProductID": "FortiSandbox-4.4.1"
+              }
+            },
+            {
+              "@Name": "4.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.4.0",
+                "@ProductID": "FortiSandbox-4.4.0"
+              }
+            },
+            {
+              "@Name": "4.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.2.6",
+                "@ProductID": "FortiSandbox-4.2.6"
+              }
+            },
+            {
+              "@Name": "4.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.2.5",
+                "@ProductID": "FortiSandbox-4.2.5"
+              }
+            },
+            {
+              "@Name": "4.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.2.4",
+                "@ProductID": "FortiSandbox-4.2.4"
+              }
+            },
+            {
+              "@Name": "4.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.2.3",
+                "@ProductID": "FortiSandbox-4.2.3"
+              }
+            },
+            {
+              "@Name": "4.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.2.2",
+                "@ProductID": "FortiSandbox-4.2.2"
+              }
+            },
+            {
+              "@Name": "4.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.2.1",
+                "@ProductID": "FortiSandbox-4.2.1"
+              }
+            },
+            {
+              "@Name": "4.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.2.0",
+                "@ProductID": "FortiSandbox-4.2.0"
+              }
+            },
+            {
+              "@Name": "4.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.0.4",
+                "@ProductID": "FortiSandbox-4.0.4"
+              }
+            },
+            {
+              "@Name": "4.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.0.3",
+                "@ProductID": "FortiSandbox-4.0.3"
+              }
+            },
+            {
+              "@Name": "4.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.0.2",
+                "@ProductID": "FortiSandbox-4.0.2"
+              }
+            },
+            {
+              "@Name": "4.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.0.1",
+                "@ProductID": "FortiSandbox-4.0.1"
+              }
+            },
+            {
+              "@Name": "4.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSandbox 4.0.0",
+                "@ProductID": "FortiSandbox-4.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:F/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSandbox-4.4.3",
+            "FortiSandbox-4.4.2",
+            "FortiSandbox-4.4.1",
+            "FortiSandbox-4.4.0",
+            "FortiSandbox-4.2.6",
+            "FortiSandbox-4.2.5",
+            "FortiSandbox-4.2.4",
+            "FortiSandbox-4.2.3",
+            "FortiSandbox-4.2.2",
+            "FortiSandbox-4.2.1",
+            "FortiSandbox-4.2.0",
+            "FortiSandbox-4.0.4",
+            "FortiSandbox-4.0.3",
+            "FortiSandbox-4.0.2",
+            "FortiSandbox-4.0.1",
+            "FortiSandbox-4.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Arbitrary file delete on endpoint",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-454"
+        }
+      },
+      "Title": "Arbitrary file delete on endpoint",
+      "cvrf:CVE": "CVE-2024-23671"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Adham El karn of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper limitation of a pathname to a restricted directory ('Path Traversal') vulnerability [CWE-22] in FortiSandbox may allow an authenticated attacker with at least read-only permission to delete arbitrary files via crafted HTTP requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Arbitrary file delete on endpoint",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2024-04-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-454"
+      },
+      "cvrf:InitialReleaseDate": "2024-04-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2024-04-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

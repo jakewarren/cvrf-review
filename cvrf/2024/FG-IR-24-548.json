@@ -1,0 +1,137 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiClientWindows",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.2.1",
+                "@ProductID": "FortiClientWindows-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiClientWindows 7.2.0",
+                "@ProductID": "FortiClientWindows-7.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiClientWindows-7.2.1",
+            "FortiClientWindows-7.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Index of FCT installation directory publicly accessible",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-548"
+          },
+          {
+            "Description": "By default Windows will deny incoming requests on port 8053, normally making the information inaccessible to a remote user.  However, EDR solutions will nonetheless typically issue an alert.",
+            "URL": "By default Windows will deny incoming requests on port 8053, normally making the information inaccessible to a remote user.  However, EDR solutions will nonetheless typically issue an alert."
+          }
+        ]
+      },
+      "Title": "Index of FCT installation directory publicly accessible",
+      "cvrf:CVE": "CVE-2025-24473"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Víctor A. Morales from GM Sectec, Inc. for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability [CWE-497] in FortiClientWindows may allow an unauthorized remote attacker to view application information via navigation to a hosted webpage, if Windows is configured to accept incoming connections to port 8053 (non-default setup)",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Index of FCT installation directory publicly accessible",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-548"
+        },
+        {
+          "cvrf:Description": "By default Windows will deny incoming requests on port 8053, normally making the information inaccessible to a remote user.  However, EDR solutions will nonetheless typically issue an alert.",
+          "cvrf:URL": "By default Windows will deny incoming requests on port 8053, normally making the information inaccessible to a remote user.  However, EDR solutions will nonetheless typically issue an alert."
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Index of FCT installation directory publicly accessible",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-05-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-548"
+      },
+      "cvrf:InitialReleaseDate": "2025-05-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-05-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

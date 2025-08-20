@@ -1,0 +1,146 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiManager",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiManager 7.4.0",
+                "@ProductID": "FortiManager-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiManager 7.2.3",
+                "@ProductID": "FortiManager-7.2.3"
+              }
+            },
+            {
+              "@Name": "7.0.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiManager 7.0.8",
+                "@ProductID": "FortiManager-7.0.8"
+              }
+            },
+            {
+              "@Name": "7.0.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiManager 7.0.7",
+                "@ProductID": "FortiManager-7.0.7"
+              }
+            },
+            {
+              "@Name": "6.4.12",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiManager 6.4.12",
+                "@ProductID": "FortiManager-6.4.12"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiManager-7.4.0",
+            "FortiManager-7.2.3",
+            "FortiManager-7.0.8",
+            "FortiManager-7.0.7",
+            "FortiManager-6.4.12"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Admin Account Persistence after Deletion",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-239"
+        }
+      },
+      "Title": "Admin Account Persistence after Deletion",
+      "cvrf:CVE": "CVE-2024-47571"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Saif Ali Momin from Fortinet TAC team for discovering and reporting this vulnerability internally."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An operation on a resource after expiration or release vulnerability [CWE-672] in FortiManager may allow a Fortigate admin account that is deleted through FortiManager to still be able to login to the FortiGate via valid credentials.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Admin Account Persistence after Deletion",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-01-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-239"
+      },
+      "cvrf:InitialReleaseDate": "2025-01-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-01-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

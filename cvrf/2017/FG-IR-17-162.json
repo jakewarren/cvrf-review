@@ -1,0 +1,271 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWeb",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "5.8.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.2",
+                "@ProductID": "FortiWeb-5.8.2"
+              }
+            },
+            {
+              "@Name": "5.8.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.1",
+                "@ProductID": "FortiWeb-5.8.1"
+              }
+            },
+            {
+              "@Name": "5.8.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.8.0",
+                "@ProductID": "FortiWeb-5.8.0"
+              }
+            },
+            {
+              "@Name": "5.7.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.7.3",
+                "@ProductID": "FortiWeb-5.7.3"
+              }
+            },
+            {
+              "@Name": "5.7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.7.2",
+                "@ProductID": "FortiWeb-5.7.2"
+              }
+            },
+            {
+              "@Name": "5.7.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.7.1",
+                "@ProductID": "FortiWeb-5.7.1"
+              }
+            },
+            {
+              "@Name": "5.7.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.7.0",
+                "@ProductID": "FortiWeb-5.7.0"
+              }
+            },
+            {
+              "@Name": "5.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.6.2",
+                "@ProductID": "FortiWeb-5.6.2"
+              }
+            },
+            {
+              "@Name": "5.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.6.1",
+                "@ProductID": "FortiWeb-5.6.1"
+              }
+            },
+            {
+              "@Name": "5.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.6.0",
+                "@ProductID": "FortiWeb-5.6.0"
+              }
+            },
+            {
+              "@Name": "5.5.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.5.7",
+                "@ProductID": "FortiWeb-5.5.7"
+              }
+            },
+            {
+              "@Name": "5.5.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.5.6",
+                "@ProductID": "FortiWeb-5.5.6"
+              }
+            },
+            {
+              "@Name": "5.5.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.5.5",
+                "@ProductID": "FortiWeb-5.5.5"
+              }
+            },
+            {
+              "@Name": "5.5.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.5.4",
+                "@ProductID": "FortiWeb-5.5.4"
+              }
+            },
+            {
+              "@Name": "5.5.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.5.3",
+                "@ProductID": "FortiWeb-5.5.3"
+              }
+            },
+            {
+              "@Name": "5.5.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.5.2",
+                "@ProductID": "FortiWeb-5.5.2"
+              }
+            },
+            {
+              "@Name": "5.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.5.1",
+                "@ProductID": "FortiWeb-5.5.1"
+              }
+            },
+            {
+              "@Name": "5.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.5.0",
+                "@ProductID": "FortiWeb-5.5.0"
+              }
+            },
+            {
+              "@Name": "5.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWeb 5.4.1",
+                "@ProductID": "FortiWeb-5.4.1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "0"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWeb-5.8.2",
+            "FortiWeb-5.8.1",
+            "FortiWeb-5.8.0",
+            "FortiWeb-5.7.3",
+            "FortiWeb-5.7.2",
+            "FortiWeb-5.7.1",
+            "FortiWeb-5.7.0",
+            "FortiWeb-5.6.2",
+            "FortiWeb-5.6.1",
+            "FortiWeb-5.6.0",
+            "FortiWeb-5.5.7",
+            "FortiWeb-5.5.6",
+            "FortiWeb-5.5.5",
+            "FortiWeb-5.5.4",
+            "FortiWeb-5.5.3",
+            "FortiWeb-5.5.2",
+            "FortiWeb-5.5.1",
+            "FortiWeb-5.5.0",
+            "FortiWeb-5.4.1"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "CVE-2017-7737 SNMPv3 user password reflected on HTML source",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-17-162"
+        }
+      },
+      "Title": "CVE-2017-7737 SNMPv3 user password reflected on HTML source",
+      "cvrf:CVE": "CVE-2017-7737"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Florian NIVETTE of Sysdream for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "The HTML source code of the FortiWeb SNMPv3 user edit webui page includes the user's password in cleartext.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWeb 5.8.2 and below until 5.4.1.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Upgrade to FortiWeb version 5.8.3",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "CVE-2017-7737 SNMPv3 user password reflected on HTML source",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2017-08-11T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-17-162"
+      },
+      "cvrf:InitialReleaseDate": "2017-08-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2017-08-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

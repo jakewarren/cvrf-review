@@ -1,0 +1,101 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:N/A:H/E:F/RL:U/RC:C"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "TCP Middlebox Reflection",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-073"
+          },
+          {
+            "Description": "[1] https://www.usenix.org/system/files/sec21fall-bock.pdf",
+            "URL": "[1] https://www.usenix.org/system/files/sec21fall-bock.pdf"
+          }
+        ]
+      },
+      "Title": "TCP Middlebox Reflection",
+      "cvrf:CVE": "CVE-2022-27491"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper verification of source of a communication channel vulnerability [CWE-940] in FortiOS may allow a remote and unauthenticated attacker to trigger the sending of \"blocked page\" HTML data to an arbitrary victim via crafted TCP requests, potentially flooding the victim. This is possible only if at least a firewall policy has inspection mode set to flow-based (default), AND at least a Security Profile is enabled (Web Filter, AntiVirus, IPS, DLP, Application Control, SSL, File filter).",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS version 7.2.0FortiOS version 7.0.0 through 7.0.5FortiOS version 6.4.0 through 6.4.8FortiOS version 6.2.0 through 6.2.10FortiOS 6.0 all versions",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiOS version 6.2.11 or above,Please upgrade to FortiOS version 6.4.9 or above,Please upgrade to FortiOS version 7.0.6 or above,Please upgrade to FortiOS version 7.2.1 or above.ORFortiOS version 6.0.0 to 6.0.10 : Please upgrade IPS engine to version 4.086 or above,FortiOS version 6.2.4 to 6.2.10 : Please upgrade IPS engine to version 5.259 or above,FortiOS version 6.4.0 to 6.4.8 : Please upgrade IPS engine to version 6.122 or above,FortiOS version 7.0.0 to 7.0.5 : Please upgrade IPS engine to version 7.114 or above,FortiOS version 7.2.0 : Please upgrade IPS engine to version 7.215 or above.Workarounds:Disable or adjust security profiles that may trigger the sending of \"blocked page\" HTTP data, or use proxy-based inspection mode instead of the default flow-based inspection mode.OREmpty the replacement page in Replacement Page >> Extended View of Security Profiles to limit amplification factor created with block page.",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "TCP Middlebox Reflection",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-22-073"
+        },
+        {
+          "cvrf:Description": "[1] https://www.usenix.org/system/files/sec21fall-bock.pdf",
+          "cvrf:URL": "[1] https://www.usenix.org/system/files/sec21fall-bock.pdf"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "TCP Middlebox Reflection",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2022-09-06T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-22-073"
+      },
+      "cvrf:InitialReleaseDate": "2022-09-06T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2022-09-06T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

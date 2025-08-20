@@ -1,0 +1,89 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Linux Kernel Dirty Cow Vulnerability",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-063"
+          },
+          {
+            "Description": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195",
+            "URL": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195"
+          }
+        ]
+      },
+      "Title": "Linux Kernel Dirty Cow Vulnerability",
+      "cvrf:CVE": "CVE-2016-5195"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Linux Kernel Dirty Cow Vulnerability Announcement.Ã‚Â",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "The following products are confirmed to be not affected:FortiGate FortiAnalyzerFortiSwitchFortiAP For questions about other Fortinet products, please contact Fortinet's Technical Assistance Center (TAC).",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Privilege escalation",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "The following products are confirmed to be not affected:FortiGateÃ‚Â FortiAnalyzerFortiSwitchFortiAP",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Linux Kernel Dirty Cow Vulnerability",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-063"
+        },
+        {
+          "cvrf:Description": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195",
+          "cvrf:URL": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5195"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Linux Kernel Dirty Cow Vulnerability",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-11-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-063"
+      },
+      "cvrf:InitialReleaseDate": "2016-11-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-11-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

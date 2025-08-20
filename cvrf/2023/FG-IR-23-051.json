@@ -1,0 +1,113 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSOAR",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.3.1",
+                "@ProductID": "FortiSOAR-7.3.1"
+              }
+            },
+            {
+              "@Name": "7.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR 7.3.0",
+                "@ProductID": "FortiSOAR-7.3.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:U/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSOAR-7.3.1",
+            "FortiSOAR-7.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Server-side Template Injection in playbook execution",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-051"
+        }
+      },
+      "Title": "Server-side Template Injection in playbook execution",
+      "cvrf:CVE": "CVE-2023-27995"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Boumediene Kaddour from System and Sales Team"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of special elements used in a template engine vulnerability [CWE-1336] in FortiSOAR management interface may allow a remote and authenticated attacker to execute arbitrary code via a crafted payload.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Server-side Template Injection in playbook execution",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-04-12T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-051"
+      },
+      "cvrf:InitialReleaseDate": "2023-04-11T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-04-11T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

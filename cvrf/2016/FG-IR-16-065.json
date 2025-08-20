@@ -1,0 +1,76 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiWLC Undocumented Hardcoded core Account",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-065"
+        }
+      },
+      "Title": "FortiWLC Undocumented Hardcoded core Account",
+      "cvrf:CVE": "CVE-2016-8491"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank University of Toronto for reporting this vulnerability underÃ‚Â responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "FortiWLC comes with a hardcoded account named 'core' which is used by Meru Access Points to send core dumps to the FortiWLC and has read/write privileges over various parts of the system.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Unauthorized read/write remote access",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWLC 7.0-9-1, 7.0-10-0, 8.1-2-0, 8.1-3-2 and 8.2-4-0",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Depending on your version, apply the following patches:7.0-9-1:meru-7.0-9-1-patch-bug03932927.0-10-0:meru-7.0-10-0-patch-bug03932928.1-2-0:meru-8.1-2-0-patch-bug03932928.1-3-2:meru-8.1-2-0-patch-bug03932928.2-4-0:meru-8.2-4-0-patch-bug0393292",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiWLC Undocumented Hardcoded core Account",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-11-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-065"
+      },
+      "cvrf:InitialReleaseDate": "2016-11-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-11-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

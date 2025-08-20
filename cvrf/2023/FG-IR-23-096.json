@@ -1,0 +1,149 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiNAC",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "9.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.4.3",
+                "@ProductID": "FortiNAC-9.4.3"
+              }
+            },
+            {
+              "@Name": "9.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.4.2",
+                "@ProductID": "FortiNAC-9.4.2"
+              }
+            },
+            {
+              "@Name": "9.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.4.1",
+                "@ProductID": "FortiNAC-9.4.1"
+              }
+            },
+            {
+              "@Name": "9.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 9.4.0",
+                "@ProductID": "FortiNAC-9.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 7.2.1",
+                "@ProductID": "FortiNAC-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiNAC 7.2.0",
+                "@ProductID": "FortiNAC-7.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:P/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiNAC-9.4.3",
+            "FortiNAC-9.4.2",
+            "FortiNAC-9.4.1",
+            "FortiNAC-9.4.0",
+            "FortiNAC-7.2.1",
+            "FortiNAC-7.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "FortiNAC - argument  injection in XML interface on port tcp/5555",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-23-096"
+        }
+      },
+      "Title": "FortiNAC - argument  injection in XML interface on port tcp/5555",
+      "cvrf:CVE": "CVE-2023-33300"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Florian Hauser from CODE WHITE for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of special elements used in a command ('command injection') vulnerability [CWE-77] in FortiNAC tcp/5555 service may allow an unauthenticated attacker to copy local files of the device to other local directories of the device via specially crafted input fields. To access the copied data, however, the attacker must have an already existing foothold on the device with sufficient privileges",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "FortiNAC - argument  injection in XML interface on port tcp/5555",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2023-06-23T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-23-096"
+      },
+      "cvrf:InitialReleaseDate": "2023-06-23T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2023-06-23T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

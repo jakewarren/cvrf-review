@@ -1,0 +1,102 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "OpenSSL Advisory - May 2016",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-026"
+          },
+          {
+            "Description": "https://www.openssl.org/news/secadv/20160503.txt",
+            "URL": "https://www.openssl.org/news/secadv/20160503.txt"
+          }
+        ]
+      },
+      "Title": "OpenSSL Advisory - May 2016",
+      "cvrf:CVE": [
+        "CVE-2016-2108",
+        "CVE-2016-2107",
+        "CVE-2016-2105",
+        "CVE-2016-2106",
+        "CVE-2016-2109",
+        "CVE-2016-2176"
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "OpenSSL released an update in May 2016 to address two high and four low severity vulnerabilities.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "OpenSSL released an update in May 2016 to address two high and four low severity vulnerabilities.CVE-2016-2108; CVE-2016-2107; CVE-2016-2105; CVE-2016-2106; CVE-2016-2109; CVE-2016-2176",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Memory corruption and padding oracle",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS:5.4.05.2.7 and below 5.0.13 and belowFortiSwitch 3.4.1 and belowFortiAnalyzer:5.4.05.2.7 and belowFortiAP 5.4.0CVE-2016-2108:FortiOS 5.2.3 and below; 5.0.12 and belowFortiSwitch 3.3.3 and belowFortiAnalyzer 5.2.2 and belowFortiAP is not affectedShould you require further information then please contact Fortinet'sÃ‚Â Technical Assistance Center (TAC) via your usual support channel.",
+          "@Ordinal": "4",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiOS upgrade to: 5.4.1 and above; 5.2.8 and above; 5.0.14 and aboveFortiSwitch upgrade to: 3.4.2 and aboveFortiAnalyzer upgrade to: 5.4.1 and above; 5.2.8 and aboveFortiAP upgrade to: 5.4.1 and aboveCVE-2016-2108:FortiOS upgrade to: 5.4.0 and above; 5.2.4 and above; 5.0.13 and aboveFortiSwitch upgrade to: 3.4.0 and aboveFortiAnalyzer upgrade to: 5.4.0 and above; 5.2.3 and above",
+          "@Ordinal": "5",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "OpenSSL Advisory - May 2016",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-16-026"
+        },
+        {
+          "cvrf:Description": "https://www.openssl.org/news/secadv/20160503.txt",
+          "cvrf:URL": "https://www.openssl.org/news/secadv/20160503.txt"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "OpenSSL Advisory - May 2016",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2016-09-22T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-16-026"
+      },
+      "cvrf:InitialReleaseDate": "2016-09-22T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2016-09-22T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

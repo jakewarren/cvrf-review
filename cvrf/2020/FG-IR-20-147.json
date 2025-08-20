@@ -1,0 +1,236 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiWLC",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "8.5.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.5.2",
+                "@ProductID": "FortiWLC-8.5.2"
+              }
+            },
+            {
+              "@Name": "8.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.5.1",
+                "@ProductID": "FortiWLC-8.5.1"
+              }
+            },
+            {
+              "@Name": "8.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.5.0",
+                "@ProductID": "FortiWLC-8.5.0"
+              }
+            },
+            {
+              "@Name": "8.4.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.4.8",
+                "@ProductID": "FortiWLC-8.4.8"
+              }
+            },
+            {
+              "@Name": "8.4.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.4.7",
+                "@ProductID": "FortiWLC-8.4.7"
+              }
+            },
+            {
+              "@Name": "8.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.4.6",
+                "@ProductID": "FortiWLC-8.4.6"
+              }
+            },
+            {
+              "@Name": "8.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.4.5",
+                "@ProductID": "FortiWLC-8.4.5"
+              }
+            },
+            {
+              "@Name": "8.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.4.4",
+                "@ProductID": "FortiWLC-8.4.4"
+              }
+            },
+            {
+              "@Name": "8.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.4.2",
+                "@ProductID": "FortiWLC-8.4.2"
+              }
+            },
+            {
+              "@Name": "8.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.4.1",
+                "@ProductID": "FortiWLC-8.4.1"
+              }
+            },
+            {
+              "@Name": "8.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.4.0",
+                "@ProductID": "FortiWLC-8.4.0"
+              }
+            },
+            {
+              "@Name": "8.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.3.3",
+                "@ProductID": "FortiWLC-8.3.3"
+              }
+            },
+            {
+              "@Name": "8.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.3.2",
+                "@ProductID": "FortiWLC-8.3.2"
+              }
+            },
+            {
+              "@Name": "8.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.2.7",
+                "@ProductID": "FortiWLC-8.2.7"
+              }
+            },
+            {
+              "@Name": "8.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiWLC 8.2.6",
+                "@ProductID": "FortiWLC-8.2.6"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.5",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:X/RC:X"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiWLC-8.5.2",
+            "FortiWLC-8.5.1",
+            "FortiWLC-8.5.0",
+            "FortiWLC-8.4.8",
+            "FortiWLC-8.4.7",
+            "FortiWLC-8.4.6",
+            "FortiWLC-8.4.5",
+            "FortiWLC-8.4.4",
+            "FortiWLC-8.4.2",
+            "FortiWLC-8.4.1",
+            "FortiWLC-8.4.0",
+            "FortiWLC-8.3.3",
+            "FortiWLC-8.3.2",
+            "FortiWLC-8.2.7",
+            "FortiWLC-8.2.6"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "[FortiWLC] Shell access as root (undocumented shell command)",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-147"
+        }
+      },
+      "Title": "[FortiWLC] Shell access as root (undocumented shell command)",
+      "cvrf:CVE": "CVE-2021-22126"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally reported by Fortinet PSIRT."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A use of hard-coded password vulnerability in FortiWLC may allow a local, authenticated attacker to connect to the managed Access Point (Meru AP and FortiAP-U) as root using the default hard-coded username and password.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiWLC versions 8.5.2 and below.",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiWLC versions 8.6.0 or above.Please upgrade to FortiWLC versions 8.5.3 or above.",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "[FortiWLC] Shell access as root (undocumented shell command)",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2021-06-01T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-147"
+      },
+      "cvrf:InitialReleaseDate": "2021-06-01T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2021-06-01T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
