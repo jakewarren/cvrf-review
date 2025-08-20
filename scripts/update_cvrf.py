@@ -28,7 +28,7 @@ def main():
         except ValueError:
             year = "unknown"
         vuln_id = link.rstrip('/').split('/')[-1]
-        out_dir = os.path.join("cvrf", str(year))
+        out_dir = os.path.join("cvrf", "fortinet", str(year))
         out_path = os.path.join(out_dir, f"{vuln_id}.json")
         if os.path.exists(out_path):
             print(f"Skipping {vuln_id}, already exists")
