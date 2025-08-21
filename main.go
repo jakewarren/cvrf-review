@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strconv"
 	"strings"
@@ -17,6 +18,12 @@ import (
 
 // product types the user is interested in
 var productTypes []string
+
+// product and version provided by the user for version specific queries
+var (
+	productName    string
+	productVersion string
+)
 
 // the severity of vulnerabilities the user is interested in
 var (
@@ -80,6 +87,143 @@ var fortinetCmd = &cobra.Command{
 			}
 		}
 	},
+}
+
+var fortinetVersionCmd = &cobra.Command{
+	Use:   "affected",
+	Short: "List vulnerabilities for a specific product version",
+	Run: func(cmd *cobra.Command, args []string) {
+		if productName == "" || productVersion == "" {
+			fmt.Println("product and version are required")
+			os.Exit(1)
+		}
+
+		// set the severity filter values
+		severitytoCVSS(severity)
+
+		matchingAdvisories, err := getAffectedAdvisories(productName, productVersion)
+		if err != nil {
+			fmt.Println(err)
+			os.Exit(1)
+		}
+
+		if jsonOutput {
+			j, _ := json.MarshalIndent(matchingAdvisories, "", "  ")
+			fmt.Println(string(j))
+		} else {
+			for _, a := range matchingAdvisories {
+				for _, cve := range a.Vulnerability.CVE {
+					fmt.Printf("%s - %s\n", cve, a.DocumentTitle)
+				}
+			}
+		}
+	},
+}
+
+// getAffectedAdvisories loads cached Fortinet CVRF data and returns advisories
+// affecting the specified product and version.
+func getAffectedAdvisories(product, version string) ([]fortinet.CVRF, error) {
+	base := filepath.Join("cvrf", "fortinet")
+	productID := fmt.Sprintf("%s-%s", strings.TrimSpace(product), strings.TrimSpace(version))
+
+	years, err := os.ReadDir(base)
+	if err != nil {
+		return nil, err
+	}
+
+	var matching []fortinet.CVRF
+	for _, year := range years {
+		if !year.IsDir() {
+			continue
+		}
+		yearDir := filepath.Join(base, year.Name())
+		files, err := os.ReadDir(yearDir)
+		if err != nil {
+			return nil, err
+		}
+		for _, f := range files {
+			if f.IsDir() || !strings.HasSuffix(f.Name(), ".json") {
+				continue
+			}
+			path := filepath.Join(yearDir, f.Name())
+			data, err := os.ReadFile(path)
+			if err != nil {
+				return nil, err
+			}
+
+			var wrapper struct {
+				Doc struct {
+					DocumentTitle    string `json:"cvrf:DocumentTitle"`
+					DocumentTracking struct {
+						Identification struct {
+							ID string `json:"cvrf:ID"`
+						} `json:"cvrf:Identification"`
+					} `json:"cvrf:DocumentTracking"`
+					Vulnerability struct {
+						CVE             interface{} `json:"cvrf:CVE"`
+						ProductStatuses struct {
+							Status struct {
+								ProductID interface{} `json:"ProductID"`
+							} `json:"Status"`
+						} `json:"ProductStatuses"`
+						CVSSScoreSets struct {
+							ScoreSetV3 struct {
+								BaseScoreV3 string `json:"BaseScoreV3"`
+							} `json:"ScoreSetV3"`
+						} `json:"CVSSScoreSets"`
+					} `json:"Vulnerability"`
+				} `json:"cvrf:cvrfdoc"`
+			}
+			if err := json.Unmarshal(data, &wrapper); err != nil {
+				return nil, err
+			}
+
+			ids := toStringSlice(wrapper.Doc.Vulnerability.ProductStatuses.Status.ProductID)
+			if !contains(ids, productID) {
+				continue
+			}
+
+			score, _ := strconv.ParseFloat(wrapper.Doc.Vulnerability.CVSSScoreSets.ScoreSetV3.BaseScoreV3, 64)
+			if score <= minCvssScore || score >= maxCvssScore {
+				continue
+			}
+
+			advisory := fortinet.CVRF{}
+			advisory.DocumentTitle = wrapper.Doc.DocumentTitle
+			advisory.DocumentTracking.Identification.ID = wrapper.Doc.DocumentTracking.Identification.ID
+			advisory.Vulnerability.CVE = toStringSlice(wrapper.Doc.Vulnerability.CVE)
+			matching = append(matching, advisory)
+		}
+	}
+	return matching, nil
+}
+
+func toStringSlice(v interface{}) []string {
+	switch val := v.(type) {
+	case []interface{}:
+		res := make([]string, 0, len(val))
+		for _, s := range val {
+			if str, ok := s.(string); ok {
+				res = append(res, str)
+			}
+		}
+		return res
+	case []string:
+		return val
+	case string:
+		return []string{val}
+	default:
+		return nil
+	}
+}
+
+func contains(slice []string, target string) bool {
+	for _, s := range slice {
+		if strings.TrimSpace(s) == target {
+			return true
+		}
+	}
+	return false
 }
 
 // process the CVRF to determine if it matches any filters provided by the user. Returns true if the CVRF matches the filters and should be processed
@@ -185,8 +329,11 @@ var rootCmd = &cobra.Command{
 
 func init() {
 	fortinetCmd.Flags().StringArrayVarP(&productTypes, "product-types", "p", []string{}, "Filter vulnerabilities by product type. Must match the value provided by Fortinet in the CVRF data. Examples: 'FortiOS', 'FortiClientEMS'")
+	fortinetVersionCmd.Flags().StringVar(&productName, "product", "", "Product name to check (e.g., FortiOS)")
+	fortinetVersionCmd.Flags().StringVarP(&productVersion, "version", "v", "", "Product version to check (e.g., 6.4.10)")
 
 	// TODO: add date filtering
+	fortinetCmd.AddCommand(fortinetVersionCmd)
 	rootCmd.AddCommand(fortinetCmd)
 	rootCmd.PersistentFlags().BoolP("help", "h", false, "Print usage")
 	rootCmd.PersistentFlags().StringVarP(&severity, "severity", "s", "", "Filter vulnerabilities by severity (critical, high, medium, low)")

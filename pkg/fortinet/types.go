@@ -1,5 +1,7 @@
 package fortinet
 
+import "encoding/json"
+
 type RSS struct {
 	Channel struct {
 		Title         string `xml:"title"`
@@ -68,11 +70,8 @@ type CVRF struct {
 		Ordinal    string `xml:"Ordinal,attr" json:"ordinal,omitempty"`
 		Title      string `xml:"Title" json:"title,omitempty"`
 		References struct {
-			Type      string `xml:"Type,attr" json:"type,omitempty"`
-			Reference []struct {
-				URL         string `xml:"URL" json:"url,omitempty"`
-				Description string `xml:"Description" json:"description,omitempty"`
-			} `xml:"Reference" json:"reference,omitempty"`
+			Type      string        `xml:"Type,attr" json:"type,omitempty"`
+			Reference ReferenceList `xml:"Reference" json:"reference,omitempty"`
 		} `xml:"References" json:"references,omitempty"`
 		CVE             []string `xml:"CVE" json:"cve,omitempty"`
 		ProductStatuses struct {
@@ -106,4 +105,28 @@ type CVRF struct {
 			} `xml:"Branch" json:"branch,omitempty"`
 		} `xml:"Branch" json:"branch,omitempty"`
 	} `xml:"ProductTree" json:"product_tree,omitempty"`
+}
+
+// ReferenceList handles Fortinet CVRF JSON where the Reference field may be a
+// single object or an array of objects.
+type reference struct {
+	URL         string `xml:"URL" json:"url,omitempty"`
+	Description string `xml:"Description" json:"description,omitempty"`
+}
+
+type ReferenceList []reference
+
+func (r *ReferenceList) UnmarshalJSON(data []byte) error {
+	var arr []reference
+	if err := json.Unmarshal(data, &arr); err == nil {
+		*r = arr
+		return nil
+	}
+
+	var single reference
+	if err := json.Unmarshal(data, &single); err != nil {
+		return err
+	}
+	*r = []reference{single}
+	return nil
 }

@@ -7,7 +7,7 @@
 
 A command line utility for parsing vendor bulletins in CVRF format. 
 
-Currently there is only a Fortinet module that processes Fortinet's RSS feed for new advisories and allows for the user to filter by CVSS score and/or product types to display vulnerabilites of interest. 
+Currently there is only a Fortinet module that processes Fortinet's RSS feed for new advisories and allows the user to filter by CVSS score and/or product types to display vulnerabilities of interest or check whether specific product versions are affected.
 
 
 ## Install
@@ -20,28 +20,38 @@ go install github.com/jakewarren/cvrf-review@latest
 ## Usage
 
 ```
-❯ cvrf-review fortinet -h
-Get Fortinet vulnerabilities
+❯ cvrf-review -h
+Review CVRF formmated vulnerability data
 
 Usage:
-  cvrf-review fortinet [flags]
+  cvrf-review [flags]
+  cvrf-review [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  fortinet    Get Fortinet vulnerabilities
+  help        Help about any command
 
 Flags:
-  -p, --product-types stringArray   Filter vulnerabilities by product type. Must match the value provided by Fortinet in the CVRF data. Examples: 'FortiOS', 'FortiClientEMS'
-
-Global Flags:
       --disable-border         Disable the table border
   -h, --help                   Print usage
       --json                   Print output in JSON format
       --max-cvss-score float   Filter vulnerabilities by a maximum CVSS score (default 10)
       --min-cvss-score float   Filter vulnerabilities by a minimum CVSS score
   -s, --severity string        Filter vulnerabilities by severity (critical, high, medium, low)
+
+Use "cvrf-review [command] --help" for more information about a command.
 ```
 
 ### Examples:
 
 #### Get critical Fortinet vulnerabilities:
 ![screenshot](docs/images/fortinet_critical.png)
+
+#### List vulnerabilities for a specific product version
+```bash
+cvrf-review fortinet affected --product FortiOS --version 6.4.10
+```
 
 ## Acknowledgments
 Inspired by [MaineK00n/vuls-data-update](https://github.com/MaineK00n/vuls-data-update).
