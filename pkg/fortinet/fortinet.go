@@ -25,7 +25,9 @@ func getRssEntries() (RSS, error) {
 		return RSS{}, errors.New("status is not ok. got response code: " + resp.Status)
 	}
 
-	defer resp.Body.Close()
+	defer func() {
+		_ = resp.Body.Close()
+	}()
 
 	var rss RSS
 	if err = xml.NewDecoder(resp.Body).Decode(&rss); err != nil {
@@ -51,7 +53,9 @@ func getCVRFData(advisoryID string) (CVRF, error) {
 	if err != nil {
 		return CVRF{}, err
 	}
-	defer resp.Body.Close()
+	defer func() {
+		_ = resp.Body.Close()
+	}()
 
 	if resp.StatusCode != http.StatusOK {
 		return CVRF{}, errors.New("status is not ok. got response code: " + resp.Status)
