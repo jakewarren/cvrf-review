@@ -4,6 +4,7 @@ go 1.21
 
 require (
 	github.com/charmbracelet/lipgloss v0.9.1
+	github.com/mitchellh/mapstructure v1.5.0
 	github.com/spf13/cobra v1.8.0
 )
 

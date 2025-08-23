@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"log"
 	"os"
@@ -9,6 +10,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/mitchellh/mapstructure"
 
 	"github.com/charmbracelet/lipgloss"
 	"github.com/charmbracelet/lipgloss/table"
@@ -151,47 +154,86 @@ func getAffectedAdvisories(product, version string) ([]fortinet.CVRF, error) {
 				return nil, err
 			}
 
-			var wrapper struct {
-				Doc struct {
-					DocumentTitle    string `json:"cvrf:DocumentTitle"`
-					DocumentTracking struct {
-						Identification struct {
-							ID string `json:"cvrf:ID"`
-						} `json:"cvrf:Identification"`
-					} `json:"cvrf:DocumentTracking"`
-					Vulnerability struct {
-						CVE             interface{} `json:"cvrf:CVE"`
-						ProductStatuses struct {
-							Status struct {
-								ProductID interface{} `json:"ProductID"`
-							} `json:"Status"`
-						} `json:"ProductStatuses"`
-						CVSSScoreSets struct {
-							ScoreSetV3 struct {
-								BaseScoreV3 string `json:"BaseScoreV3"`
-							} `json:"ScoreSetV3"`
-						} `json:"CVSSScoreSets"`
-					} `json:"Vulnerability"`
-				} `json:"cvrf:cvrfdoc"`
+			normalized := string(data)
+			normalized = strings.ReplaceAll(normalized, "cvrf-common:", "")
+			normalized = strings.ReplaceAll(normalized, "cvrf:", "")
+			normalized = strings.ReplaceAll(normalized, "\"@", "\"")
+			normalized = strings.ReplaceAll(normalized, "\"#text\"", "\"text\"")
+
+			var raw map[string]interface{}
+			if err := json.Unmarshal([]byte(normalized), &raw); err != nil {
+				return nil, err
 			}
-			if err := json.Unmarshal(data, &wrapper); err != nil {
+			doc, ok := raw["cvrfdoc"].(map[string]interface{})
+			if !ok {
+				return nil, errors.New("invalid cvrf document")
+			}
+
+			if vuln, ok := doc["Vulnerability"].(map[string]interface{}); ok {
+				if cve, ok := vuln["CVE"]; ok {
+					vuln["CVE"] = toStringSlice(cve)
+				}
+				if ps, ok := vuln["ProductStatuses"].(map[string]interface{}); ok {
+					if status, ok := ps["Status"].(map[string]interface{}); ok {
+						if pid, ok := status["ProductID"]; ok {
+							status["ProductID"] = toStringSlice(pid)
+						}
+					}
+				}
+				if refs, ok := vuln["References"].(map[string]interface{}); ok {
+					if r, ok := refs["Reference"]; ok {
+						refs["Reference"] = toInterfaceSlice(r)
+					}
+				}
+			}
+
+			if notes, ok := doc["DocumentNotes"].(map[string]interface{}); ok {
+				if n, ok := notes["Note"]; ok {
+					notes["Note"] = toInterfaceSlice(n)
+				}
+			}
+			if refs, ok := doc["DocumentReferences"].(map[string]interface{}); ok {
+				if r, ok := refs["Reference"]; ok {
+					refs["Reference"] = toInterfaceSlice(r)
+				}
+			}
+			if ack, ok := doc["Acknowledgments"].(map[string]interface{}); ok {
+				if a, ok := ack["Acknowledgment"]; ok {
+					ack["Acknowledgment"] = toInterfaceSlice(a)
+				}
+			}
+
+			if pt, ok := doc["ProductTree"].(map[string]interface{}); ok {
+				pt = normalizeBranches(pt)
+				if branches, ok := pt["Branch"].([]interface{}); ok && len(branches) == 1 {
+					if bm, ok := branches[0].(map[string]interface{}); ok {
+						pt["Branch"] = bm
+					}
+				}
+				doc["ProductTree"] = pt
+			}
+
+			var advisory fortinet.CVRF
+			decoder, err := mapstructure.NewDecoder(&mapstructure.DecoderConfig{
+				Result:  &advisory,
+				TagName: "",
+			})
+			if err != nil {
+				return nil, err
+			}
+			if err := decoder.Decode(doc); err != nil {
 				return nil, err
 			}
 
-			ids := toStringSlice(wrapper.Doc.Vulnerability.ProductStatuses.Status.ProductID)
-			if !contains(ids, productID) {
+			if !contains(advisory.Vulnerability.ProductStatuses.Status.ProductID, productID) {
 				continue
 			}
 
-			score, _ := strconv.ParseFloat(wrapper.Doc.Vulnerability.CVSSScoreSets.ScoreSetV3.BaseScoreV3, 64)
+			score, _ := strconv.ParseFloat(advisory.Vulnerability.CVSSScoreSets.ScoreSetV3.BaseScoreV3, 64)
 			if score <= minCvssScore || score >= maxCvssScore {
 				continue
 			}
 
-			advisory := fortinet.CVRF{}
-			advisory.DocumentTitle = wrapper.Doc.DocumentTitle
-			advisory.DocumentTracking.Identification.ID = wrapper.Doc.DocumentTracking.Identification.ID
-			advisory.Vulnerability.CVE = toStringSlice(wrapper.Doc.Vulnerability.CVE)
 			matching = append(matching, advisory)
 		}
 	}
@@ -215,6 +257,34 @@ func toStringSlice(v interface{}) []string {
 	default:
 		return nil
 	}
+}
+
+func toInterfaceSlice(v interface{}) []interface{} {
+	switch val := v.(type) {
+	case []interface{}:
+		return val
+	case map[string]interface{}:
+		return []interface{}{val}
+	default:
+		return nil
+	}
+}
+
+func normalizeBranches(m map[string]interface{}) map[string]interface{} {
+	if b, ok := m["Branch"]; ok {
+		switch bv := b.(type) {
+		case []interface{}:
+			for i, br := range bv {
+				if bm, ok := br.(map[string]interface{}); ok {
+					bv[i] = normalizeBranches(bm)
+				}
+			}
+			m["Branch"] = bv
+		case map[string]interface{}:
+			m["Branch"] = []interface{}{normalizeBranches(bv)}
+		}
+	}
+	return m
 }
 
 func contains(slice []string, target string) bool {
