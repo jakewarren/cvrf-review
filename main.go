@@ -115,9 +115,7 @@ var fortinetVersionCmd = &cobra.Command{
 			fmt.Println(string(j))
 		} else {
 			for _, a := range matchingAdvisories {
-				for _, cve := range a.Vulnerability.CVE {
-					fmt.Printf("%s - %s\n", cve, a.DocumentTitle)
-				}
+				printCVRF(a)
 			}
 		}
 	},
