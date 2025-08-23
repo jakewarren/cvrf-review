@@ -37,8 +37,8 @@ func getRssEntries() (RSS, error) {
 	return rss, nil
 }
 
-// getCVRFData fetches the CVRF data for a given advisory ID
-func getCVRFData(advisoryID string) (CVRF, error) {
+// GetCVRFData fetches the CVRF data for a given advisory ID
+func GetCVRFData(advisoryID string) (CVRF, error) {
 	client := &http.Client{
 		Timeout: time.Second * 10,
 	}
@@ -85,7 +85,7 @@ func GetAdvisories() ([]CVRF, error) {
 		advisoryID := path.Base(u.Path)
 
 		// get the CVRF data for each vulnerability
-		cvrf, err := getCVRFData(advisoryID)
+		cvrf, err := GetCVRFData(advisoryID)
 		if err != nil {
 			fmt.Printf("error getting CVRF data for %s: %s\n", entry.Link, err)
 			return nil, err
