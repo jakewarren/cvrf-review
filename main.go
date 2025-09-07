@@ -1,12 +1,13 @@
 package main
 
 import (
+	"embed"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"log"
 	"os"
-	"path/filepath"
+	"path"
 	"regexp"
 	"strconv"
 	"strings"
@@ -18,6 +19,9 @@ import (
 	"github.com/jakewarren/cvrf-review/pkg/fortinet"
 	"github.com/spf13/cobra"
 )
+
+//go:embed cvrf/fortinet
+var fortinetData embed.FS
 
 // product types the user is interested in
 var productTypes []string
@@ -124,10 +128,10 @@ var fortinetVersionCmd = &cobra.Command{
 // getAffectedAdvisories loads cached Fortinet CVRF data and returns advisories
 // affecting the specified product and version.
 func getAffectedAdvisories(product, version string) ([]fortinet.CVRF, error) {
-	base := filepath.Join("cvrf", "fortinet")
+	base := "cvrf/fortinet"
 	productID := fmt.Sprintf("%s-%s", strings.TrimSpace(product), strings.TrimSpace(version))
 
-	years, err := os.ReadDir(base)
+	years, err := fortinetData.ReadDir(base)
 	if err != nil {
 		return nil, err
 	}
@@ -137,8 +141,8 @@ func getAffectedAdvisories(product, version string) ([]fortinet.CVRF, error) {
 		if !year.IsDir() {
 			continue
 		}
-		yearDir := filepath.Join(base, year.Name())
-		files, err := os.ReadDir(yearDir)
+		yearDir := path.Join(base, year.Name())
+		files, err := fortinetData.ReadDir(yearDir)
 		if err != nil {
 			return nil, err
 		}
@@ -146,8 +150,8 @@ func getAffectedAdvisories(product, version string) ([]fortinet.CVRF, error) {
 			if f.IsDir() || !strings.HasSuffix(f.Name(), ".json") {
 				continue
 			}
-			path := filepath.Join(yearDir, f.Name())
-			data, err := os.ReadFile(path)
+			filePath := path.Join(yearDir, f.Name())
+			data, err := fortinetData.ReadFile(filePath)
 			if err != nil {
 				return nil, err
 			}
