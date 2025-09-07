@@ -31,7 +31,7 @@ jobs:
         run: |
           mkdir site
           cp index.html main.js styles.css site/
-          cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" site/
+          cp "$(go env GOROOT)/lib/wasm/wasm_exec.js" site/
           cp -r cvrf site/
           cp -r docs site/
           GOOS=js GOARCH=wasm go build -o site/main.wasm .
