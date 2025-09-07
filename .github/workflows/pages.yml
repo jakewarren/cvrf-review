@@ -33,6 +33,7 @@ jobs:
           cp index.html main.js styles.css site/
           cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" site/
           cp -r cvrf site/
+          cp -r docs site/
           GOOS=js GOARCH=wasm go build -o site/main.wasm .
       - name: Configure Pages
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5

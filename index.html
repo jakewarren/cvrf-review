@@ -9,7 +9,9 @@
 <body>
   <h1>CVRF Review</h1>
   <div id="cli">
-    <input id="command" type="text" placeholder="e.g. fortinet --help" />
+    <input id="product" list="products" placeholder="Fortinet Product" />
+    <datalist id="products"></datalist>
+    <input id="version" type="text" placeholder="Product Version" />
     <button id="runBtn">Run</button>
   </div>
   <pre id="output"></pre>
