@@ -8,10 +8,9 @@
 </head>
 <body>
   <h1>CVRF Review</h1>
-  <div id="controls">
-    <label for="advisory">Select CVRF file:</label>
-    <select id="advisory"></select>
-    <button id="loadBtn">Load</button>
+  <div id="cli">
+    <input id="command" type="text" placeholder="e.g. fortinet --help" />
+    <button id="runBtn">Run</button>
   </div>
   <pre id="output"></pre>
   <script src="wasm_exec.js"></script>

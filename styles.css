@@ -2,10 +2,10 @@ body {
   font-family: Arial, sans-serif;
   margin: 20px;
 }
-#controls {
+#cli {
   margin-bottom: 1em;
 }
-select {
+input {
   min-width: 300px;
 }
 pre {

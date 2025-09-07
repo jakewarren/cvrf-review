@@ -1,28 +1,28 @@
-const go = new Go();
-
-async function loadWasm() {
-  const result = await WebAssembly.instantiateStreaming(fetch("main.wasm"), go.importObject);
-  go.run(result.instance);
+async function runCommand(cmd) {
+  const go = new Go();
+  const args = cmd.trim().split(/\s+/);
+  go.argv = ['cvrf-review', ...args];
+  let output = '';
+  const decoder = new TextDecoder('utf-8');
+  const writer = {
+    write: (buf) => {
+      output += decoder.decode(buf);
+    }
+  };
+  go.stdout = writer;
+  go.stderr = writer;
+  const result = await WebAssembly.instantiateStreaming(fetch('main.wasm'), go.importObject);
+  await go.run(result.instance);
+  return output;
 }
 
-async function init() {
-  await loadWasm();
-  const resp = await fetch("cvrf/manifest.json");
-  const manifest = await resp.json();
-  const select = document.getElementById("advisory");
-  manifest.forEach(path => {
-    const opt = document.createElement("option");
-    opt.value = path;
-    opt.textContent = path;
-    select.appendChild(opt);
-  });
-  document.getElementById("loadBtn").addEventListener("click", async () => {
-    const path = select.value;
-    const dataResp = await fetch("cvrf/" + path);
-    const text = await dataResp.text();
-    const result = window.parseCVRF(text);
-    document.getElementById("output").textContent = JSON.stringify(result, null, 2);
-  });
-}
-
-init();
+document.getElementById('runBtn').addEventListener('click', async () => {
+  const cmd = document.getElementById('command').value;
+  document.getElementById('output').textContent = 'Running...';
+  try {
+    const out = await runCommand(cmd);
+    document.getElementById('output').textContent = out;
+  } catch (e) {
+    document.getElementById('output').textContent = e.toString();
+  }
+});
