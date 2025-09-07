@@ -14,12 +14,34 @@ async function runCommand(args) {
   console.error = (...a) => { output += a.join(' ') + '\n'; };
   go.stdout = writer;
   go.stderr = writer;
-  const result = await WebAssembly.instantiateStreaming(fetch('main.wasm'), go.importObject);
-  await go.run(result.instance);
+
+  // Standard Go WASM bootstrap with MIME fallback
+  const wasmURL = 'main.wasm?ts=' + Date.now(); // cache-bust to avoid stale mismatches
+  let instance;
+  try {
+    if (WebAssembly.instantiateStreaming) {
+      const resp = fetch(wasmURL);
+      const result = await WebAssembly.instantiateStreaming(resp, go.importObject);
+      instance = result.instance;
+    } else {
+      const resp = await fetch(wasmURL);
+      const bytes = await resp.arrayBuffer();
+      const result = await WebAssembly.instantiate(bytes, go.importObject);
+      instance = result.instance;
+    }
+  } catch (e) {
+    // Fallback when server doesn't send application/wasm or streaming fails
+    const resp = await fetch(wasmURL);
+    const bytes = await resp.arrayBuffer();
+    const result = await WebAssembly.instantiate(bytes, go.importObject);
+    instance = result.instance;
+  }
+
+  await go.run(instance);
   output += decoder.decode();
   console.log = origLog;
   console.error = origErr;
-  return output;
+  return output || '\nNo matching advisories found. Try different inputs or --json.';
 }
 
 function ansiToHtml(text) {
@@ -67,6 +89,27 @@ fetch('docs/products.json')
     });
   });
 
+// Severity preset logic: update min/max when a preset is chosen
+const severityPresets = {
+  critical: [9.0, 10.0],
+  high: [7.0, 8.9],
+  medium: [4.0, 6.9],
+  low: [0.1, 3.9],
+};
+
+const severityEl = document.getElementById('severity');
+const minEl = document.getElementById('minCvss');
+const maxEl = document.getElementById('maxCvss');
+
+severityEl?.addEventListener('change', () => {
+  const v = severityEl.value;
+  if (severityPresets[v]) {
+    const [min, max] = severityPresets[v];
+    minEl.value = String(min);
+    maxEl.value = String(max);
+  }
+});
+
 document.getElementById('runBtn').addEventListener('click', async () => {
   const product = document.getElementById('product').value;
   const version = document.getElementById('version').value;
@@ -74,6 +117,21 @@ document.getElementById('runBtn').addEventListener('click', async () => {
   outputEl.textContent = 'Running...';
   try {
     const args = ['fortinet', 'affected', '--product', product, '--version', version];
+
+    // Decide whether to pass --severity or explicit min/max
+    const sev = severityEl?.value || '';
+    const minVal = parseFloat(minEl?.value ?? '');
+    const maxVal = parseFloat(maxEl?.value ?? '');
+    const preset = severityPresets[sev];
+    const approxEq = (a, b) => Math.abs(a - b) < 1e-6;
+
+    if (sev && preset && approxEq(minVal, preset[0]) && approxEq(maxVal, preset[1])) {
+      args.push('--severity', sev);
+    } else {
+      if (!Number.isNaN(minVal)) args.push('--min-cvss-score', String(minVal));
+      if (!Number.isNaN(maxVal)) args.push('--max-cvss-score', String(maxVal));
+    }
+
     const out = await runCommand(args);
     outputEl.innerHTML = ansiToHtml(out);
   } catch (e) {

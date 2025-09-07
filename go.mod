@@ -1,6 +1,6 @@
 module github.com/jakewarren/cvrf-review
 
-go 1.21
+go 1.25
 
 require (
 	github.com/charmbracelet/lipgloss v0.9.1
