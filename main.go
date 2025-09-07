@@ -116,7 +116,11 @@ var fortinetVersionCmd = &cobra.Command{
 		}
 
 		if len(matchingAdvisories) == 0 {
-			fmt.Println("No matching advisories found.")
+			if jsonOutput {
+				fmt.Println("[]")
+			} else {
+				fmt.Println("No matching advisories found.")
+			}
 			return
 		}
 
