@@ -57,9 +57,12 @@ cvrf-review fortinet affected --product FortiOS --version 6.4.10
 
 A WebAssembly-based front end is available for browsing CVRF data in a browser. The GitHub Pages workflow builds the WASM binary automatically. For local testing, copy the runtime stub and build the module, then open `index.html` from a static file server.
 
-```
-cp $(go env GOROOT)/misc/wasm/wasm_exec.js .
+```bash
+cp "$(go env GOROOT)"/misc/wasm/wasm_exec.js .
 GOOS=js GOARCH=wasm go build -o main.wasm ./wasm
+# Serve from the repo root so index.html can fetch cvrf/ and main.wasm
+python3 -m http.server 8000
+# Open http://localhost:8000/
 ```
 
 When served from the repository root the page can access the CVRF files from the `cvrf/` directory.
