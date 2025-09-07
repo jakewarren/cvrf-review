@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"io/fs"
 	"log"
 	"os"
 	"path"
@@ -114,6 +115,11 @@ var fortinetVersionCmd = &cobra.Command{
 			os.Exit(1)
 		}
 
+		if len(matchingAdvisories) == 0 {
+			fmt.Println("No matching advisories found.")
+			return
+		}
+
 		if jsonOutput {
 			j, _ := json.MarshalIndent(matchingAdvisories, "", "  ")
 			fmt.Println(string(j))
@@ -128,38 +134,28 @@ var fortinetVersionCmd = &cobra.Command{
 // getAffectedAdvisories loads cached Fortinet CVRF data and returns advisories
 // affecting the specified product and version.
 func getAffectedAdvisories(product, version string) ([]fortinet.CVRF, error) {
-	base := "cvrf/fortinet"
-	productID := fmt.Sprintf("%s-%s", strings.TrimSpace(product), strings.TrimSpace(version))
+    base := "cvrf/fortinet"
+    productID := fmt.Sprintf("%s-%s", strings.TrimSpace(product), strings.TrimSpace(version))
 
-	years, err := fortinetData.ReadDir(base)
-	if err != nil {
-		return nil, err
-	}
+    // Use fs.Glob to avoid directory reads in WASM.
+    // Matches paths like cvrf/fortinet/2024/FG-IR-XXXX-XXXX.json
+    pattern := path.Join(base, "*", "*.json")
+    fileList, err := fs.Glob(fortinetData, pattern)
+    if err != nil {
+        return nil, err
+    }
 
-	var matching []fortinet.CVRF
-	for _, year := range years {
-		if !year.IsDir() {
-			continue
-		}
-		yearDir := path.Join(base, year.Name())
-		files, err := fortinetData.ReadDir(yearDir)
-		if err != nil {
-			return nil, err
-		}
-		for _, f := range files {
-			if f.IsDir() || !strings.HasSuffix(f.Name(), ".json") {
-				continue
-			}
-			filePath := path.Join(yearDir, f.Name())
-			data, err := fortinetData.ReadFile(filePath)
-			if err != nil {
-				return nil, err
-			}
+    var matching []fortinet.CVRF
+    for _, filePath := range fileList {
+        data, err := fortinetData.ReadFile(filePath)
+        if err != nil {
+            return nil, err
+        }
 
-			normalized := string(data)
-			normalized = strings.ReplaceAll(normalized, "cvrf-common:", "")
-			normalized = strings.ReplaceAll(normalized, "cvrf:", "")
-			normalized = strings.ReplaceAll(normalized, "\"@", "\"")
+            normalized := string(data)
+            normalized = strings.ReplaceAll(normalized, "cvrf-common:", "")
+            normalized = strings.ReplaceAll(normalized, "cvrf:", "")
+            normalized = strings.ReplaceAll(normalized, "\"@", "\"")
 			normalized = strings.ReplaceAll(normalized, "\"#text\"", "\"text\"")
 
 			var raw map[string]interface{}
@@ -231,15 +227,14 @@ func getAffectedAdvisories(product, version string) ([]fortinet.CVRF, error) {
 				continue
 			}
 
-			score, _ := strconv.ParseFloat(advisory.Vulnerability.CVSSScoreSets.ScoreSetV3.BaseScoreV3, 64)
-			if score <= minCvssScore || score >= maxCvssScore {
-				continue
-			}
+            score, _ := strconv.ParseFloat(advisory.Vulnerability.CVSSScoreSets.ScoreSetV3.BaseScoreV3, 64)
+            if score < minCvssScore || score > maxCvssScore {
+                continue
+            }
 
-			matching = append(matching, advisory)
-		}
-	}
-	return matching, nil
+            matching = append(matching, advisory)
+        }
+    return matching, nil
 }
 
 func toStringSlice(v interface{}) []string {
@@ -303,10 +298,10 @@ func filterCVRF(advisory fortinet.CVRF) bool {
 	// filter by severity
 	cvssScore, _ := strconv.ParseFloat(advisory.Vulnerability.CVSSScoreSets.ScoreSetV3.BaseScoreV3, 64)
 
-	// exclude vulnerablities with a CVSS score outside of the user defined range
-	if cvssScore <= minCvssScore || cvssScore >= maxCvssScore {
-		return false
-	}
+    // exclude vulnerabilities outside the user-defined inclusive range
+    if cvssScore < minCvssScore || cvssScore > maxCvssScore {
+        return false
+    }
 
 	// if the user provided a product type value to filter on, loop throught the product types and see if the product was affected by the advisory
 	if len(productTypes) > 0 {

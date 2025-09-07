@@ -58,14 +58,12 @@ cvrf-review fortinet affected --product FortiOS --version 6.4.10
 A WebAssembly-based front end is available for running the CLI in a browser. The GitHub Pages workflow builds the WASM binary automatically. For local testing, copy the runtime stub and build the module, then open `index.html` from a static file server.
 
 ```bash
-cp "$(go env GOROOT)"/misc/wasm/wasm_exec.js .
+cp "$(go env GOROOT)/lib/wasm/wasm_exec.js" .
 GOOS=js GOARCH=wasm go build -o main.wasm .
 # Serve from the repo root so index.html can fetch main.wasm
 python3 -m http.server 8000
 # Open http://localhost:8000/
 ```
-
-The web page provides a simple input box where any command or subcommand can be executed, and the output is displayed in the browser.
 
 
 ## Acknowledgments
