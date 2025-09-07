@@ -30,7 +30,8 @@ jobs:
       - name: Build site
         run: |
           mkdir site
-          cp index.html main.js styles.css wasm_exec.js site/
+          cp index.html main.js styles.css site/
+          cp "$(go env GOROOT)/misc/wasm/wasm_exec.js" site/
           cp -r cvrf site/
           GOOS=js GOARCH=wasm go build -o site/main.wasm ./wasm
       - name: Configure Pages

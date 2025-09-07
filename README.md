@@ -55,9 +55,10 @@ cvrf-review fortinet affected --product FortiOS --version 6.4.10
 
 ## Web Interface
 
-A WebAssembly-based front end is available for browsing CVRF data in a browser. The GitHub Pages workflow builds the WASM binary automatically; for local testing, build it manually and open `index.html` from a static file server.
+A WebAssembly-based front end is available for browsing CVRF data in a browser. The GitHub Pages workflow builds the WASM binary automatically. For local testing, copy the runtime stub and build the module, then open `index.html` from a static file server.
 
 ```
+cp $(go env GOROOT)/misc/wasm/wasm_exec.js .
 GOOS=js GOARCH=wasm go build -o main.wasm ./wasm
 ```
 
