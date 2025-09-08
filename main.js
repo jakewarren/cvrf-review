@@ -45,11 +45,24 @@ async function runCommand(args) {
 }
 
 function ansiToHtml(text) {
+  // Map ANSI SGR color codes to CSS variables for high contrast in light/dark themes
   const color = {
-    '30': 'black', '31': 'red', '32': 'green', '33': 'yellow',
-    '34': 'blue', '35': 'magenta', '36': 'cyan', '37': 'white',
-    '90': 'gray', '91': 'lightcoral', '92': 'lightgreen', '93': 'khaki',
-    '94': 'lightblue', '95': 'plum', '96': 'lightcyan', '97': 'white'
+    '30': 'var(--ansi-black)',
+    '31': 'var(--ansi-red)',
+    '32': 'var(--ansi-green)',
+    '33': 'var(--ansi-yellow)',
+    '34': 'var(--ansi-blue)',
+    '35': 'var(--ansi-magenta)',
+    '36': 'var(--ansi-cyan)',
+    '37': 'var(--ansi-white)',
+    '90': 'var(--ansi-bright-black)',
+    '91': 'var(--ansi-bright-red)',
+    '92': 'var(--ansi-bright-green)',
+    '93': 'var(--ansi-bright-yellow)',
+    '94': 'var(--ansi-bright-blue)',
+    '95': 'var(--ansi-bright-magenta)',
+    '96': 'var(--ansi-bright-cyan)',
+    '97': 'var(--ansi-bright-white)'
   };
   const esc = s => s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   let res = '';
@@ -77,6 +90,30 @@ function ansiToHtml(text) {
   while (stack.length) res += stack.pop();
   return res;
 }
+
+// Theme toggle: allow overriding prefers-color-scheme with a button
+const THEME_KEY = 'cvrf-theme';
+function setTheme(theme) {
+  document.body.classList.remove('theme-light', 'theme-dark');
+  if (theme === 'light') document.body.classList.add('theme-light');
+  if (theme === 'dark') document.body.classList.add('theme-dark');
+  const btn = document.getElementById('themeToggle');
+  if (btn) btn.textContent = theme === 'dark' ? '☀️ Light' : '🌙 Dark';
+}
+
+(() => {
+  const saved = localStorage.getItem(THEME_KEY);
+  const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const initial = saved || (prefersDark ? 'dark' : 'light');
+  setTheme(initial);
+  const btn = document.getElementById('themeToggle');
+  btn?.addEventListener('click', () => {
+    const current = document.body.classList.contains('theme-dark') ? 'dark' : 'light';
+    const next = current === 'dark' ? 'light' : 'dark';
+    localStorage.setItem(THEME_KEY, next);
+    setTheme(next);
+  });
+})();
 
 fetch('docs/products.json')
   .then(r => r.json())

@@ -1,35 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CVRF Review</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <h1>CVRF Review</h1>
-  <div id="cli">
-    <input id="product" list="products" placeholder="Fortinet Product" />
-    <datalist id="products"></datalist>
-    <input id="version" type="text" placeholder="Product Version" />
-    <div id="filters">
-      <label for="severity">Severity</label>
-      <select id="severity">
-        <option value="">Any</option>
-        <option value="critical">Critical (9.0–10.0)</option>
-        <option value="high">High (7.0–8.9)</option>
-        <option value="medium">Medium (4.0–6.9)</option>
-        <option value="low">Low (0.1–3.9)</option>
-      </select>
-      <label for="minCvss">Min CVSS</label>
-      <input id="minCvss" type="number" min="0" max="10" step="0.1" value="0">
-      <label for="maxCvss">Max CVSS</label>
-      <input id="maxCvss" type="number" min="0" max="10" step="0.1" value="10">
-    </div>
-    <button id="runBtn">Run</button>
-  </div>
-  <pre id="output"></pre>
+  <main class="container">
+    <header class="page-header">
+      <div class="header-bar">
+        <h1>CVRF Query</h1>
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌙 Dark</button>
+      </div>
+      <p class="subtitle">Query Fortinet advisories in your browser via WebAssembly.</p>
+    </header>
+
+    <section id="cli" class="card">
+      <div class="controls-grid">
+        <div class="field">
+          <label for="product">Product</label>
+          <input id="product" type="text" list="products" placeholder="e.g. FortiOS" />
+          <datalist id="products"></datalist>
+        </div>
+
+        <div class="field">
+          <label for="version">Version</label>
+          <input id="version" type="text" placeholder="e.g. 7.2.5" />
+        </div>
+
+        <div class="field">
+          <label for="severity">Severity</label>
+          <select id="severity">
+            <option value="">Any</option>
+            <option value="critical">Critical (9.0–10.0)</option>
+            <option value="high">High (7.0–8.9)</option>
+            <option value="medium">Medium (4.0–6.9)</option>
+            <option value="low">Low (0.1–3.9)</option>
+          </select>
+        </div>
+
+        <div class="field compact">
+          <label for="minCvss">Min CVSS</label>
+          <input id="minCvss" type="number" min="0" max="10" step="0.1" value="0">
+        </div>
+
+        <div class="field compact">
+          <label for="maxCvss">Max CVSS</label>
+          <input id="maxCvss" type="number" min="0" max="10" step="0.1" value="10">
+        </div>
+
+        <div class="actions">
+          <button id="runBtn" class="btn">Run</button>
+        </div>
+      </div>
+      <p class="help">Tip: Choose a severity preset or fine‑tune CVSS range.</p>
+    </section>
+
+    <section class="output card">
+      <div class="output-header">
+        <h2>Results</h2>
+      </div>
+      <pre id="output" class="terminal"></pre>
+    </section>
+  </main>
   <script src="wasm_exec.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>
