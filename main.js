@@ -65,13 +65,36 @@ function ansiToHtml(text) {
     '97': 'var(--ansi-bright-white)'
   };
   const esc = s => s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  // Escape text but turn Fortinet links into clickable anchors
+  const escapeAndLinkifyFortinet = (raw) => {
+    const parts = [];
+    // Match http/https Fortinet domains (root or subdomains), stop at whitespace
+    const urlRe = /(https?:\/\/(?:[\w.-]+\.)?fortinet\.com\/[\S]*|https?:\/\/fortiguard\.fortinet\.com\/[\S]*)/gi;
+    let last = 0;
+    let m;
+    while ((m = urlRe.exec(raw)) !== null) {
+      if (m.index > last) {
+        parts.push(esc(raw.slice(last, m.index)));
+      }
+      const url = m[0];
+      // Basic safety: ensure only http(s), and escape attribute quotes in href
+      const safeHref = url.replace(/"/g, '%22');
+      parts.push(`<a href="${safeHref}" target="_blank" rel="noopener noreferrer">${esc(url)}</a>`);
+      last = urlRe.lastIndex;
+    }
+    if (last < raw.length) {
+      parts.push(esc(raw.slice(last)));
+    }
+    return parts.join('');
+  };
   let res = '';
   let stack = [];
   const re = /\x1b\[([0-9;]+)m/g;
   let last = 0;
   let m;
   while ((m = re.exec(text)) !== null) {
-    res += esc(text.slice(last, m.index));
+    res += escapeAndLinkifyFortinet(text.slice(last, m.index));
     const codes = m[1].split(';');
     codes.forEach(code => {
       if (code === '0') {
@@ -86,7 +109,7 @@ function ansiToHtml(text) {
     });
     last = re.lastIndex;
   }
-  res += esc(text.slice(last));
+  res += escapeAndLinkifyFortinet(text.slice(last));
   while (stack.length) res += stack.pop();
   return res;
 }
@@ -144,6 +167,10 @@ severityEl?.addEventListener('change', () => {
     const [min, max] = severityPresets[v];
     minEl.value = String(min);
     maxEl.value = String(max);
+  } else {
+    // Reset to defaults when selecting "Any"
+    minEl.value = '0';
+    maxEl.value = '10';
   }
 });
 
