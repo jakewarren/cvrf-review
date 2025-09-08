@@ -1,8 +1,8 @@
 # cvrf-review
 
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/jakewarren/cvrf-review/blob/master/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jakewarren/cvrf-review)](https://goreportcard.com/report/github.com/jakewarren/cvrf-review)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=shields)](http://makeapullrequest.com)
+[![Hosted on GitHub Pages](https://img.shields.io/badge/hosted%20on-GitHub%20Pages-222222?logo=githubpages&logoColor=white)](https://jakewarren.github.io/cvrf-review/)
 
 
 A command line utility for parsing vendor bulletins in CVRF format. 
@@ -64,7 +64,7 @@ GOOS=js GOARCH=wasm go build -o main.wasm .
 python3 -m http.server 8000
 # Open http://localhost:8000/
 ```
-
+A hosted version is available here: https://jakewarren.github.io/cvrf-review/
 
 ## Acknowledgments
 Inspired by [MaineK00n/vuls-data-update](https://github.com/MaineK00n/vuls-data-update).
