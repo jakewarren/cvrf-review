@@ -197,7 +197,8 @@ body {
   display: grid;
   grid-template-columns: 1.2fr .8fr .8fr .6fr .6fr auto;
   gap: 12px 14px;
-  align-items: end;
+  /* Top-align items so fields with helper text don't push others down */
+  align-items: start;
 }
 
 @media (max-width: 960px) {
@@ -253,6 +254,8 @@ select:focus {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  /* Keep the Run button aligned with the bottom of the tallest field */
+  align-self: end;
 }
 
 .btn {
@@ -323,6 +326,25 @@ pre.terminal {
   font-size: 13px;
   line-height: 1.45;
   border-radius: 0 0 14px 14px;
-  white-space: pre-wrap;
-  word-wrap: break-word;
+  /* Preserve alignment of ASCII tables; allow horizontal scroll instead of wrapping */
+  white-space: pre;
+}
+
+/* Validation */
+.input-error {
+  border-color: var(--ansi-bright-red) !important;
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--ansi-bright-red) 20%, transparent) !important;
+}
+
+.error-msg {
+  color: var(--ansi-bright-red);
+  font-size: 12px;
+  margin-top: 2px;
+  min-height: 1em;
+}
+
+.help-inline {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 1px;
 }
