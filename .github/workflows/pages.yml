@@ -1,8 +1,10 @@
 name: github-pages
 
 on:
-  push:
-    branches: [master]
+  workflow_run:
+    workflows: ["update-fortinet-cvrf"]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
@@ -12,6 +14,7 @@ permissions:
 
 jobs:
   build:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     environment:
       name: github-pages
