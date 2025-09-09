@@ -28,7 +28,9 @@
 
         <div class="field">
           <label for="version">Version</label>
-          <input id="version" type="text" placeholder="e.g. 7.2.5" />
+          <input id="version" type="text" placeholder="e.g. 7.0.14" pattern="\d+\.\d+\.\d+" required
+            aria-describedby="versionHelp versionError" aria-invalid="false" />
+          <div id="versionError" class="error-msg" aria-live="polite"></div>
         </div>
 
         <div class="field">
@@ -56,7 +58,6 @@
           <button id="runBtn" class="btn">Run</button>
         </div>
       </div>
-      <p class="help">Tip: Choose a severity preset or fine‑tune CVSS range.</p>
     </section>
 
     <section class="output card">

@@ -174,10 +174,35 @@ severityEl?.addEventListener('change', () => {
   }
 });
 
+// Basic version validation (requires X.Y.Z where X,Y,Z are numbers)
+const versionInput = document.getElementById('version');
+const versionError = document.getElementById('versionError');
+const fullVersionRe = /^\d+\.\d+\.\d+$/;
+
+versionInput?.addEventListener('input', () => {
+  const v = versionInput.value.trim();
+  const ok = fullVersionRe.test(v);
+  if (ok || v.length === 0) {
+    versionInput.classList.remove('input-error');
+    versionInput.setAttribute('aria-invalid', 'false');
+    if (versionError) versionError.textContent = '';
+  }
+});
+
 document.getElementById('runBtn').addEventListener('click', async () => {
   const product = document.getElementById('product').value;
-  const version = document.getElementById('version').value;
+  const version = versionInput?.value?.trim() || '';
   const outputEl = document.getElementById('output');
+
+  // Validate version: must be X.Y.Z
+  if (!fullVersionRe.test(version)) {
+    if (versionError) versionError.textContent = 'Please enter a full version like 6.4.2 or 7.0.14';
+    versionInput?.classList.add('input-error');
+    versionInput?.setAttribute('aria-invalid', 'true');
+    versionInput?.focus();
+    return;
+  }
+
   outputEl.textContent = 'Running...';
   try {
     const args = ['fortinet', 'affected', '--product', product, '--version', version];

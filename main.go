@@ -33,6 +33,13 @@ var (
 	productVersion string
 )
 
+// Version validation: requires Major.Minor.Patch numeric segments (e.g., 7.0.14)
+var fullVersionRe = regexp.MustCompile(`^\d+\.\d+\.\d+$`)
+
+func isFullVersion(v string) bool {
+    return fullVersionRe.MatchString(strings.TrimSpace(v))
+}
+
 // the severity of vulnerabilities the user is interested in
 var (
 	severity     string
@@ -103,6 +110,11 @@ var fortinetVersionCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		if productName == "" || productVersion == "" {
 			fmt.Println("product and version are required")
+			os.Exit(1)
+		}
+
+		if !isFullVersion(productVersion) {
+			fmt.Println("version must be in the form X.Y.Z (e.g., 7.0.14)")
 			os.Exit(1)
 		}
 
