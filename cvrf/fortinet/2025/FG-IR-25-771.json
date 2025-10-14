@@ -1,0 +1,258 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiDLP",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "12.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 12.2.2",
+                "@ProductID": "FortiDLP-12.2.2"
+              }
+            },
+            {
+              "@Name": "12.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 12.2.1",
+                "@ProductID": "FortiDLP-12.2.1"
+              }
+            },
+            {
+              "@Name": "12.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 12.1.0",
+                "@ProductID": "FortiDLP-12.1.0"
+              }
+            },
+            {
+              "@Name": "12.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 12.0.5",
+                "@ProductID": "FortiDLP-12.0.5"
+              }
+            },
+            {
+              "@Name": "12.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 12.0.4",
+                "@ProductID": "FortiDLP-12.0.4"
+              }
+            },
+            {
+              "@Name": "12.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 12.0.2",
+                "@ProductID": "FortiDLP-12.0.2"
+              }
+            },
+            {
+              "@Name": "12.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 12.0.0",
+                "@ProductID": "FortiDLP-12.0.0"
+              }
+            },
+            {
+              "@Name": "11.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.5.1",
+                "@ProductID": "FortiDLP-11.5.1"
+              }
+            },
+            {
+              "@Name": "11.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.6",
+                "@ProductID": "FortiDLP-11.4.6"
+              }
+            },
+            {
+              "@Name": "11.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.5",
+                "@ProductID": "FortiDLP-11.4.5"
+              }
+            },
+            {
+              "@Name": "11.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.4",
+                "@ProductID": "FortiDLP-11.4.4"
+              }
+            },
+            {
+              "@Name": "11.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.3",
+                "@ProductID": "FortiDLP-11.4.3"
+              }
+            },
+            {
+              "@Name": "11.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.2",
+                "@ProductID": "FortiDLP-11.4.2"
+              }
+            },
+            {
+              "@Name": "11.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.3.4",
+                "@ProductID": "FortiDLP-11.3.4"
+              }
+            },
+            {
+              "@Name": "11.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.3.3",
+                "@ProductID": "FortiDLP-11.3.3"
+              }
+            },
+            {
+              "@Name": "11.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.3.2",
+                "@ProductID": "FortiDLP-11.3.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "8.0",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:X/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiDLP-12.2.2",
+            "FortiDLP-12.2.1",
+            "FortiDLP-12.1.0",
+            "FortiDLP-12.0.5",
+            "FortiDLP-12.0.4",
+            "FortiDLP-12.0.2",
+            "FortiDLP-12.0.0",
+            "FortiDLP-11.5.1",
+            "FortiDLP-11.4.6",
+            "FortiDLP-11.4.5",
+            "FortiDLP-11.4.4",
+            "FortiDLP-11.4.3",
+            "FortiDLP-11.4.2",
+            "FortiDLP-11.3.4",
+            "FortiDLP-11.3.3",
+            "FortiDLP-11.3.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Apache Tika CVE-2025-54988",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-771"
+          },
+          {
+            "Description": "https://www.cve.org/CVERecord?id=CVE-2025-54988",
+            "URL": "https://www.cve.org/CVERecord?id=CVE-2025-54988"
+          }
+        ]
+      },
+      "Title": "Apache Tika CVE-2025-54988",
+      "cvrf:CVE": "CVE-2025-54988"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "Critical XXE in Apache Tika (tika-parser-pdf-module) in Apache Tika 1.13 through and including 3.2.1 on all platforms allows an attacker to carry out XML External Entity injection via a crafted XFA file inside of a PDF. An attacker may be able to read sensitive data or trigger malicious requests to internal resources or third-party servers. Note that the tika-parser-pdf-module is used as a dependency in several Tika packages including at least: tika-parsers-standard-modules, tika-parsers-standard-package, tika-app, tika-grpc and tika-server-standard. Users are recommended to upgrade to version 3.2.2, which fixes this issue.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Apache Tika CVE-2025-54988",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-771"
+        },
+        {
+          "cvrf:Description": "https://www.cve.org/CVERecord?id=CVE-2025-54988",
+          "cvrf:URL": "https://www.cve.org/CVERecord?id=CVE-2025-54988"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Apache Tika CVE-2025-54988",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-10-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-771"
+      },
+      "cvrf:InitialReleaseDate": "2025-10-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-10-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
