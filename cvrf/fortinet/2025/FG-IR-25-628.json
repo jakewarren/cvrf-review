@@ -1,0 +1,257 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiDLP",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "11.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.5.1",
+                "@ProductID": "FortiDLP-11.5.1"
+              }
+            },
+            {
+              "@Name": "11.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.6",
+                "@ProductID": "FortiDLP-11.4.6"
+              }
+            },
+            {
+              "@Name": "11.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.5",
+                "@ProductID": "FortiDLP-11.4.5"
+              }
+            },
+            {
+              "@Name": "11.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.4",
+                "@ProductID": "FortiDLP-11.4.4"
+              }
+            },
+            {
+              "@Name": "11.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.3",
+                "@ProductID": "FortiDLP-11.4.3"
+              }
+            },
+            {
+              "@Name": "11.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.4.2",
+                "@ProductID": "FortiDLP-11.4.2"
+              }
+            },
+            {
+              "@Name": "11.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.3.4",
+                "@ProductID": "FortiDLP-11.3.4"
+              }
+            },
+            {
+              "@Name": "11.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.3.3",
+                "@ProductID": "FortiDLP-11.3.3"
+              }
+            },
+            {
+              "@Name": "11.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.3.2",
+                "@ProductID": "FortiDLP-11.3.2"
+              }
+            },
+            {
+              "@Name": "11.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.2.3",
+                "@ProductID": "FortiDLP-11.2.3"
+              }
+            },
+            {
+              "@Name": "11.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.2.0",
+                "@ProductID": "FortiDLP-11.2.0"
+              }
+            },
+            {
+              "@Name": "11.1.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.1.2",
+                "@ProductID": "FortiDLP-11.1.2"
+              }
+            },
+            {
+              "@Name": "11.1.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.1.1",
+                "@ProductID": "FortiDLP-11.1.1"
+              }
+            },
+            {
+              "@Name": "11.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 11.0.1",
+                "@ProductID": "FortiDLP-11.0.1"
+              }
+            },
+            {
+              "@Name": "10.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 10.5.1",
+                "@ProductID": "FortiDLP-10.5.1"
+              }
+            },
+            {
+              "@Name": "10.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 10.4.0",
+                "@ProductID": "FortiDLP-10.4.0"
+              }
+            },
+            {
+              "@Name": "10.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiDLP 10.3.1",
+                "@ProductID": "FortiDLP-10.3.1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.2",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiDLP-11.5.1",
+            "FortiDLP-11.4.6",
+            "FortiDLP-11.4.5",
+            "FortiDLP-11.4.4",
+            "FortiDLP-11.4.3",
+            "FortiDLP-11.4.2",
+            "FortiDLP-11.3.4",
+            "FortiDLP-11.3.3",
+            "FortiDLP-11.3.2",
+            "FortiDLP-11.2.3",
+            "FortiDLP-11.2.0",
+            "FortiDLP-11.1.2",
+            "FortiDLP-11.1.1",
+            "FortiDLP-11.0.1",
+            "FortiDLP-10.5.1",
+            "FortiDLP-10.4.0",
+            "FortiDLP-10.3.1"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Path Traversal in agent leads to Privilege Escalation",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-628"
+        }
+      },
+      "Title": "Path Traversal in agent leads to Privilege Escalation",
+      "cvrf:CVE": [
+        "CVE-2025-53951",
+        "CVE-2025-54658"
+      ]
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by developers of FortiDLP team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability [CWE-22] in FortiDLP Agent's Outlookproxy plugin for Windows and MacOS may allow an authenticated attacker to escalate their privileges to LocalService or Root privilege via sending a crafted request to a local listening port.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Path Traversal in agent leads to Privilege Escalation",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-10-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-628"
+      },
+      "cvrf:InitialReleaseDate": "2025-10-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-10-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

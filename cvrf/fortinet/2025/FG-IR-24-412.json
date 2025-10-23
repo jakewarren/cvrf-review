@@ -1,0 +1,232 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSOAR on-premise",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.6.1",
+                "@ProductID": "FortiSOAR on-premise-7.6.1"
+              }
+            },
+            {
+              "@Name": "7.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.6.0",
+                "@ProductID": "FortiSOAR on-premise-7.6.0"
+              }
+            },
+            {
+              "@Name": "7.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.5.1",
+                "@ProductID": "FortiSOAR on-premise-7.5.1"
+              }
+            },
+            {
+              "@Name": "7.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.5.0",
+                "@ProductID": "FortiSOAR on-premise-7.5.0"
+              }
+            },
+            {
+              "@Name": "7.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.4.5",
+                "@ProductID": "FortiSOAR on-premise-7.4.5"
+              }
+            },
+            {
+              "@Name": "7.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.4.4",
+                "@ProductID": "FortiSOAR on-premise-7.4.4"
+              }
+            },
+            {
+              "@Name": "7.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.4.3",
+                "@ProductID": "FortiSOAR on-premise-7.4.3"
+              }
+            },
+            {
+              "@Name": "7.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.4.2",
+                "@ProductID": "FortiSOAR on-premise-7.4.2"
+              }
+            },
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.4.1",
+                "@ProductID": "FortiSOAR on-premise-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.4.0",
+                "@ProductID": "FortiSOAR on-premise-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.3.3",
+                "@ProductID": "FortiSOAR on-premise-7.3.3"
+              }
+            },
+            {
+              "@Name": "7.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.3.2",
+                "@ProductID": "FortiSOAR on-premise-7.3.2"
+              }
+            },
+            {
+              "@Name": "7.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.3.1",
+                "@ProductID": "FortiSOAR on-premise-7.3.1"
+              }
+            },
+            {
+              "@Name": "7.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR on-premise 7.3.0",
+                "@ProductID": "FortiSOAR on-premise-7.3.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.6",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSOAR on-premise-7.6.1",
+            "FortiSOAR on-premise-7.6.0",
+            "FortiSOAR on-premise-7.5.1",
+            "FortiSOAR on-premise-7.5.0",
+            "FortiSOAR on-premise-7.4.5",
+            "FortiSOAR on-premise-7.4.4",
+            "FortiSOAR on-premise-7.4.3",
+            "FortiSOAR on-premise-7.4.2",
+            "FortiSOAR on-premise-7.4.1",
+            "FortiSOAR on-premise-7.4.0",
+            "FortiSOAR on-premise-7.3.3",
+            "FortiSOAR on-premise-7.3.2",
+            "FortiSOAR on-premise-7.3.1",
+            "FortiSOAR on-premise-7.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Privilege escalation in shell",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-24-412"
+        }
+      },
+      "Title": "Privilege escalation in shell",
+      "cvrf:CVE": "CVE-2024-48891"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": [
+        {
+          "cvrf:Description": "Internally discovered and reported by Boumediene Kaddour from Fortinet FortiGuard labs team."
+        },
+        {
+          "cvrf:Description": "Fortinet is also pleased to thank Lexfo company for reporting this vulnerability under responsible disclosure."
+        }
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability [CWE-78] in FortiSOAR may allow an attacker who has already obtained a non-login low privileged shell access to perform a local privilege escalation via crafted commands.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Privilege escalation in shell",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-10-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-24-412"
+      },
+      "cvrf:InitialReleaseDate": "2025-10-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-10-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
