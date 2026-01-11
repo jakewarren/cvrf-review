@@ -3,6 +3,4 @@ updates:
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: weekly
-    # Only allow security updates by disabling version updates
-    open-pull-requests-limit: 0
+      interval: monthly
