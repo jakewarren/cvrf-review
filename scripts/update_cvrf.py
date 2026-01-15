@@ -2,12 +2,14 @@
 import os
 import json
 import datetime
+import time
 import requests
 import xml.etree.ElementTree as ET
 import xmltodict
 
 FEED_URL = "https://filestore.fortinet.com/fortiguard/rss/ir.xml"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+SLEEP_SECONDS = 30  # Sleep between CVRF requests to avoid rate limiting
 
 
 def main():
@@ -47,12 +49,14 @@ def main():
         if cvrf_resp.status_code != 200:
             print(f"Failed to fetch {cvrf_url}: {cvrf_resp.status_code}")
             failed_fetches += 1
+            time.sleep(SLEEP_SECONDS)  # Rate limiting: sleep even after failed request
             continue
         try:
             data = xmltodict.parse(cvrf_resp.text)
         except Exception as e:
             print(f"Failed to parse XML for {cvrf_url}: {e}")
             failed_fetches += 1
+            time.sleep(SLEEP_SECONDS)  # Rate limiting: sleep even after failed parse
             continue
         os.makedirs(out_dir, exist_ok=True)
         try:
@@ -62,6 +66,7 @@ def main():
             print(f"Failed to write {out_path}: {e}")
             continue
         print(f"Saved {out_path}")
+        time.sleep(SLEEP_SECONDS)  # Rate limiting: sleep after CVRF request
 
     if failed_fetches > 0:
         print(
