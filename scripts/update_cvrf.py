@@ -52,6 +52,7 @@ def main():
             data = xmltodict.parse(cvrf_resp.text)
         except Exception as e:
             print(f"Failed to parse XML for {cvrf_url}: {e}")
+            failed_fetches += 1
             continue
         os.makedirs(out_dir, exist_ok=True)
         try:
@@ -63,7 +64,9 @@ def main():
         print(f"Saved {out_path}")
 
     if failed_fetches > 0:
-        print(f"\nFailed to fetch {failed_fetches} advisory(ies). Exiting with error.")
+        print(
+            f"\nFailed to process {failed_fetches} advisory(ies). Exiting with error."
+        )
         import sys
 
         sys.exit(1)
