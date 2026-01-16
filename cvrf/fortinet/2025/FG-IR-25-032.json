@@ -1,0 +1,155 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiPortal",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.4.5",
+                "@ProductID": "FortiPortal-7.4.5"
+              }
+            },
+            {
+              "@Name": "7.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.4.4",
+                "@ProductID": "FortiPortal-7.4.4"
+              }
+            },
+            {
+              "@Name": "7.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.4.3",
+                "@ProductID": "FortiPortal-7.4.3"
+              }
+            },
+            {
+              "@Name": "7.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.4.2",
+                "@ProductID": "FortiPortal-7.4.2"
+              }
+            },
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.4.1",
+                "@ProductID": "FortiPortal-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiPortal 7.4.0",
+                "@ProductID": "FortiPortal-7.4.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.4",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H/E:P/RL:X/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiPortal-7.4.5",
+            "FortiPortal-7.4.4",
+            "FortiPortal-7.4.3",
+            "FortiPortal-7.4.2",
+            "FortiPortal-7.4.1",
+            "FortiPortal-7.4.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Incorrect authorization in multi-vdom environment",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-032"
+        }
+      },
+      "Title": "Incorrect authorization in multi-vdom environment",
+      "cvrf:CVE": "CVE-2025-54838"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Hisham AboulMakarem of Fortinet Systems Engineer team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Incorrect Authorization vulnerability [CWE-863] in FortiPortal may allow an authenticated attacker to reboot a shared FortiGate device via crafted HTTP requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Incorrect authorization in multi-vdom environment",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-12-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-032"
+      },
+      "cvrf:InitialReleaseDate": "2025-12-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-12-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

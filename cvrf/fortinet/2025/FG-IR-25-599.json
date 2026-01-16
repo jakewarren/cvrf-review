@@ -1,0 +1,379 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiSOAR PaaS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.6.2",
+                  "@ProductID": "FortiSOAR PaaS-7.6.2"
+                }
+              },
+              {
+                "@Name": "7.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.6.1",
+                  "@ProductID": "FortiSOAR PaaS-7.6.1"
+                }
+              },
+              {
+                "@Name": "7.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.6.0",
+                  "@ProductID": "FortiSOAR PaaS-7.6.0"
+                }
+              },
+              {
+                "@Name": "7.5.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.5.1",
+                  "@ProductID": "FortiSOAR PaaS-7.5.1"
+                }
+              },
+              {
+                "@Name": "7.5.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.5.0",
+                  "@ProductID": "FortiSOAR PaaS-7.5.0"
+                }
+              },
+              {
+                "@Name": "7.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.4.5",
+                  "@ProductID": "FortiSOAR PaaS-7.4.5"
+                }
+              },
+              {
+                "@Name": "7.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.4.4",
+                  "@ProductID": "FortiSOAR PaaS-7.4.4"
+                }
+              },
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.4.3",
+                  "@ProductID": "FortiSOAR PaaS-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.4.2",
+                  "@ProductID": "FortiSOAR PaaS-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.4.1",
+                  "@ProductID": "FortiSOAR PaaS-7.4.1"
+                }
+              },
+              {
+                "@Name": "7.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.4.0",
+                  "@ProductID": "FortiSOAR PaaS-7.4.0"
+                }
+              },
+              {
+                "@Name": "7.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.3.3",
+                  "@ProductID": "FortiSOAR PaaS-7.3.3"
+                }
+              },
+              {
+                "@Name": "7.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.3.2",
+                  "@ProductID": "FortiSOAR PaaS-7.3.2"
+                }
+              },
+              {
+                "@Name": "7.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.3.1",
+                  "@ProductID": "FortiSOAR PaaS-7.3.1"
+                }
+              },
+              {
+                "@Name": "7.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS 7.3.0",
+                  "@ProductID": "FortiSOAR PaaS-7.3.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSOAR on-premise",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.6.2",
+                  "@ProductID": "FortiSOAR on-premise-7.6.2"
+                }
+              },
+              {
+                "@Name": "7.6.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.6.1",
+                  "@ProductID": "FortiSOAR on-premise-7.6.1"
+                }
+              },
+              {
+                "@Name": "7.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.6.0",
+                  "@ProductID": "FortiSOAR on-premise-7.6.0"
+                }
+              },
+              {
+                "@Name": "7.5.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.5.1",
+                  "@ProductID": "FortiSOAR on-premise-7.5.1"
+                }
+              },
+              {
+                "@Name": "7.5.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.5.0",
+                  "@ProductID": "FortiSOAR on-premise-7.5.0"
+                }
+              },
+              {
+                "@Name": "7.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.4.5",
+                  "@ProductID": "FortiSOAR on-premise-7.4.5"
+                }
+              },
+              {
+                "@Name": "7.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.4.4",
+                  "@ProductID": "FortiSOAR on-premise-7.4.4"
+                }
+              },
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.4.3",
+                  "@ProductID": "FortiSOAR on-premise-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.4.2",
+                  "@ProductID": "FortiSOAR on-premise-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.4.1",
+                  "@ProductID": "FortiSOAR on-premise-7.4.1"
+                }
+              },
+              {
+                "@Name": "7.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.4.0",
+                  "@ProductID": "FortiSOAR on-premise-7.4.0"
+                }
+              },
+              {
+                "@Name": "7.3.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.3.3",
+                  "@ProductID": "FortiSOAR on-premise-7.3.3"
+                }
+              },
+              {
+                "@Name": "7.3.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.3.2",
+                  "@ProductID": "FortiSOAR on-premise-7.3.2"
+                }
+              },
+              {
+                "@Name": "7.3.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.3.1",
+                  "@ProductID": "FortiSOAR on-premise-7.3.1"
+                }
+              },
+              {
+                "@Name": "7.3.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise 7.3.0",
+                  "@ProductID": "FortiSOAR on-premise-7.3.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.5",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:H/E:H/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSOAR PaaS-7.6.2",
+            "FortiSOAR PaaS-7.6.1",
+            "FortiSOAR PaaS-7.6.0",
+            "FortiSOAR PaaS-7.5.1",
+            "FortiSOAR PaaS-7.5.0",
+            "FortiSOAR PaaS-7.4.5",
+            "FortiSOAR PaaS-7.4.4",
+            "FortiSOAR PaaS-7.4.3",
+            "FortiSOAR PaaS-7.4.2",
+            "FortiSOAR PaaS-7.4.1",
+            "FortiSOAR PaaS-7.4.0",
+            "FortiSOAR PaaS-7.3.3",
+            "FortiSOAR PaaS-7.3.2",
+            "FortiSOAR PaaS-7.3.1",
+            "FortiSOAR PaaS-7.3.0",
+            "FortiSOAR on-premise-7.6.2",
+            "FortiSOAR on-premise-7.6.1",
+            "FortiSOAR on-premise-7.6.0",
+            "FortiSOAR on-premise-7.5.1",
+            "FortiSOAR on-premise-7.5.0",
+            "FortiSOAR on-premise-7.4.5",
+            "FortiSOAR on-premise-7.4.4",
+            "FortiSOAR on-premise-7.4.3",
+            "FortiSOAR on-premise-7.4.2",
+            "FortiSOAR on-premise-7.4.1",
+            "FortiSOAR on-premise-7.4.0",
+            "FortiSOAR on-premise-7.3.3",
+            "FortiSOAR on-premise-7.3.2",
+            "FortiSOAR on-premise-7.3.1",
+            "FortiSOAR on-premise-7.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Current password requirement bypass for self password change",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-599"
+        }
+      },
+      "Title": "Current password requirement bypass for self password change",
+      "cvrf:CVE": "CVE-2025-59808"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Shripal Rawal of Fortinet PSIRT team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Unverified Password Change vulnerability [CWE-620] in FortiSOAR may allow an attacker who gained access to a victim's user account to reset the account credentials without being prompted for the account's password",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Improper access control",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Current password requirement bypass for self password change",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-12-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-599"
+      },
+      "cvrf:InitialReleaseDate": "2025-12-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-12-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiExtender",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.6.1",
+                "@ProductID": "FortiExtender-7.6.1"
+              }
+            },
+            {
+              "@Name": "7.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.6.0",
+                "@ProductID": "FortiExtender-7.6.0"
+              }
+            },
+            {
+              "@Name": "7.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.4.6",
+                "@ProductID": "FortiExtender-7.4.6"
+              }
+            },
+            {
+              "@Name": "7.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.4.5",
+                "@ProductID": "FortiExtender-7.4.5"
+              }
+            },
+            {
+              "@Name": "7.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.4.4",
+                "@ProductID": "FortiExtender-7.4.4"
+              }
+            },
+            {
+              "@Name": "7.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.4.3",
+                "@ProductID": "FortiExtender-7.4.3"
+              }
+            },
+            {
+              "@Name": "7.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.4.2",
+                "@ProductID": "FortiExtender-7.4.2"
+              }
+            },
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.4.1",
+                "@ProductID": "FortiExtender-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.4.0",
+                "@ProductID": "FortiExtender-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.2.5",
+                "@ProductID": "FortiExtender-7.2.5"
+              }
+            },
+            {
+              "@Name": "7.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.2.4",
+                "@ProductID": "FortiExtender-7.2.4"
+              }
+            },
+            {
+              "@Name": "7.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.2.3",
+                "@ProductID": "FortiExtender-7.2.3"
+              }
+            },
+            {
+              "@Name": "7.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.2.2",
+                "@ProductID": "FortiExtender-7.2.2"
+              }
+            },
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.2.1",
+                "@ProductID": "FortiExtender-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.2.0",
+                "@ProductID": "FortiExtender-7.2.0"
+              }
+            },
+            {
+              "@Name": "7.0.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.0.5",
+                "@ProductID": "FortiExtender-7.0.5"
+              }
+            },
+            {
+              "@Name": "7.0.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.0.4",
+                "@ProductID": "FortiExtender-7.0.4"
+              }
+            },
+            {
+              "@Name": "7.0.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.0.3",
+                "@ProductID": "FortiExtender-7.0.3"
+              }
+            },
+            {
+              "@Name": "7.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.0.2",
+                "@ProductID": "FortiExtender-7.0.2"
+              }
+            },
+            {
+              "@Name": "7.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.0.1",
+                "@ProductID": "FortiExtender-7.0.1"
+              }
+            },
+            {
+              "@Name": "7.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiExtender 7.0.0",
+                "@ProductID": "FortiExtender-7.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.3",
+          "VectorV3": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H/E:F/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiExtender-7.6.1",
+            "FortiExtender-7.6.0",
+            "FortiExtender-7.4.6",
+            "FortiExtender-7.4.5",
+            "FortiExtender-7.4.4",
+            "FortiExtender-7.4.3",
+            "FortiExtender-7.4.2",
+            "FortiExtender-7.4.1",
+            "FortiExtender-7.4.0",
+            "FortiExtender-7.2.5",
+            "FortiExtender-7.2.4",
+            "FortiExtender-7.2.3",
+            "FortiExtender-7.2.2",
+            "FortiExtender-7.2.1",
+            "FortiExtender-7.2.0",
+            "FortiExtender-7.0.5",
+            "FortiExtender-7.0.4",
+            "FortiExtender-7.0.3",
+            "FortiExtender-7.0.2",
+            "FortiExtender-7.0.1",
+            "FortiExtender-7.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Authenticated CLI Commands Buffer Overflow",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-251"
+        }
+      },
+      "Title": "Authenticated CLI Commands Buffer Overflow",
+      "cvrf:CVE": "CVE-2025-46776"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by David Maciejak of the Fortinet product security team"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A buffer overflow vulnerability [CWE-120] in FortiExtender json_cli may allow an authenticated user to execute arbitrary code or commands via crafted CLI commands.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Authenticated CLI Commands Buffer Overflow",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-11-18T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-251"
+      },
+      "cvrf:InitialReleaseDate": "2025-11-18T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-11-18T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

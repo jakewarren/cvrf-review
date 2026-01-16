@@ -1,0 +1,371 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiAuthenticator",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "6.6.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.6.6",
+                "@ProductID": "FortiAuthenticator-6.6.6"
+              }
+            },
+            {
+              "@Name": "6.6.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.6.5",
+                "@ProductID": "FortiAuthenticator-6.6.5"
+              }
+            },
+            {
+              "@Name": "6.6.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.6.4",
+                "@ProductID": "FortiAuthenticator-6.6.4"
+              }
+            },
+            {
+              "@Name": "6.6.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.6.3",
+                "@ProductID": "FortiAuthenticator-6.6.3"
+              }
+            },
+            {
+              "@Name": "6.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.6.2",
+                "@ProductID": "FortiAuthenticator-6.6.2"
+              }
+            },
+            {
+              "@Name": "6.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.6.1",
+                "@ProductID": "FortiAuthenticator-6.6.1"
+              }
+            },
+            {
+              "@Name": "6.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.6.0",
+                "@ProductID": "FortiAuthenticator-6.6.0"
+              }
+            },
+            {
+              "@Name": "6.5.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.5.6",
+                "@ProductID": "FortiAuthenticator-6.5.6"
+              }
+            },
+            {
+              "@Name": "6.5.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.5.5",
+                "@ProductID": "FortiAuthenticator-6.5.5"
+              }
+            },
+            {
+              "@Name": "6.5.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.5.4",
+                "@ProductID": "FortiAuthenticator-6.5.4"
+              }
+            },
+            {
+              "@Name": "6.5.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.5.3",
+                "@ProductID": "FortiAuthenticator-6.5.3"
+              }
+            },
+            {
+              "@Name": "6.5.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.5.2",
+                "@ProductID": "FortiAuthenticator-6.5.2"
+              }
+            },
+            {
+              "@Name": "6.5.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.5.1",
+                "@ProductID": "FortiAuthenticator-6.5.1"
+              }
+            },
+            {
+              "@Name": "6.5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.5.0",
+                "@ProductID": "FortiAuthenticator-6.5.0"
+              }
+            },
+            {
+              "@Name": "6.4.10",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.10",
+                "@ProductID": "FortiAuthenticator-6.4.10"
+              }
+            },
+            {
+              "@Name": "6.4.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.9",
+                "@ProductID": "FortiAuthenticator-6.4.9"
+              }
+            },
+            {
+              "@Name": "6.4.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.8",
+                "@ProductID": "FortiAuthenticator-6.4.8"
+              }
+            },
+            {
+              "@Name": "6.4.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.7",
+                "@ProductID": "FortiAuthenticator-6.4.7"
+              }
+            },
+            {
+              "@Name": "6.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.6",
+                "@ProductID": "FortiAuthenticator-6.4.6"
+              }
+            },
+            {
+              "@Name": "6.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.5",
+                "@ProductID": "FortiAuthenticator-6.4.5"
+              }
+            },
+            {
+              "@Name": "6.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.4",
+                "@ProductID": "FortiAuthenticator-6.4.4"
+              }
+            },
+            {
+              "@Name": "6.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.3",
+                "@ProductID": "FortiAuthenticator-6.4.3"
+              }
+            },
+            {
+              "@Name": "6.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.2",
+                "@ProductID": "FortiAuthenticator-6.4.2"
+              }
+            },
+            {
+              "@Name": "6.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.1",
+                "@ProductID": "FortiAuthenticator-6.4.1"
+              }
+            },
+            {
+              "@Name": "6.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.4.0",
+                "@ProductID": "FortiAuthenticator-6.4.0"
+              }
+            },
+            {
+              "@Name": "6.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.3.4",
+                "@ProductID": "FortiAuthenticator-6.3.4"
+              }
+            },
+            {
+              "@Name": "6.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.3.3",
+                "@ProductID": "FortiAuthenticator-6.3.3"
+              }
+            },
+            {
+              "@Name": "6.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.3.2",
+                "@ProductID": "FortiAuthenticator-6.3.2"
+              }
+            },
+            {
+              "@Name": "6.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.3.1",
+                "@ProductID": "FortiAuthenticator-6.3.1"
+              }
+            },
+            {
+              "@Name": "6.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAuthenticator 6.3.0",
+                "@ProductID": "FortiAuthenticator-6.3.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "2.6",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAuthenticator-6.6.6",
+            "FortiAuthenticator-6.6.5",
+            "FortiAuthenticator-6.6.4",
+            "FortiAuthenticator-6.6.3",
+            "FortiAuthenticator-6.6.2",
+            "FortiAuthenticator-6.6.1",
+            "FortiAuthenticator-6.6.0",
+            "FortiAuthenticator-6.5.6",
+            "FortiAuthenticator-6.5.5",
+            "FortiAuthenticator-6.5.4",
+            "FortiAuthenticator-6.5.3",
+            "FortiAuthenticator-6.5.2",
+            "FortiAuthenticator-6.5.1",
+            "FortiAuthenticator-6.5.0",
+            "FortiAuthenticator-6.4.10",
+            "FortiAuthenticator-6.4.9",
+            "FortiAuthenticator-6.4.8",
+            "FortiAuthenticator-6.4.7",
+            "FortiAuthenticator-6.4.6",
+            "FortiAuthenticator-6.4.5",
+            "FortiAuthenticator-6.4.4",
+            "FortiAuthenticator-6.4.3",
+            "FortiAuthenticator-6.4.2",
+            "FortiAuthenticator-6.4.1",
+            "FortiAuthenticator-6.4.0",
+            "FortiAuthenticator-6.3.4",
+            "FortiAuthenticator-6.3.3",
+            "FortiAuthenticator-6.3.2",
+            "FortiAuthenticator-6.3.1",
+            "FortiAuthenticator-6.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Missing authorization on log access",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-554"
+        }
+      },
+      "Title": "Missing authorization on log access",
+      "cvrf:CVE": "CVE-2025-57823"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Discovered during an independent audit commissioned by Fortinet."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A Direct Request ('Forced Browsing') [CWE-425] vulnerability in FortiAuthenticator logs may allow an authenticated attacker with at least sponsor permissions to read and download device logs via accessing specific endpoints.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Missing authorization on log access",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-12-09T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-554"
+      },
+      "cvrf:InitialReleaseDate": "2025-12-09T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-12-09T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

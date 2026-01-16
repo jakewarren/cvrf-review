@@ -1,0 +1,335 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiADC",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "8.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 8.0.0",
+                "@ProductID": "FortiADC-8.0.0"
+              }
+            },
+            {
+              "@Name": "7.6.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.6.3",
+                "@ProductID": "FortiADC-7.6.3"
+              }
+            },
+            {
+              "@Name": "7.6.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.6.2",
+                "@ProductID": "FortiADC-7.6.2"
+              }
+            },
+            {
+              "@Name": "7.6.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.6.1",
+                "@ProductID": "FortiADC-7.6.1"
+              }
+            },
+            {
+              "@Name": "7.6.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.6.0",
+                "@ProductID": "FortiADC-7.6.0"
+              }
+            },
+            {
+              "@Name": "7.4.9",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.9",
+                "@ProductID": "FortiADC-7.4.9"
+              }
+            },
+            {
+              "@Name": "7.4.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.8",
+                "@ProductID": "FortiADC-7.4.8"
+              }
+            },
+            {
+              "@Name": "7.4.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.7",
+                "@ProductID": "FortiADC-7.4.7"
+              }
+            },
+            {
+              "@Name": "7.4.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.6",
+                "@ProductID": "FortiADC-7.4.6"
+              }
+            },
+            {
+              "@Name": "7.4.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.5",
+                "@ProductID": "FortiADC-7.4.5"
+              }
+            },
+            {
+              "@Name": "7.4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.4",
+                "@ProductID": "FortiADC-7.4.4"
+              }
+            },
+            {
+              "@Name": "7.4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.3",
+                "@ProductID": "FortiADC-7.4.3"
+              }
+            },
+            {
+              "@Name": "7.4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.2",
+                "@ProductID": "FortiADC-7.4.2"
+              }
+            },
+            {
+              "@Name": "7.4.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.1",
+                "@ProductID": "FortiADC-7.4.1"
+              }
+            },
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.4.0",
+                "@ProductID": "FortiADC-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.2.8",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.8",
+                "@ProductID": "FortiADC-7.2.8"
+              }
+            },
+            {
+              "@Name": "7.2.7",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.7",
+                "@ProductID": "FortiADC-7.2.7"
+              }
+            },
+            {
+              "@Name": "7.2.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.6",
+                "@ProductID": "FortiADC-7.2.6"
+              }
+            },
+            {
+              "@Name": "7.2.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.5",
+                "@ProductID": "FortiADC-7.2.5"
+              }
+            },
+            {
+              "@Name": "7.2.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.4",
+                "@ProductID": "FortiADC-7.2.4"
+              }
+            },
+            {
+              "@Name": "7.2.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.3",
+                "@ProductID": "FortiADC-7.2.3"
+              }
+            },
+            {
+              "@Name": "7.2.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.2",
+                "@ProductID": "FortiADC-7.2.2"
+              }
+            },
+            {
+              "@Name": "7.2.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.1",
+                "@ProductID": "FortiADC-7.2.1"
+              }
+            },
+            {
+              "@Name": "7.2.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiADC 7.2.0",
+                "@ProductID": "FortiADC-7.2.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.2",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiADC-8.0.0",
+            "FortiADC-7.6.3",
+            "FortiADC-7.6.2",
+            "FortiADC-7.6.1",
+            "FortiADC-7.6.0",
+            "FortiADC-7.4.9",
+            "FortiADC-7.4.8",
+            "FortiADC-7.4.7",
+            "FortiADC-7.4.6",
+            "FortiADC-7.4.5",
+            "FortiADC-7.4.4",
+            "FortiADC-7.4.3",
+            "FortiADC-7.4.2",
+            "FortiADC-7.4.1",
+            "FortiADC-7.4.0",
+            "FortiADC-7.2.8",
+            "FortiADC-7.2.7",
+            "FortiADC-7.2.6",
+            "FortiADC-7.2.5",
+            "FortiADC-7.2.4",
+            "FortiADC-7.2.3",
+            "FortiADC-7.2.2",
+            "FortiADC-7.2.1",
+            "FortiADC-7.2.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "XSS in default error page",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-736"
+          },
+          {
+            "Description": "https://docs.fortinet.com/document/fortiadc/7.4.8/handbook/496707/configuring-error-pages",
+            "URL": "https://docs.fortinet.com/document/fortiadc/7.4.8/handbook/496707/configuring-error-pages"
+          }
+        ]
+      },
+      "Title": "XSS in default error page",
+      "cvrf:CVE": "CVE-2025-58412"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank ShenkerGroup and Italian ACN (National Authority Cybersecurity) for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability [CWE-80] in FortiADC virtual server's default error page may allow an unauthenticated attacker to execute malicious code via crafted URL.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "XSS in default error page",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-25-736"
+        },
+        {
+          "cvrf:Description": "https://docs.fortinet.com/document/fortiadc/7.4.8/handbook/496707/configuring-error-pages",
+          "cvrf:URL": "https://docs.fortinet.com/document/fortiadc/7.4.8/handbook/496707/configuring-error-pages"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "XSS in default error page",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2025-11-18T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-25-736"
+      },
+      "cvrf:InitialReleaseDate": "2025-11-18T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2025-11-18T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
