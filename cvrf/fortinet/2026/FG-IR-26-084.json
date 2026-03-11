@@ -1,0 +1,142 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSOAR Agent Communication Bridge",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "1.1.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR Agent Communication Bridge 1.1.0",
+                "@ProductID": "FortiSOAR Agent Communication Bridge-1.1.0"
+              }
+            },
+            {
+              "@Name": "1.0.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR Agent Communication Bridge 1.0.2",
+                "@ProductID": "FortiSOAR Agent Communication Bridge-1.0.2"
+              }
+            },
+            {
+              "@Name": "1.0.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR Agent Communication Bridge 1.0.1",
+                "@ProductID": "FortiSOAR Agent Communication Bridge-1.0.1"
+              }
+            },
+            {
+              "@Name": "1.0.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSOAR Agent Communication Bridge 1.0.0",
+                "@ProductID": "FortiSOAR Agent Communication Bridge-1.0.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.5",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N/E:F/RL:X/RC:R"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSOAR Agent Communication Bridge-1.1.0",
+            "FortiSOAR Agent Communication Bridge-1.0.2",
+            "FortiSOAR Agent Communication Bridge-1.0.1",
+            "FortiSOAR Agent Communication Bridge-1.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Path traversal vulnerability in FortiSOAR Agent Connector Bridge server",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-084"
+        }
+      },
+      "Title": "Path traversal vulnerability in FortiSOAR Agent Connector Bridge server",
+      "cvrf:CVE": "CVE-2025-54659"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": [
+        {
+          "cvrf:Description": "Fortinet is pleased to thank Jonathan Bolduc from Precicom Technologies for reporting this vulnerability under responsible disclosure."
+        },
+        {
+          "cvrf:Description": null
+        }
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability [CWE-22] in FortiSOAR Agent Connector Bridge may allow an unauthenticated attacker to read files accessible to the fortisoar user on the system where the agent is deployed, via sending a crafted request to the agent port.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Path traversal vulnerability in FortiSOAR Agent Connector Bridge server",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-03-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-084"
+      },
+      "cvrf:InitialReleaseDate": "2026-03-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-03-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

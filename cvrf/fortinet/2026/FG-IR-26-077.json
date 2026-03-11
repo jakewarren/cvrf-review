@@ -1,0 +1,155 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSIEM",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "7.4.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 7.4.0",
+                "@ProductID": "FortiSIEM-7.4.0"
+              }
+            },
+            {
+              "@Name": "7.3.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 7.3.4",
+                "@ProductID": "FortiSIEM-7.3.4"
+              }
+            },
+            {
+              "@Name": "7.3.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 7.3.3",
+                "@ProductID": "FortiSIEM-7.3.3"
+              }
+            },
+            {
+              "@Name": "7.3.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 7.3.2",
+                "@ProductID": "FortiSIEM-7.3.2"
+              }
+            },
+            {
+              "@Name": "7.3.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 7.3.1",
+                "@ProductID": "FortiSIEM-7.3.1"
+              }
+            },
+            {
+              "@Name": "7.3.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEM 7.3.0",
+                "@ProductID": "FortiSIEM-7.3.0"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.1",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N/E:P/RL:U/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSIEM-7.4.0",
+            "FortiSIEM-7.3.4",
+            "FortiSIEM-7.3.3",
+            "FortiSIEM-7.3.2",
+            "FortiSIEM-7.3.1",
+            "FortiSIEM-7.3.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Reflected Cross Site Scripting (XSS) in error page",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-077"
+        }
+      },
+      "Title": "Reflected Cross Site Scripting (XSS) in error page",
+      "cvrf:CVE": "CVE-2026-25972"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Discovered during an independent audit commissioned by Fortinet"
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') [CWE-79] in FortiSIEM's error page may allow a remote unauthenticated attacker to provide arbitrary data enabling a social engineering attack via spoofed URL parameters.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Reflected Cross Site Scripting (XSS) in error page",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-03-10T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-077"
+      },
+      "cvrf:InitialReleaseDate": "2026-03-10T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-03-10T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
