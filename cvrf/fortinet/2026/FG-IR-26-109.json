@@ -1,0 +1,199 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiSandbox",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 5.0.4",
+                  "@ProductID": "FortiSandbox-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 5.0.3",
+                  "@ProductID": "FortiSandbox-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 5.0.2",
+                  "@ProductID": "FortiSandbox-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 5.0.1",
+                  "@ProductID": "FortiSandbox-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox 5.0.0",
+                  "@ProductID": "FortiSandbox-5.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSandbox PaaS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "5.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox PaaS 5.0.4",
+                  "@ProductID": "FortiSandbox PaaS-5.0.4"
+                }
+              },
+              {
+                "@Name": "5.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox PaaS 5.0.3",
+                  "@ProductID": "FortiSandbox PaaS-5.0.3"
+                }
+              },
+              {
+                "@Name": "5.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox PaaS 5.0.2",
+                  "@ProductID": "FortiSandbox PaaS-5.0.2"
+                }
+              },
+              {
+                "@Name": "5.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox PaaS 5.0.1",
+                  "@ProductID": "FortiSandbox PaaS-5.0.1"
+                }
+              },
+              {
+                "@Name": "5.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSandbox PaaS 5.0.0",
+                  "@ProductID": "FortiSandbox PaaS-5.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSandbox-5.0.4",
+            "FortiSandbox-5.0.3",
+            "FortiSandbox-5.0.2",
+            "FortiSandbox-5.0.1",
+            "FortiSandbox-5.0.0",
+            "FortiSandbox PaaS-5.0.4",
+            "FortiSandbox PaaS-5.0.3",
+            "FortiSandbox PaaS-5.0.2",
+            "FortiSandbox PaaS-5.0.1",
+            "FortiSandbox PaaS-5.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Reflected XSS in Operation Center",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-109"
+        }
+      },
+      "Title": "Reflected XSS in Operation Center",
+      "cvrf:CVE": "CVE-2025-61886"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by William Hsu from Fortinet InfoSec team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability [CWE-79] in FortiSandbox and FortiSandbox Cloud may allow an attacker to perform an XSS attack via crafted HTTP requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Reflected XSS in Operation Center",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-04-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-109"
+      },
+      "cvrf:InitialReleaseDate": "2026-04-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-04-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

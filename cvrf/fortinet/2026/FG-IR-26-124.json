@@ -1,0 +1,361 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiNDR",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.6.0",
+                  "@ProductID": "FortiNDR-7.6.0"
+                }
+              },
+              {
+                "@Name": "7.4.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.8",
+                  "@ProductID": "FortiNDR-7.4.8"
+                }
+              },
+              {
+                "@Name": "7.4.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.7",
+                  "@ProductID": "FortiNDR-7.4.7"
+                }
+              },
+              {
+                "@Name": "7.4.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.6",
+                  "@ProductID": "FortiNDR-7.4.6"
+                }
+              },
+              {
+                "@Name": "7.4.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.5",
+                  "@ProductID": "FortiNDR-7.4.5"
+                }
+              },
+              {
+                "@Name": "7.4.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.4",
+                  "@ProductID": "FortiNDR-7.4.4"
+                }
+              },
+              {
+                "@Name": "7.4.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.3",
+                  "@ProductID": "FortiNDR-7.4.3"
+                }
+              },
+              {
+                "@Name": "7.4.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.2",
+                  "@ProductID": "FortiNDR-7.4.2"
+                }
+              },
+              {
+                "@Name": "7.4.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.1",
+                  "@ProductID": "FortiNDR-7.4.1"
+                }
+              },
+              {
+                "@Name": "7.4.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.4.0",
+                  "@ProductID": "FortiNDR-7.4.0"
+                }
+              },
+              {
+                "@Name": "7.2.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.2.5",
+                  "@ProductID": "FortiNDR-7.2.5"
+                }
+              },
+              {
+                "@Name": "7.2.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.2.4",
+                  "@ProductID": "FortiNDR-7.2.4"
+                }
+              },
+              {
+                "@Name": "7.2.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.2.3",
+                  "@ProductID": "FortiNDR-7.2.3"
+                }
+              },
+              {
+                "@Name": "7.2.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.2.2",
+                  "@ProductID": "FortiNDR-7.2.2"
+                }
+              },
+              {
+                "@Name": "7.2.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.2.1",
+                  "@ProductID": "FortiNDR-7.2.1"
+                }
+              },
+              {
+                "@Name": "7.2.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.2.0",
+                  "@ProductID": "FortiNDR-7.2.0"
+                }
+              },
+              {
+                "@Name": "7.1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.1.1",
+                  "@ProductID": "FortiNDR-7.1.1"
+                }
+              },
+              {
+                "@Name": "7.1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.1.0",
+                  "@ProductID": "FortiNDR-7.1.0"
+                }
+              },
+              {
+                "@Name": "7.0.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.0.7",
+                  "@ProductID": "FortiNDR-7.0.7"
+                }
+              },
+              {
+                "@Name": "7.0.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.0.6",
+                  "@ProductID": "FortiNDR-7.0.6"
+                }
+              },
+              {
+                "@Name": "7.0.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.0.5",
+                  "@ProductID": "FortiNDR-7.0.5"
+                }
+              },
+              {
+                "@Name": "7.0.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.0.4",
+                  "@ProductID": "FortiNDR-7.0.4"
+                }
+              },
+              {
+                "@Name": "7.0.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.0.3",
+                  "@ProductID": "FortiNDR-7.0.3"
+                }
+              },
+              {
+                "@Name": "7.0.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.0.2",
+                  "@ProductID": "FortiNDR-7.0.2"
+                }
+              },
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.0.1",
+                  "@ProductID": "FortiNDR-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiNDR 7.0.0",
+                  "@ProductID": "FortiNDR-7.0.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiVoice",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.0.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 7.0.1",
+                  "@ProductID": "FortiVoice-7.0.1"
+                }
+              },
+              {
+                "@Name": "7.0.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiVoice 7.0.0",
+                  "@ProductID": "FortiVoice-7.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.4",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiNDR-7.6.0",
+            "FortiNDR-7.4.8",
+            "FortiNDR-7.4.7",
+            "FortiNDR-7.4.6",
+            "FortiNDR-7.4.5",
+            "FortiNDR-7.4.4",
+            "FortiNDR-7.4.3",
+            "FortiNDR-7.4.2",
+            "FortiNDR-7.4.1",
+            "FortiNDR-7.4.0",
+            "FortiNDR-7.2.5",
+            "FortiNDR-7.2.4",
+            "FortiNDR-7.2.3",
+            "FortiNDR-7.2.2",
+            "FortiNDR-7.2.1",
+            "FortiNDR-7.2.0",
+            "FortiNDR-7.1.1",
+            "FortiNDR-7.1.0",
+            "FortiNDR-7.0.7",
+            "FortiNDR-7.0.6",
+            "FortiNDR-7.0.5",
+            "FortiNDR-7.0.4",
+            "FortiNDR-7.0.3",
+            "FortiNDR-7.0.2",
+            "FortiNDR-7.0.1",
+            "FortiNDR-7.0.0",
+            "FortiVoice-7.0.1",
+            "FortiVoice-7.0.0"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "unauthorized backup file access",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-124"
+        }
+      },
+      "Title": "unauthorized backup file access",
+      "cvrf:CVE": "CVE-2024-23104"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Yonghui Han of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An exposure of sensitive information to an unauthorized actor vulnerability [CWE-200] in FortiNDR and FortiVoice may allow a remote authenticated attacker with at least read-only permission on system maintenance to access backup information via crafted HTTP requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "unauthorized backup file access",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-04-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-124"
+      },
+      "cvrf:InitialReleaseDate": "2026-04-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-04-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

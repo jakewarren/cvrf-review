@@ -1,0 +1,88 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Axios npm Package Compromised",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-126"
+          },
+          {
+            "Description": "https://github.com/axios/axios/issues/10636",
+            "URL": "https://github.com/axios/axios/issues/10636"
+          }
+        ]
+      },
+      "Title": "Axios npm Package Compromised"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "On March 31, 2026, the Axios npm package was compromised via a maintainer account takeover. Two malicious versions were published - axios@1.14.1 and axios@0.30.4 - which introduced a hidden dependency (plain-crypto-js@4.2.1) able to execute a post‑install script deploying a cross‑platform Remote Access Trojan (RAT) on Windows, macOS, and Linux systems.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Axios npm Package Compromised",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-126"
+        },
+        {
+          "cvrf:Description": "https://github.com/axios/axios/issues/10636",
+          "cvrf:URL": "https://github.com/axios/axios/issues/10636"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Axios npm Package Compromised",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-04-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-126"
+      },
+      "cvrf:InitialReleaseDate": "2026-04-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-04-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

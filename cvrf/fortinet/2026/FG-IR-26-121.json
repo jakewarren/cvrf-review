@@ -1,0 +1,163 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiAnalyzer Cloud",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.6.4",
+                  "@ProductID": "FortiAnalyzer Cloud-7.6.4"
+                }
+              },
+              {
+                "@Name": "7.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.6.3",
+                  "@ProductID": "FortiAnalyzer Cloud-7.6.3"
+                }
+              },
+              {
+                "@Name": "7.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiAnalyzer Cloud 7.6.2",
+                  "@ProductID": "FortiAnalyzer Cloud-7.6.2"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiManager Cloud",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "7.6.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager Cloud 7.6.4",
+                  "@ProductID": "FortiManager Cloud-7.6.4"
+                }
+              },
+              {
+                "@Name": "7.6.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager Cloud 7.6.3",
+                  "@ProductID": "FortiManager Cloud-7.6.3"
+                }
+              },
+              {
+                "@Name": "7.6.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiManager Cloud 7.6.2",
+                  "@ProductID": "FortiManager Cloud-7.6.2"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAnalyzer Cloud-7.6.4",
+            "FortiAnalyzer Cloud-7.6.3",
+            "FortiAnalyzer Cloud-7.6.2",
+            "FortiManager Cloud-7.6.4",
+            "FortiManager Cloud-7.6.3",
+            "FortiManager Cloud-7.6.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Heap-based buffer overflow in oftpd daemon",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-121"
+        }
+      },
+      "Title": "Heap-based buffer overflow in oftpd daemon",
+      "cvrf:CVE": "CVE-2026-22828"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by Gwendal Guégniaud of Fortinet Product Security team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A heap-based buffer overflow vulnerability [CWE-122] in FortiAnalyzer Cloud oftpd daemon may allow a remote unauthenticated attacker to execute arbitrary code or commands via specifically crafted requests. Successful exploitation would require a large amount of effort in preparation because of ASLR and network segmentation",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Heap-based buffer overflow in oftpd daemon",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-04-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-121"
+      },
+      "cvrf:InitialReleaseDate": "2026-04-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-04-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
