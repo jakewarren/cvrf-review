@@ -1,0 +1,95 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.8",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:X/RL:X/RC:X"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Linux Kernel Vulnerability copy.fail - CVE-2026-31431",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-139"
+          },
+          {
+            "Description": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
+            "URL": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431"
+          }
+        ]
+      },
+      "Title": "Linux Kernel Vulnerability copy.fail - CVE-2026-31431",
+      "cvrf:CVE": "CVE-2026-31431"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "CVE-2026-31431In the Linux kernel, the following vulnerability has been resolved: crypto: algif_aead - Revert to operating out-of-place This mostly reverts commit 72548b093ee3 except for the copying of the associated data. There is no benefit in operating in-place in algif_aead since the source and destination come from different mappings. Get rid of all the complexity added for in-place operation and just copy the AD directly.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Linux Kernel Vulnerability copy.fail - CVE-2026-31431",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-139"
+        },
+        {
+          "cvrf:Description": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
+          "cvrf:URL": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Linux Kernel Vulnerability copy.fail - CVE-2026-31431",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-05-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-139"
+      },
+      "cvrf:InitialReleaseDate": "2026-05-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-05-13T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
