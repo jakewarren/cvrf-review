@@ -1,0 +1,182 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiSIEMWindowsAgent",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "FortiSIEMWindowsAgent 7.5",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 7.5",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.5"
+              }
+            },
+            {
+              "@Name": "FortiSIEMWindowsAgent 7.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 7.4",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.4"
+              }
+            },
+            {
+              "@Name": "FortiSIEMWindowsAgent 7.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 7.3",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.3"
+              }
+            },
+            {
+              "@Name": "FortiSIEMWindowsAgent 7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 7.2",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.2"
+              }
+            },
+            {
+              "@Name": "FortiSIEMWindowsAgent 7.1",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 7.1",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.1"
+              }
+            },
+            {
+              "@Name": "FortiSIEMWindowsAgent 5.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 5.0",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 5.0"
+              }
+            },
+            {
+              "@Name": "FortiSIEMWindowsAgent 4.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 4.4",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 4.4"
+              }
+            },
+            {
+              "@Name": "FortiSIEMWindowsAgent 4.3",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 4.3",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 4.3"
+              }
+            },
+            {
+              "@Name": "FortiSIEMWindowsAgent 4.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSIEMWindowsAgent FortiSIEMWindowsAgent 4.2",
+                "@ProductID": "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 4.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "6.9",
+          "VectorV3": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.5",
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.4",
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.3",
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.2",
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 7.1",
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 5.0",
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 4.4",
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 4.3",
+            "FortiSIEMWindowsAgent-FortiSIEMWindowsAgent 4.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Supers override fails to properly override supervisor address",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-155"
+        }
+      },
+      "Title": "Supers override fails to properly override supervisor address",
+      "cvrf:CVE": "CVE-2026-59841"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Nicola Scremin (@ScreSys) for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Restriction of Communication Channel to Intended Endpoints [CWE-923] vulnerability in FortiSIEM Windows Agent may allow an unauthorized attacker on the same local network to execute arbitrary code via spoofing the supervisors hostname when the Windows device is configured with the 'Supers Override' feature.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Supers override fails to properly override supervisor address",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-07-14T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-155"
+      },
+      "cvrf:InitialReleaseDate": "2026-07-14T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-07-14T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
