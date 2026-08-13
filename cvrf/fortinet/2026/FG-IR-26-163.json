@@ -1,0 +1,252 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiPAM",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiPAM 1.9",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.9",
+                  "@ProductID": "FortiPAM-FortiPAM 1.9"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.8",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.8",
+                  "@ProductID": "FortiPAM-FortiPAM 1.8"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.7",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.7",
+                  "@ProductID": "FortiPAM-FortiPAM 1.7"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.6",
+                  "@ProductID": "FortiPAM-FortiPAM 1.6"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.5",
+                  "@ProductID": "FortiPAM-FortiPAM 1.5"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.4",
+                  "@ProductID": "FortiPAM-FortiPAM 1.4"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.3",
+                  "@ProductID": "FortiPAM-FortiPAM 1.3"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.2",
+                  "@ProductID": "FortiPAM-FortiPAM 1.2"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.1",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.1",
+                  "@ProductID": "FortiPAM-FortiPAM 1.1"
+                }
+              },
+              {
+                "@Name": "FortiPAM 1.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiPAM FortiPAM 1.0",
+                  "@ProductID": "FortiPAM-FortiPAM 1.0"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiProxy",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiProxy 7.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.6",
+                  "@ProductID": "FortiProxy-FortiProxy 7.6"
+                }
+              },
+              {
+                "@Name": "FortiProxy 7.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.4",
+                  "@ProductID": "FortiProxy-FortiProxy 7.4"
+                }
+              },
+              {
+                "@Name": "FortiProxy 7.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.2",
+                  "@ProductID": "FortiProxy-FortiProxy 7.2"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSwitchManager",
+            "@Type": "Product Name",
+            "Branch": {
+              "@Name": "FortiSwitchManager 7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiSwitchManager FortiSwitchManager 7.2",
+                "@ProductID": "FortiSwitchManager-FortiSwitchManager 7.2"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.8",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:L/E:F/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiPAM-FortiPAM 1.9",
+            "FortiPAM-FortiPAM 1.8",
+            "FortiPAM-FortiPAM 1.7",
+            "FortiPAM-FortiPAM 1.6",
+            "FortiPAM-FortiPAM 1.5",
+            "FortiPAM-FortiPAM 1.4",
+            "FortiPAM-FortiPAM 1.3",
+            "FortiPAM-FortiPAM 1.2",
+            "FortiPAM-FortiPAM 1.1",
+            "FortiPAM-FortiPAM 1.0",
+            "FortiProxy-FortiProxy 7.6",
+            "FortiProxy-FortiProxy 7.4",
+            "FortiProxy-FortiProxy 7.2",
+            "FortiSwitchManager-FortiSwitchManager 7.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "HTTP/2 Bomb CVE-2026-49975",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163"
+          },
+          {
+            "Description": "https://www.cve.org/CVERecord?id=CVE-2026-49975",
+            "URL": "https://www.cve.org/CVERecord?id=CVE-2026-49975"
+          }
+        ]
+      },
+      "Title": "HTTP/2 Bomb CVE-2026-49975",
+      "cvrf:CVE": "CVE-2026-49975"
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "HTTP/2 Bomb CVE-2026-49975",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163"
+        },
+        {
+          "cvrf:Description": "https://www.cve.org/CVERecord?id=CVE-2026-49975",
+          "cvrf:URL": "https://www.cve.org/CVERecord?id=CVE-2026-49975"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "HTTP/2 Bomb CVE-2026-49975",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-08-12T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-163"
+      },
+      "cvrf:InitialReleaseDate": "2026-08-12T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-08-12T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
