@@ -1,0 +1,168 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": {
+          "@Name": "FortiAnalyzer",
+          "@Type": "Product Name",
+          "Branch": [
+            {
+              "@Name": "FortiAnalyzer 8.0",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAnalyzer FortiAnalyzer 8.0",
+                "@ProductID": "FortiAnalyzer-FortiAnalyzer 8.0"
+              }
+            },
+            {
+              "@Name": "FortiAnalyzer 7.6",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAnalyzer FortiAnalyzer 7.6",
+                "@ProductID": "FortiAnalyzer-FortiAnalyzer 7.6"
+              }
+            },
+            {
+              "@Name": "FortiAnalyzer 7.4",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAnalyzer FortiAnalyzer 7.4",
+                "@ProductID": "FortiAnalyzer-FortiAnalyzer 7.4"
+              }
+            },
+            {
+              "@Name": "FortiAnalyzer 7.2",
+              "@Type": "Product Version",
+              "FullProductName": {
+                "#text": "FortiAnalyzer FortiAnalyzer 7.2",
+                "@ProductID": "FortiAnalyzer-FortiAnalyzer 7.2"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "5.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiAnalyzer-FortiAnalyzer 8.0",
+            "FortiAnalyzer-FortiAnalyzer 7.6",
+            "FortiAnalyzer-FortiAnalyzer 7.4",
+            "FortiAnalyzer-FortiAnalyzer 7.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": [
+          {
+            "Description": "Uncontrolled Resource Consumption in SNMP",
+            "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-172"
+          },
+          {
+            "Description": "https://docs.fortinet.com/document/fortianalyzer/8.0.0/administration-guide/818553/snmp",
+            "URL": "https://docs.fortinet.com/document/fortianalyzer/8.0.0/administration-guide/818553/snmp"
+          },
+          {
+            "Description": "https://docs.fortinet.com/document/fortianalyzer/8.0.0/cli-reference/260178/snmp",
+            "URL": "https://docs.fortinet.com/document/fortianalyzer/8.0.0/cli-reference/260178/snmp"
+          }
+        ]
+      },
+      "Title": "Uncontrolled Resource Consumption in SNMP",
+      "cvrf:CVE": "CVE-2026-84391"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": [
+        {
+          "cvrf:Description": "Fortinet is pleased to thank Stefan Grosser from Zebbra AG and Ralph Grossenbacher from BIT for reporting this vulnerability under responsible disclosure"
+        },
+        {
+          "cvrf:Description": null
+        }
+      ]
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A Use of Uninitialized Variable [CWE-457] vulnerability in Fortinet FortiAnalyzer SNMP daemon may allow a remote authenticated attacker with user permission to cause a denial of service via SNMP GETBULK requests.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentReferences": {
+      "cvrf:Reference": [
+        {
+          "cvrf:Description": "Uncontrolled Resource Consumption in SNMP",
+          "cvrf:URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-172"
+        },
+        {
+          "cvrf:Description": "https://docs.fortinet.com/document/fortianalyzer/8.0.0/administration-guide/818553/snmp",
+          "cvrf:URL": "https://docs.fortinet.com/document/fortianalyzer/8.0.0/administration-guide/818553/snmp"
+        },
+        {
+          "cvrf:Description": "https://docs.fortinet.com/document/fortianalyzer/8.0.0/cli-reference/260178/snmp",
+          "cvrf:URL": "https://docs.fortinet.com/document/fortianalyzer/8.0.0/cli-reference/260178/snmp"
+        }
+      ]
+    },
+    "cvrf:DocumentTitle": "Uncontrolled Resource Consumption in SNMP",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-09-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-172"
+      },
+      "cvrf:InitialReleaseDate": "2026-09-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-09-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

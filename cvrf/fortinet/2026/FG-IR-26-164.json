@@ -1,0 +1,199 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiSOAR PaaS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiSOAR PaaS 8.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS FortiSOAR PaaS 8.0",
+                  "@ProductID": "FortiSOAR PaaS-FortiSOAR PaaS 8.0"
+                }
+              },
+              {
+                "@Name": "FortiSOAR PaaS 7.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS FortiSOAR PaaS 7.6",
+                  "@ProductID": "FortiSOAR PaaS-FortiSOAR PaaS 7.6"
+                }
+              },
+              {
+                "@Name": "FortiSOAR PaaS 7.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS FortiSOAR PaaS 7.5",
+                  "@ProductID": "FortiSOAR PaaS-FortiSOAR PaaS 7.5"
+                }
+              },
+              {
+                "@Name": "FortiSOAR PaaS 7.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS FortiSOAR PaaS 7.4",
+                  "@ProductID": "FortiSOAR PaaS-FortiSOAR PaaS 7.4"
+                }
+              },
+              {
+                "@Name": "FortiSOAR PaaS 7.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR PaaS FortiSOAR PaaS 7.3",
+                  "@ProductID": "FortiSOAR PaaS-FortiSOAR PaaS 7.3"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSOAR on-premise",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiSOAR on-premise 8.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise FortiSOAR on-premise 8.0",
+                  "@ProductID": "FortiSOAR on-premise-FortiSOAR on-premise 8.0"
+                }
+              },
+              {
+                "@Name": "FortiSOAR on-premise 7.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise FortiSOAR on-premise 7.6",
+                  "@ProductID": "FortiSOAR on-premise-FortiSOAR on-premise 7.6"
+                }
+              },
+              {
+                "@Name": "FortiSOAR on-premise 7.5",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise FortiSOAR on-premise 7.5",
+                  "@ProductID": "FortiSOAR on-premise-FortiSOAR on-premise 7.5"
+                }
+              },
+              {
+                "@Name": "FortiSOAR on-premise 7.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise FortiSOAR on-premise 7.4",
+                  "@ProductID": "FortiSOAR on-premise-FortiSOAR on-premise 7.4"
+                }
+              },
+              {
+                "@Name": "FortiSOAR on-premise 7.3",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSOAR on-premise FortiSOAR on-premise 7.3",
+                  "@ProductID": "FortiSOAR on-premise-FortiSOAR on-premise 7.3"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiSOAR PaaS-FortiSOAR PaaS 8.0",
+            "FortiSOAR PaaS-FortiSOAR PaaS 7.6",
+            "FortiSOAR PaaS-FortiSOAR PaaS 7.5",
+            "FortiSOAR PaaS-FortiSOAR PaaS 7.4",
+            "FortiSOAR PaaS-FortiSOAR PaaS 7.3",
+            "FortiSOAR on-premise-FortiSOAR on-premise 8.0",
+            "FortiSOAR on-premise-FortiSOAR on-premise 7.6",
+            "FortiSOAR on-premise-FortiSOAR on-premise 7.5",
+            "FortiSOAR on-premise-FortiSOAR on-premise 7.4",
+            "FortiSOAR on-premise-FortiSOAR on-premise 7.3"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Broken Access control on Websocket streams",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-164"
+        }
+      },
+      "Title": "Broken Access control on Websocket streams",
+      "cvrf:CVE": "CVE-2026-84385"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Thomas Sautier for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An Improper Access control vulnerability [CWE-284] in FortiSOAR may allow an authenticated attacker with zero permissions to subscribe to websocket streams and topics and to inject broadcast messages to the stream via crafted websocket requests",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Escalation of privilege",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Broken Access control on Websocket streams",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-09-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-164"
+      },
+      "cvrf:InitialReleaseDate": "2026-09-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-09-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiOS 8.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS FortiOS 8.0",
+                  "@ProductID": "FortiOS-FortiOS 8.0"
+                }
+              },
+              {
+                "@Name": "FortiOS 7.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS FortiOS 7.6",
+                  "@ProductID": "FortiOS-FortiOS 7.6"
+                }
+              },
+              {
+                "@Name": "FortiOS 7.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS FortiOS 7.4",
+                  "@ProductID": "FortiOS-FortiOS 7.4"
+                }
+              },
+              {
+                "@Name": "FortiOS 7.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS FortiOS 7.2",
+                  "@ProductID": "FortiOS-FortiOS 7.2"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiProxy",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiProxy 8.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 8.0",
+                  "@ProductID": "FortiProxy-FortiProxy 8.0"
+                }
+              },
+              {
+                "@Name": "FortiProxy 7.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.6",
+                  "@ProductID": "FortiProxy-FortiProxy 7.6"
+                }
+              },
+              {
+                "@Name": "FortiProxy 7.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.4",
+                  "@ProductID": "FortiProxy-FortiProxy 7.4"
+                }
+              },
+              {
+                "@Name": "FortiProxy 7.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.2",
+                  "@ProductID": "FortiProxy-FortiProxy 7.2"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "7.3",
+          "VectorV3": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-FortiOS 8.0",
+            "FortiOS-FortiOS 7.6",
+            "FortiOS-FortiOS 7.4",
+            "FortiOS-FortiOS 7.2",
+            "FortiProxy-FortiProxy 8.0",
+            "FortiProxy-FortiProxy 7.6",
+            "FortiProxy-FortiProxy 7.4",
+            "FortiProxy-FortiProxy 7.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "ZTNA Portal Improper Certificate Validation",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-174"
+        }
+      },
+      "Title": "ZTNA Portal Improper Certificate Validation",
+      "cvrf:CVE": "CVE-2026-84393"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Internally discovered and reported by John Headley of the Fortinet System Engineering team."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper certificate validation vulnerability [CWE-295] in FortiOS and FortiProxy Agentless ZTNA portal may allow a remote and unauthenticated attacker to perform a Man-in-the-Middle attack on the communication channel between the ZTNA portal and the backend destination website.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Information disclosure",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "ZTNA Portal Improper Certificate Validation",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-09-08T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-174"
+      },
+      "cvrf:InitialReleaseDate": "2026-09-08T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-09-08T00:00:00",
+          "cvrf:Description": "Current version",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
