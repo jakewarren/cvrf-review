@@ -1,0 +1,222 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "ProductTree": {
+      "Branch": {
+        "@Name": "Fortinet",
+        "@Type": "Vendor",
+        "Branch": [
+          {
+            "@Name": "FortiOS",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiOS 8.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS FortiOS 8.0",
+                  "@ProductID": "FortiOS-FortiOS 8.0"
+                }
+              },
+              {
+                "@Name": "FortiOS 7.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS FortiOS 7.6",
+                  "@ProductID": "FortiOS-FortiOS 7.6"
+                }
+              },
+              {
+                "@Name": "FortiOS 7.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS FortiOS 7.4",
+                  "@ProductID": "FortiOS-FortiOS 7.4"
+                }
+              },
+              {
+                "@Name": "FortiOS 7.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiOS FortiOS 7.2",
+                  "@ProductID": "FortiOS-FortiOS 7.2"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiProxy",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiProxy 7.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.6",
+                  "@ProductID": "FortiProxy-FortiProxy 7.6"
+                }
+              },
+              {
+                "@Name": "FortiProxy 7.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.4",
+                  "@ProductID": "FortiProxy-FortiProxy 7.4"
+                }
+              },
+              {
+                "@Name": "FortiProxy 7.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiProxy FortiProxy 7.2",
+                  "@ProductID": "FortiProxy-FortiProxy 7.2"
+                }
+              }
+            ]
+          },
+          {
+            "@Name": "FortiSwitch",
+            "@Type": "Product Name",
+            "Branch": [
+              {
+                "@Name": "FortiSwitch 8.0",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch FortiSwitch 8.0",
+                  "@ProductID": "FortiSwitch-FortiSwitch 8.0"
+                }
+              },
+              {
+                "@Name": "FortiSwitch 7.6",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch FortiSwitch 7.6",
+                  "@ProductID": "FortiSwitch-FortiSwitch 7.6"
+                }
+              },
+              {
+                "@Name": "FortiSwitch 7.4",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch FortiSwitch 7.4",
+                  "@ProductID": "FortiSwitch-FortiSwitch 7.4"
+                }
+              },
+              {
+                "@Name": "FortiSwitch 7.2",
+                "@Type": "Product Version",
+                "FullProductName": {
+                  "#text": "FortiSwitch FortiSwitch 7.2",
+                  "@ProductID": "FortiSwitch-FortiSwitch 7.2"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "2.1",
+          "VectorV3": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L/E:P/RL:O/RC:C"
+        }
+      },
+      "Notes": {
+        "Note": {
+          "#text": "No",
+          "@Ordinal": "1",
+          "@Title": "Virtual Patch",
+          "@Type": "General"
+        }
+      },
+      "ProductStatuses": {
+        "Status": {
+          "@Type": "Known Affected",
+          "ProductID": [
+            "FortiOS-FortiOS 8.0",
+            "FortiOS-FortiOS 7.6",
+            "FortiOS-FortiOS 7.4",
+            "FortiOS-FortiOS 7.2",
+            "FortiProxy-FortiProxy 7.6",
+            "FortiProxy-FortiProxy 7.4",
+            "FortiProxy-FortiProxy 7.2",
+            "FortiSwitch-FortiSwitch 8.0",
+            "FortiSwitch-FortiSwitch 7.6",
+            "FortiSwitch-FortiSwitch 7.4",
+            "FortiSwitch-FortiSwitch 7.2"
+          ]
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "Double free in signal handler",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-26-182"
+        }
+      },
+      "Title": "Double free in signal handler",
+      "cvrf:CVE": "CVE-2026-106175"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank The UK's National Cyber Security Centre (NCSC) for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "A Double Free vulnerability [CWE-415] in FortiOS, FortiProxy and FortiSwitch may allow a local authenticated attacker to crash the newcli daemon via crafted CLI commands.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "2",
+          "@Title": "Description",
+          "@Type": "General"
+        },
+        {
+          "#text": "Denial of service",
+          "@Ordinal": "3",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "None",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "Double free in signal handler",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-10-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-26-182"
+      },
+      "cvrf:InitialReleaseDate": "2026-10-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-10-13T00:00:00",
+          "cvrf:Description": "Initial publication",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}

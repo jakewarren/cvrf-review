@@ -1,0 +1,91 @@
+{
+  "cvrf:cvrfdoc": {
+    "@xmlns:cvrf": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/cvrf",
+    "@xmlns:cvrf-common": "http://docs.oasis-open.org/csaf/ns/csaf-cvrf/v1.2/common",
+    "@xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "Vulnerability": {
+      "@Ordinal": "1",
+      "CVSSScoreSets": {
+        "ScoreSetV3": {
+          "BaseScoreV3": "4.9",
+          "TemporalScoreV3": "4.9",
+          "VectorV3": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N/E:U/RL:O/RC:X"
+        }
+      },
+      "Notes": {
+        "Note": {
+          "#text": "No",
+          "@Ordinal": "1",
+          "@Title": "Virtual Patch",
+          "@Type": "General"
+        }
+      },
+      "References": {
+        "#text": "Reference>",
+        "@Type": "Self",
+        "Reference": {
+          "Description": "HTML injection in WebUI",
+          "URL": "https://fortiguard.fortinet.com/psirt/FG-IR-20-005"
+        }
+      },
+      "Title": "HTML injection in WebUI",
+      "cvrf:CVE": "CVE-2020-12811"
+    },
+    "cvrf:Acknowledgments": {
+      "cvrf:Acknowledgment": {
+        "cvrf:Description": "Fortinet is pleased to thank Danilo Costa from PBI Dynamic IT Security for reporting this vulnerability under responsible disclosure."
+      }
+    },
+    "cvrf:DocumentNotes": {
+      "cvrf:Note": [
+        {
+          "#text": "An improper neutralization of script-related HTML tags in a web page in FortiManager and FortiAnalyzer may allow an attacker to perform a cross site scripting (XSS) attack via the Identify Provider name field.",
+          "@Ordinal": "1",
+          "@Title": "Summary",
+          "@Type": "Summary"
+        },
+        {
+          "#text": "Execute unauthorized code or commands",
+          "@Ordinal": "2",
+          "@Title": "Impact",
+          "@Type": "General"
+        },
+        {
+          "#text": "FortiManager version 6.2.0, 6.2.1, 6.2.2, 6.2.3, 6.2.4, 6.2.5 and 6.2.6 FortiAnalyzer version 6.2.0, 6.2.1, 6.2.2, 6.2.3, 6.2.4, 6.2.5 and 6.2.6",
+          "@Ordinal": "3",
+          "@Title": "Affected Products",
+          "@Type": "General"
+        },
+        {
+          "#text": "Please upgrade to FortiManager 6.4.0 or abovePlease upgrade to FortiAnalyzer 6.4.0 or above",
+          "@Ordinal": "4",
+          "@Title": "Solutions",
+          "@Type": "General"
+        }
+      ]
+    },
+    "cvrf:DocumentPublisher": {
+      "@Type": "Vendor",
+      "cvrf:ContactDetails": "Fortinet PSIRT Contact:\n            Website: https://fortiguard.fortinet.com/faq/psirt-contact"
+    },
+    "cvrf:DocumentTitle": "HTML injection in WebUI",
+    "cvrf:DocumentTracking": {
+      "cvrf:CurrentReleaseDate": "2026-10-13T00:00:00",
+      "cvrf:Identification": {
+        "cvrf:ID": "FG-IR-20-005"
+      },
+      "cvrf:InitialReleaseDate": "2026-10-13T00:00:00",
+      "cvrf:RevisionHistory": {
+        "cvrf:Revision": {
+          "cvrf:Date": "2026-10-13T00:00:00",
+          "cvrf:Description": "Initial publication",
+          "cvrf:Number": "1"
+        }
+      },
+      "cvrf:Status": "Final",
+      "cvrf:Version": "1"
+    },
+    "cvrf:DocumentType": "Fortinet PSIRT Advisories"
+  }
+}
